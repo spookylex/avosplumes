@@ -1,0 +1,182 @@
+---
+title: "Nationality (2)"
+---
+
+<p align=left><font face="Garamond" size="4">Écrivez la lettre 
+                    de la description de droite (=right) qui correspond &agrave; 
+                    la personne de gauche (=left). Cliquez "correction". (les 
+                    réponses incorrectes disparaissent).</font></p>
+
+
+<form name=a action="" method=post>
+        <center>
+          <table cellpadding=6 width="100%" border=0>
+            <tbody> 
+            <tr> 
+              <td> 
+                <center>
+                  
+                  
+                  <font face="Garamond" size="4"><br>
+                  <br>
+                  </font> 
+                  <table width="90%">
+                    <tbody> 
+                    <tr> 
+                      <td> <font face="Garamond" size="4"> 
+                        <input maxlength=1 size=1 name=0>
+                        1. Pedro Almodovar </font></td>
+                      <td><font face="Garamond" size="4">a. ex-président français 
+                        </font></td>
+                    </tr>
+                    <tr> 
+                      <td> <font face="Garamond" size="4"> 
+                        <input maxlength=1 size=1 name=1>
+                        2. Pablo Picasso </font></td>
+                      <td><font face="Garamond" size="4">b. peintre franco-espagnol 
+                        </font></td>
+                    </tr>
+                    <tr> 
+                      <td> <font face="Garamond" size="4"> 
+                        <input maxlength=1 size=1 name=2>
+                        3. Serena et Venus Williams </font></td>
+                      <td><font face="Garamond" size="4">c. écrivain anglais </font></td>
+                    </tr>
+                    <tr> 
+                      <td> <font face="Garamond" size="4"> 
+                        <input maxlength=1 size=1 name=2>
+                        4. Nelson Mandela </font></td>
+                      <td><font face="Garamond" size="4">d. ex-président irakien 
+                        </font></td>
+                    </tr>
+                    <tr> 
+                      <td> <font face="Garamond" size="4"> 
+                        <input maxlength=1 size=1 name=2>
+                        5. Jacques Chirac </font></td>
+                      <td><font face="Garamond" size="4">e. cinéastes français 
+                        </font></td>
+                    </tr>
+                    <tr> 
+                      <td> <font face="Garamond" size="4"> 
+                        <input maxlength=1 size=1 name=2>
+                        6. Céline Dion </font></td>
+                      <td><font face="Garamond" size="4">f. cinéaste espagnol 
+                        </font></td>
+                    </tr>
+                    <tr> 
+                      <td> <font face="Garamond" size="4"> 
+                        <input maxlength=1 size=1 name=2>
+                        7. James Joyce </font></td>
+                      <td><font face="Garamond" size="4">g. écrivain irlandais 
+                        </font></td>
+                    </tr>
+                    <tr> 
+                      <td> <font face="Garamond" size="4"> 
+                        <input maxlength=1 size=1 name=2>
+                        8. Charles Dickens </font></td>
+                      <td><font face="Garamond" size="4">h. chanteuse canadienne 
+                        </font></td>
+                    </tr>
+                    <tr> 
+                      <td> <font face="Garamond" size="4"> 
+                        <input maxlength=1 size=1 name=2>
+                        9. Jean-Luc Godard et Luc Besson </font></td>
+                      <td><font face="Garamond" size="4">i. sportives américaines 
+                        </font></td>
+                    </tr>
+                    <tr> 
+                      <td> <font face="Garamond" size="4"> 
+                        <input maxlength=1 size=1 name=2>
+                        10. Saddam Hussein </font></td>
+                      <td><font face="Garamond" size="4">j. ex-président sud-africain 
+                        </font></td>
+                    </tr>
+                    </tbody> 
+                  </table>
+                </center>
+              </td>
+            </tr>
+            </tbody> 
+          </table>
+        </center>
+      </form>
+  <center>
+    <form name=e action="" method=post>
+      <center>
+        <input onClick=f() type=button value=Correction name=Button>
+      </center>
+    </form>
+    <form name=incor action="" method=post>
+      <input type=hidden name=wrong>
+    </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: , 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>
+<script language=JavaScript>
+var c = 0
+b=new Array(12)
+b[0]='f';
+b[1]='b';
+b[2]='i';
+b[3]='j';
+b[4]='a';
+b[5]='h';
+b[6]='g';
+b[7]='c';
+b[8]='e';
+b[9]='d';
+b[10]='';
+b[11]='';
+function f(){
+var x = 0
+ISWrong = 0
+for (x=0; x<(document.a.elements.length); x++){
+   if(document.a.elements[x].value!=""){
+   document.a.elements[x].value = document.a.elements[x].value.toLowerCase()
+   }
+	if ((document.a.elements[x].value == b[x]) || (document.a.elements[x].value == b[x].toLowerCase())){
+		}
+	else {
+		ISWrong = 1;
+   if(document.a.elements[x].value!=""){
+   z=x+1
+  document.incor.wrong.value = document.incor.wrong.value+document.a.elements[x].value+" ne correspond pas à "+z+".  ";
+  	}
+		document.a.elements[x].value = '';
+		}	
+	}
+if (ISWrong == 1) {
+	Feedback = "Bien, mais il y a encore quelques erreurs."+" "+ document.incor.wrong.value;
+ document.incor.wrong.value="";
+	}
+else {
+	Feedback = "Bravo! 100%!"
+	}
+alert(Feedback)
+}</script>

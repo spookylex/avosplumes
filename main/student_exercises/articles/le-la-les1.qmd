@@ -1,0 +1,185 @@
+---
+title: "Le/La/Les (1)"
+---
+
+<p>L'article défini peut être utilisé en français <br>
+        (1) pour faire une généralisation (i.e. J'aime le fromage=I like cheese), 
+        ou <br>
+        (2) pour indiquer un objet précis ou spécifique (Je voudrais le foulard 
+        rouge=I'd like the red scarf.) <br />Quel est le sens de l'article défini dans les exemples suivants?<br>
+        Cliquez sur la réponse correcte pour voir une explication. </p>
+
+
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">1. J'adore le café.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice1(this.form)" type="radio" value="Oui! J'aime le café en général." name="one"> généralisation
+            <br>
+            <input onClick="choice1(this.form)" type="radio" value="Non, je ne parle pas d'un café précis." name=one> précision
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <input type="text" size="30" name="feedback1" value="">
+            </font></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</form>
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">2. Les chiens de mon voisin sont très embêtants.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, je ne fais pas une généralisation sur tous les chiens du monde; Ces chiens en particulier sont problématiques." name="one"> généralisation
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui, je parle des chiens de mon voisin en particulier." name="one"> précision
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">3. Donne-moi le livre vert.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, je ne veux pas tous les livres du monde." name="one"> généralisation
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui, je précise que je veux le livre vert et pas le rouge." name="one"> précision
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">4. Les croissants du boulanger Paul sont délicieux.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, je ne fais pas une généralisation sur tous les croissants du monde." name="one"> généralisation
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui, je parle des croissants de chez Paul en particulier." name="one"> précision
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">5. Ma meilleure amie n'aime pas les croissants.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui! Elle aime les croissants en général." name="one"> généralisation
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, je ne parle pas de certains croissants en particulier." name="one"> précision
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">6. La neige est blanche.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui, en général, c'est la couleur de la neige." name="one"> généralisation
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, je ne parle pas d'un flocon de neige en particulier." name="one"> précision
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">7. Là-bas, la neige est jaune.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, je ne fais pas une généralisation sur la neige; d'habitude elle est blanche." name="one"> généralisation
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui, je parle d'un endroit particulier, là-bas, où un chien est passé." name="one"> précision
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<script language="JavaScript">
+  function choice1(form) {
+    for (var i = 0; i < form.one.length; i++) {
+      if (form.one[i + 0].checked) {
+        break;
+      }
+    }
+    form.feedback1.value = form.one[i + 0].value;
+  }
+
+  function choice2(form) {
+    for (var i = 0; i < form.one.length; i++) {
+      if (form.one[i + 0].checked) {
+        break;
+      }
+    }
+    form.feedback2.value = form.one[i + 0].value;
+  }
+
+  // Define the remaining choice functions (choice3, choice4, etc.) similarly
+</script>

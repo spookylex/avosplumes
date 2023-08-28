@@ -1,0 +1,85 @@
+---
+title: "Le/la vs. un/une (2)"
+---
+<p align=left><font face="Garamond" size="4">Complétez les phrases en utilisant 
+        l'article <strong>définie</strong> (le/la/les/l') ou <strong>indéfini</strong> (un/une/des).<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font></p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> Elle habite 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'une')" type=button value=C name=Button>
+              petite ville près d'Avignon.<br>
+              Elle prend 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'le')" type=button value=C name=Button>
+              bus de 13h23.<br>
+              C'est 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'la')" type=button value=C name=Button>
+              troisième rue à gauche.<br>
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'Les')" type=button value=C name=Button>
+              voisins sont en vacances, je pense; je ne vois pas de lumière.<br>
+              Tu as 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'l\'')" type=button value=C name=Button>
+              adresse de Pierre-Jean?<br>
+              Le matin, les enfants regardent 
+              <input size=9 
+      name=item6>
+              <input onClick="dasher(form.item6, 'la')" type=button value=C name=Button>
+              télévision.<br>
+              Je vais habiter Rio, 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'la')" type=button value=C name=Button>
+              ville de mes rêves.<br>
+              Est-ce qu'il y a 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'un')" type=button value=C name=Button>
+              avion direct entre Toronto et New Delhi?<br>
+              Ce sont 
+              <input size=9 
+      name=item9>
+              <input onClick="dasher(form.item9, 'les')" type=button value=C name=Button>
+              chaussures de Sylvie.<br>
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'Les')" type=button value=C name=Button>
+              soeurs de Marc sont adorables. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='une';form.item2.value='le';form.item3.value='la';form.item4.value='Les';form.item5.value='l\'';form.item6.value='la';form.item7.value='la';form.item8.value='un';form.item9.value='les';form.item10.value='Les';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

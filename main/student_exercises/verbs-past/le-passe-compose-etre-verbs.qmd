@@ -1,0 +1,128 @@
+---
+title: "Le passé composé--*Etre* verbs"
+---
+
+<p align=left><font face="Garamond" size="4">Conjuguez les verbes entre 
+        parenthèses au passé composé.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.<br>
+        </font><font face="Garamond"> </font> </p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4">William Mangetout (naître) 
+              <input size=9 
+      name=item1>
+              <input onClick="dasher(form.item1, 'est né')" type=button value=C name=Button>
+              le 3 novembre 1984. Il (arriver) 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'est arrivé')" type=button value=C name=Button>
+              au monde à la grande surprise de la mère. Directement après sa naissance, 
+              sa mère (aller) 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'est allée')" type=button value=C name=Button>
+              au restaurant pour prendre un grand repas, car elle avait faim. 
+              Elle (revenir au négatif) 
+              <input size=18 name=item4>
+              <input onClick="dasher(form.item4, 'n\'est pas revenue')" type=button value=C name=Button>
+              avant minuit. Quand elle (entrer) 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'est entrée')" type=button value=C name=Button>
+              dans la maison, elle a vu William à table en train de manger. ''Je 
+              (sortir au négatif) 
+              <input size=18 name=item6>
+              <input onClick="dasher(form.item6, 'ne suis pas sortie')" type=button value=C name=Button>
+              deux heures, et déjà tu es à table,'' dit-elle. ''Décidément, tu 
+              es mon fils.'' Ils (sortir) 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'sont sortis')" type=button value=C name=Button>
+              tous les deux pour chercher à manger, car William avait mangé tout 
+              ce qu'il y avait dans la maison. ''Tu (naître) 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'es né')" type=button value=C name=Button>
+              un bon jour,'' a dit la mère. ''Il pleut, et le potager pousse.'' 
+              Après avoir cueilli des salades et trouvé du lait et du fromage, 
+              le garçon et sa mère (rentrer) 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'sont rentrés')" type=button value=C name=Button>
+              à la maison, contents. Ils (sortir au négatif) 
+              <input size=18 name=item10>
+              <input onClick="dasher(form.item10, 'ne sont pas sortis')" type=button value=C name=Button>
+              de la semaine. <br>
+              <br>
+              Nous (revenir) 
+              <input size=15 name=item11>
+              <input onClick="dasher(form.item11, 'sommes revenus')" type=button value=C name=Button>
+              de voyage. <br>
+              Tu (m.) (venir au négatif) 
+              <input size=18 name=item12>
+              <input onClick="dasher(form.item12, 'n\'es pas venu')" type=button value=C name=Button>
+              à la fête? <br>
+              Sara (arriver) 
+              <input size=9 name=item13>
+              <input onClick="dasher(form.item13, 'est arrivée')" type=button value=C name=Button>
+              trop tard. <br>
+              Nous (sortir au négatif) 
+              <input size=22 name=item14>
+              <input onClick="dasher(form.item14, 'ne sommes pas sortis')" type=button value=C name=Button>
+              sans eux. <br>
+              Pourquoi est-ce que vous (m.s.) (entrer) 
+              <input size=9 
+      name=item15>
+              <input onClick="dasher(form.item15, 'êtes entré')" type=button value=C name=Button>
+              sans frapper? <br>
+              Une lettre (arriver) 
+              <input size=9 name=item16>
+              <input onClick="dasher(form.item16, 'est arrivée')" type=button value=C name=Button>
+              pour toi. <br>
+              Mes frères (venir au négatif) 
+              <input size=19 name=item17>
+              <input onClick="dasher(form.item17, 'ne sont pas venus')" type=button value=C name=Button>
+              nous voir cet été. <br>
+              Je (f.) (rentrer) 
+              <input size=13 name=item18>
+              <input onClick="dasher(form.item18, 'suis rentrée')" type=button value=C name=Button>
+              à la maison après le concert. <br>
+              Ils (naître) 
+              <input size=9 name=item19>
+              <input onClick="dasher(form.item19, 'sont nés')" type=button value=C name=Button>
+              en 1987. <br>
+              Avant de partir, elle (sortir) 
+              <input size=9 name=item20>
+              <input onClick="dasher(form.item20, 'est sortie')" type=button value=C name=Button>
+              avec ses amies une dernière fois. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='est né';form.item2.value='est arrivé';form.item3.value='est allée';form.item4.value='n\'est pas revenue';form.item5.value='est entrée';form.item6.value='ne suis pas sortie';form.item7.value='sont sortis';form.item8.value='es né';form.item9.value='sont rentrés';form.item10.value='ne sont pas sortis';form.item11.value='sommes revenus';form.item12.value='n\'es pas venu';form.item13.value='est arrivée';form.item14.value='ne sommes pas sortis';form.item15.value='êtes entré';form.item16.value='est arrivée';form.item17.value='ne sont pas venus';form.item18.value='suis rentrée';form.item19.value='sont nés';form.item20.value='est sortie';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';form.item15.value='';form.item16.value='';form.item17.value='';form.item18.value='';form.item19.value='';form.item20.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

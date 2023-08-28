@@ -1,0 +1,125 @@
+---
+title: "Nationality (1)"
+---
+<table width="80%" border="0" bgcolor="#FFFFFF" align="center" cellpadding="10" bordercolor="#000066">
+  <tr> 
+    <td valign="top"> 
+      <p align=center><font face="Garamond" size="4"><b><font size="5">Les adjectifs 
+        de nationalit&eacute;</font></b></font></p>
+      <p align=left><font face="Garamond" size="4">&Eacute;crivez la nationalité 
+        de la personne. N'oubliez pas: un adjectif est féminin/masculin, singulier/pluriel.<br>
+        Masculin: italien<br>
+        Féminin: italienne<br>
+        Masculin pluriel: italiens<br>
+        Féminin pluriel: italiennes<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====. </font></p>
+      
+    </td>
+  </tr>
+</table>
+
+<TABLE width="80%" border=0 align="center" cellpadding="10" bgcolor="#FFFFFF">
+  <TBODY> 
+  <TR> 
+    <TD> 
+      <FORM action="" method=post>
+        <font face="Garamond" size="4">Hergé 
+        <INPUT size=9 name=item1>
+        <INPUT onClick="dasher(form.item1, 'belge')" type=button value=C name=Button>
+        <BR>
+        Jacques Prévert 
+        <INPUT size=9 name=item2>
+        <INPUT onClick="dasher(form.item2, 'français')" type=button value=C name=Button>
+        <BR>
+        Jeanne Moreau et Catherine Deneuve 
+        <INPUT size=9 name=item3>
+        <INPUT onClick="dasher(form.item3, 'françaises')" type=button value=C name=Button>
+        <BR>
+        Penelope Cruz 
+        <INPUT size=9 name=item4>
+        <INPUT onClick="dasher(form.item4, 'espagnole')" type=button value=C name=Button>
+        <BR>
+        Tiger Woods 
+        <INPUT size=9 name=item5>
+        <INPUT onClick="dasher(form.item5, 'américain')" type=button value=C name=Button>
+        <BR>
+        Katherine Hepburn et Diane Keaton 
+        <INPUT size=15 name=item6>
+        <INPUT onClick="dasher(form.item6, 'américaines')" type=button value=C name=Button>
+        <BR>
+        La reine Elizabeth II 
+        <INPUT size=9 name=item7>
+        <INPUT onClick="dasher(form.item7, 'anglaise')" type=button value=C name=Button>
+        <BR>
+        Sylvio Berlusconi 
+        <INPUT size=9 name=item8>
+        <INPUT onClick="dasher(form.item8, 'italien')" type=button value=C name=Button>
+        <br>Jean-Bertrand Aristide 
+        <INPUT size=9 name=item9>
+        <INPUT onClick="dasher(form.item9, 'haïtien')" type=button value=C name=Button>
+        <BR>
+        James Joyce 
+        <INPUT size=9 name=item10>
+        <INPUT onClick="dasher(form.item10, 'irlandais')" type=button value=C name=Button>
+        <BR>
+        Les Beatles 
+        <INPUT size=9 name=item11>
+        <INPUT onClick="dasher(form.item11, 'anglais')" type=button value=C name=Button>
+        <BR>
+        Akira Kurosawa 
+        <INPUT size=9 name=item12>
+        <INPUT onClick="dasher(form.item12, 'japonais')" type=button value=C name=Button>
+        <BR>
+        Krystof Kieslowski 
+        <INPUT size=9 name=item13>
+        <INPUT onClick="dasher(form.item13, 'polonais')" type=button value=C name=Button>
+        <BR>
+        George et Barbara Bush 
+        <INPUT size=9 name=item14>
+        <INPUT onClick="dasher(form.item14, 'américains')" type=button value=C name=Button>
+        <BR>
+        Edith Piaf 
+        <INPUT size=9 name=item15>
+        <INPUT onClick="dasher(form.item15, 'française')" type=button value=C name=Button>
+        <BR>
+        <BR>
+        <BR>
+        <INPUT onClick="form.item1.value='belge';form.item2.value='français';form.item3.value='françaises';form.item4.value='espagnole';form.item5.value='américain';form.item6.value='américaines';form.item7.value='anglaise';form.item8.value='italien';form.item9.value='haïtien';form.item10.value='irlandais';form.item11.value='anglais';form.item12.value='japonais';form.item13.value='polonais';form.item14.value='américains';form.item15.value='française';" type=button value="Réponses" name=Button>
+        <INPUT onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';form.item15.value='';" type=button value="Effacer" name=Button>
+        </font> 
+      </FORM>
+    </TD>
+  </TR>
+  </TBODY> 
+</TABLE>
+
+<SCRIPT language=JavaScript>
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: , 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

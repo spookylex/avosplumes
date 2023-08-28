@@ -1,0 +1,83 @@
+---
+title: "Rooms of the house"
+---
+
+<p align=left><font face="Garamond" size="4">Complétez en utilisant le vocabulaire 
+        de la maison. <br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; =.<br>
+        </font></p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4">Dans ma 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'maison')" type=button value=C name=Button>
+              , il y a trois 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'chambres')" type=button value=C name=Button>
+              : je dors dans la première, et les enfants dorment dans les deux 
+              autres. Il y a aussi deux 
+              <input size=15 name=item3>
+              <input onClick="dasher(form.item3, 'salles de bain')" type=button value=C name=Button>
+              ; ça veut dire que deux personnes peuvent prendre une douche en 
+              même temps. Les 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'toilettes')" type=button value=C name=Button>
+              sont séparées des salles de bains, à l'européenne. Je prépare les 
+              repas dans la petite 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'cuisine')" type=button value=C name=Button>
+              pendant que ma famille lit ou regarde la télévision dans le 
+              <input size=9 
+      name=item6>
+              <input onClick="dasher(form.item6, 'salon')" type=button value=C name=Button>
+              . D'habitude nous dînons dans la grande 
+              <input size=15 name=item7>
+              <input onClick="dasher(form.item7, 'salle à manger')" type=button value=C name=Button>
+              . Parfois je descends à la 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'cave')" type=button value=C name=Button>
+              pour chercher du vin. Tout en haut il y a un 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'grenier')" type=button value=C name=Button>
+              où nous mettons toutes les choses qui ne servent pas tout le temps: 
+              les cartons, les skis, etc. Il y a un petit 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'jardin')" type=button value=C name=Button>
+              pour le chien derrière la maison. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='maison';form.item2.value='chambres';form.item3.value='salles de bain';form.item4.value='toilettes';form.item5.value='cuisine';form.item6.value='salon';form.item7.value='salle à manger';form.item8.value='cave';form.item9.value='grenier';form.item10.value='jardin';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

@@ -1,0 +1,102 @@
+---
+title: "Which, which one (1)"
+---
+
+<img src="FRH32_6_sm.jpg" width="300" height="203" /><p>Robert revient d'une année à Paris. Martine, qui connaît bien la ville, l'interroge.
+Cliquez &quot;Suite&quot; pour voir la  premi&egrave;re réponse de Robert. Ecrivez la question que Martine lui a posée, en utilisant une forme de *quel* ou *lequel*. <br>
+Cliquez &quot;Montrer&quot; pour comparer votre question &agrave; la suggestion du professeur.<br>
+Cliquez &quot;Cacher&quot; pour faire dispara&icirc;tre la suggestion du professeur. <br />
+Cliquez &quot;Suite/Retour&quot; pour voir les autres réponses de Robert.<br></p>
+
+<form name=qbox action="" method=post>
+   <p><font face="Garamond" size="4"><b>Réponse de Robert:<br>
+      </b> 
+      <textarea name=q rows=3 wrap=virtual cols=50></textarea>
+      <br>
+      </font>
+   </p>
+   <center>
+      <div align=left> <font face="Garamond" size="4"> 
+         <input onClick=begin(-1) type=button value="&lt;=Retour" name=show>
+         &nbsp; &nbsp; 
+         <input onClick=begin(1) type=button value="Suite=&gt;" name=show>
+         <br>
+         </font>
+      </div>
+   </center>
+</form>
+<p></p>
+<p></p>
+</td>
+<td width=200></td>
+</tr>
+</tbody> 
+</table>
+<table width="80%" border=0 align="center">
+<tbody>
+   <tr>
+      <td valign=top width=236>
+         <p><font face="Garamond" size="4"><b>Question de Martine:</b> </font> 
+         <form name=Sinput action="" method=post>
+            <p> <font face="Garamond" size="4"> 
+               <textarea name=Content rows=4 wrap=virtual cols=35></textarea>
+               </font> 
+         </form>
+         <p></p>
+         <p></p>
+      </td>
+      <td valign=top width=308>
+         <p><font face="Garamond" size="4"><b>Le professeur suggère:</b> </font> 
+         <form name=feedback action="" method=post>
+            <p> <font face="Garamond" size="4"> 
+               <textarea name=fb rows=4 wrap=virtual cols=35></textarea>
+               </font> 
+         </form>
+         <form name=check action="" method=post>
+            <center>
+               <div align=left> <font face="Garamond" size="4"> 
+                  <input onClick=Check() type=button value="Montrer" name=Button>
+                  <input onClick="(document.feedback.fb.value='')" type=button value="Cacher" name=show>
+                  </font>
+               </div>
+            </center>
+         </form>
+
+<SCRIPT language=Javascript><!--//
+//  This code is based on a script by Marmoe Soemarmo.  
+//  Dan Beeby modified it and wrote the creation interface, JavaScripts, and Perl Scripts.
+//  http://lang.swarthmore.edu/mellon -- dbeeby@haverford.edu.
+//  Content by Alison Murray Levine, University of Virginia, alevine@virginia.edu.
+//  You may borrow and modify these scripts, but please give credit where credit is due.
+	var Question= new Array();
+	var Answer= new Array();
+//---------------------DATA--------------------
+
+Question[1]="J'ai visité le Louvre, le Musée d'Orsay, l'Orangerie, le Musée Picasso, le Musée du Quai Branly…";Question[2]="J'ai préféré—de loin—le Musée d'Orsay.";Question[3]="J’ai habité dans le 14ème arrondissement, près de la Cité Universitaire.";Question[4]="Je prenais la ligne B du RER";Question[5]="Je me promenais dans le Parc Montsouris.";Question[6]="Je préférais la librairie qui s’appelle l'Harmattan, rue des Écoles. C'est dans le quartier latin, et il y a beaucoup de livres sur le tiers monde.";Question[7]="Oh là là, j’ai découvert plein de pâtisseries françaises! Les Napoléon, les millefeuilles, les palmiers, les croissants aux amandes…";Question[8]="Je préférais les croissants aux amandes.";Question[9]="Je faisais mes courses au marché qui se trouve dans la rue Mouffetard.";Question[10]="Ma photo préférée, c’est celle que j'ai fait avenue Rapp. C’est un détail d'un immeuble style Art Nouveau : une poignée de porte en forme de salamandre.";
+
+Answer[1]="Quels musées as-tu visités?";Answer[2]="Lequel as-tu préféré?";Answer[3]="Dans quel arrondissement as-tu habité?";Answer[4]="Quelle ligne du RER prenais-tu d'habitude?";Answer[5]="Dans quel parc est-ce que tu allais le plus souvent pour te promener?";Answer[6]="Quelle était ta librarie préférée?";Answer[7]="Quelles pâtisseries françaises as-tu découvertes pendant ton séjour?";Answer[8]="Et lesquelles préférais-tu?";Answer[9]="Tu faisais tes courses dans quel marché?";Answer[10]="Quelle est ta photo préférée de toute l'année?";
+
+//-------------------END DATA-------------
+
+var NextQ = 0;
+var QN = 0;
+
+function begin(QN){
+NextQ = NextQ + QN
+	if (Question[NextQ] == null) {
+alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.")
+	}
+	document.feedback.fb.value=""
+	document.Sinput.Content.value=""
+	document.qbox.q.value=Question[NextQ]
+}
+
+function Check(){
+	if (document.Sinput.Content.value == ""){
+        document.feedback.fb.value="Essayez de répondre à la question avant de voir la réponse du professeur."
+        }
+	else{
+	document.feedback.fb.value=Answer[NextQ]
+}
+}
+//--></SCRIPT>

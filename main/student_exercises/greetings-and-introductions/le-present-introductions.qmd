@@ -1,0 +1,156 @@
+---
+title: "Le présent—introductions"
+---
+
+Complétez le paragraphe en utilisant un verbe conjugué au présent: être, avoir, s'appeler, ou habiter.\
+Cliquez "C" --> correction.\
+Correct? --> *astérisques*.\
+Incorrect?--> ====.
+
+<form action="" method=post>
+   <font face="Garamond" size="4">Nous 
+   <input size=13 name=item1>
+   <input onClick="dasher(form.item1, 'nous appelons')" type=button value=C name=Button>
+   Marc et Martine Martin. Nous 
+   <input size=13 name=item2>
+   <input onClick="dasher(form.item2, 'sommes')" type=button value=C name=Button>
+   photographes et acrobates. Nous 
+   <input size=13 name=item3>
+   <input onClick="dasher(form.item3, 'habitons')" type=button value=C name=Button>
+   un petit appartement. Nous 
+   <input size=13 name=item4>
+   <input onClick="dasher(form.item4, 'habitons')" type=button value=C name=Button>
+   à Rio de Janeiro, et nous 
+   <input size=13 name=item5>
+   <input onClick="dasher(form.item5, 'avons')" type=button value=C name=Button>
+   deux chiens et deux chats. <br>
+   <br>
+   Moi, je 
+   <input size=13 name=item6>
+   <input onClick="dasher(form.item6, 'm\'appelle')" type=button value=C name=Button>
+   Ricky Gineste. Vous 
+   <input size=13 name=item7>
+   <input onClick="dasher(form.item7, 'vous appelez')" type=button value=C name=Button>
+   comment? Ah bon. J' 
+   <input size=13 name=item8>
+   <input onClick="dasher(form.item8, 'habite')" type=button value=C name=Button>
+   à Johannesburg, et vous, vous 
+   <input size=13 name=item9>
+   <input onClick="dasher(form.item9, 'habitez')" type=button value=C name=Button>
+   où? Manila! C'est intéressant! Vous 
+   <input size=13 name=item10>
+   <input onClick="dasher(form.item10, 'êtes')" type=button value=C name=Button>
+   biologiste? Moi, je 
+   <input size=13 name=item11>
+   <input onClick="dasher(form.item11, 'suis')" type=button value=C name=Button>
+   mécanicien. Je ne 
+   <input size=13 name=item12>
+   <input onClick="dasher(form.item12, 'suis')" type=button value=C name=Button>
+   pas sud-africain, je 
+   <input size=13 name=item13>
+   <input onClick="dasher(form.item13, 'suis')" type=button value=C name=Button>
+   sénégalais. Et vous, vous 
+   <input size=13 name=item14>
+   <input onClick="dasher(form.item14, 'avez')" type=button value=C name=Button>
+   des enfants? Non? Vous 
+   <input size=13 name=item15>
+   <input onClick="dasher(form.item15, 'avez')" type=button value=C name=Button>
+   peut-être des animaux? Oui, moi aussi. J' 
+   <input size=13 name=item16>
+   <input onClick="dasher(form.item16, 'ai')" type=button value=C name=Button>
+   deux chiens et 50 perroquets.<br>
+   <br>
+   Tu 
+   <input size=13 name=item17>
+   <input onClick="dasher(form.item17, 't\'appelles')" type=button value=C name=Button>
+   comment? Minou? Salut Minou, je 
+   <input size=13 name=item18>
+   <input onClick="dasher(form.item18, 'm\'appelle')" type=button value=C name=Button>
+   Flipette. Tu 
+   <input size=13 name=item19>
+   <input onClick="dasher(form.item19, 'es')" type=button value=C name=Button>
+   français? Moi aussi, je 
+   <input size=13 name=item20>
+   <input onClick="dasher(form.item20, 'suis')" type=button value=C name=Button>
+   français. Quelle coincidence! Tu 
+   <input size=13 name=item21>
+   <input onClick="dasher(form.item21, 'as')" type=button value=C name=Button>
+   des frères ou des soeurs? Moi, j' 
+   <input size=13 name=item22>
+   <input onClick="dasher(form.item22, 'ai')" type=button value=C name=Button>
+   un frère. Tu 
+   <input size=13 name=item23>
+   <input onClick="dasher(form.item23, 'habites')" type=button value=C name=Button>
+   aux Etats-Unis? Moi aussi. J' 
+   <input size=13 name=item24>
+   <input onClick="dasher(form.item24, 'habite')" type=button value=C name=Button>
+   à Red Springs, en Caroline du Nord.<br>
+   <br>
+   Voici deux garçons. Ils 
+   <input 
+      size=13 name=item25>
+   <input onClick="dasher(form.item25, 's\'appellent')" type=button value=C name=Button>
+   Cric et Crac. Ils 
+   <input size=13 name=item26>
+   <input onClick="dasher(form.item26, 'sont')" type=button value=C name=Button>
+   argentins. Ils 
+   <input size=13 name=item27>
+   <input onClick="dasher(form.item27, 'habitent')" type=button value=C name=Button>
+   tous sur Jupiter. Ils 
+   <input size=13 name=item28>
+   <input onClick="dasher(form.item28, 'ont')" type=button value=C name=Button>
+   une navette spatiale pour voyager à Jupiter. Ils 
+   <input size=13 
+      name=item29>
+   <input onClick="dasher(form.item29, 'sont')" type=button value=C name=Button>
+   très sympathiques. Ils 
+   <input size=13 name=item30>
+   <input onClick="dasher(form.item30, 'ont')" type=button value=C name=Button>
+   un autre frère, Croc, qui 
+   <input size=13 name=item31>
+   <input onClick="dasher(form.item31, 'habite')" type=button value=C name=Button>
+   au Kansas. Il 
+   <input size=13 name=item32>
+   <input onClick="dasher(form.item32, 'est')" type=button value=C name=Button>
+   sympathique aussi. Il 
+   <input size=13 name=item33>
+   <input onClick="dasher(form.item33, 'a')" type=button value=C name=Button>
+   un chien qui 
+   <input size=13 name=item34>
+   <input onClick="dasher(form.item34, 's\'appelle')" type=button value=C name=Button>
+   Tito. <br>
+   <br>
+   <br>
+   <input onClick="form.item1.value='nous appelons';form.item2.value='sommes';form.item3.value='habitons';form.item4.value='habitons';form.item5.value='avons';form.item6.value='m\'appelle';form.item7.value='vous appelez';form.item8.value='habite';form.item9.value='habitez';form.item10.value='êtes';form.item11.value='suis';form.item12.value='suis';form.item13.value='suis';form.item14.value='avez';form.item15.value='avez';form.item16.value='ai';form.item17.value='t\'appelles';form.item18.value='m\'appelle';form.item19.value='es';form.item20.value='suis';form.item21.value='as';form.item22.value='ai';form.item23.value='habites';form.item24.value='habite';form.item25.value='s\'appellent';form.item26.value='sont';form.item27.value='habitent';form.item28.value='ont';form.item29.value='sont';form.item30.value='ont';form.item31.value='habite';form.item32.value='est';form.item33.value='a';form.item34.value='s\'appelle';" type=button value="Réponses" name=Button>
+   <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';form.item15.value='';form.item16.value='';form.item17.value='';form.item18.value='';form.item19.value='';form.item20.value='';form.item21.value='';form.item22.value='';form.item23.value='';form.item24.value='';form.item25.value='';form.item26.value='';form.item27.value='';form.item28.value='';form.item29.value='';form.item30.value='';form.item31.value='';form.item32.value='';form.item33.value='';form.item34.value='';" type=button value="Effacer" name=Button>
+   </font> 
+</form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, Colby College ajlevine@colby.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

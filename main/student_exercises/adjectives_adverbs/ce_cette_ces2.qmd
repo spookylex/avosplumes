@@ -1,0 +1,85 @@
+---
+title: "Ce/cette/ces (2)"
+---
+
+<font face="Garamond" size="4">Complétez les phrases en utilisant 
+        *ce,* *cette,* *cet,* ou *ces.* <br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====. </font>
+
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'Cette')" type=button value=C name=Button>
+              couleur est parfaite pour toi.<br>
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'Ce')" type=button value=C name=Button>
+              stylo ne marche plus.<br>
+              Je n'aime pas 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'ces')" type=button value=C name=Button>
+              cerises; elles sont amères.<br>
+              Vous admirez 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'cette')" type=button value=C name=Button>
+              actrice?<br>
+              Je trouve 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'cette')" type=button value=C name=Button>
+              idée fantastique!<br>
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'Ce')" type=button value=C name=Button>
+              chemisier ira bien avec mon pantalon orange. <br>
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'Cet')" type=button value=C name=Button>
+              avion est trop petit; il me fait peur.<br>
+              Tu as pu dormir 
+              <input size=9 
+      name=item8>
+              <input onClick="dasher(form.item8, 'cette')" type=button value=C name=Button>
+              nuit?<br>
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'Ce')" type=button value=C name=Button>
+              quartier est très beau.<br>
+              Vous connaissez 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'cette')" type=button value=C name=Button>
+              église?<br>
+              <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='Cette';form.item2.value='Ce';form.item3.value='ces';form.item4.value='cette';form.item5.value='cette';form.item6.value='Ce';form.item7.value='Cet';form.item8.value='cette';form.item9.value='Ce';form.item10.value='cette';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

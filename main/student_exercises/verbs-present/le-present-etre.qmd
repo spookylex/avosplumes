@@ -1,0 +1,87 @@
+---
+title: "Le présent--être"
+---
+
+<p align=left><font face="Garamond" size="4">Conjuguez le verbe "être" au 
+        présent.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font></p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4">Bonjour, je 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'suis')" type=button value=C name=Button>
+              George, éleveur de tigres. Approchez, approchez, je vois que vous 
+              (négatif) 
+              <input size=12 name=item2>
+              <input onClick="dasher(form.item2, 'n\'êtes pas')" type=button value=C name=Button>
+              très sûrs de vous. Les tigres (négatif) 
+              <input size=12 name=item3>
+              <input onClick="dasher(form.item3, 'ne sont pas')" type=button value=C name=Button>
+              vraiment dangereux. N'est-ce pas Julie, tu 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'es')" type=button value=C name=Button>
+              très gentil n'est-ce pas, mon petit chaton? Alors, mesdames et messieurs, 
+              vous 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'êtes')" type=button value=C name=Button>
+              surpris de me voir si près de ces animaux dangereux, n'est-ce pas? 
+              Nous 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'sommes')" type=button value=C name=Button>
+              une grande famille, moi et mes tigres. Voici Martel; il n' 
+              <input size=9 
+      name=item7>
+              <input onClick="dasher(form.item7, 'est')" type=button value=C name=Button>
+              agressif qu'avec les vieux et les enfants, ne vous inquiétez pas. 
+              Vous voyez ses dents, comme elles 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'sont')" type=button value=C name=Button>
+              belles et blanches? Je 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'suis')" type=button value=C name=Button>
+              son frère, regardez comme je peux mettre mon bras dans sa bouche. 
+              Il 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'est')" type=button value=C name=Button>
+              très calme, euh, ah, d'habitude il 
+              <input size=9 name=item11>
+              <input onClick="dasher(form.item11, 'est')" type=button value=C name=Button>
+              ... holà! holà! Martel! Du calme! Appelez un..........aaaaaaahhhhh! 
+              (silence) <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='suis';form.item2.value='n\'êtes pas';form.item3.value='ne sont pas';form.item4.value='es';form.item5.value='êtes';form.item6.value='sommes';form.item7.value='est';form.item8.value='sont';form.item9.value='suis';form.item10.value='est';form.item11.value='est';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

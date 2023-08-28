@@ -1,0 +1,111 @@
+---
+title: "Le/la vs un/une vs. du/de la (1)"
+---
+
+<p align=left>Complétez les phrases en utilisant l'article <strong>défini</strong> (le/la/les/l' ou <strong>partitif</strong>(du/de la/de l'/des/de)  ou <strong>indéfini</strong> (un/une/des/de).<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.<br />
+RAPPEL: <br>
+<strong>Article d&eacute;fini </strong>(le, la, les, l'): [no change after neg. or quantity]=a specific person or thing, OR all the XXX in the world, OR an abstract concept <br>
+<strong>Article ind&eacute;fini</strong> (un, une, des): [change to de/d' after neg. or quantity]= one or some countable things among many; "des" is an imprecise quantity <br>
+<strong>Article partitif </strong>(du, de la, de l', des): [change to de/d' after neg.  or quantity]= part of a non-countable whole; "des" is an imprecise quantity
+</p>
+
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> J’adore 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'le')" type=button value=C name=Button>
+              gâteau au chocolat! 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'Les')" type=button value=C name=Button>
+              ingredients du gâteau sont faciles. Ma cousine italienne m'a donné 
+              <input 
+      size=9 name=item3>
+              <input onClick="dasher(form.item3, 'une')" type=button value=C name=Button>
+              excellente recette. Pour faire ce gâteau, il faut prendre d’abord 
+              <input 
+      size=9 name=item4>
+              <input onClick="dasher(form.item4, 'du')" type=button value=C name=Button>
+              chocolat et le faire fondre (=melt). Ensuite on ajoute 
+              <input size=9 
+      name=item5>
+              <input onClick="dasher(form.item5, 'du')" type=button value=C name=Button>
+              lait, 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'de la')" type=button value=C name=Button>
+              farine (f.), et 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'des')" type=button value=C name=Button>
+              œufs (m.). Il faut mettre beaucoup 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'de')" type=button value=C name=Button>
+              chocolat, mais pas trop. Ensuite on ajoute un kilo 
+              <input size=9 
+      name=item9>
+              <input onClick="dasher(form.item9, 'de')" type=button value=C name=Button>
+              lait et on mélange bien. Attention! Il ne faut jamais, jamais, mettre 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'de')" type=button value=C name=Button>
+              levure (f.=baking powder) dans ce gâteau. 
+              <input size=9 name=item11>
+              <input onClick="dasher(form.item11, 'Les')" type=button value=C name=Button>
+              Américains veulent toujours mettre 
+              <input size=9 name=item12>
+              <input onClick="dasher(form.item12, 'de la')" type=button value=C name=Button>
+              levure dans la cuisine, mais les Italiens ne mettent pas 
+              <input size=9 
+      name=item13>
+              <input onClick="dasher(form.item13, 'de')" type=button value=C name=Button>
+              levure. Ma cousine n’avait pas 
+              <input size=9 name=item14>
+              <input onClick="dasher(form.item14, 'de')" type=button value=C name=Button>
+              respect pour 
+              <input size=9 name=item15>
+              <input onClick="dasher(form.item15, 'les')" type=button value=C name=Button>
+              Américains. Elle pensait que nous avions 
+              <input size=9 name=item16>
+              <input onClick="dasher(form.item16, 'une')" type=button value=C name=Button>
+              trop bonne opinion de nous-mêmes, et que nous n'avions pas 
+              <input size=9 
+      name=item17>
+              <input onClick="dasher(form.item17, 'de')" type=button value=C name=Button>
+              civilisation! <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='le';form.item2.value='Les';form.item3.value='une';form.item4.value='du';form.item5.value='du';form.item6.value='de la';form.item7.value='des';form.item8.value='de';form.item9.value='de';form.item10.value='de';form.item11.value='Les';form.item12.value='de la';form.item13.value='de';form.item14.value='de';form.item15.value='les';form.item16.value='une';form.item17.value='de';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';form.item15.value='';form.item16.value='';form.item17.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia ajlevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

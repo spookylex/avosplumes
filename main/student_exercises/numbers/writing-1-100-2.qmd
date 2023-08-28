@@ -1,0 +1,101 @@
+---
+title: "Writing 1-100 (2)"
+---
+<p align=left><font face="Garamond" size="4"><b>&quot;Test d'intelligence&quot; 
+        :) </b><br />
+Connaissez-vous les chiffres 
+        de tous les jours? <br>
+        Complétez les phrases suivantes en écrivant le nombre en lettres.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> Il y a 
+              <input size=15 name=item1>
+              <input onClick="dasher(form.item1, 'douze')" type=button value=C name=Button>
+              oeufs dans un carton normal (aux USA). <br>
+              Il y a 
+              <input size=15 
+name=item2>
+              <input onClick="dasher(form.item2, 'cinquante-deux')" type=button value=C name=Button>
+              cartes dans un jeu complet.<br>
+              Il y a 
+              <input size=15 name=item3>
+              <input onClick="dasher(form.item3, 'sept')" type=button value=C name=Button>
+              jours dans une semaine.<br>
+              Il y a 
+              <input size=15 name=item4>
+              <input onClick="dasher(form.item4, 'cinquante')" type=button value=C name=Button>
+              états aux U.S.A. <br>
+              Il y a 
+              <input size=15 name=item5>
+              <input onClick="dasher(form.item5, 'vingt-cinq')" type=button value=C name=Button>
+              pays dans l'Union Européenne.<br>
+              Il y a 
+              <input size=15 name=item6>
+              <input onClick="dasher(form.item6, 'trois')" type=button value=C name=Button>
+              couleurs sur le drapeau américain.<br>
+              Il y a 
+              <input size=15 name=item7>
+              <input onClick="dasher(form.item7, 'trois')" type=button value=C name=Button>
+              couleurs sur le drapeau français. <br>
+              Le Maine touche 
+              <input size=15 name=item8>
+              <input onClick="dasher(form.item8, 'un')" type=button value=C name=Button>
+              autre &eacute;tat am&eacute;ricain.<br>
+              Les Etats-Unis touchent 
+              <input size=15 
+      name=item9>
+              <input onClick="dasher(form.item9, 'deux')" type=button value=C name=Button>
+              autres pays.<br>
+              La France touche 
+              <input size=15 name=item10>
+              <input onClick="dasher(form.item10, 'six')" type=button value=C name=Button>
+              autres pays. <br>
+              La branche législative du gouvernement américain a 
+              <input 
+      size=15 name=item11>
+              <input onClick="dasher(form.item11, 'deux')" type=button value=C name=Button>
+              chambres. <br>
+              La branche législative du gouvernement français a 
+              <input 
+      size=15 name=item12>
+              <input onClick="dasher(form.item12, 'deux')" type=button value=C name=Button>
+              chambres. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='douze';form.item2.value='cinquante-deux';form.item3.value='sept';form.item4.value='cinquante';form.item5.value='vingt-cinq';form.item6.value='trois';form.item7.value='trois';form.item8.value='un';form.item9.value='deux';form.item10.value='six';form.item11.value='deux';form.item12.value='deux';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

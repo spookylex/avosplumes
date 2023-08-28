@@ -1,0 +1,100 @@
+---
+title: "Le présent--dire/écrire"
+---
+
+ <p align=left><font face="Garamond" size="4">Présent Conjuguez les verbes 
+        entre parenthèses au présent.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font></p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4">Mon père me (dire) 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'dit')" type=button value=C name=Button>
+              toujours que quand je (conduire) 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'conduis')" type=button value=C name=Button>
+              , je dois faire très attention. Parfois il (écrire) 
+              <input size=9 
+name=item3>
+              <input onClick="dasher(form.item3, 'écrit')" type=button value=C name=Button>
+              même un petit message sur le réfrigérateur: ''si tu (conduire au 
+              négatif) 
+              <input size=15 name=item4>
+              <input onClick="dasher(form.item4, 'ne conduis pas')" type=button value=C name=Button>
+              avec prudence, tu n'arriveras pas en vie.'' <br>
+              Cela m'énerve! <br>
+              Moi et mes soeurs, nous (conduire au négatif) 
+              <input size=15 name=item5>
+              <input onClick="dasher(form.item5, 'ne conduisons pas')" type=button value=C name=Button>
+              toujours lentement, mais nous (conduire) 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'conduisons')" type=button value=C name=Button>
+              toujours avec prudence. Elles (dire) 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'disent')" type=button value=C name=Button>
+              que c'est simplement une preuve d'amour, quand il (écrire) 
+              <input size=9 
+      name=item8>
+              <input onClick="dasher(form.item8, 'écrit')" type=button value=C name=Button>
+              des messages comme ça. <br>
+              ''Tu (conduire) 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'conduis')" type=button value=C name=Button>
+              bien,'' (dire) 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'dit')" type=button value=C name=Button>
+              ma plus jeune soeur. ''Mais il ne le sait pas.'' <br>
+              Elles (écrire) 
+              <input 
+      size=9 name=item11>
+              <input onClick="dasher(form.item11, 'écrivent')" type=button value=C name=Button>
+              parfois des poèmes ou des chansons quand mes parents (dire) 
+              <input size=9 
+      name=item12>
+              <input onClick="dasher(form.item12, 'disent')" type=button value=C name=Button>
+              des choses trop condescendantes. Cela leur permet de se calmer. 
+              <br>
+              ''Si tu (écrire) 
+              <input size=9 name=item13>
+              <input onClick="dasher(form.item13, 'écris')" type=button value=C name=Button>
+              aussi, peut-être que cela va t'aider,'' (dire) 
+              <input size=9 name=item14>
+              <input onClick="dasher(form.item14, 'disent')" type=button value=C name=Button>
+              -elles. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='dit';form.item2.value='conduis';form.item3.value='écrit';form.item4.value='ne conduis pas';form.item5.value='ne conduisons pas';form.item6.value='conduisons';form.item7.value='disent';form.item8.value='écrit';form.item9.value='conduis';form.item10.value='dit';form.item11.value='écrivent';form.item12.value='disent';form.item13.value='écris';form.item14.value='disent';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

@@ -1,0 +1,103 @@
+---
+title: "Passive voice (1)"
+---
+
+Le directeur d'une société annonce des changements importants face à la récession économique mondiale.<br />
+Cliquez &quot;Suite&quot; pour voir le premier début de phrase. Transposez la phrase à la voix passive, en faisant tous les changements nécessaires. <br>
+Cliquez &quot;Montrer&quot; pour comparer votre réponse &agrave; la suggestion du professeur.<br>
+Cliquez &quot;Cacher&quot; pour faire dispara&icirc;tre la suggestion du professeur. <br />
+Cliquez &quot;Suite/Retour&quot; pour voir les autres phrases.<br>
+
+
+<form name=qbox action="" method=post>
+   <p><font face="Garamond" size="4"><b>Phrase à traduire:<br>
+      </b> 
+      <textarea name=q rows=3 wrap=virtual cols=50></textarea>
+      <br>
+      </font>
+   </p>
+   <center>
+      <div align=left> <font face="Garamond" size="4"> 
+         <input onClick=begin(-1) type=button value="&lt;=Retour" name=show>
+         &nbsp; &nbsp; 
+         <input onClick=begin(1) type=button value="Suite=&gt;" name=show>
+         <br>
+         </font>
+      </div>
+   </center>
+</form>
+<p></p>
+<p></p>
+</td>
+<td width=200></td>
+</tr>
+</tbody> 
+</table>
+<table width="80%" border=0 align="center">
+<tbody>
+   <tr>
+      <td valign=top width=236>
+         <p><font face="Garamond" size="4"><b>Votre traduction:</b> </font> 
+         <form name=Sinput action="" method=post>
+            <p> <font face="Garamond" size="4"> 
+               <textarea name=Content rows=4 wrap=virtual cols=35></textarea>
+               </font> 
+         </form>
+         <p></p>
+         <p></p>
+      </td>
+      <td valign=top width=308>
+         <p><font face="Garamond" size="4"><b>Le professeur suggère:</b> </font> 
+         <form name=feedback action="" method=post>
+            <p> <font face="Garamond" size="4"> 
+               <textarea name=fb rows=4 wrap=virtual cols=35></textarea>
+               </font> 
+         </form>
+         <form name=check action="" method=post>
+            <center>
+               <div align=left> <font face="Garamond" size="4"> 
+                  <input onClick=Check() type=button value="Montrer" name=Button>
+                  <input onClick="(document.feedback.fb.value='')" type=button value="Cacher" name=show>
+                  </font>
+               </div>
+            </center>
+         </form>
+
+<SCRIPT language=Javascript><!--//
+//  This code is based on a script by Marmoe Soemarmo.  
+//  Dan Beeby modified it and wrote the creation interface, JavaScripts, and Perl Scripts.
+//  http://lang.swarthmore.edu/mellon -- dbeeby@haverford.edu.
+//  Content by Alison Murray Levine, University of Virginia, alevine@virginia.edu.
+//  You may borrow and modify these scripts, but please give credit where credit is due.
+	var Question= new Array();
+	var Answer= new Array();
+//---------------------DATA--------------------
+
+Question[1]="Jeanne remplacera Martine à l'accueil.";Question[2]="On va complètement rénover les bureaux du conseil d'administration.";Question[3]="Notre agent comptable présentera un nouveau rapport financier.";Question[4]="Nous allons virer l'agence de voyage que nous avons utilisée auparavant.";Question[5]="On va licensier seize employés.";Question[6]="On a déjà étudié la vente du bâtiment, mais on n'a pas encore pris de décision.";Question[7]="Le conseil d'administration va recommander une réorganisation de la production.";Question[8]="Le co-directeur vient d'annoncer un nouveau plan 2020.";Question[9]="On conserve tous les bâtiments historiques du site.";Question[10]="On annoncera les nouveaux salaires quand on les aura décidé.";
+
+Answer[1]="Martine sera remplacée par Jeanne à l'accueil.";Answer[2]="Les bureaux du conseil d'administration seront (vont être) complètement rénovés.";Answer[3]="Un nouveau rapport financier sera présenté par notre agent comptable.";Answer[4]="L'agence de voyage que nous avons utilisée auparavant sera (va être) virée.";Answer[5]="Seize employés seront (vont être) licensiés.";Answer[6]="La vente du bâtiment à été étudiée, mais la décision n'a pas encore été prise (aucune décision n'a été prise).";Answer[7]="Une réorganisation de la production sera (va être) recommandée par le conseil d'administration.";Answer[8]="Un nouveau plan 2020 vient d'être annoncé par le co-directeur.";Answer[9]="Tous les bâtiments historiques du site sont conservés.";Answer[10]="Les nouveaux salaires seront annoncés quand ils seront (auront été) décidés.";
+
+//-------------------END DATA-------------
+
+var NextQ = 0;
+var QN = 0;
+
+function begin(QN){
+NextQ = NextQ + QN
+	if (Question[NextQ] == null) {
+alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.")
+	}
+	document.feedback.fb.value=""
+	document.Sinput.Content.value=""
+	document.qbox.q.value=Question[NextQ]
+}
+
+function Check(){
+	if (document.Sinput.Content.value == ""){
+        document.feedback.fb.value="Essayez de répondre à la question avant de voir la réponse du professeur."
+        }
+	else{
+	document.feedback.fb.value=Answer[NextQ]
+}
+}
+//--></SCRIPT>

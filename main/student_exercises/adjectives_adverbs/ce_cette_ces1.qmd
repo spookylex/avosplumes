@@ -1,0 +1,92 @@
+---
+title: "Ce/cette/ces (1)"
+---
+
+<p align=left><font face="Garamond" size="4">Complétez les phrases en utilisant 
+        *ce,* *cette,* *cet,* ou *ces.* <br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font></p>
+
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'Cet')" type=button value=C name=Button>
+              hiver, je vais faire du ski.<br>
+              Je ne connais pas 
+              <input size=9 
+name=item2>
+              <input onClick="dasher(form.item2, 'cette')" type=button value=C name=Button>
+              personne.<br>
+              Je voudrais travailler 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'ce')" type=button value=C name=Button>
+              matin.<br>
+              Tu devrais lire 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'ce')" type=button value=C name=Button>
+              roman. Il est intéressant.<br>
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'Ces')" type=button value=C name=Button>
+              journaux sont à jeter ou à garder?<br>
+              Vous avez entendu 
+              <input size=9 
+      name=item6>
+              <input onClick="dasher(form.item6, 'ce')" type=button value=C name=Button>
+              bruit?<br>
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'Cette')" type=button value=C name=Button>
+              ville est très sympathique.<br>
+              Tu as des projets pour 
+              <input size=9 
+      name=item8>
+              <input onClick="dasher(form.item8, 'ce')" type=button value=C name=Button>
+              week-end?<br>
+              Nous partons en Inde 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'cet')" type=button value=C name=Button>
+              été.<br>
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'Cet')" type=button value=C name=Button>
+              hôtel est vraiment trop sale. <br>
+              Tu connais 
+              <input size=9 name=item11>
+              <input onClick="dasher(form.item11, 'cette')" type=button value=C name=Button>
+              fille? <br>
+              <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='Cet';form.item2.value='cette';form.item3.value='ce';form.item4.value='ce';form.item5.value='Ces';form.item6.value='ce';form.item7.value='Cette';form.item8.value='ce';form.item9.value='cet';form.item10.value='Cet';form.item11.value='cette';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

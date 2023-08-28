@@ -1,0 +1,134 @@
+---
+title: "Writing Dates"
+---
+
+<P align=left><font face="Garamond" size="4">Écrivez les dates des événements, 
+        en lettres. <br>
+        Vous ne savez pas la date? Pas de soucis! :) Cliquez <strong>"?"</strong> <BR>
+        Cliquez "C" --&gt; correction.<BR>
+        Correct? --&gt; *astérisques*. <BR>
+        Incorrect?--&gt; ====.</font></P>
+
+<FORM action="" method=post>
+              <p><font face="Garamond" size="4"> 
+                <input type="text" name="feedback1" size="20" value="">
+                </font></p>
+              <p><font face="Garamond" size="4"><BR>
+                La prise de la Bastille (début de la Révolution française)<br>
+                <INPUT size=40 name=item1>
+                <INPUT onClick="dasher(form.item1, 'mille sept cent quatre-vingt-neuf')" type=button value=C name=Button>
+                <INPUT onclick=show_feedback(1,form.feedback1) type=button value=? name=feedback>
+                <BR>
+                La **découverte** de l'Amérique par Christophe Colomb<br>
+                <INPUT size=40 
+      name=item2>
+                <INPUT onClick="dasher(form.item2, 'mille quatre cent quatre-vingt-douze')" type=button value=C name=Button>
+                <INPUT onclick=show_feedback(2,form.feedback1) type=button value=? name=feedback2>
+                <BR>
+                La date de l'exécution de Jeanne d'Arc<br>
+                <INPUT size=40 name=item3>
+                <INPUT onClick="dasher(form.item3, 'mille quatre cent trente et un')" type=button value=C name=Button>
+                <INPUT onclick=show_feedback(3,form.feedback1) type=button value=? name=feedback3>
+                <BR>
+                La bataille de Waterloo, fin du règne de Napoléon <br>
+                <INPUT size=40 name=item4>
+                <INPUT onClick="dasher(form.item4, 'mille huit cent quinze')" type=button value=C name=Button>
+                <INPUT onclick=show_feedback(4,form.feedback1) type=button value=? name=feedback4>
+                <BR>
+                La déclaration de l'indépendance américaine <br>
+                <INPUT size=40 name=item5>
+                <INPUT onClick="dasher(form.item5, 'mille sept cent soixante-seize')" type=button value=C name=Button>
+                <INPUT onclick=show_feedback(5,form.feedback1) type=button value=? name=feedback5>
+                <BR>
+                La fin de la deuxième guerre mondiale (WWII) <br>
+                <INPUT size=40 name=item6>
+                <INPUT onClick="dasher(form.item6, 'mille neuf cent quarante-cinq')" type=button value=C name=Button>
+                <INPUT onclick=show_feedback(6,form.feedback1) type=button value=? name=feedback6>
+                <BR>
+                La date des attaques contre le World Trade Center<br>
+                <INPUT size=40 name=item7>
+                <INPUT onClick="dasher(form.item7, 'deux mille un')" type=button value=C name=Button>
+                <INPUT onclick=show_feedback(7,form.feedback1) type=button value=? name=feedback7>
+                <BR>
+                La construction de la Tour Eiffel <br>
+                <INPUT size=40 name=item8>
+                <INPUT onClick="dasher(form.item8, 'mille huit cent quatre-vingt-neuf')" type=button value=C name=Button>
+                <INPUT onclick=show_feedback(8,form.feedback1) type=button value=? name=feedback8>
+                <BR>
+                <BR>
+                <BR>
+                <INPUT onClick="form.item1.value='mille sept cent quatre-vingt-neuf';form.item2.value='mille quatre cent quatre-vingt-douze';form.item3.value='mille quatre cent trente et un';form.item4.value='mille huit cent quinze';form.item5.value='mille sept cent soixante-seize';form.item6.value='mille neuf cent quarante-cinq';form.item7.value='deux mille un';form.item8.value='mille huit cent quatre-vingt-neuf';" type=button value="Réponses" name=Button>
+                <INPUT onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';" type=button value="Effacer" name=Button>
+                </font> </p>
+            </FORM>
+
+<SCRIPT language=JavaScript>
+
+//  This code is based on George Mitrevski's original CLOZE code.  
+
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+
+//  in a manner similar to the Dasher program.
+//Keith Baumgartner at Colby College added the hint code.
+
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+
+function dasher(Student, Correct) {
+
+var studentAnswer = Student.value;
+
+var correctAnswer = Correct;
+
+result = ""
+
+for (var c = 0; c< correctAnswer.length; c ++) {
+
+	var CorrectX = correctAnswer.charAt(c);
+
+	var StudentX = studentAnswer.charAt(c);
+
+	if (CorrectX == StudentX) {
+
+	result = result + CorrectX;
+
+	}
+
+	else {
+
+	result = result +  "=";
+
+	}
+
+}
+
+Student.value = result;
+
+    if (studentAnswer == correctAnswer){
+
+    Student.value = "*" + studentAnswer + "*";
+
+    }
+
+}
+
+function show_feedback(itemno,feedback_input) {
+
+	feedback_input.value=feedback[itemno];
+	
+}
+
+var feedback=new Array();
+feedback[1]='1789';
+feedback[2]='1492';
+feedback[3]='1431';
+feedback[4]='1815';
+feedback[5]='1776';
+feedback[6]='1945';
+feedback[7]='2001';
+feedback[8]='1889';
+
+<!-- done hiding --></SCRIPT>

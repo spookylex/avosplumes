@@ -1,0 +1,346 @@
+---
+title: "Using 'on' (1)"
+---
+<p><font face="Garamond" size="4">Le pronom "on" "on"="nous" ou "on"="quelqu'un" 
+        ou "on"="les gens"? Choisissez la signification dans chaque contexte.</font></p>
+    
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">1. À Marseille, on mange une soupe 
+                  de poissons qui s'appelle "la bouillabaisse."</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input onClick=choice1(this.form) type=radio 
+                  value="non, c'est plus général." name=one>
+               on=nous<br>
+               <input 
+                  onClick=choice1(this.form) type=radio 
+                  value="non, c'est collectif (les Marseillais en général)" 
+                  name=one>
+               on=quelqu'un<br>
+               <input onClick=choice1(this.form) type=radio 
+                  value="oui! les gens=les gens de Marseille" name=one>
+               on=les gens<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="40" name="feedback1" rows="2"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">2. Hier matin, dans le bus, on 
+                  m'a volé mon portefeuille.</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input 
+                  onClick=choice2(this.form) type=radio 
+                  value="non, ce n'est pas la personne qui parle." 
+                  name=one>
+               on=nous<br>
+               <input onClick=choice2(this.form) type=radio 
+                  value="oui! c'est un individu que la personne qui parle ne connaît pas." 
+                  name=one>
+               on=quelqu'un<br>
+               <input onClick=choice2(this.form) type=radio 
+                  value="non, ce n'est pas pluriel." name=one>
+               on=les gens<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="40" name="feedback2" rows="2"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">3. Cet été, avec ma mère, on va 
+                  voyager en Afrique.</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input 
+                  onClick=choice3(this.form) type=radio 
+                  value="oui! c'est la personne qui parle, avec sa mère." 
+                  name=one>
+               on=nous<br>
+               <input onClick=choice3(this.form) type=radio 
+                  value="non, ce n'est pas un individu que la personne ne connaît pas." 
+                  name=one>
+               on=quelqu'un<br>
+               <input onClick=choice3(this.form) type=radio 
+                  value="non, ce n'est pas une généralisation." name=one>
+               on=les gens<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="40" name="feedback3" rows="2"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">4. Salut Marie! On est arrivé 
+                  le plus vite possible, on ne t'a pas fait trop attendre?</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input onClick=choice4(this.form) type=radio 
+                  value="oui! c'est la personne qui parle, avec son ami." 
+                  name=one>
+               on=nous<br>
+               <input onClick=choice4(this.form) type=radio 
+                  value="non, ce n'est pas un individu que la personne ne connaît pas." 
+                  name=one>
+               on=quelqu'un<br>
+               <input onClick=choice4(this.form) type=radio 
+                  value="non, ce n'est pas une généralisation." name=one>
+               on=les gens<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="40" name="feedback4" rows="2"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">5. On t'a dit qu'il fait froid 
+                  ici, même en été?</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input 
+                  onClick=choice5(this.form) type=radio 
+                  value="non, ce n'est pas la personne qui parle." 
+                  name=one>
+               on=nous<br>
+               <input onClick=choice5(this.form) type=radio 
+                  value="oui! c'est un individu hypothétique, ou qu'on ne connaît pas." 
+                  name=one>
+               on=quelqu'un<br>
+               <input onClick=choice5(this.form) type=radio 
+                  value="c'est possible, si les gens en général ont parlé du temps." 
+                  name=one>
+               on=les gens<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="40" name="feedback5" rows="2"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">6. Pour entrer dans un aéroport, 
+                  on doit passer le contrôle de sécurité.</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input onClick=choice6(this.form) type=radio 
+                  value="non, c'est plus général." name=one>
+               on=nous<br>
+               <input 
+                  onClick=choice6(this.form) type=radio value="non, c'est collectif " 
+                  name=one>
+               on=quelqu'un<br>
+               <input onClick=choice6(this.form) type=radio 
+                  value="oui! les gens en général doivent passer le contrôle." 
+                  name=one>
+               on=les gens<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="40" name="feedback6" rows="2"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">7. Pardon Madame, à quelle heure 
+                  est-ce qu'on arrive à Paris?</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input 
+                  onClick=choice7(this.form) type=radio 
+                  value="oui! c'est la personne qui parle, avec les autres voyageurs." 
+                  name=one>
+               on=nous<br>
+               <input onClick=choice7(this.form) type=radio 
+                  value="non, ce n'est pas un individu que la personne ne connaît pas." 
+                  name=one>
+               on=quelqu'un<br>
+               <input onClick=choice7(this.form) type=radio 
+                  value="non, ce n'est pas une généralisation." name=one>
+               on=les gens<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="40" name="feedback7" rows="2"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">8. Pour aller à Paris depuis l'aéroport, 
+                  on peut prendre le bus, le RER, ou un taxi.</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input onClick=choice8(this.form) type=radio 
+                  value="oui, c'est possible, si la personne qui parle, avec une autre personne, voyagent à Paris" 
+                  name=one>
+               on=nous<br>
+               <input onClick=choice8(this.form) type=radio 
+                  value="oui, c'est possible, si la personne parle d'un individu hypothétique qu'elle ne connaît pas." 
+                  name=one>
+               on=quelqu'un<br>
+               <input onClick=choice8(this.form) type=radio 
+                  value="oui, c'est possible, si la personne parle en général des moyens de transport à Paris." 
+                  name=one>
+               on=les gens<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="40" name="feedback8" rows="3"></textarea>
+   </table>
+</form>
+
+<SCRIPT language=JavaScript><!--
+//  Creation interface, JavaScripts, and Perl Scripts by Dan Beeby.
+//  Based on a Javascript by Barbara Nelson.
+//  http://140.233.69.17/mellon -- dbeeby@haverford.edu.
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu
+function choice1(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback1.value=form.one[i].value
+}
+
+function choice2(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback2.value=form.one[i].value
+}
+
+function choice3(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback3.value=form.one[i].value
+}
+
+function choice4(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback4.value=form.one[i].value
+}
+
+function choice5(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback5.value=form.one[i].value
+}
+
+function choice6(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback6.value=form.one[i].value
+}
+
+function choice7(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback7.value=form.one[i].value
+}
+function choice8(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback8.value=form.one[i].value
+}
+
+function choice9(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback9.value=form.one[i].value
+}
+
+function choice10(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback10.value=form.one[i].value
+}
+
+<!--script-->
+//--></SCRIPT>

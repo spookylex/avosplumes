@@ -1,0 +1,102 @@
+---
+title: "How/where/when...(4)"
+---
+
+Une grande maison de campagne. Une dizaine d'invités. On a découvert un corps dans la bibliothèque. Avec un bougeoir [=a candlestick] à côté du corps, bien sûr. Des traces de cendres sur les doigts. Hercule Poirot interroge Julie, la jeune mariée. 
+<br>Cliquez &quot;Suite&quot; pour voir la  premi&egrave;re réponse de Julie. Ecrivez la question de Poirot qui a évoqué cette réponse, en deux versions: *est-ce que* et inversion. <br>
+Cliquez &quot;Montrer&quot; pour comparer vos questions &agrave; la suggestion du professeur.<br>
+Cliquez &quot;Cacher&quot; pour faire dispara&icirc;tre la suggestion du professeur. <br />
+Cliquez &quot;Suite/Retour&quot; pour voir les autres réponses de Julie.<br>
+
+<form name=qbox action="" method=post>
+   <p><font face="Garamond" size="4"><b>Réponse de Julie:<br>
+      </b> 
+      <textarea name=q rows=3 wrap=virtual cols=50></textarea>
+      <br>
+      </font>
+   </p>
+   <center>
+      <div align=left> <font face="Garamond" size="4"> 
+         <input onClick=begin(-1) type=button value="&lt;=Retour" name=show>
+         &nbsp; &nbsp; 
+         <input onClick=begin(1) type=button value="Suite=&gt;" name=show>
+         <br>
+         </font>
+      </div>
+   </center>
+</form>
+<p></p>
+<p></p>
+</td>
+<td width=200></td>
+</tr>
+</tbody> 
+</table>
+<table width="80%" border=0 align="center">
+<tbody>
+   <tr>
+      <td valign=top width=236>
+         <p><font face="Garamond" size="4"><b>Question de Poirot:</b> </font> 
+         <form name=Sinput action="" method=post>
+            <p> <font face="Garamond" size="4"> 
+               <textarea name=Content rows=4 wrap=virtual cols=35></textarea>
+               </font> 
+         </form>
+         <p></p>
+         <p></p>
+      </td>
+      <td valign=top width=308>
+         <p><font face="Garamond" size="4"><b>Le professeur suggère:</b> </font> 
+         <form name=feedback action="" method=post>
+            <p> <font face="Garamond" size="4"> 
+               <textarea name=fb rows=4 wrap=virtual cols=35></textarea>
+               </font> 
+         </form>
+         <form name=check action="" method=post>
+            <center>
+               <div align=left> <font face="Garamond" size="4"> 
+                  <input onClick=Check() type=button value="Montrer" name=Button>
+                  <input onClick="(document.feedback.fb.value='')" type=button value="Cacher" name=show>
+                  </font>
+               </div>
+            </center>
+         </form>
+
+<SCRIPT language=Javascript><!--//
+//  This code is based on a script by Marmoe Soemarmo.  
+//  Dan Beeby modified it and wrote the creation interface, JavaScripts, and Perl Scripts.
+//  http://lang.swarthmore.edu/mellon -- dbeeby@haverford.edu.
+//  Content by Alison Murray Levine, University of Virginia, alevine@virginia.edu.
+//  You may borrow and modify these scripts, but please give credit where credit is due.
+	var Question= new Array();
+	var Answer= new Array();
+//---------------------DATA--------------------
+
+Question[1]="J'ai quitté le salon à 17h parce que je voulais fumer une cigarette.";Question[2]="Je suis allée sur la véranda, devant la maison.";Question[3]="J'ai passé un quart d'heure dehors.";Question[4]="Je suis revenue à 17h15.";Question[5]="J'ai vu la lumière dans la bibliothèque à 17h10.";Question[6]="J'ai dit cela parce que vous me faites peur, Monsieur Poirot.";Question[7]="Je suis innocente, je vous le jure! Mais je ne fume pas. Je suis sortie pour rencontrer mon amant, le jardinier, qui m'attendait derrière les rosiers.";
+
+Answer[1]="Pourquoi est-ce que vous avez quitté le salon à 17h? * Pourquoi avez-vous quitté le salon à 17h?";Answer[2]="Où êtes-vous allée? * Où est-ce que vous êtes allée?";Answer[3]="Combien de temps avez-vous passé dehors? * Combien de temps est-ce que vous avez passé dehors?";Answer[4]="A quelle heure est-ce que vous êtes revenue? * A quelle heure êtes-vous revenue?";Answer[5]="Quand avez-vous vu la lumière dans la bibliothèque? * Quand est-ce que vous avez vu la lumière dans la bibliothèque?";Answer[6]="Pourquoi avez-vous dit cela? * Pourquoi est-ce que vous avez dit cela? Je ne vous ai pas dit qu'il y avait une lumière dans la bibliothèque!";Answer[7]="Même Poirot ne sait pas quoi dire!";
+
+//-------------------END DATA-------------
+
+var NextQ = 0;
+var QN = 0;
+
+function begin(QN){
+NextQ = NextQ + QN
+	if (Question[NextQ] == null) {
+alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.")
+	}
+	document.feedback.fb.value=""
+	document.Sinput.Content.value=""
+	document.qbox.q.value=Question[NextQ]
+}
+
+function Check(){
+	if (document.Sinput.Content.value == ""){
+        document.feedback.fb.value="Essayez de répondre à la question avant de voir la réponse du professeur."
+        }
+	else{
+	document.feedback.fb.value=Answer[NextQ]
+}
+}
+//--></SCRIPT>

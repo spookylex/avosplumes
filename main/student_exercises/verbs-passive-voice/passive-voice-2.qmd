@@ -1,0 +1,100 @@
+---
+title: "Passive voice (2)"
+---
+
+<img src="rodin1.jpg" width="300" height="201" />....<img src="rodin2.jpg" width="300" height="202" /><br /><br />
+
+Voici un texte sur le Musée Rodin, un des musées parisiens les plus charmants. <br /><a href="http://www.musee-rodin.fr/accueil.htm" title="Le Musée Rodin" target="blank">Visiter le site du musée</a>.<br /><br />
+Cliquez &quot;Suite&quot; pour voir la première phrase. Traduisez la phrase, en employant la voix passive si possible. <br>
+Cliquez &quot;Montrer&quot; pour comparer votre réponse &agrave; la suggestion du professeur.<br>
+Cliquez &quot;Cacher&quot; pour faire dispara&icirc;tre la suggestion du professeur. <br />
+Cliquez &quot;Suite/Retour&quot; pour voir les autres phrases à traduire.<br>
+
+<form name=qbox action="" method=post>
+              <p><font face="Garamond" size="4"><b>Phrase à traduire:<br>
+                </b> 
+                <textarea name=q rows=3 wrap=virtual cols=50></textarea>
+                <br>
+                </font></p>
+              <center>
+                <div align=left> <font face="Garamond" size="4"> 
+                  <input onClick=begin(-1) type=button value="&lt;=Retour" name=show>
+                  &nbsp; &nbsp; 
+                  <input onClick=begin(1) type=button value="Suite=&gt;" name=show>
+                  <br>
+                  </font></div>
+              </center>
+            </form>
+            <p></p>
+            <p></p>
+          </td>
+          <td width=200></td>
+        </tr>
+        </tbody> 
+      </table>
+      <table width="80%" border=0 align="center">
+        <tbody> 
+        <tr> 
+          <td valign=top width=236> 
+            <p><font face="Garamond" size="4"><b>Votre traduction:</b> </font> 
+            <form name=Sinput action="" method=post>
+              <p> <font face="Garamond" size="4"> 
+                <textarea name=Content rows=4 wrap=virtual cols=35></textarea>
+                </font> 
+            </form>
+            <p></p>
+            <p></p>
+          </td>
+          <td valign=top width=308> 
+            <p><font face="Garamond" size="4"><b>Le professeur suggère:</b> </font> 
+            <form name=feedback action="" method=post>
+              <p> <font face="Garamond" size="4"> 
+                <textarea name=fb rows=4 wrap=virtual cols=35></textarea>
+                </font> 
+            </form>
+            <form name=check action="" method=post>
+              <center>
+                <div align=left> <font face="Garamond" size="4"> 
+                  <input onClick=Check() type=button value="Montrer" name=Button>
+                  <input onClick="(document.feedback.fb.value='')" type=button value="Cacher" name=show>
+                  </font></div>
+              </center>
+            </form>
+<SCRIPT language=Javascript><!--//
+//  This code is based on a script by Marmoe Soemarmo.  
+//  Dan Beeby modified it and wrote the creation interface, JavaScripts, and Perl Scripts.
+//  http://lang.swarthmore.edu/mellon -- dbeeby@haverford.edu.
+//  Content by Alison Murray Levine, University of Virginia, alevine@virginia.edu.
+//  You may borrow and modify these scripts, but please give credit where credit is due.
+	var Question= new Array();
+	var Answer= new Array();
+//---------------------DATA--------------------
+
+Question[1]="In 1911 the Hôtel Biron, current site of the Musée Rodin, was bought by the French government.";Question[2]="Rodin's collections were offered to the government in exchange for a guarantee that a museum would be devoted to him at the Hôtel Biron.";Question[3]="The plan was supported by Claude Monet, Octave Mirbeau, Raymond Poincaré, and Georges Clémenceau, among other public figures.";Question[4]="At that time, Rodin's art was not well understood.";Question[5]="It was even regarded by some as the work of the devil.";Question[6]="The donations were approved by a vote in parliament and made official on December 24, 1916.";Question[7]="All the collections, including Rodin's photographs and archives, were transferred to the State.";Question[8]="The opening of the museum was held in 1919.";Question[9]="Today, the museum is visited by an average of 500,000 visitors per year.";Question[10]="Even the chairs and sofas in the museum, which can be used by visitors, were donated by Rodin.";Question[11]="*no need to translate; this is just FYI:* Alison Levine adapted this text from Jacques Vilain, *De d'hôtel Biron au Musée Rodin,* based on the work *Rodin--le musée et ses collections* (Paris: Scala, 1996). The original text can be found on the museum's website,  http://www.musee-rodin.fr/accueil.htm. My version is a little contrived, as no real paragraph would be written completely in the passive voice. In the next exercise, you'll take the same text and lighten it up with active voice to make it sound more natural.";
+
+Answer[1]="En 1911, l'hôtel Biron, site actuel du Musée Rodin, a été acheté (fut acheté) par l'Etat français.";Answer[2]="Les collections de Rodin ont été (furent) offertes à l'Etat contre le garanti qu'un musée lui serait dédié à l'hôtel Biron.";Answer[3]="Le projet a été (fut) soutenu par Claude Monet, Octave Mirbeau, Raymond Poincaré, et Georges Clémenceau, entre autres personnalités.";Answer[4]="A l'époque, l'oeuvre de Rodin n'était pas bien comprise.";Answer[5]="Certains la considéraient même comme l'oeuvre du diable. (le texte d'origine emploie le mot *sulfureux.*)";Answer[6]="Les donations ont été (furent) approuvées par un vote du Parlement et officialisées le 24 décembre 1916.";Answer[7]="Toutes les collections, y compris les photographies et les archives de Rodin, ont été (furent) transférées à l'Etat.";Answer[8]="L'ouverture du musée a eu lieu en 1919.";Answer[9]="Aujourd'hui, le musée est visité par 500.000 visiteurs par an en moyenne.";Answer[10]="Même les chaises et les divans (les canapés) dans le musée, qui peuvent être utilisés par les visiteurs, ont été (furent) donnés par Rodin.";Answer[11]="Click on the next passive voice exercise to work on avoiding passive voice (I know, just as you learn it, you have to learn how to avoid it…).";
+
+//-------------------END DATA-------------
+
+var NextQ = 0;
+var QN = 0;
+
+function begin(QN){
+NextQ = NextQ + QN
+	if (Question[NextQ] == null) {
+alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.")
+	}
+	document.feedback.fb.value=""
+	document.Sinput.Content.value=""
+	document.qbox.q.value=Question[NextQ]
+}
+
+function Check(){
+	if (document.Sinput.Content.value == ""){
+        document.feedback.fb.value="Essayez de répondre à la question avant de voir la réponse du professeur."
+        }
+	else{
+	document.feedback.fb.value=Answer[NextQ]
+}
+}
+//--></SCRIPT>

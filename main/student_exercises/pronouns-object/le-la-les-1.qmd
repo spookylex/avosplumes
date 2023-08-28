@@ -1,0 +1,94 @@
+---
+title: "Le/La/Les (1)"
+---
+
+<html>
+<head>
+  <title>Complétez les phrases</title>
+  <script language="JavaScript">
+    // Your JavaScript code here
+    function dasher(Student, Correct) {
+      var studentAnswer = Student.value;
+      var correctAnswer = Correct;
+      var result = "";
+      for (var c = 0; c < correctAnswer.length; c++) {
+        var CorrectX = correctAnswer.charAt(c);
+        var StudentX = studentAnswer.charAt(c);
+        if (CorrectX == StudentX) {
+          result = result + CorrectX;
+        } else {
+          result = result + "=";
+        }
+      }
+      Student.value = result;
+      if (studentAnswer == correctAnswer) {
+        Student.value = "*" + studentAnswer + "*";
+      }
+    }
+  </script>
+</head>
+<body>
+  <p align="left">
+    <font face="Garamond" size="4">
+      Complétez les phrases en utilisant<b> le, la, les, </b>ou<b> l'</b>.<br>
+      Cliquez "C" --&gt; correction.<br>
+      Correct? --&gt; *astérisques*.<br>
+      Incorrect?--&gt; ====.
+    </font>
+    <font face="Garamond" size="4">
+      <br>
+    </font>
+  </p>
+  <form action="" method="post">
+    <font face="Garamond" size="4">
+      Est-ce que Jacques aime le cinéma?<br>
+      Oui, il
+      <input size="5" name="item1">
+      <input type="button" value="C" name="Button" onclick="dasher(form.item1, 'l\'')">
+      adore.<br><br>
+      Et Brigitte, elle aime le théâtre?<br>
+      Oui, elle
+      <input size="5" name="item2">
+      <input type="button" value="C" name="Button" onclick="dasher(form.item2, 'l\'')">
+      aime.<br><br>
+      Et toi, tu aimes les films romantiques?<br>
+      Non, je
+      <input size="5" name="item3">
+      <input type="button" value="C" name="Button" onclick="dasher(form.item3, 'les')">
+      déteste.<br><br>
+      Est-ce que tu connais la ville italienne, Florence?<br>
+      Oui, je
+      <input size="5" name="item4">
+      <input type="button" value="C" name="Button" onclick="dasher(form.item4, 'la')">
+      connais.<br><br>
+      Est-ce que tes parents connaissent les catacombes de Paris?<br>
+      Oui! Ils
+      <input size="5" name="item5">
+      <input type="button" value="C" name="Button" onclick="dasher(form.item5, 'les')">
+      ont visitées l'été dernier.<br><br>
+      Avez-vous visité Paris?<br>
+      Oui, je
+      <input size="5" name="item6">
+      <input type="button" value="C" name="Button" onclick="dasher(form.item6, 'l\'')">
+      ai visité.<br><br>
+      Est-ce que les enfants connaissent Meknes, au Maroc?<br>
+      Non, ils ne
+      <input size="5" name="item7">
+      <input type="button" value="C" name="Button" onclick="dasher(form.item7, 'le')">
+      connaissent pas.<br><br>
+      Est-ce que ton professeur connaît cette boulangerie?<br>
+      Non, elle ne
+      <input size="5" name="item8">
+      <input type="button" value="C" name="Button" onclick="dasher(form.item8, 'la')">
+      connaît pas.<br><br>
+      Et ta soeur, elle connaît les vins de Bordeaux?<br>
+      Oui, elle
+      <input size="5" name="item9">
+      <input type="button" value="C" name="Button" onclick="dasher(form.item9, 'les')">
+      connaît bien.<br><br>
+      <input type="button" value="Montrer les r&eacute;ponses" name="Button" onclick="form.item1.value='l\'';form.item2.value='l\'';form.item3.value='les';form.item4.value='la';form.item5.value='les';form.item6.value='l\'';form.item7.value='le';form.item8.value='la';form.item9.value='les';">
+      <input type="button" value="Effacer les r&eacute;ponses" name="Button" onclick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';">
+    </font>
+  </form>
+</body>
+</html>

@@ -1,0 +1,83 @@
+---
+title: "Who/what (2)"
+---
+
+<br />Complétez les questions
+          en utilisant un mot interrogatif (qui, qui est-ce que, qu'est-ce qui, 
+          qu'est-ce que). Ces questions parlent d'une image qui se trouve dans Goscinny et Uderzo, <i>Le combat des chefs: une aventure d'Ast&eacute;rix</i> 
+        (Neuilly-sur-Seine: Dargaud, 1966), p. 11.<br>
+          Cliquez "C" --&gt; correction.<br>
+          Correct? --&gt; *astérisques*. <br>
+          Incorrect?--&gt; ====.</font> </p>
+
+<form action="" method=post>
+   <p><font face="Garamond" size="4"> Q: 
+      <input size=19 name=item1>
+      <input onClick="dasher(form.item1, 'Qui')" type=button value=C name=Button>
+      marche seul dans la forêt?<br>
+      R: Panoramix, le druide, marche seul dans la forêt.<br>
+      Q: 
+      <input size=19 name=item2>
+      <input onClick="dasher(form.item2, 'Qu\'est-ce que')" type=button value=C name=Button>
+      Panoramix fait?<br>
+      R: Il cherche des herbes pour la potion magique.<br>
+      Q: 
+      <input size=19 name=item3>
+      <input onClick="dasher(form.item3, 'Qui')" type=button value=C name=Button>
+      est caché dans les arbres?<br>
+      R: Les soldats romains </font><font face="Garamond" size="4">sont 
+      cachés dans les arbres.<br>
+      Q: 
+      <input size=19 name=item5>
+      <input onClick="dasher(form.item5, 'Qu\'est-ce que')" type=button value=C name=Button>
+      le druide découvre sous un arbre?<br>
+      R: Il découvre un pied.<br>
+      Q: 
+      <input size=19 name=item6>
+      <input onClick="dasher(form.item6, 'Qu\'est-ce que')" type=button value=C name=Button>
+      le druide comprend une seconde après?<br>
+      R: Il comprend que le pied est attaché à un soldat romain.<br>
+      Q: 
+      <input size=19 name=item7>
+      <input onClick="dasher(form.item7, 'Qu\'est-ce que')" type=button value=C name=Button>
+      les Romains crient?<br>
+      R: Ils crient: *Nous le tenons! Attrapez-le vite!*<br>
+      Q: 
+      <input size=19 name=item8>
+      <input onClick="dasher(form.item8, 'Qui est-ce que')" type=button value=C name=Button>
+      les Romains désirent attraper?<br>
+      R: Ils désirent attraper Panoramix, le druide. <br>
+      <input onClick="form.item1.value='Qui';form.item2.value='Qu\'est-ce que';form.item3.value='Qui';form.item5.value='Qu\'est-ce que';form.item6.value='Qu\'est-ce que';form.item7.value='Qu\'est-ce que';form.item8.value='Qui est-ce que';" type=button value="Réponses" name=Button>
+      <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';" type=button value="Effacer" name=Button>
+      </font> 
+   </p>
+</form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

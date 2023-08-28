@@ -1,0 +1,141 @@
+---
+title: "Le/la/les vs. lui/leur vs. y vs.en (1)"
+---
+<p align=left><font face="Garamond" size="4">Remplissez les blancs par <b>le, 
+        la, les, l', lui, leur, y</b> ou<b> en</b>.<br>
+        <br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+### Famille et population en France : tendances
+
+Voici quelques données démographiques qui sont en hausse en France:\ 
+
+- la population totale\
+
+- le pourcentage de la population qui a plus de 65 ans\
+
+- les naissances hors mariage : plus de 50% depuis 2007\
+
+- l'âge moyen de la maternité (qui se rapproche de plus en plus de 30 ans).\
+
+\
+ <form action="" method=post>
+              <font face="Garamond" size="4">--Salut, Jacques! Tu veux déjeuner 
+              avec moi?<br>
+              --Tiens, salut Marie! Pourquoi pas?<br>
+              --Tu aimes les escargots?<br>
+              --Non, je ne 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'les')" type=button value=C name=Button>
+              aime pas trop.<br>
+              --Peut-être que tu peux prendre de la viande, alors?<br>
+              --Non, je n' 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'en')" type=button value=C name=Button>
+              prends jamais. Je suis végétarien. Je vais prendre une salade.<br>
+              --Ah, bon. Tu as entendu ce qui est arrivé à Julie?<br>
+              --Julie? Est-ce que je 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'la')" type=button value=C name=Button>
+              connais?<br>
+              --Mais oui, Julie! C'est la fille du cours de chimie. Tu 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'lui')" type=button value=C name=Button>
+              as parlé de tes problèmes avec Anne-Marie l'année dernière.<br>
+              --Ah oui, je m' 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'en')" type=button value=C name=Button>
+              souviens maintenant! Alors, raconte.<br>
+              --Eh bien, elle a passé une nuit à la gendarmerie.<br>
+              --A la gendarmerie! Pourquoi est-ce qu'elle 
+              <input 
+      size=9 name=item6>
+              <input onClick="dasher(form.item6, 'y')" type=button value=C name=Button>
+              a passé une nuit?<br>
+              --Parce que les gendarmes 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'l\'')" type=button value=C name=Button>
+              ont trouvée ivre sur un banc public en plein coeur de Paris.<br>
+              --Oh là! Elle est alcoolique?<br>
+              --Je ne sais pas, elle ne m' 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'en')" type=button value=C name=Button>
+              a pas parlé, mais je me pose la question.<br>
+              --Il faut 
+              <input size=9 
+      name=item9>
+              <input onClick="dasher(form.item9, 'lui')" type=button value=C name=Button>
+              dire quelque chose, tu sais? On peut 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'lui')" type=button value=C name=Button>
+              dire qu'on est là pour 
+              <input size=9 name=item11>
+              <input onClick="dasher(form.item11, 'l\'')" type=button value=C name=Button>
+              aider si elle veut. Elle est sympa, cette fille. --Tu sais si elle 
+              a de la famille?<br>
+              --Je sais qu'elle a une soeur, parce que je 
+              <input size=9 
+      name=item12>
+              <input onClick="dasher(form.item12, 'l\'')" type=button value=C name=Button>
+              ai rencontrée à un vernissage de photos.<br>
+              --Peut-être que nous pourrions 
+              <input size=9 name=item13>
+              <input onClick="dasher(form.item13, 'l\'')" type=button value=C name=Button>
+              appeler pour 
+              <input size=9 name=item14>
+              <input onClick="dasher(form.item14, 'lui')" type=button value=C name=Button>
+              demander son avis.<br>
+              --Oui, c'est une bonne idée. Mais tu ne crois pas qu'on devrait 
+              demander à Julie si on peut téléphoner à sa soeur?<br>
+              --Peut-être. Tu veux 
+              <input size=9 name=item15>
+              <input onClick="dasher(form.item15, 'lui')" type=button value=C name=Button>
+              téléphoner ce soir? Tu peux me dire comment elle a réagi.<br>
+              --D'accord. Il faut que j'y aille maintenant. Je vais à la fac.<br>
+              --Oui, j' 
+              <input 
+      size=9 name=item16>
+              <input onClick="dasher(form.item16, 'y')" type=button value=C name=Button>
+              vais aussi. On peut 
+              <input size=9 name=item17>
+              <input onClick="dasher(form.item17, 'y')" type=button value=C name=Button>
+              aller ensemble.<br>
+              --Voilà une bonne idée! <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='les';form.item2.value='en';form.item3.value='la';form.item4.value='lui';form.item5.value='en';form.item6.value='y';form.item7.value='l\'';form.item8.value='en';form.item9.value='lui';form.item10.value='lui';form.item11.value='l\'';form.item12.value='l\'';form.item13.value='l\'';form.item14.value='lui';form.item15.value='lui';form.item16.value='y';form.item17.value='y';" type=button value="Montrer les r&eacute;ponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';form.item15.value='';form.item16.value='';form.item17.value='';" type=button value="Effacer les r&eacute;ponses" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

@@ -1,0 +1,87 @@
+---
+title: ""
+---
+
+<p align=left><font face="Garamond" size="4">Conjuguez le verbe "aller" 
+        au passé composé.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+<form action="" method=post>
+              <p><font face="Garamond" size="4"> Les habitants du jardin de Fifi 
+                racontent leurs vacances... </font></p>
+              <p><font face="Garamond" size="4">Le rhinocéros 
+                <input size=9 name=item1>
+                <input onClick="dasher(form.item1, 'est allé')" type=button value=C name=Button>
+                à Fos pour rouler sa bosse.<br>
+                La maman de Lise 
+                <input size=9 name=item2>
+                <input onClick="dasher(form.item2, 'est allée')" type=button value=C name=Button>
+                à Venise pour piquer une crise.<br>
+                Les caméléons (m.) 
+                <input size=9 
+      name=item3>
+                <input onClick="dasher(form.item3, 'sont allés')" type=button value=C name=Button>
+                à Florence pour apprendre la danse.<br>
+                Vous, Monsieur l'âne, vous 
+                <input 
+      size=9 name=item4>
+                <input onClick="dasher(form.item4, 'êtes allé')" type=button value=C name=Button>
+                dans la savane pour fumer des havanes.<br>
+                Les grosses salamandres 
+                <input 
+      size=9 name=item5>
+                <input onClick="dasher(form.item5, 'sont allées')" type=button value=C name=Button>
+                à Londres pour apprendre à pondre. <br>
+                Toi le vieux chat, tu 
+                <input size=9 
+      name=item6>
+                <input onClick="dasher(form.item6, 'es allé')" type=button value=C name=Button>
+                à Blois pour un ménage à trois.<br>
+                Le serpent à sonnettes 
+                <input size=9 
+      name=item7>
+                <input onClick="dasher(form.item7, 'est allé')" type=button value=C name=Button>
+                à Papeete pour un repas de fête.<br>
+                Et Fifi et moi (f.), nous 
+                <input 
+      size=13 name=item8>
+                <input onClick="dasher(form.item8, 'sommes allées')" type=button value=C name=Button>
+                à Troie avec Monsieur Casse-Noix. <br>
+                <br>
+                <br>
+                <input onClick="form.item1.value='est allé';form.item2.value='est allée';form.item3.value='sont allés';form.item4.value='êtes allé';form.item5.value='sont allées';form.item6.value='es allé';form.item7.value='est allé';form.item8.value='sommes allées';" type=button value="Réponses" name=Button>
+                <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';" type=button value="Effacer" name=Button>
+                </font> </p>
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

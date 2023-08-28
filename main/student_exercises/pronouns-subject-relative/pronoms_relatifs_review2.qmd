@@ -1,0 +1,87 @@
+---
+title: "Relative pronouns: les pronoms relatifs"
+---
+
+(qui, que, dont, ce qui, ce que, etc...)
+========================================
+
+1\. What's a Relative Pronoun?
+==============================
+
+Relative pronouns are used to combine sentences and to avoid redundancy in writing. They are used to introduce relative clauses--parts of sentences that describe, define or expand on something already referred to in the sentence--and in English, the relative pronouns are usually **who, whom, which, or that**:
+
+I need the book **which** is in your bag.\
+Julie is a person **whom** I hold in the highest esteem.\
+What is the title of the paper to** which** you referred earlier?
+
+In each of these sentences, the relative pronoun is in **bold**, and the relative clause is in blue (the rest of the sentence could stand alone without it.)
+
+In English, we often omit the relative pronoun (Julie is a person I hold in the highest esteem.) but in French, you must always use it.
+
+To choose the correct relative pronoun in French, you need to ask two questions:\
+1\. What is the grammatical function of the pronoun in the relative clause?\
+2\. Are we referring to a person or a thing?
+
+Let's ask these questions of our example sentences.
+
+I need the book **which** is in your bag.
+
+Look at the relative clause --which is in your bag --\
+1\. is which the subject of the verb is, or its object, or is it the object of a preposition?\
+2\. Does which refer to a person or a thing?
+
+Likewise, in this example:
+
+Julie is a person **whom** I hold in the highest esteem.
+
+Look at the relative clause --whom I hold in the highest esteem --\
+1\. Is whom the subject of the verb hold, or its object, or is it the object of a preposition?\
+2\. Does whom refer to a person or a thing?
+
+Try this one:
+
+What is the title of the paper to** which** you referred earlier?
+
+Look at the relative clause --to which you referred earlier --\
+1\. Is which the subject of the verb referred, or its object, or is it the object of a preposition?\
+2\. Does which refer to a person or a thing?
+
+Once you've figured out the answer to these two questions, this chart shows which relative pronoun you choose in each case.
+
+**2\. Relative pronouns in French**
+
+| **Grammatical function of relative pronoun in sentence** | **Refers to person** | **Refers to thing** | **Means "what"**\
+(has no specific antecedent)  |
+| **Subject of sentence** | qui\
+Dans ce film, il y a un homme qui adore sa femme.  | qui\
+Dans ce film, il y a une bombe qui explose en ville.  | ce qui\
+Je ne sais pas ce qui est dans le carton.  |
+| **Direct object of sentence** | que\
+Michelle est la personne que je pr�f�re.  | que\
+O� sont les devoirs que tu as faits hier soir?  | ce que\
+Ce que j'adore, c'est la pizza aux oignons.  |
+| **Object of preposition:**\
+�, sur, avec, etc.  | � qui, sur qui, avec qui, etc.\
+La personne � qui je parle est mon prof de fran�ais.  | auquel (**see note), sur lequel**, avec lequel**, etc.\
+La chaise sur laquelle tu es assis est fragile.  | ce � quoi, ce sur quoi, ce avec quoi, etc...[FREN 201s don't need this]  |
+| **Object of preposition:**\
+de  | dont\
+La femme dont je suis amoureuse est ici.  | dont\
+L'argent dont j'ai besoin est ici.  | ce dont\
+Je ne sais pas ce dont tu as peur.  |
+| **Object of complex preposition:**\
+� c�t� de, pr�s de, loin de, en face de, etc.  | � c�t� duquel,**\
+pr�s duquel,**\
+loin duquel,**etc.\
+La femme pr�s de laquelle j'habite est gentille.  | � c�t� duquel,**\
+pr�s duquel,**\
+loin duquel,**etc.\
+J'aime bien le bar � c�t� duquel il y a un jardin.  | --  |
+| **Time expression **(le jour, l'ann�e, etc.)\
+=means "when"\
+or place expression\
+=means "where"  | --  | o�\
+Le jour o� je suis n�e, mon fr�re a eu une crise.  | --  |\
+**Auquel is a contraction of � + lequel.\
+Duquel is a contraction of de + lequel.\
+When the pronoun refers to a feminine, or a plural, lequel becomes laquelle, lesquels, or lesquelles, and no contraction is made, so you get � laquelle, de laquelle, etc.

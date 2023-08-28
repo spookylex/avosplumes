@@ -1,0 +1,116 @@
+---
+title: "Telling Time (2)"
+---
+<p align=left><font face="Garamond" size="4">Matin, après-midi, ou soir? 
+        Complétez les phrases.<br>
+        Cliquez "C" --> correction.<br>
+        Correct? --> *astérisques*. <br>
+        Incorrect?--> ====.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> 1. 16h30: Il est 
+              <input type=text name=item1 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item1, 'quatre')">
+              heures et demie 
+              <input type=text name=item2 value="" size=15>
+              <input type=button name=Button value="C" onClick="dasher(form.item2, 'de l\'après-midi')">
+              .<br>
+              2. 22h40: Il est 
+              <input type=text name=item3 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item3, 'onze')">
+              heures moins vingt 
+              <input type=text name=item4 value="" size=15>
+              <input type=button name=Button value="C" onClick="dasher(form.item4, 'du soir')">
+              .<br>
+              3. 8h: Il est 
+              <input type=text name=item5 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item5, 'huit')">
+              heures 
+              <input type=text name=item6 value="" size=15>
+              <input type=button name=Button value="C" onClick="dasher(form.item6, 'du matin')">
+              .<br>
+              4. 10h15: Il est 
+              <input type=text name=item7 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item7, 'dix')">
+              heures et quart 
+              <input type=text name=item8 value="" size=15>
+              <input type=button name=Button value="C" onClick="dasher(form.item8, 'du matin')">
+              .<br>
+              5. 11h05: Il est 
+              <input type=text name=item9 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item9, 'onze')">
+              heures cinq 
+              <input type=text name=item10 value="" size=15>
+              <input type=button name=Button value="C" onClick="dasher(form.item10, 'du matin')">
+              .<br>
+              6. 19h30: Il est 
+              <input type=text name=item11 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item11, 'sept')">
+              heures et demie 
+              <input type=text name=item12 value="" size=15>
+              <input type=button name=Button value="C" onClick="dasher(form.item12, 'du soir')">
+              .<br>
+              7. 21h: Il est 
+              <input type=text name=item13 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item13, 'neuf')">
+              heures 
+              <input type=text name=item14 value="" size=15>
+              <input type=button name=Button value="C" onClick="dasher(form.item14, 'du soir')">
+              .<br>
+              8. 15h45: Il est 
+              <input type=text name=item15 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item15, 'quatre')">
+              heures moins le quart 
+              <input type=text name=item16 value="" size=15>
+              <input type=button name=Button value="C" onClick="dasher(form.item16, 'de l\'après-midi')">
+              .<br>
+              9. 2h: Il est 
+              <input type=text name=item17 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item17, 'deux')">
+              heures 
+              <input type=text name=item18 value="" size=15>
+              <input type=button name=Button value="C" onClick="dasher(form.item18, 'du matin')">
+              .<br>
+              10. 20h10: Il est 
+              <input type=text name=item19 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item19, 'huit')">
+              heures dix 
+              <input type=text name=item20 value="" size=15>
+              <input type=button name=Button value="C" onClick="dasher(form.item20, 'du soir')">
+              . <br>
+              <br>
+              <br>
+              <input type=button name=Button value="Réponses" onClick="form.item1.value='quatre';form.item2.value='de l\'après-midi';form.item3.value='onze';form.item4.value='du soir';form.item5.value='huit';form.item6.value='du matin';form.item7.value='dix';form.item8.value='du matin';form.item9.value='onze';form.item10.value='du matin';form.item11.value='sept';form.item12.value='du soir';form.item13.value='neuf';form.item14.value='du soir';form.item15.value='quatre';form.item16.value='de l\'après-midi';form.item17.value='deux';form.item18.value='du matin';form.item19.value='huit';form.item20.value='du soir';">
+              <input type=button name=Button2 value="Effacer" onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';form.item15.value='';form.item16.value='';form.item17.value='';form.item18.value='';form.item19.value='';form.item20.value='';">
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

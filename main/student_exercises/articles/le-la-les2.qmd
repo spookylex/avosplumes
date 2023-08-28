@@ -1,0 +1,86 @@
+---
+title: "Le/La/Les (2)"
+---
+<p align=left><font face="Garamond" size="4">Complétez en utilisant "le," 
+        "la," "les," ou "l'." <br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font></p>
+ <form action="" method=post>
+              <font face="Garamond" size="4"> Sara habite 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'le')" type=button value=C name=Button>
+              village de Bourg d'Oisans. <br>
+              Pour aller chez elle, elle prend 
+              <input 
+      size=9 name=item2>
+              <input onClick="dasher(form.item2, 'le')" type=button value=C name=Button>
+              train de 12h34. <br>
+              Elle descend à 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'la')" type=button value=C name=Button>
+              station de Grenoble, puis elle doit attendre 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'le')" type=button value=C name=Button>
+              bus de 14h43.<br>
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'Le')" type=button value=C name=Button>
+              bus s'arrête juste devant 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'l\'')" type=button value=C name=Button>
+              hôpital de Bourg d'Oisans. <br>
+              De là, elle doit continuer à pied, en passant devant 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'la')" type=button value=C name=Button>
+              boulangerie, devant 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'les')" type=button value=C name=Button>
+              écoles, et derrière 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'les')" type=button value=C name=Button>
+              usines d'électricité. <br>
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'L\'')" type=button value=C name=Button>
+              appartement où elle habite se trouve sur 
+              <input size=9 name=item11>
+              <input onClick="dasher(form.item11, 'la')" type=button value=C name=Button>
+              place de la mairie, en face de 
+              <input size=9 name=item12>
+              <input onClick="dasher(form.item12, 'l\'')" type=button value=C name=Button>
+              église. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='le';form.item2.value='le';form.item3.value='la';form.item4.value='le';form.item5.value='Le';form.item6.value='l\'';form.item7.value='la';form.item8.value='les';form.item9.value='les';form.item10.value='L\'';form.item11.value='la';form.item12.value='l\'';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

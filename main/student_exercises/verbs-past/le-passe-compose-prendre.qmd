@@ -1,0 +1,96 @@
+---
+title: "Le passé composé--prendre"
+---
+
+<p align=left><font face="Garamond" size="4">Conjuguez les verbes entre 
+        parenthèses au passé composé.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.<br>
+        </font></p>
+
+ <form action="" method=post>
+              <font face="Garamond" size="4">L'année dernière, j'(prendre) 
+              <input size=13 
+      name=item1>
+              <input onClick="dasher(form.item1, 'ai pris')" type=button value=C name=Button>
+              le train pour aller à Chicoutimi, au Québec. <br>
+              En arrivant à la gare, j'(apprendre) 
+              <input size=13 name=item2>
+              <input onClick="dasher(form.item2, 'ai appris')" type=button value=C name=Button>
+              que ma famille d'accueil ne pouvait pas venir me chercher. Je (comprendre 
+              au négatif) 
+              <input size=16 name=item3>
+              <input onClick="dasher(form.item3, 'n\'ai pas compris')" type=button value=C name=Button>
+              . <br>
+              Le chef de gare (prendre) 
+              <input size=13 name=item4>
+              <input onClick="dasher(form.item4, 'a pris')" type=button value=C name=Button>
+              mes valises et m'a dit, --ZXCVZXDSAFSDF. <br>
+              --Vous (comprendre) 
+              <input 
+      size=13 name=item5>
+              <input onClick="dasher(form.item5, 'avez compris')" type=button value=C name=Button>
+              ce qu'il a dit? a dit un autre passager. <br>
+              --Euh, non, et vous?<br>
+              --Oui, dit-il. J'(apprendre) 
+              <input size=13 name=item6>
+              <input onClick="dasher(form.item6, 'ai appris')" type=button value=C name=Button>
+              mon français au Québec. Vos parents d'accueil (comprendre) 
+              <input size=13 
+      name=item7>
+              <input onClick="dasher(form.item7, 'ont compris')" type=button value=C name=Button>
+              que vous arriviez demain, et ils n'ont pas de voiture aujourd'hui. 
+              Mais ils (prendre) 
+              <input size=13 name=item8>
+              <input onClick="dasher(form.item8, 'ont pris')" type=button value=C name=Button>
+              un taxi maintenant, et ils arrivent.<br>
+              J'étais contente. Dans ma t&ecirc;te, j'entendais la voix de mon 
+              prof: --Classe, nous (apprendre) 
+              <input size=13 name=item9>
+              <input onClick="dasher(form.item9, 'avons appris')" type=button value=C name=Button>
+              toutes les formules de politesse hier, nous allons les r&eacute;p&eacute;ter 
+              aujourd'hui...<br>
+              Sur le moment, je ne me souvenais de rien. Mais à ce moment-là, 
+              les parents sont arrivés, et ils (prendre) 
+              <input size=13 name=item10>
+              <input onClick="dasher(form.item10, 'ont pris')" type=button value=C name=Button>
+              mes bagages en disant, --Nous (comprendre) 
+              <input size=13 name=item11>
+              <input onClick="dasher(form.item11, 'avons compris')" type=button value=C name=Button>
+              demain! Nous sommes désolés! Bienvenue au Canada! <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='ai pris';form.item2.value='ai appris';form.item3.value='n\'ai pas compris';form.item4.value='a pris';form.item5.value='avez compris';form.item6.value='ai appris';form.item7.value='ont compris';form.item8.value='ont pris';form.item9.value='avons appris';form.item10.value='ont pris';form.item11.value='avons compris';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

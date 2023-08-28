@@ -1,0 +1,328 @@
+---
+title: "Possessives (1)"
+---
+
+<p><font face="Garamond" size="5"><b>Choisissez la réponse correcte.</b></font></p>
+
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">1. ____ chiens sont insupportables.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice1(this.form)" type="radio" value="Non, c'est pluriel." name="one"> Son
+            <br>
+            <input onClick="choice1(this.form)" type="radio" value="Non, c'est pluriel." name="one"> Sa
+            <br>
+            <input onClick="choice1(this.form)" type="radio" value="Oui!" name="one"> Ses
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <input type="text" size="30" name="feedback1" value="">
+            </font></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</form>
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">2. Vous connaissez ____ professeur de français, Monsieur Martin?</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui, le professeur Martin est masculin singulier." name="one"> mon
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, le professeur Martin est masculin singulier." name="one"> ma
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, le professeur Martin est masculin singulier." name="one"> mes
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">3. Tu as ___ permis de conduire?</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui!" name="one"> ton
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *permis* est masculin singulier." name="one"> ta
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *permis* est masculin singulier." name="one"> tes
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">4. J'adore ___ fille.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, *fille* est féminin." name="one"> son
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui!" name="one"> sa
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *fille* est féminin singulier." name="one"> ses
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">5. Il faut que tu respectes ___ parents.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, *parents* est pluriel." name="one"> ton
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *parents* est pluriel." name="one"> ta
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui!" name="one"> tes
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">6. Vous avez ____ papiers?</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, *papiers* est pluriel." name="one"> votre
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui!" name="one"> vos
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">7. ___ appartement est clair et spacieux.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui!" name="one"> mon
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *appartement* est masculin singulier." name="one"> ma
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *appartement* est masculin singulier." name="one"> mes
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">8. Il y a beaucoup d'étudiants qui quittent ___ université.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui! *université* est féminin, mais il y a une voyelle (u). On dit *mon université* pour la prononciation." name="one"> mon
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non,*université* est féminin, mais il y a une voyelle. (u)" name="one"> ma
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *université* est singulier. " name="one"> mes
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">9. Je ne sais pas où j'ai laissé ___ cahier.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui!" name="one"> mon
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *cahier* est masculin." name="one"> ma
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *cahier* est singulier." name="one"> mes
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">10. Elle amène ___ chien chez le coiffeur.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui!" name="one"> son
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *chien* est masculin." name="one"> sa
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *chien* est singulier." name="one"> ses
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">11. Elle amène ___ ami en classe avec elle.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui!" name="one"> son
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *ami* est masculin." name="one"> sa
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *ami* est singulier." name="one"> ses
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">12. Monsieur Ricard a oublié ___ canne aujourd'hui.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, *canne* est féminin." name="one"> son
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui!" name="one"> sa
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *canne* est singulier." name="one"> ses
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">13. Il est trop paresseux pour porter ___ fille.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, *fille* est féminin." name="one"> son
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui!" name="one"> sa
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *fille* est singulier." name="one"> ses
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<script language="JavaScript">
+  function choice1(form) {
+    for (var i = 0; i < form.one.length; i++) {
+      if (form.one[i + 0].checked) {
+        break;
+      }
+    }
+    form.feedback1.value = form.one[i + 0].value;
+  }
+
+  function choice2(form) {
+    for (var i = 0; i < form.one.length; i++) {
+      if (form.one[i + 0].checked) {
+        break;
+      }
+    }
+    form.feedback2.value = form.one[i + 0].value;
+  }
+
+  // Define the remaining choice functions (choice3, choice4, etc.) similarly
+</script>

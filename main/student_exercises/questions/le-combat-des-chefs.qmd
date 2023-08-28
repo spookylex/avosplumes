@@ -1,0 +1,418 @@
+---
+title: "Who/what (1)"
+---
+
+### (poser des questions)
+Choisissez la forme correcte de la question, qui parle de Goscinny et Uderzo, <i>Le combat des chefs: une aventure d'Ast&eacute;rix</i> (Neuilly-sur-Seine: Dargaud, 1966), p.9. <br />
+
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">1. Q: ____ Astérix voit passer 
+                  devant sa maison?<br>
+                  =&gt;R: Il voit Panoramix, le druide.</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input onClick=choice1(this.form) type=radio 
+                  value="Non. *Qui* = *who* pour un sujet. Ici, Astérix=sujet." 
+                  name=one>
+               Qui<br>
+               <input onClick=choice1(this.form) type=radio 
+                  value="Oui! *Qui est-ce que* = *whom* pour un objet direct." name=one>
+               Qui est-ce que<br>
+               <input onClick=choice1(this.form) type=radio 
+                  value="Non. *Qu'est-ce qui* = *what.*" name=one>
+               Qu'est-ce qui<br>
+               <input 
+                  onClick=choice1(this.form) type=radio 
+                  value="Non. *Qu'est-ce que* = *what.*" name=one>
+               Qu'est-ce que<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="30" name="feedback1" rows="4"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">2. Q: _____ Panoramix va faire?<br>
+                  =&gt;R: Il va aller dans la forêt cueillir des ingrédients pour 
+                  la potion magique.</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input 
+                  onClick=choice2(this.form) type=radio value="Non. *Qui* = *who.*" 
+                  name=one>
+               Qui<br>
+               <input onClick=choice2(this.form) type=radio 
+                  value="Non. *Qui est-ce que* = *whom.*" name=one>
+               Qui est-ce que<br>
+               <input 
+                  onClick=choice2(this.form) type=radio 
+                  value="Non. *Qu'est-ce qui* = *what* pour un sujet. Ici, Panoramix=sujet." 
+                  name=one>
+               Qu'est-ce qui<br>
+               <input onClick=choice2(this.form) type=radio 
+                  value="Oui! *Qu'est-ce que* = *what* pour un objet direct. Panoramix=sujet, *qu'est-ce que*=objet direct." 
+                  name=one>
+               Qu'est-ce que<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="30" name="feedback2" rows="4"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">3. Q: _____ inquiète (=worries) 
+                  Astérix?<br>
+                  =&gt;R: L'idée du druide seul dans la forêt inquiète Astérix.</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input onClick=choice3(this.form) 
+                  type=radio value="Non. *Qui* = *who.*" name=one>
+               Qui<br>
+               <input 
+                  onClick=choice3(this.form) type=radio 
+                  value="Non. *Qui est-ce que* = *whom.*" name=one>
+               Qui est-ce que<br>
+               <input 
+                  onClick=choice3(this.form) type=radio 
+                  value="Oui! *Qu'est-ce qui* = *what* pour un sujet. Ici, *qu'est-ce qui* est le sujet, suivi directement par le verbe." 
+                  name=one>
+               Qu'est-ce qui<br>
+               <input onClick=choice3(this.form) type=radio 
+                  value="Non. *Qu'est-ce que* = *what* pour un objet direct." 
+                  name=one>
+               Qu'est-ce que<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="30" name="feedback3" rows="4"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">4. Q: _____ Astérix décide de 
+                  faire?<br>
+                  =&gt;R: Il décide de suivre (=to follow) le druide. </font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input onClick=choice4(this.form) type=radio 
+                  value="Non. *Qui* = *who.*" name=one>
+               Qui<br>
+               <input 
+                  onClick=choice4(this.form) type=radio 
+                  value="Non. *Qui est-ce que* = *whom.*" name=one>
+               Qui est-ce qu'<br>
+               <input 
+                  onClick=choice4(this.form) type=radio 
+                  value="Non. *Qu'est-ce qui* = *what* pour un sujet. Ici, Astérix=sujet." 
+                  name=one>
+               Qu'est-ce qui<br>
+               <input onClick=choice4(this.form) type=radio 
+                  value="Oui! *Qu'est-ce que* = *what* pour un objet direct. Astérix=sujet, *qu'est-ce que*=objet direct." 
+                  name=one>
+               Qu'est-ce qu'<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="30" name="feedback4" rows="4"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">5. Q: _____ il voit, après?<br>
+                  =&gt;R: Il voit Obélix.</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input 
+                  onClick=choice5(this.form) type=radio 
+                  value="Non. *Qui* = *who* pour un sujet. Ici, il=sujet." 
+                  name=one>
+               Qui<br>
+               <input onClick=choice5(this.form) type=radio 
+                  value="Oui! *Qui est-ce que* = *whom* pour un objet direct." name=one>
+               Qui est-ce qu'<br>
+               <input onClick=choice5(this.form) type=radio 
+                  value="Non. *Qu'est-ce qui* = *what.*" name=one>
+               Qu'est-ce qui<br>
+               <input 
+                  onClick=choice5(this.form) type=radio 
+                  value="Non. *Qu'est-ce que* = *what.*" name=one>
+               Qu'est-ce qu'<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="30" name="feedback5" rows="4"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">6. Q: ____ Obélix porte?<br>
+                  =&gt;R: Il porte un menhir.</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input 
+                  onClick=choice6(this.form) type=radio value="Non. *Qui* = *who.*" 
+                  name=one>
+               Qui<br>
+               <input onClick=choice6(this.form) type=radio 
+                  value="Non. *Qui est-ce que* = *whom.*" name=one>
+               Qui est-ce qu'<br>
+               <input 
+                  onClick=choice6(this.form) type=radio 
+                  value="Non. *Qu'est-ce qui* = *what* pour un sujet. Ici, Obélix=sujet." 
+                  name=one>
+               Qu'est-ce qui<br>
+               <input onClick=choice6(this.form) type=radio 
+                  value="Oui! *Qu'est-ce que* = *what* pour un objet direct. Obélix=sujet, *qu'est-ce que*=objet direct." 
+                  name=one>
+               Qu'est-ce qu'<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="30" name="feedback6" rows="4"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">7. Q: ____ Obélix décide de faire?<br>
+                  =&gt;R: Il décide d'accompagner Astérix.</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input onClick=choice7(this.form) type=radio 
+                  value="Non. *Qui* = *who.*" name=one>
+               Qui<br>
+               <input 
+                  onClick=choice7(this.form) type=radio 
+                  value="Non. *Qui est-ce que* = *whom.*" name=one>
+               Qui est-ce qu'<br>
+               <input 
+                  onClick=choice7(this.form) type=radio 
+                  value="Non. *Qu'est-ce qui* = *what* pour un sujet. Ici, Obélix=sujet." 
+                  name=one>
+               Qu'est-ce qui<br>
+               <input onClick=choice7(this.form) type=radio 
+                  value="Oui! *Qu'est-ce que* = *what* pour un objet direct. Obélix=sujet, *qu'est-ce que*=objet direct." 
+                  name=one>
+               Qu'est-ce qu'<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="30" name="feedback7" rows="4"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">8. Q: ____ décide de venir avec 
+                  Astérix et Obélix?<br>
+                  =&gt;R: Idéfix (le chien) décide de les accompagner aussi.</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input 
+                  onClick=choice8(this.form) type=radio 
+                  value="Oui! *Qui* = *who* pour un sujet. Ici, *qui*=sujet, suivi directement du verbe (décide)." 
+                  name=one>
+               Qui<br>
+               <input onClick=choice8(this.form) type=radio 
+                  value="Non. *Qui est-ce que* = *whom* pour un objet direct. " name=one>
+               Qui est-ce que<br>
+               <input onClick=choice8(this.form) type=radio 
+                  value="Non. *Qu'est-ce qui* = *what.*" name=one>
+               Qu'est-ce qui<br>
+               <input 
+                  onClick=choice8(this.form) type=radio 
+                  value="Non. *Qu'est-ce que* = *what.*" name=one>
+               Qu'est-ce que<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="30" name="feedback8" rows="4"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">9. Q: ____ se passe dans la dernière 
+                  image?<br>
+                  =&gt;R: Les trois partent ensemble à la forêt.</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input onClick=choice9(this.form) type=radio 
+                  value="Non. *Qui* = *who.*" name=one>
+               Qui<br>
+               <input 
+                  onClick=choice9(this.form) type=radio 
+                  value="Non. *Qui est-ce que* = *whom.*" name=one>
+               Qui est-ce que<br>
+               <input 
+                  onClick=choice9(this.form) type=radio 
+                  value="Oui! *Qu'est-ce qui* = *what* pour un sujet. Ici, *qu'est-ce qui* est le sujet, suivi directement par le verbe." 
+                  name=one>
+               Qu'est-ce qui<br>
+               <input onClick=choice9(this.form) type=radio 
+                  value="Non. *Qu'est-ce que* = *what* pour un objet direct." 
+                  name=one>
+               Qu'est-ce que<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="30" name="feedback9" rows="4"></textarea>
+   </table>
+</form>
+
+ <SCRIPT language=JavaScript><!--
+//  Creation interface, JavaScripts, and Perl Scripts by Dan Beeby.
+//  Based on a Javascript by Barbara Nelson.
+//  http://140.233.69.17/mellon -- dbeeby@haverford.edu.
+//  Content by: Alison Murray Levine, ajlevine@colby.edu
+function choice1(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback1.value=form.one[i+0].value
+}
+
+function choice2(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback2.value=form.one[i+0].value
+}
+
+function choice3(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback3.value=form.one[i+0].value
+}
+
+function choice4(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback4.value=form.one[i+0].value
+}
+
+function choice5(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback5.value=form.one[i+0].value
+}
+
+function choice6(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback6.value=form.one[i+0].value
+}
+
+function choice7(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback7.value=form.one[i+0].value
+}
+function choice8(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback8.value=form.one[i+0].value
+}
+
+function choice9(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback9.value=form.one[i+0].value
+}
+
+function choice10(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback10.value=form.one[i+0].value
+}
+
+<!--script-->
+//--></SCRIPT>

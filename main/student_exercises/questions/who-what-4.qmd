@@ -1,0 +1,78 @@
+---
+title: "Who/what (4)"
+---
+
+Complétez le dialogue en utilisant 
+        <b>qui, qu'est-ce qui, qu'est-ce que</b>, ou <b>qui est-ce que</b>. 
+<br />Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.
+
+<form action="" method=post>
+   <p><font size="4" face="Garamond">-- 
+      <input size=15 name=item1>
+      <input onClick="dasher(form.item1, 'Qu\'est-ce que')" type=button value=C name=Button>
+      tu vas acheter pour la fête des mères?<br>
+      --Je ne sais pas. Je crois que je vais organiser une fête.<br>
+      -- 
+      <input size=15 name=item2>
+      <input onClick="dasher(form.item2, 'Qui est-ce que')" type=button value=C name=Button>
+      tu inviteras à ta fête?<br>
+      --Les amis de ma mère, la famille, quelques copains à moi.... 
+      <input size=15 name=item3>
+      <input onClick="dasher(form.item3, 'Qu\'est-ce que')" type=button value=C name=Button>
+      tu en penses?<br>
+      --Je trouve que c'est une super idée. Moi aussi, j'ai le même 
+      problème. 
+      <input size=15 name=item4>
+      <input onClick="dasher(form.item4, 'Qu\'est-ce qui')" type=button value=C name=Button>
+      ferait plaisir à ma mère?<br>
+      --Elle adore les bijoux. Tu pourrais lui offrir un collier, un 
+      bracelet.<br>
+      --Oui, c'est une bonne idée! Mais 
+      <input size=15 name=item5>
+      <input onClick="dasher(form.item5, 'qui')" type=button value=C name=Button>
+      pourrait faire quelque chose de vraiment original?<br>
+      --Tu pourrais demander à Roger, le copain de Sylvie.<br>
+      -- 
+      <input size=15 name=item6>
+      <input onClick="dasher(form.item6, 'Qu\'est-ce qu\'')" type=button value=C name=Button>
+      il fait comme travail?<br>
+      --Mais justement, il est bijoutier!<br>
+      --Ah d'accord! C'est génial! </font>
+   </p>
+   <p><font size="4" face="Garamond"><br>
+      <input onClick="form.item1.value='Qu\'est-ce que';form.item2.value='Qui est-ce que';form.item3.value='Qu\'est-ce que';form.item4.value='Qu\'est-ce qui';form.item5.value='qui';form.item6.value='Qu\'est-ce qu\'';" type=button value="Réponses" name=Button>
+      <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';" type=button value="Effacer" name=Button>
+      </font> 
+   </p>
+</form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

@@ -1,0 +1,139 @@
+---
+title: "Personal Questions (2)"
+---
+
+<form name=a action="" method=post>
+   <center>
+      <table cellpadding=6 width="100%" border=0>
+         <tbody>
+            <tr>
+               <td>
+                  <center>
+                     <font face="Garamond" size="4"><b>Poser des questions</b> </font> 
+                     <p align=left><font face="Garamond" size="4">Écrivez la lettre 
+                        de la réponse, à droite (=right), qui correspond à la question, 
+                        à gauche (=left). Cliquez "correction". (les réponses incorrectes 
+                        disparaissent).</font>
+                     </p>
+                     <font face="Garamond" size="4"><br>
+                     <br>
+                     </font> 
+                     <table width="90%">
+                        <tbody>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=0>
+                                 1. Comment vous appelez-vous? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">a. Non, je déteste les 
+                                 sports de montagne. </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=1>
+                                 2. Où est-ce que vous habitez? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">b. Je m'appelle Lina 
+                                 Miletti. </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=2>
+                                 3. Vous êtes mariée? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">c. Je suis née le 2 juin 
+                                 1922. </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=2>
+                                 4. Votre date de naissance? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">d. Non, je suis célibataire. 
+                                 </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=2>
+                                 5. Votre adresse? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">e. A Milan. </font></td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=2>
+                                 6. Vous aimez l'escalade? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">f. 2 rue 
+                                 Vivaldi. </font>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </center>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </center>
+</form>
+<center>
+<form name=e action="" method=post>
+   <center>
+      <font face="Garamond" size="4"> 
+      <input onClick=f() type=button value=Correction name=Button>
+      </font> 
+   </center>
+</form>
+<form name=incor action="" method=post>
+   <font face="Garamond" size="4"> 
+   <input type=hidden name=wrong>
+   </font> 
+</form>
+
+<script language=JavaScript>
+var c = 0
+b=new Array(12)
+b[0]='b';
+b[1]='e';
+b[2]='d';
+b[3]='c';
+b[4]='f';
+b[5]='a';
+b[6]='';
+b[7]='';
+b[8]='';
+b[9]='';
+b[10]='';
+b[11]='';
+function f(){
+var x = 0
+ISWrong = 0
+for (x=0; x<(document.a.elements.length); x++){
+   if(document.a.elements[x].value!=""){
+   document.a.elements[x].value = document.a.elements[x].value.toLowerCase()
+   }
+	if ((document.a.elements[x].value == b[x]) || (document.a.elements[x].value == b[x].toLowerCase())){
+		}
+	else {
+		ISWrong = 1;
+   if(document.a.elements[x].value!=""){
+   z=x+1
+  document.incor.wrong.value = document.incor.wrong.value+document.a.elements[x].value+" ne correspond pas à "+z+".  ";
+  	}
+		document.a.elements[x].value = '';
+		}	
+	}
+if (ISWrong == 1) {
+	Feedback = "Bien, mais il y a encore quelques erreurs."+" "+ document.incor.wrong.value;
+ document.incor.wrong.value="";
+	}
+else {
+	Feedback = "Bien! 100%!"
+	}
+alert(Feedback)
+}</script>

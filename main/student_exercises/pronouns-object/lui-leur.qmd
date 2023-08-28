@@ -1,0 +1,94 @@
+---
+title: "Lui/leur"
+---
+
+### Une histoire d'adultère
+
+Complétez les phrases en utilisant 
+        lui ou leur.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font><font face="Garamond" size="4"><br>
+      
+ <form action="" method=post>
+              <font face="Garamond" size="4"> Brigitte: Marie, tu as parlé à Jacques 
+              hier?<br>
+              Marie: Oui, je 
+              <input size=6 name=item1>
+              <input onClick="dasher(form.item1, 'lui')" type=button value=C name=Button>
+              ai parlé.<br>
+              <br>
+              Brigitte: Qu'est-ce que tu as dit à Jacques?<br>
+              Marie: Je 
+              <input size=6 name=item2>
+              <input onClick="dasher(form.item2, 'lui')" type=button value=C name=Button>
+              ai dit que c'était fini.<br><br>
+              Brigitte: Et tu as parlé à ses parents aussi?<br>
+              Marie: Oui, je 
+              <input size=6 name=item3>
+              <input onClick="dasher(form.item3, 'leur')" type=button value=C name=Button>
+              ai parlé aussi.<br><br>
+              Brigitte: Et tu as dis quoi, aux parents de Jacques?<br>
+              Marie: Je 
+              <input size=6 name=item4>
+              <input onClick="dasher(form.item4, 'leur')" type=button value=C name=Button>
+              ai dit la même chose: que je ne voulais plus voir Jacques.<br><br>
+              Brigitte: Ils t'ont demandé la raison?<br>
+              Marie: Oui.<br><br>
+              Brigitte: Et tu as répondu à ses parents?<br>
+              Marie: Oui, je 
+              <input size=6 name=item5>
+              <input onClick="dasher(form.item5, 'leur')" type=button value=C name=Button>
+              ai répondu.<br><br>
+              Brigitte: Et qu'est-ce que tu 
+              <input size=6 name=item6>
+              <input onClick="dasher(form.item6, 'leur')" type=button value=C name=Button>
+              as répondu?<br>
+              Marie: Je 
+              <input size=6 name=item7>
+              <input onClick="dasher(form.item7, 'leur')" type=button value=C name=Button>
+              ai dit la vérité: que j'avais vu Jacques au lit avec une autre fille.<br><br>
+              Brigitte: Tu as demandé à son père de parler à Jacques?<br>
+              Marie: Non, je ne 
+              <input size=6 name=item8>
+              <input onClick="dasher(form.item8, 'lui')" type=button value=C name=Button>
+              ai rien demandé. Pour moi, c'est fini.<br><br>
+              Brigitte: Et après, tu as parlé à sa soeur? <br>Marie: Non, je ne 
+              <input size=6 name=item9>
+              <input onClick="dasher(form.item9, 'lui')" type=button value=C name=Button>
+              ai pas parlé. Je voulais partir.<br><br>
+              Brigitte: Pauvre Marie! <br>
+              <br>
+              <input onClick="form.item1.value='lui';form.item2.value='lui';form.item3.value='leur';form.item4.value='leur';form.item5.value='leur';form.item6.value='leur';form.item7.value='leur';form.item8.value='lui';form.item9.value='lui';" type=button value="Montrer les r&eacute;ponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';" type=button value="Effacer les r&eacute;ponses" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

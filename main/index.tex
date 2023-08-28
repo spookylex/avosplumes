@@ -1,0 +1,326 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrreprt}
+
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={A Vos Plumes!},
+  pdfauthor={Alison Levine},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{A Vos Plumes!}
+\author{Alison Levine}
+\date{}
+
+\begin{document}
+\maketitle
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, breakable, enhanced, frame hidden, sharp corners, borderline west={3pt}{0pt}{shadecolor}, interior hidden]}{\end{tcolorbox}}\fi
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\bookmarksetup{startatroot}
+
+\hypertarget{a-vos-plumes}{%
+\chapter{A Vos Plumes!}\label{a-vos-plumes}}
+
+A Vos Plumes! is for students who want to write better in French and for
+teachers who want to help them.
+
+\bookmarksetup{startatroot}
+
+\hypertarget{about}{%
+\chapter{About}\label{about}}
+
+\includegraphics{http://avosplumes.org/scripts/timthumb/timthumb.php?src=http://avosplumes.org/uploads/images/pages/cup_blue.jpg\&w=240\&h=180\&zc=1\&q=100}
+
+If you want to skip straight to the ``meat'' of the site, click
+on~\href{http://avosplumes.org/teachers/}{For
+Teachers}~or~\href{http://avosplumes.org/students/}{For Students}.
+Specifics on what's to be found in each part of the site can be found by
+clicking~\href{http://avosplumes.org/about/site-map/}{Site Map}~(left).
+If you want a brief description of the site's goals and philosophy, read
+on!
+
+Writing in a foreign language conveys a sense of freedom, buoyancy, an
+experimental spirit. This site is for instructors of French who feel
+this way and for their students. It is designed to pool our collective
+wisdom about effective writing and teaching. The materials reflect the
+best ideas I have gleaned over the past fifteen years from friends and
+colleagues. As you contribute, I hope the site will improve although not
+necessarily grow. I will replace and rewrite, but try to keep from
+accumulating a mass of semi-redundant documents that are hard to
+navigate. Most of us have little time to read about pedagogy, but want
+good ideas that are easy to find and implement. I hope you will find
+some of those here. I hope you will send your students here to practice
+their grammar and to decipher the mysteries of how we teach and what we
+expect.
+
+\hypertarget{about-me}{%
+\subsection{About me}\label{about-me}}
+
+I am an associate professor of French at the University of Virginia. My
+fields are civilization and film. I am not a specialist in teaching
+writing and have no training in this area. I do teach writing in French
+in all my courses, at the intermediate/advanced levels, and I regularly
+teach an intermediate/advanced composition course. I think that one of
+the most important things we can do for our students is to help them to
+become better writers.
+
+\hypertarget{about-originality}{%
+\subsection{About ``originality''}\label{about-originality}}
+
+My thinking about writing has been profoundly shaped by other writing
+teachers, especially by teachers of English and French composition. I
+have tried to credit my immediate sources, but those sources may have
+recycled and adapted others' ideas. If someone reading this finds
+uncredited ideas s/he thinks s/he owns, I apologize. Alexandra
+Duckworth, Greg Colomb, Marva Barnett and Cheryl Krueger deserve
+particular thanks for their contributions to the site. Barbara Kuczun
+Nelson inspired me to create the Javascript grammar exercises and helped
+me get started with coding.
+
+\hypertarget{about-you}{%
+\subsection{About you}\label{about-you}}
+
+I am committed to updating the site with any high-quality materials or
+ideas that you are willing to share.
+
+\hypertarget{about-funding}{%
+\subsection{About funding}\label{about-funding}}
+
+This site is one of the last four projects funded by the University of
+Virginia's Teaching + Technology Initiative. The videos were funded by
+UVA's Hybrid Challenge Initiative.
+
+\hypertarget{about-licensing}{%
+\subsection{About licensing}\label{about-licensing}}
+
+We abide by~\textbf{Creative Commons}~licensing principles:\\
+* nothing on the site may be used for commercial purposes;\\
+* anyone is free to download and modify work published on the site as
+long as you give credit and share alike.
+
+\href{http://creativecommons.org/licenses/by-nc-sa/3.0/us/}{\includegraphics{http://i.creativecommons.org/l/by-nc-sa/3.0/us/88x31.png}}\\
+A Vos Plumes! website~by~\href{http://128.143.20.215/}{Alison J. Murray
+Levine}~is licensed under
+a~\href{http://creativecommons.org/licenses/by-nc-sa/3.0/us/}{Creative
+Commons Attribution-Noncommercial-Share Alike 3.0 United States
+License}.
+
+\part{For Teachers}
+
+\hypertarget{a-vos-plumes-for-teachers}{%
+\chapter{\texorpdfstring{A Vos
+Plumes!~\emph{for}~Teachers}{A Vos Plumes!~for~Teachers}}\label{a-vos-plumes-for-teachers}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\includegraphics{http://avosplumes.org/scripts/timthumb/timthumb.php?src=http://avosplumes.org/uploads/images/pages/plume.jpg\&w=180\&h=150\&zc=1\&q=100}
+
+What are we trying to do when we teach writing?\\
+How do we create good assignments?\\
+How can we respond effectively to student writing?\\
+How can we make class time lively and worthwhile?
+
+\textbf{Resources}~(at left): the long view of teaching. Articles,
+handouts, take-home student materials.
+
+\textbf{Classroom Activities}~(below): the short view, for today's
+class, any method. In-class writing activities, oral activities to
+practice grammar.
+
+\textbf{Videos}~(at left): for ``flipping'' your French writing class.
+Place the videos on your site so students can use them for review and
+practice with the grammar exercises outside of class. Frees up time in
+class to work on writing and editing.
+
+\href{http://avosplumes.org/students/}{\textbf{Grammar practice
+exercises}}: the homework section. Replaces a grammar workbook.
+Interactive written homework exercises for your students. Answers,
+feedback.
+
+We abide by~\textbf{Creative Commons}~licensing principles:\\
+* nothing on the site may be used for commercial purposes;\\
+* you free to download and modify work published on the site as long as
+you give credit and share alike.
+
+Please email Alison Levine at the UVA French Department if you like and
+use my materials. Please also let me know if you find mistakes. Your
+messages keep me motivated!
+
+\part{For Students}
+
+\hypertarget{a-vos-plumes-for-students}{%
+\chapter{\texorpdfstring{A Vos Plumes!~\emph{for}
+Students}{A Vos Plumes!~for Students}}\label{a-vos-plumes-for-students}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\includegraphics{http://avosplumes.org/scripts/timthumb/timthumb.php?src=http://avosplumes.org/uploads/images/pages/plume_c.jpg\&w=180\&h=150\&zc=1\&q=100}
+
+How do you write a French essay?\\
+How do some professors and teachers grade writing?\\
+Where can you get extra grammar practice?
+
+\textbf{Resources}~(left): articles, video lessons, and handouts
+
+\textbf{Grammar exercises}~(below): interactive practice exercises with
+corrections and feedback
+
+\hypertarget{nationality-1}{%
+\chapter{Nationality (1)}\label{nationality-1}}
+
+Les adjectifs de nationalité
+
+Écrivez la nationalité de la personne. N'oubliez pas: un adjectif est
+féminin/masculin, singulier/pluriel. Masculin: italien Féminin:
+italienne Masculin pluriel: italiens Féminin pluriel: italiennes Cliquez
+``C'' --\textgreater{} correction. Correct? --\textgreater{}
+\emph{astérisques}. Incorrect?--\textgreater{} ====.
+
+Hergé Jacques Prévert Jeanne Moreau et Catherine Deneuve Penelope Cruz
+Tiger Woods Katherine Hepburn et Diane Keaton La reine Elizabeth II
+Sylvio Berlusconi Jean-Bertrand Aristide James Joyce Les Beatles Akira
+Kurosawa Krystof Kieslowski George et Barbara Bush Edith Piaf
+
+\end{document}

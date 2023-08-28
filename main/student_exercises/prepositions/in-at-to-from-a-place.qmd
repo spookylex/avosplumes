@@ -1,0 +1,86 @@
+---
+title: "In/at/to/from a place"
+---
+<p align=left><font face="Garamond" size="4">Complétez en utilisant "en/au/à/aux" 
+        ou "de/du/des/d'." <br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; =.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> 1. Tu vas travailler 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'en')" type=button value=C name=Button>
+              Chine l'année prochaine?<br>
+              2. Rachel habite 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'en')" type=button value=C name=Button>
+              Russie maintenant.<br>
+              3. Robert et Sylvie vont 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'aux')" type=button value=C name=Button>
+              Etats-Unis bientôt.<br>
+              4. Michel? Il vient 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'de')" type=button value=C name=Button>
+              New York. <br>
+              5. Nous avons un nouveau projet 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'en')" type=button value=C name=Button>
+              Zambie.<br>
+              6. Mes amis habitent 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'au')" type=button value=C name=Button>
+              Portugal.<br>
+              7. La famille revient 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'du')" type=button value=C name=Button>
+              Canada demain.<br>
+              8. J'amerais habiter 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'en')" type=button value=C name=Button>
+              France.<br>
+              9. Ils viennent 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'de')" type=button value=C name=Button>
+              Colombie. <br>
+              10. Elle habite 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'à')" type=button value=C name=Button>
+              Barcelone. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='en';form.item2.value='en';form.item3.value='aux';form.item4.value='de';form.item5.value='en';form.item6.value='au';form.item7.value='du';form.item8.value='en';form.item9.value='de';form.item10.value='à';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

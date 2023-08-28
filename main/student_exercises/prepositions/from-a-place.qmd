@@ -1,0 +1,87 @@
+---
+title: "From a place"
+---
+<p align=left><font face="Garamond" size="4">Complétez en utilisant "de," 
+        "du," "des," ou "d'." <br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; =.<br>
+        </font></p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> 1. Mes amis reviennent 
+              <input size=9 
+      name=item1>
+              <input onClick="dasher(form.item1, 'de')" type=button value=C name=Button>
+              Grèce demain.<br>
+              2. Il vient 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'du')" type=button value=C name=Button>
+              Mexique.<br>
+              3. Nous venons 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'd\'')" type=button value=C name=Button>
+              Italie.<br>
+              4. Le gouverneur est 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'de')" type=button value=C name=Button>
+              Bordeaux.<br>
+              5. Tu viens 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'des')" type=button value=C name=Button>
+              Etats-Unis?<br>
+              6. Son oncle est 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'du')" type=button value=C name=Button>
+              Japon.<br>
+              7. Le président vient 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'de')" type=button value=C name=Button>
+              Londres.<br>
+              8. Quand est-ce qu'elles reviennent 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'de')" type=button value=C name=Button>
+              Californie?<br>
+              9. Ils viennent 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'du')" type=button value=C name=Button>
+              Texas.<br>
+              10. Le groupe revient 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'de')" type=button value=C name=Button>
+              Virginie. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='de';form.item2.value='du';form.item3.value='d\'';form.item4.value='de';form.item5.value='des';form.item6.value='du';form.item7.value='de';form.item8.value='de';form.item9.value='du';form.item10.value='de';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

@@ -1,0 +1,168 @@
+---
+title: "Le passé composé"
+---
+
+<p align=left><font size="4" face="Garamond">Remplissez les blancs avec 
+        la forme correcte du verbe au pass&eacute; compos&eacute;.
+<br />Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====. </font></p
+
+<form action="" method="post">
+   <font size="4" face="Garamond"> Vous êtes en vacances! Vous voyagez 
+   en France, et vous avez décidé d'écrire une lettre à votre professeur 
+   de français. Mais il faut mettre tous les verbes au passé composé! 
+   Et vous avez oublié votre dictionnaire! Oh là là là! Quelles vacances! 
+   <br>
+   Chère Alison, Mon voyage (commencer bien) 
+   <input type="text" name="item1" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item1, 'a bien commencé')">
+   . Je/J' (partir) 
+   <input type="text" name="item2" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item2, 'suis partie')">
+   de Waterville à huit heures du soir. Mais pendant le vol je/j' (manger) 
+   <input type="text" name="item3" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item3, 'ai mangé')">
+   des épinards et je/j' (tomber) 
+   <input type="text" name="item4" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item4, 'suis tombée')">
+   malade. Berk! Le film était en chinois et je/j' (s'ennuyer) 
+   <input type="text" name="item5" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item5, 'me suis ennuyée')">
+   . Mon avion (arriver) 
+   <input type="text" name="item6" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item6, 'est arrivé')">
+   à l'aéroport Charles de Gaulle à dix heures du matin. Nous (avoir) 
+   <input type="text" name="item7" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item7, 'avons eu')">
+   une vue splendide de la ville! Je/j' (prendre) 
+   <input type="text" name="item8" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item8, 'ai pris')">
+   le car Air France et je/j' (aller) 
+   <input type="text" name="item9" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item9, 'suis allée')">
+   à la station des Invalides. Ensuite je/j' (trouver) 
+   <input type="text" name="item10" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item10, 'ai trouvé')">
+   mon hôtel. Super! Pas chic et très cher. Mais c'est Paris! Je/J' 
+   <input type="text" name="item11" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item11, 'ai dormi')">
+   un peu et puis je/j' (essayer) 
+   <input type="text" name="item12" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item12, 'ai essayé')">
+   de me laver. Mais je/j' (ne pas avoir) 
+   <input type="text" name="item13" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item13, 'n\'ai pas eu')">
+   d'eau chaude. Je/J' (se laver) 
+   <input type="text" name="item14" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item14, 'me suis lavée')">
+   à l'eau froide et je/j' (sortir) 
+   <input type="text" name="item15" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item15, 'suis sortie')">
+   pour ma première excursion! Je/J' (descendre) 
+   <input type="text" name="item16" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item16, 'suis descendue')">
+   en ville et je/j' (aller) 
+   <input type="text" name="item17" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item17, 'suis allée')">
+   à Notre Dame. A trois heures de l'après-midi je/j' (retourner) 
+   <input type="text" name="item18" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item18, 'suis retournée')">
+   à l'hôtel et je/j' (se reposer) 
+   <input type="text" name="item19" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item19, 'me suis reposée')">
+   un peu. Le soir je/j' (sortir) 
+   <input type="text" name="item20" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item20, 'suis sortie')">
+   pour dîner chez MacDonald's, à la française! Je/J' (rentrer) 
+   <input type="text" name="item21" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item21, 'suis rentrée')">
+   vers 11h. Un jour au café je/j' (rencontrer) 
+   <input type="text" name="item22" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item22, 'ai rencontré')">
+   un très beau serveur. Je/J' (passer) 
+   <input type="text" name="item23" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item23, 'ai passé')">
+   trois jours chez lui et je (tomber) 
+   <input type="text" name="item24" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item24, 'suis tombée')">
+   complètement amoureuse. Maintenant je/j' (décider) 
+   <input type="text" name="item25" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item25, 'ai décidé')">
+   de rester ici. Heureusement que je/j' (apprendre) 
+   <input type="text" name="item26" value="" size="15">
+   <input type="button" name="Button" value="C" onClick="dasher(this.form.item26, 'ai appris')">
+   le français! Merci, mon cher professeur. Je ne reviendrai plus jamais. 
+   Amitiés, Sarah <br>
+   <br>
+   <br>
+</form>
+
+<input type="button" name="Button" value="Montrer" onClick="showAnswers()">
+<input type="button" name="Button" value="Effacer" onClick="clearAnswers()">
+
+<script>
+function dasher(Student, Correct) {
+    var studentAnswer = Student.value;
+    var correctAnswer = Correct;
+    var result = "";
+    
+    for (var c = 0; c < correctAnswer.length; c++) {
+        var CorrectX = correctAnswer.charAt(c);
+        var StudentX = studentAnswer.charAt(c);
+        
+        if (CorrectX === StudentX) {
+            result = result + CorrectX;
+        } else {
+            result = result + "=";
+        }
+    }
+    
+    Student.value = result;
+    
+    if (studentAnswer === correctAnswer) {
+        Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+
+// Function to show the correct answers
+function showAnswers() {
+    document.getElementsByName("item1")[0].value = 'a bien commencé';
+    document.getElementsByName("item2")[0].value = 'suis partie';
+    document.getElementsByName("item3")[0].value = 'ai mangé';
+    document.getElementsByName("item4")[0].value = 'suis tombée';
+    document.getElementsByName("item5")[0].value = 'me suis ennuyée';
+    document.getElementsByName("item6")[0].value = 'est arrivé';
+    document.getElementsByName("item7")[0].value = 'avons eu';
+    document.getElementsByName("item8")[0].value = 'ai pris';
+    document.getElementsByName("item9")[0].value = 'suis allée';
+    document.getElementsByName("item10")[0].value = 'ai trouvé';
+    document.getElementsByName("item11")[0].value = 'ai dormi';
+    document.getElementsByName("item12")[0].value = 'ai essayé';
+    document.getElementsByName("item13")[0].value = "n'ai pas eu";
+    document.getElementsByName("item14")[0].value = 'me suis lavée';
+    document.getElementsByName("item15")[0].value = 'suis sortie';
+    document.getElementsByName("item16")[0].value = 'suis descendue';
+    document.getElementsByName("item17")[0].value = 'suis allée';
+    document.getElementsByName("item18")[0].value = 'suis retournée';
+    document.getElementsByName("item19")[0].value = 'me suis reposée';
+    document.getElementsByName("item20")[0].value = 'suis sortie';
+    document.getElementsByName("item21")[0].value = 'suis rentrée';
+    document.getElementsByName("item22")[0].value = 'ai rencontré';
+    document.getElementsByName("item23")[0].value = 'ai passé';
+    document.getElementsByName("item24")[0].value = 'suis tombée';
+    document.getElementsByName("item25")[0].value = 'ai décidé';
+    document.getElementsByName("item26")[0].value = 'ai appris';
+}
+
+// Function to clear the answers
+function clearAnswers() {
+    var inputs = document.getElementsByTagName('input');
+    for (var i = 0; i < inputs.length; i++) {
+        if (inputs[i].type === "text") {
+            inputs[i].value = "";
+        }
+    }
+}
+</script>

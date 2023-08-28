@@ -1,0 +1,193 @@
+---
+title: "Ne...pas/ne...plus"
+---
+<form name=a action="" method=post>
+   <center>
+      <table cellpadding=6 width="100%" border=0>
+         <tbody>
+            <tr>
+               <td>
+                  <center>
+                     <font face="Garamond" size="4"><b>Ne pas/ne plus</b> </font> 
+                     <p align=left><font face="Garamond" size="4">Écrivez la lettre 
+                        de la phrase de droite (=right) qui correspond à la phrase 
+                        de gauche (=left). Cliquez "correction". (les réponses incorrectes 
+                        disparaissent).</font>
+                     </p>
+                     <font face="Garamond" size="4"><br>
+                     <br>
+                     </font> 
+                     <table width="90%">
+                        <tbody>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=0>
+                                 1. Un verre de vin rouge s'il vous plaît! </font>
+                              </td>
+                              <td><font face="Garamond" size="4">a. Je n'ai plus de pain. 
+                                 </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=1>
+                                 2. Il a eu un accident de voiture. </font>
+                              </td>
+                              <td><font face="Garamond" size="4">b. Désolé, il n'y a pas 
+                                 de café. </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=2>
+                                 3. Il pleut. </font>
+                              </td>
+                              <td><font face="Garamond" size="4">c. Oui, mais je n'ai 
+                                 pas de voiture. Nous pouvons y aller à pied. </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=2>
+                                 4. Je m'arrête à la station service. </font>
+                              </td>
+                              <td><font face="Garamond" size="4">d. Il n'y a pas de lettres 
+                                 pour toi. </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=2>
+                                 5. Il a perdu son emploi. </font>
+                              </td>
+                              <td><font face="Garamond" size="4">e. Il n'y a plus de places 
+                                 dans le train. </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=2>
+                                 6. Un billet pour Lille s'il vous plaît. </font>
+                              </td>
+                              <td><font face="Garamond" size="4">f. Désolé, nous ne servons 
+                                 pas d'alcool. </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=2>
+                                 7. Tu es allé à la poissonnerie? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">g. Le pauvre, il n'a 
+                                 pas d'assurance médicale. </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=2>
+                                 8. Je vais à la boulangerie. </font>
+                              </td>
+                              <td><font face="Garamond" size="4">h. Il n'a plus d'argent. 
+                                 </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=2>
+                                 9. On va à la mairie? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">i. Je n'ai pas de parapluie. 
+                                 </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=2>
+                                 10. Je voudrais dîner ce soir chez Jo. </font>
+                              </td>
+                              <td><font face="Garamond" size="4">j. Ma voiture n'a plus 
+                                 d'essence. </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=2>
+                                 11. J'aimerais un café s'il vous plaît. </font>
+                              </td>
+                              <td><font face="Garamond" size="4">k. Oui, mais il n'y avait 
+                                 plus de saumon. </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=2>
+                                 12. Le facteur est passé. </font>
+                              </td>
+                              <td><font face="Garamond" size="4">l. J'ai téléphoné, mais 
+                                 il n'y a plus de place. </font>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </center>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </center>
+</form>
+<center>
+<form name=e action="" method=post>
+   <center>
+      <font face="Garamond" size="4"> 
+      <input onClick=f() type=button value=Correction name=Button>
+      </font> 
+   </center>
+</form>
+<form name=incor action="" method=post>
+   <font face="Garamond" size="4"> 
+   <input type=hidden name=wrong>
+   </font> 
+</form>
+ <script language=JavaScript>
+var c = 0
+b=new Array(12)
+b[0]='f';
+b[1]='g';
+b[2]='i';
+b[3]='j';
+b[4]='h';
+b[5]='e';
+b[6]='k';
+b[7]='a';
+b[8]='c';
+b[9]='l';
+b[10]='b';
+b[11]='d';
+function f(){
+var x = 0
+ISWrong = 0
+for (x=0; x<(document.a.elements.length); x++){
+   if(document.a.elements[x].value!=""){
+   document.a.elements[x].value = document.a.elements[x].value.toLowerCase()
+   }
+	if ((document.a.elements[x].value == b[x]) || (document.a.elements[x].value == b[x].toLowerCase())){
+		}
+	else {
+		ISWrong = 1;
+   if(document.a.elements[x].value!=""){
+   z=x+1
+  document.incor.wrong.value = document.incor.wrong.value+document.a.elements[x].value+" ne correspond pas à "+z+".  ";
+  	}
+		document.a.elements[x].value = '';
+		}	
+	}
+if (ISWrong == 1) {
+	Feedback = "Bien, mais il y a encore quelques erreurs."+" "+ document.incor.wrong.value;
+ document.incor.wrong.value="";
+	}
+else {
+	Feedback = "Parfait! Bravo!"
+	}
+alert(Feedback)
+}</script>

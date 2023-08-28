@@ -1,0 +1,95 @@
+---
+title: "How/where/when...(3)"
+---
+
+<p align=left><font face="Garamond" size="4">Complétez en utilisant un mot 
+        interrogatif <br /><strong>(à qui, pourquoi, comment, combien, où, à quelle heure, quand...)</strong><br>
+        OU<br>
+        <strong>(&agrave; qui est-ce que, pourquoi est-ce que, comment est-ce que, o&ugrave; 
+        est-ce que, &agrave; quelle heure est-ce que, quand est-ce que...)</strong>
+<br />Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font></p>
+
+<form action="" method=post>
+   <font face="Garamond" size="4"> 1. 
+   <input size=19 name=item1>
+   <input onClick="dasher(form.item1, 'Comment')" type=button value=C name=Button>
+   vas-tu? (R: bien.)<br>
+   2. Vous vous appelez 
+   <input size=19 name=item2>
+   <input onClick="dasher(form.item2, 'comment')" type=button value=C name=Button>
+   ? (R: Jacques.)<br>
+   3. 
+   <input size=19 name=item3>
+   <input onClick="dasher(form.item3, 'Combien')" type=button value=C name=Button>
+   de frères et de soeurs avez-vous? (R: trois.)<br>
+   4. 
+   <input size=19 name=item4>
+   <input onClick="dasher(form.item4, 'Pourquoi est-ce que')" type=button value=C name=Button>
+   tu étudies le français? (R: parce que j'aime le fran&ccedil;ais.)<br>
+   5. 
+   <input size=25 name=item5>
+   <input onClick="dasher(form.item5, 'À quelle heure est-ce que')" type=button value=C name=Button>
+   la classe commence? (R: &agrave; dix heures.)<br>
+   6. La bibliothèque se trouve 
+   <input size=19 
+      name=item6>
+   <input onClick="dasher(form.item6, 'où')" type=button value=C name=Button>
+   ? (R: &agrave; c&ocirc;t&eacute; du caf&eacute;.)<br>
+   7. 
+   <input size=19 name=item7>
+   <input onClick="dasher(form.item7, 'À qui est-ce que')" type=button value=C name=Button>
+   vous parlez? (R: &agrave; Marie.)<br>
+   8. 
+   <input size=19 name=item8>
+   <input onClick="dasher(form.item8, 'Pourquoi est-ce que')" type=button value=C name=Button>
+   Jacques s'est séparé de sa femme? (R: parce qu'ils se disputaient.)<br>
+   9. 
+   <input size=19 name=item9>
+   <input onClick="dasher(form.item9, 'À quelle heure')" type=button value=C name=Button>
+   commence le concert? (R: &agrave; huit heures.)<br>
+   10. Tu pars 
+   <input size=19 name=item10>
+   <input onClick="dasher(form.item10, 'où')" type=button value=C name=Button>
+   en vacances? En Floride ou en Provence?<br>
+   11. 
+   <input size=19 name=item11>
+   <input onClick="dasher(form.item11, 'Où est-ce que')" type=button value=C name=Button>
+   Juliette Greco habite? (R: &agrave; Paris.)<br>
+   <br>
+   <br>
+   <br>
+   <input onClick="form.item1.value='Comment';form.item2.value='comment';form.item3.value='Combien';form.item4.value='Pourquoi est-ce que';form.item5.value='À quelle heure est-ce que';form.item6.value='où';form.item7.value='À qui est-ce que';form.item8.value='Pourquoi est-ce que';form.item9.value='À quelle heure';form.item10.value='où';form.item11.value='Où est-ce que';" type=button value="Réponses" name=Button>
+   <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';" type=button value="Effacer" name=Button>
+   </font> 
+</form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

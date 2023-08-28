@@ -1,0 +1,313 @@
+---
+title: "Since, for, ago..."
+---
+<b><font face="Garamond" size="4">Evoquer la dur&eacute;e</font></b> 
+</center>
+<p></p>
+<p><font face="Garamond" size="4">Cliquez sur la réponse correcte pour voir 
+   une explication. (Les réponses incorrectes ont des explications aussi!)</font>
+</p>
+<p><font face="Garamond" size="4">Pour R&Eacute;VISER depuis, pendant, en, 
+   pour, etc. <a href="duree_review.qmd" target="_self">cliquez ici</a> 
+   </font> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">1. Je suis contente! Je vais voir 
+                  mes parents ____ trois jours, et on passera tout l'&eacute;t&eacute; 
+                  ensemble.</font>
+               </p>
+               <p> <font face="Garamond" size="4"> 
+                  <input 
+                     onClick=choice1(this.form) type=radio 
+                     value="Non, *pendant* + futur parle de la durée (for 3 days), et ici on parle du moment où l'événement aura lieu (IN 3 days)" 
+                     name=one>
+                  pendant<br>
+                  <input onClick=choice1(this.form) type=radio 
+                     value="Non, *en* est utilisé pour la durée de temps qu'il faut pour terminer quelque chose, et ici on parle du moment où quelque chose va commencer." 
+                     name=one>
+                  en <br>
+                  <input onClick=choice1(this.form) type=radio 
+                     value="Non, *pour* + futur parle de la durée(for 3 days), et ici on parle du moment où l'événement aura lieu (IN 3 days)." 
+                     name=one>
+                  pour <br>
+                  <input onClick=choice1(this.form) type=radio 
+                     value="Non, *depuis* est utilisé pour quelque chose qui continue au présent; l'action ici aura lieu au futur." 
+                     name=one>
+                  depuis<br>
+                  <input onClick=choice1(this.form) type=radio 
+                     value="Oui, bravo! *dans* est utilisé avec le futur pour dire dans combien de temps quelque chose va commencer." 
+                     name=one>
+                  dans </font>
+               </p>
+               <p> <font face="Garamond" size="4"><br>
+                  </font>
+               </p>
+            <td width="50%" align="center" valign="middle">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="40" name="feedback1" rows="4"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">2. Rico Suav&eacute; &eacute;tait 
+                  si travailleur qu'il a termin&eacute; son dipl&ocirc;me universitaire 
+                  ____ trois ans.</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input 
+                  onClick=choice2(this.form) type=radio 
+                  value="Non, *pendant* + passé composé parle de la durée--Il a travaillé pendant 3 ans (He worked for 3 years), mais il l'a fini ___ 3 ans (He finished in 3 years)." 
+                  name=one>
+               pendant<br>
+               <input onClick=choice2(this.form) type=radio 
+                  value="Oui! *en* est utilisé pour la durée de temps qu'il faut pour terminer quelque chose." 
+                  name=one>
+               en <br>
+               <input onClick=choice2(this.form) type=radio 
+                  value="Non, *pour* est utilisé avec le futur." 
+                  name=one>
+               pour <br>
+               <input onClick=choice2(this.form) type=radio 
+                  value="Non, *depuis* est utilisé avec le présent, le négatif du passé composé, ou avec l'imparfait." 
+                  name=one>
+               depuis <br>
+               <input onClick=choice2(this.form) type=radio 
+                  value="Non *dans* est utilisé avec le futur pour dire dans combien de temps quelque chose va commencer." 
+                  name=one>
+               dans <br>
+               </font>
+            <td width="50%" align="center" valign="middle">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="40" name="feedback2" rows="4"></textarea>
+
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">3. Boucles d'Or a dormi ____ deux 
+                  heures chez les trois ours avant d'&ecirc;tre r&eacute;veill&eacute;e 
+                  par leur retour..</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input onClick=choice3(this.form) 
+                  type=radio 
+                  value="Oui, excellent! *pendant* + passé composé parle de la durée--Il a travaillé pendant 3 ans (He worked for 3 years)." 
+                  name=one>
+               pendant <br>
+               <input onClick=choice3(this.form) type=radio 
+                  value="Non, *en* est utilis&eacute; pour la dur&eacute;e de temps qu'il faut pour terminer quelque chose." 
+                  name=one>
+               en <br>
+               <input onClick=choice3(this.form) type=radio 
+                  value="Non, *pour* est utilis&eacute; avec le futur." 
+                  name=one>
+               pour <br>
+               <input onClick=choice3(this.form) type=radio 
+                  value="Non, *depuis* est utilis&eacute; avec le pr&eacute;sent, le n&eacute;gatif du pass&eacute; compos&eacute;, ou avec l'imparfait." 
+                  name=one>
+               depuis <br>
+               <input onClick=choice3(this.form) type=radio 
+                  value="Non *dans* est utilisé avec le futur pour dire dans combien de temps quelque chose va commencer." 
+                  name=one>
+               dans <br>
+               </font>
+            <td width="50%" align="center" valign="middle">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="40" name="feedback3" rows="4"></textarea>
+                  
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">4. Anne fait de la natation ____ 
+                  dix ans; c'est une vraie professionnelle!</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input 
+                  onClick=choice4(this.form) type=radio 
+                  value="Non, *pendant* + futur parle de la dur&eacute;e au pass&eacute; ou au futur, et ici on parle d'une dur&eacute;e qui a commenc&eacute; au pass&eacute; mais qui continue au pr&eacute;sent." 
+                  name=one>
+               pendant<br>
+               <input onClick=choice4(this.form) type=radio 
+                  value="Non, *en* est utilis&eacute; pour la dur&eacute;e de temps qu'il faut pour terminer quelque chose." name=one>
+               en <br>
+               <input onClick=choice4(this.form) type=radio 
+                  value="Non, *pour* est utilis&eacute; avec le futur." 
+                  name=one>
+               pour <br>
+               <input onClick=choice4(this.form) type=radio 
+                  value="Oui! *depuis* est utilis&eacute; pour quelque chose qui continue au pr&eacute;sent (she has been doing this for 10 years)." 
+                  name=one>
+               depuis<br>
+               <input onClick=choice4(this.form) type=radio 
+                  value="Non, *dans* est utilis&eacute; avec le futur pour dire dans combien de temps quelque chose va commencer." 
+                  name=one>
+               dans <br>
+               </font>
+            <td width="50%" align="center" valign="middle">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="40" name="feedback4" rows="4"></textarea> 
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">5. Elle va faire un stage de traduction 
+                  intensive ____ six semaines avant de commencer son travail.</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input 
+                  onClick=choice5(this.form) type=radio 
+                  value="Oui, bien jou&eacute;! *pendant* + futur parle de la dur&eacute;e d'un &eacute;v&eacute;nement au futur (for 6 weeks) si le verbe n'est pas *&ecirc;tre* ou un verbe de mouvement" 
+                  name=one>
+               pendant<br>
+               <input onClick=choice5(this.form) type=radio 
+                  value="Non, *en* est utilis&eacute; pour la dur&eacute;e de temps qu'il faut pour terminer quelque chose." 
+                  name=one>
+               en <br>
+               <input onClick=choice5(this.form) type=radio 
+                  value="Non, *pour* + futur parle de la dur&eacute;e au futur, mais seulement avec &ecirc;tre et les verbes de mouvement." 
+                  name=one>
+               pour <br>
+               <input onClick=choice5(this.form) type=radio 
+                  value="Non, *depuis* est utilis&eacute; pour quelque chose qui continue au pr&eacute;sent; l'action ici aura lieu au futur." 
+                  name=one>
+               depuis <br>
+               <input onClick=choice5(this.form) type=radio 
+                  value="Non, *dans* est utilis&eacute; avec le futur pour dire dans combien de temps quelque chose va commencer." 
+                  name=one>
+               dans <br>
+               </font>
+            <td width="50%" align="center" valign="middle">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="40" name="feedback5" rows="4"></textarea>
+   </table>
+</form>
+
+<SCRIPT language=JavaScript><!--
+//  Creation interface, JavaScripts, and Perl Scripts by Dan Beeby.
+//  Based on a Javascript by Barbara Nelson.
+//  http://140.233.69.17/mellon -- dbeeby@haverford.edu.
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu
+function choice1(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback1.value=form.one[i+0].value
+}
+
+function choice2(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback2.value=form.one[i+0].value
+}
+
+function choice3(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback3.value=form.one[i+0].value
+}
+
+function choice4(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback4.value=form.one[i+0].value
+}
+
+function choice5(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback5.value=form.one[i+0].value
+}
+
+function choice6(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback6.value=form.one[i+0].value
+}
+
+function choice7(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback7.value=form.one[i+0].value
+}
+function choice8(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback8.value=form.one[i+0].value
+}
+
+function choice9(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback9.value=form.one[i+0].value
+}
+
+function choice10(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback10.value=form.one[i+0].value
+}
+
+<!--script-->
+//--></SCRIPT>

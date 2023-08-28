@@ -1,0 +1,97 @@
+---
+title: "Polite requests (1)"
+---
+
+<p align=left><font face="Garamond" size="4">Transformez les demandes directes 
+        en demandes polies en utilisant le conditionnel. Cliquez "C" --> correction.<br>
+        Correct? --> *astérisques*. <br>
+        Incorrect?--> ====.</font></p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> 1. Vous pouvez m'aider?<br>
+              -->Vous 
+              <input type=text name=item1 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item1, 'pourriez')">
+              m'aider? <br>
+              <br>
+              2. Tu peux me dire où se trouve le marché?<br>
+              -->Tu 
+              <input type=text name=item2 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item2, 'pourrais')">
+              me dire où se trouve le marché?<br>
+              <br>
+              3. Elles veulent aller au cinéma.<br>
+              --> Elles 
+              <input type=text name=item3 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item3, 'voudraient')">
+              aller au cinéma.<br>
+              <br>
+              4. J'aime parler. <br>
+              --> J' 
+              <input type=text name=item4 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item4, 'aimerais')">
+              parler.<br>
+              <br>
+              5. Il veut aller à la mairie. <br>
+              --> Il 
+              <input type=text name=item5 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item5, 'voudrait')">
+              aller à la mairie.<br>
+              <br>
+              6. Je veux une télécarte, s'il vous plaît. <br>
+              --> Je 
+              <input type=text name=item6 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item6, 'voudrais')">
+              une télécarte, s'il vous plaît.<br>
+              <br>
+              7. Nous pouvons avoir une carafe d'eau?<br>
+              --> Nous 
+              <input type=text name=item7 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item7, 'pourrions')">
+              avoir une carafe d'eau?<br>
+              <br>
+              8. Vous avez des cigarettes?<br>
+              --> Vous 
+              <input type=text name=item8 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item8, 'auriez')">
+              des cigarettes?<br>
+              <br>
+              9. Est-ce qu'il peut me téléphoner?<br>
+              --> Est-ce qu'il 
+              <input type=text name=item9 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item9, 'pourrait')">
+              me téléphoner? <br>
+              <br>
+              <input type=button name=Button value="R&eacute;ponses" onClick="form.item1.value='pourriez';form.item2.value='pourrais';form.item3.value='voudraient';form.item4.value='aimerais';form.item5.value='voudrait';form.item6.value='voudrais';form.item7.value='pourrions';form.item8.value='auriez';form.item9.value='pourrait';">
+              <input type=button name=Button value="Effacer" onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';">
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

@@ -1,0 +1,71 @@
+---
+title: "Le passé composé--avoir"
+---
+
+<p align=left><font face="Garamond" size="4">Conjuguez le verbe "avoir" 
+        au passé composé.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font></p>
+
+ <form action="" method=post>
+              <font face="Garamond" size="4"> Monsieur, vous comprenez, nous 
+              <input size=9 
+      name=item1>
+              <input onClick="dasher(form.item1, 'avons eu')" type=button value=C name=Button>
+              beaucoup de problèmes avec la construction de cette maison. D'abord, 
+              l'architecte 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'a eu')" type=button value=C name=Button>
+              une crise cardiaque avant de faire les dessins. Ensuite, vous 
+              <input 
+      size=9 name=item3>
+              <input onClick="dasher(form.item3, 'avez eu')" type=button value=C name=Button>
+              vos propres ennuis avec le financement. Ma femme et sa soeur, elles 
+              <input 
+      size=9 name=item4>
+              <input onClick="dasher(form.item4, 'ont eu')" type=button value=C name=Button>
+              une crise de nerfs chacune, et le maçon (négatif) 
+              <input size=9 
+name=item5>
+              <input onClick="dasher(form.item5, 'n\'a pas eu')" type=button value=C name=Button>
+              assez de temps pour terminer avant d'être hospitalisé. Moi, je n' 
+              <input 
+      size=9 name=item6>
+              <input onClick="dasher(form.item6, 'ai eu')" type=button value=C name=Button>
+              qu'une petite grippe, mais c'était le comble. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='avons eu';form.item2.value='a eu';form.item3.value='avez eu';form.item4.value='ont eu';form.item5.value='n\'a pas eu';form.item6.value='ai eu';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

@@ -1,0 +1,109 @@
+---
+title: "Qui/que (3)"
+---
+
+<p><font face="Garamond" size="4">Cliquez &quot;Suite&quot; pour voir la 
+        premi&egrave;re question.
+<br />Suivant les mod&egrave;les, &eacute;crivez 
+        des phrases en employant des pronoms relatifs.<br>
+        Mod&egrave;les: <br>
+        1. La personne qui est sortie s'appelle H&eacute;l&egrave;ne.<br>
+        2. L'objet qui est sur la table est cass&eacute;.<br>
+        3. La personne que j'ai frapp&eacute;e d&eacute;teste les Am&eacute;ricains.<br>
+        4. L'objet que j'ai lanc&eacute; &eacute;tait tr&egrave;s beau.
+<br /><br />Cliquez Suite/Retour pour voir les questions.<br>
+        Cliquez &quot;Montrer&quot; pour comparer votre r&eacute;ponse &agrave; 
+        la r&eacute;ponse du professeur.<br>
+        Cliquez &quot;Cacher&quot; pour faire dispara&icirc;tre la r&eacute;ponse 
+        du professeur.<p align=center><blockquote><a href="pronoms_relatifs_review2.qmd">Revoir tous les pronoms relatifs</a></blockquote>
+</font></p>
+
+<form name=qbox action="" method=post>
+                <p><font face="Garamond" size="4"><b>Question<br>
+                  </b> 
+                  <textarea name=q rows=4 wrap=virtual cols=50></textarea>
+                  <br>
+                  </font></p>
+                <center>
+                  <div align=left> <font face="Garamond" size="4"> 
+                    <input onClick=begin(-1) type=button value="&lt;=Retour" name=show>
+                    &nbsp; &nbsp; 
+                    <input onClick=begin(1) type=button value="Suite=&gt;" name=show>
+                    <br>
+                    </font></div>
+                </center>
+              </form>
+              <p></p>
+              <p></p>
+            </td>
+            <td width=200></td>
+          </tr>
+          </tbody> 
+        </table>
+        <table width="80%" border=0>
+          <tbody> 
+          <tr> 
+            <td valign=top width=236> 
+              <p><font face="Garamond" size="4"><b>Votre réponse</b> </font> 
+              <form name=Sinput action="" method=post>
+                <p> <font face="Garamond" size="4"> 
+                  <textarea name=Content rows=8 wrap=virtual cols=35></textarea>
+                  </font> 
+              </form>
+              <p></p>
+              <p></p>
+            </td>
+            <td valign=top width=308> 
+              <p><font face="Garamond" size="4"><b>Réponse du professeur</b> </font> 
+              <form name=feedback action="" method=post>
+                <p> <font face="Garamond" size="4"> 
+                  <textarea name=fb rows=8 wrap=virtual cols=35></textarea>
+                  </font> 
+              </form>
+              <form name=check action="" method=post>
+                <center>
+                  <div align=left> <font face="Garamond" size="4"> 
+                    <input onClick=Check() type=button value="Montrer" name=Button>
+                    <input onClick="(document.feedback.fb.value='')" type=button value="Cacher" name=show>
+                    </font></div>
+                </center>
+              </form>
+
+<SCRIPT language=Javascript><!--//
+//  This code is based on a script by Marmoe Soemarmo.  
+//  Dan Beeby modified it and wrote the creation interface, JavaScripts, and Perl Scripts.
+//  http://lang.swarthmore.edu/mellon -- dbeeby@haverford.edu.
+//  Content by Alison Murray Levine, University of Virginia, alevine@virginia.edu.
+//  You may borrow and modify these scripts, but please give credit where credit is due.
+	var Question= new Array();
+	var Answer= new Array();
+//---------------------DATA--------------------
+
+Question[1]="La personne qui...";Question[2]="L'acteur qui...";Question[3]="Le président qui...";Question[4]="Un film qui...";Question[5]="Le stylo qui...";Question[6]="Le livre qui...";Question[7]="La personne que...";Question[8]="Le docteur que...";Question[9]="Le pilote que...";Question[10]="La robe que...";Question[11]="Le problème que...";Question[12]="La situation que...";
+
+Answer[1]="Réponse possible: La personne qui parle avec Robert s'appelle Henri.";Answer[2]="Réponse possible: L'acteur qui joue dans *The Shining* s'appelle Jack Nicholson.";Answer[3]="Réponse possible: Le président qui a décidé de faire la guerre en Irak, c'était George W. Bush.";Answer[4]="Réponse possible: Un film qui montre les guerres de religion en France, c'est *La reine Margot.*";Answer[5]="Réponse possible: Le stylo qui est sur la table est bleu.";Answer[6]="Réponse possible: Le livre qui a changé ma vie s'appelle *Être et Avoir.*";Answer[7]="Réponse possible: La personne que j'aime s'appelle Marco.";Answer[8]="Réponse possible: Le docteur que j'ai assassiné s'appelle James.";Answer[9]="Réponse possible: Le pilote que j'ai admiré le plus est mort jeune.";Answer[10]="Réponse possible: La robe que Marie a achetée est noire et rouge.";Answer[11]="Réponse possible: Le problème que tu m'as expliqué est difficile.";Answer[12]="Réponse possible: La situation qu'ils ont décrite semble compliquée.";
+
+//-------------------END DATA-------------
+
+var NextQ = 0;
+var QN = 0;
+
+function begin(QN){
+NextQ = NextQ + QN
+	if (Question[NextQ] == null) {
+alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.")
+	}
+	document.feedback.fb.value=""
+	document.Sinput.Content.value=""
+	document.qbox.q.value=Question[NextQ]
+}
+
+function Check(){
+	if (document.Sinput.Content.value == ""){
+        document.feedback.fb.value="Essayez de répondre à la question avant de voir la réponse du professeur."
+        }
+	else{
+	document.feedback.fb.value=Answer[NextQ]
+}
+}
+//--></SCRIPT>

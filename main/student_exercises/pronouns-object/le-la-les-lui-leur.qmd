@@ -1,0 +1,157 @@
+---
+title: "Le/la/les vs. lui/leur"
+---
+**Les grands journaux en France:**
+
+[![Journal national quotidien, centre-gauche](http://avosplumes.org/uploads/general/lemonde.gif)](http://www.lemonde.fr/) [![Journal national quotidien, centre-gauche](http://avosplumes.org/uploads/general/liberation.gif)](http://www.liberation.fr/) [![Journal national quotidien, centre-droite](http://avosplumes.org/uploads/general/lefigaro.gif)](http://www.lefigaro.fr/)
+
+[![Journal régional quotidien ](http://avosplumes.org/uploads/general/parisien.gif)](http://www.leparisien.fr/)[![Journal sportif national, très grande diffusion](http://avosplumes.org/uploads/general/lequipe.gif) ](http://www.lequipe.fr/)[![Journal quotidien national communiste](http://avosplumes.org/uploads/general/humanite.jpg)](http://www.humanite.presse.fr/)
+
+Complétez les phrases en utilisant **le, la, les, l',** **lui** ou **leur**.\
+Cliquez "C" --> correction. Correct? --> *astérisques*. Incorrect?--> ====.
+
+ <table width="100%" border=0>
+          <tbody> 
+          <tr> 
+            <td> 
+              <form action="" method=post>
+                <p align="center">
+                  <font face="Garamond" size="4"> 
+                  <input onClick="form.item1.value='le';form.item2.value='la';form.item3.value='les';form.item4.value='le';form.item5.value='la';form.item6.value='l\'';form.item7.value='leur';form.item8.value='leur';form.item9.value='leur';form.item10.value='le';form.item11.value='lui';form.item12.value='lui';" type=button value="Montrer les r&eacute;ponses" name=Button14>
+                  <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';" type=button value="Effacer les r&eacute;ponses" name=Button14>
+                  </font> </p>
+                <table width="100%" border="0" cellpadding="0">
+                  <tr>
+                    <td><font face="Garamond" size="4">Est-ce que tu lis <i>Le 
+                      Monde</i>?<br>
+                      Oui, je 
+                      <input 
+      size=9 name=item1>
+                      <input onClick="dasher(form.item1, 'le')" type=button value=C name=Button2>
+                      lis.</font></td>
+                    <td><font face="Garamond" size="4">Est-ce que les communistes 
+                      lisent <i>L'Humanit&eacute;</i>? (f)<br>
+                      Oui, ils 
+                      <input size=9 name=item2>
+                      <input onClick="dasher(form.item2, 'la')" type=button value=C name=Button3>
+                      lisent. </font></td>
+                  </tr>
+                  <tr>
+                    <td><font face="Garamond" size="4">Est-ce que <i>Le Figaro 
+                      </i>soutient les principes politiques de droite?<br>
+                      Oui, il 
+                      <input 
+      size=9 name=item3>
+                      <input onClick="dasher(form.item3, 'les')" type=button value=C name=Button4>
+                      soutient.</font></td>
+                    <td><font face="Garamond" size="4">Est-ce que <i>Libération</i> 
+                      critiquait Chirac?<br>
+                      Oui, elle 
+                      <input size=9 name=item4>
+                      <input onClick="dasher(form.item4, 'le')" type=button value=C name=Button5>
+                      critiquait.</font></td>
+                  </tr>
+                  <tr>
+                    <td><font face="Garamond" size="4">Vous lisez <i>L'Équipe</i> 
+                      (f.) pour avoir l'actualité sportive?<br>
+                      Oui, je 
+                      <input size=9 name=item5>
+                      <input onClick="dasher(form.item5, 'la')" type=button value=C name=Button6>
+                      lis.</font></td>
+                    <td><font face="Garamond" size="4">Qu'est-ce que <i>Le Monde 
+                      </i>explique à ses lecteurs?<br>
+                      Il 
+                      <input size=9 name=item8>
+                      <input onClick="dasher(form.item8, 'leur')" type=button value=C name=Button9>
+                      explique les actualités.<br>
+                      </font></td>
+                  </tr>
+                  <tr>
+                    <td><font face="Garamond" size="4">Est-ce que <i>Le Parisien</i> 
+                      présente les nouvelles objectivement à ses lecteurs?<br>
+                      Non, il ne 
+                      <input 
+      size=9 name=item7>
+                      <input onClick="dasher(form.item7, 'leur')" type=button value=C name=Button8>
+                      présente pas les nouvelles objectivement; l'objectivité 
+                      absolue est impossible!<br>
+                      </font></td>
+                    <td><font face="Garamond" size="4">Et les électeurs d'extrême 
+                      droite, ils aiment <i>L'Humanité</i>?<br>
+                      Non, ils ne 
+                      <input size=9 name=item6>
+                      <input onClick="dasher(form.item6, 'l\'')" type=button value=C name=Button7>
+                      aiment pas; L'Humanité est un journal de gauche.</font></td>
+                  </tr>
+                  <tr>
+                    <td><font face="Garamond" size="4">Est-ce que <i>Libération 
+                      </i>(f.) plaît aux gens de la droite?<br>
+                      Non, elle ne 
+                      <input size=9 name=item9>
+                      <input onClick="dasher(form.item9, 'leur')" type=button value=C name=Button10>
+                      plaît pas; <i>Libération</i> est un journal de gauche.<br>
+                      </font></td>
+                    <td><font face="Garamond" size="4">Est-ce que tu regardes 
+                      <i>Le Figaro</i> pour voir les critiques de cinéma?<br>
+                      Oui, je 
+                      <input 
+      size=9 name=item10>
+                      <input onClick="dasher(form.item10, 'le')" type=button value=C name=Button11>
+                      regarde pour voir les critiques.</font></td>
+                  </tr>
+                  <tr>
+                    <td><font face="Garamond" size="4">Quel journal est-ce que 
+                      vous recommandez à votre fille?<br>
+                      Je 
+                      <input size=9 name=item11>
+                      <input onClick="dasher(form.item11, 'lui')" type=button value=C name=Button12>
+                      recommande <i>Le Monde</i>.</font></td>
+                    <td><font face="Garamond" size="4">Et est-ce qu'il y a un 
+                      journal que vous recommandez à votre femme?<br>
+                      Oui, je 
+                      <input size=9 name=item12>
+                      <input onClick="dasher(form.item12, 'lui')" type=button value=C name=Button13>
+                      recommande <i>Le Figaro</i>. </font></td>
+                  </tr>
+                </table>
+                <p align="center"><font face="Garamond" size="4"> 
+                  <input onClick="form.item1.value='le';form.item2.value='la';form.item3.value='les';form.item4.value='le';form.item5.value='la';form.item6.value='l\'';form.item7.value='leur';form.item8.value='leur';form.item9.value='leur';form.item10.value='le';form.item11.value='lui';form.item12.value='lui';" type=button value="Montrer les r&eacute;ponses" name=Button>
+                  <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';" type=button value="Effacer les r&eacute;ponses" name=Button>
+                  </font> </p>
+                </form>
+            </td>
+          </tr>
+          </tbody> 
+        </table>
+        
+  </tr>
+</table>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

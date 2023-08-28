@@ -1,0 +1,85 @@
+---
+title: "Le conditionnel"
+---
+
+<p align=left><font face="Garamond" size="4">Complétez la phrase en mettant 
+        le verbe au conditionnel.<br>
+        Cliquez "C" --> correction.<br>
+        Correct? --> *astérisques*. <br>
+        Incorrect?--> ====.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+<form action="" method=post>
+   <font face="Garamond" size="4"> 1. Vous 
+   <input type=text name=item1 value="" size=9>
+   <input type=button name=Button value="C" onClick="dasher(form.item1, 'auriez')">
+   un stylo s'il vous plaît? (avoir)<br>
+   2. Tu 
+   <input type=text name=item2 value="" size=9>
+   <input type=button name=Button value="C" onClick="dasher(form.item2, 'pourrais')">
+   me prêter ta voiture demain? (pouvoir) <br>
+   3. Nous 
+   <input type=text name=item3 value="" size=9>
+   <input type=button name=Button value="C" onClick="dasher(form.item3, 'aimerions')">
+   aller à Dijon, s'il vous plaît. (aimer) <br>
+   4. J' 
+   <input type=text name=item4 value="" size=9>
+   <input type=button name=Button value="C" onClick="dasher(form.item4, 'aimerais')">
+   un Orangina. (aimer) <br>
+   5. Elle 
+   <input type=text name=item5 value="" size=9>
+   <input type=button name=Button value="C" onClick="dasher(form.item5, 'voudrait')">
+   aider les victimes du tsunami. (vouloir)<br>
+   6. Tu 
+   <input type=text name=item6 value="" size=9>
+   <input type=button name=Button value="C" onClick="dasher(form.item6, 'aurais')">
+   envie de m'accompagner au refuge? (avoir)<br>
+   7. Je 
+   <input type=text name=item7 value="" size=9>
+   <input type=button name=Button value="C" onClick="dasher(form.item7, 'voudrais')">
+   un renseignement, s'il vous plaît. (vouloir)<br>
+   8. Elles 
+   <input type=text name=item8 value="" size=9>
+   <input type=button name=Button value="C" onClick="dasher(form.item8, 'voudraient')">
+   un dessert; vous 
+   <input type=text name=item9 value="" size=9>
+   <input type=button name=Button value="C" onClick="dasher(form.item9, 'pourriez')">
+   leur apporter la carte, s'il vous plaît? (vouloir/pouvoir)<br>
+   9. Vous 
+   <input type=text name=item10 value="" size=9>
+   <input type=button name=Button value="C" onClick="dasher(form.item10, 'pourriez')">
+   me dire s'il y a une station de métro près d'ici? (pouvoir)<br>
+   <br>
+   <input type=button name=Button value="Réponses" onClick="form.item1.value='auriez';form.item2.value='pourrais';form.item3.value='aimerions';form.item4.value='aimerais';form.item5.value='voudrait';form.item6.value='aurais';form.item7.value='voudrais';form.item8.value='voudraient';form.item9.value='pourriez';form.item10.value='pourriez';">
+   <input type=button name=Button value="Effacer" onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';">
+   </font> 
+</form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

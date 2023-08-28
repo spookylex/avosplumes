@@ -1,0 +1,128 @@
+---
+title: "Comparisons (2)" 
+---
+
+<html>
+<head>
+  <title>Comparisons (2)</title>
+  <style>
+    body {
+      font-family: Garamond, serif;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <p>
+    <b>Regardez l'image.</b>
+  </p>
+  <img src="comp1.gif" width="546" height="347" />
+
+  <p>
+    Comparez les personnes en utilisant les éléments donnés.<br />
+    Modèle: Valérie/être/petit/Zacharie ==> Valérie est plus petite que Zacharie.<br />
+    Cliquez "Suite" pour voir la première question.<br />
+    Cliquez Suite/Retour pour voir les questions.<br />
+    Cliquez "Montrer" pour comparer votre réponse à la réponse du professeur.<br />
+    Cliquez "Cacher" pour faire disparaître la réponse du professeur.
+  </p>
+
+  <form name="qbox" action="" method="post">
+    <p>
+      <b>Question</b><br />
+      <textarea name="q" rows="2" wrap="virtual" cols="50"></textarea>
+    </p>
+    <center>
+      <div align="left">
+        <button onClick="begin(-1)" type="button">&lt;=Retour</button>
+        &nbsp; &nbsp;
+        <button onClick="begin(1)" type="button">Suite=&gt;</button>
+        <br />
+      </div>
+    </center>
+  </form>
+
+  <table width="80%" border="0" align="center">
+    <tbody>
+      <tr>
+        <td valign="top" width="236">
+          <p>
+            <b>Votre réponse</b>
+          </p>
+          <form name="Sinput" action="" method="post">
+            <p>
+              <textarea name="Content" rows="3" wrap="virtual" cols="35"></textarea>
+            </p>
+          </form>
+        </td>
+        <td valign="top" width="308">
+          <p>
+            <b>Réponse du professeur</b>
+          </p>
+          <form name="feedback" action="" method="post">
+            <p>
+              <textarea name="fb" rows="3" wrap="virtual" cols="35"></textarea>
+            </p>
+          </form>
+          <form name="check" action="" method="post">
+            <center>
+              <div align="left">
+                <button onClick="checkAnswer()" type="button">Montrer</button>
+                <button onClick="hideAnswer()" type="button">Cacher</button>
+              </div>
+            </center>
+          </form>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script>
+    var Question = [];
+    var Answer = [];
+
+    Question[1] = "1. Zacharie/être/grand/Henri";
+    Question[2] = "2. Valérie/être/studieux/Henri.";
+    Question[3] = "3. Valérie/être/décontracté/(=relaxed)/Henri.";
+    Question[4] = "4. Valérie/être/belle/Zacharie.";
+    Question[5] = "5. La moyenne (=G.P.A.) d'Henri/être/bon/la moyenne des autres étudiants.";
+    Question[6] = "6. Zacharie/être/sportif/Henri.";
+    Question[7] = "7. Valérie/connaître/livres/Henri.";
+    Question[8] = "8. Valérie/avoir/confiance/Zacharie";
+
+    Answer[1] = "Zacharie est plus grand qu'Henri.";
+    Answer[2] = "Valérie est moins studieuse qu'Henri.";
+    Answer[3] = "Valérie est plus décontractée qu'Henri.";
+    Answer[4] = "Valérie est plus belle que Zacharie.";
+    Answer[5] = "La moyenne d'Henri est meilleure que la moyenne des autres étudiants.";
+    Answer[6] = "Zacharie est plus sportif qu'Henri.";
+    Answer[7] = "Valérie connaît moins de livres qu'Henri.";
+    Answer[8] = "Valérie a autant de confiance que Zacharie.";
+
+    var NextQ = 0;
+
+    function begin(QN) {
+      NextQ = NextQ + QN;
+      if (Question[NextQ] == null) {
+        alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.");
+      }
+      document.feedback.fb.value = "";
+      document.Sinput.Content.value = "";
+      document.qbox.q.value = Question[NextQ];
+    }
+
+    function checkAnswer() {
+      if (document.Sinput.Content.value === "") {
+        document.feedback.fb.value = "Essayez de répondre à la question avant de voir la réponse du professeur.";
+      } else {
+        document.feedback.fb.value = Answer[NextQ];
+      }
+    }
+
+    function hideAnswer() {
+      document.feedback.fb.value = "";
+    }
+  </script>
+</body>
+</html>
+

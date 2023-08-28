@@ -1,0 +1,98 @@
+---
+title: "Yes/No"
+---
+#### Le jeu des 20 questions. <p>Marianne pense à une personne dont le nom de famille commence par R. Les autres personnes essaient de deviner qui c'est. Elle ne peut répondre que par oui/non/si. Pour chaque réponse, écrivez trois formes de la même question: version familière, une question avec *est-ce que*, et une question avec inversion.
+Cliquez &quot;Suite&quot; pour voir la  premi&egrave;re réponse. <br>
+Cliquez &quot;Montrer&quot; pour comparer vos questions &agrave; celles du professeur.<br>
+Cliquez &quot;Cacher&quot; pour faire dispara&icirc;tre les questions du professeur. <br />
+Cliquez &quot;Suite/Retour&quot; pour continuer.<br></p>
+
+<form name=qbox action="" method=post>
+              <p><font face="Garamond" size="4"><b>Réponse<br>
+                </b> 
+                <textarea name=q rows=3 wrap=virtual cols=50></textarea>
+                <br>
+                </font></p>
+              <center>
+                <div align=left> <font face="Garamond" size="4"> 
+                  <input onClick=begin(-1) type=button value="&lt;=Retour" name=show>
+                  &nbsp; &nbsp; 
+                  <input onClick=begin(1) type=button value="Suite=&gt;" name=show>
+                  <br>
+                  </font></div>
+              </center>
+            </form>
+            <p></p>
+            <p></p>
+          </td>
+          <td width=200></td>
+        </tr>
+        </tbody> 
+      </table>
+      <table width="80%" border=0 align="center">
+        <tbody> 
+        <tr> 
+          <td valign=top width=236> 
+            <p><font face="Garamond" size="4"><b>Vos questions</b> </font> 
+            <form name=Sinput action="" method=post>
+              <p> <font face="Garamond" size="4"> 
+                <textarea name=Content rows=4 wrap=virtual cols=35></textarea>
+                </font> 
+            </form>
+            <p></p>
+            <p></p>
+          </td>
+          <td valign=top width=308> 
+            <p><font face="Garamond" size="4"><b>Le professeur suggère:</b> </font> 
+            <form name=feedback action="" method=post>
+              <p> <font face="Garamond" size="4"> 
+                <textarea name=fb rows=4 wrap=virtual cols=35></textarea>
+                </font> 
+            </form>
+            <form name=check action="" method=post>
+              <center>
+                <div align=left> <font face="Garamond" size="4"> 
+                  <input onClick=Check() type=button value="Montrer" name=Button>
+                  <input onClick="(document.feedback.fb.value='')" type=button value="Cacher" name=show>
+                  </font></div>
+              </center>
+            </form>
+
+<SCRIPT language=Javascript><!--//
+//  This code is based on a script by Marmoe Soemarmo.  
+//  Dan Beeby modified it and wrote the creation interface, JavaScripts, and Perl Scripts.
+//  http://lang.swarthmore.edu/mellon -- dbeeby@haverford.edu.
+//  Content by Alison Murray Levine, University of Virginia, alevine@virginia.edu.
+//  You may borrow and modify these scripts, but please give credit where credit is due.
+	var Question= new Array();
+	var Answer= new Array();
+//---------------------DATA--------------------
+
+Question[1]="--Oui, c'est une femme.";Question[2]="--Oui, elle est vivante.";Question[3]="--Non, elle n'est pas chanteuse.";Question[4]="--Oui, c'est une femme politique.";Question[5]="--Non, elle n'est pas de droite.";Question[6]="--Si, elle est socialiste.";Question[7]="--Oui, elle s'appelle Ségolène Royal.";
+
+Answer[1]="*Familier*: C'est une femme? *Est-ce que*: Est-ce que c'est une femme? *Inversion*: Est-ce une femme?";Answer[2]="*Familier*: Elle est vivante? *Est-ce que*: Est-ce qu'elle est vivante? *Inversion*: Est-elle vivante?";Answer[3]="*Familier*: Elle est chanteuse? *Est-ce que*: Est-ce qu'elle est chanteuse? *Inversion*: Est-elle chanteuse?";Answer[4]="*Familier*: C'est une femme politique? *Est-ce que*: Est-ce que c'est une femme politique? *Inversion*: Est-ce une femme politique?";Answer[5]="*Familier*: Elle est de droite? *Est-ce que*: Est-ce qu'elle est de droite? *Inversion*: Est-elle de droite?";Answer[6]="*Familier*: Elle n'est pas socialiste? *Est-ce que*: Est-ce qu'elle n'est pas socialiste? *Inversion*: N'est-elle pas socialiste?";Answer[7]="*Familier*: Elle s'appelle Ségolène Royal? *Est-ce que*: Est-ce qu'elle s'appelle Ségolène Royal? *Inversion*: S'appelle-t-elle Ségolène Royal?";
+
+//-------------------END DATA-------------
+
+var NextQ = 0;
+var QN = 0;
+
+function begin(QN){
+NextQ = NextQ + QN
+	if (Question[NextQ] == null) {
+alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.")
+	}
+	document.feedback.fb.value=""
+	document.Sinput.Content.value=""
+	document.qbox.q.value=Question[NextQ]
+}
+
+function Check(){
+	if (document.Sinput.Content.value == ""){
+        document.feedback.fb.value="Essayez de répondre à la question avant de voir la réponse du professeur."
+        }
+	else{
+	document.feedback.fb.value=Answer[NextQ]
+}
+}
+//--></SCRIPT>

@@ -1,0 +1,105 @@
+---
+title: "Polite Requests (2)"
+---
+
+<p align="center"><font face="Garamond" size=5><b>Demandes 
+        polies</font></b></font><br /><br />
+      <img src="cafe1.jpeg" width="550" height="365"><font face="Garamond" size="4">Cliquez &quot;suite=&gt;&quot; 
+        pour voir la premi&egrave;re question.<br>
+        Transformez la demande directe en demande polie.<br>
+        Mod&egrave;le: Je veux un caf&eacute;. ==&gt; J'aimerais un caf&eacute;, 
+        s'il vous pla&icirc;t.<br>
+        Cliquez *Montrer* pour comparer votre r&eacute;ponse &agrave; la r&eacute;ponse 
+        du professeur.<br>
+        Cliquez *suite=&gt;* pour voir la prochaine question.</font></p>
+
+
+<form name=qbox action="" method=post>
+                <p><font face="Garamond" size="4"><b>Question<br>
+                  </b> 
+                  <textarea name=q rows=4 wrap=virtual cols=50></textarea>
+                  <br>
+                  </font></p>
+                <center>
+                  <div align=left> <font face="Garamond" size="4"> 
+                    <input onClick=begin(-1) type=button value="&lt;=Retour" name=show>
+                    &nbsp; &nbsp; 
+                    <input onClick=begin(1) type=button value="Suite=&gt;" name=show>
+                    <br>
+                    </font></div>
+                </center>
+              </form>
+              <p></p>
+              <p></p>
+            </td>
+            <td width=200></td>
+          </tr>
+          </tbody> 
+        </table>
+        <table width="80%" border=0>
+          <tbody> 
+          <tr> 
+            <td valign=top width=236> 
+              <p><font face="Garamond" size="4"><b>Votre réponse</b> </font> 
+              <form name=Sinput action="" method=post>
+                <p> <font face="Garamond" size="4"> 
+                  <textarea name=Content rows=8 wrap=virtual cols=35></textarea>
+                  </font> 
+              </form>
+              <p></p>
+              <p></p>
+            </td>
+            <td valign=top width=308> 
+              <p><font face="Garamond" size="4"><b>Réponse du professeur</b> </font> 
+              <form name=feedback action="" method=post>
+                <p> <font face="Garamond" size="4"> 
+                  <textarea name=fb rows=8 wrap=virtual cols=35></textarea>
+                  </font> 
+              </form>
+              <form name=check action="" method=post>
+                <center>
+                  <div align=left> <font face="Garamond" size="4"> 
+                    <input onClick=Check() type=button value="Montrer" name=Button>
+                    <input onClick="(document.feedback.fb.value='')" type=button value="Cacher" name=show>
+                    </font></div>
+                </center>
+              </form>
+
+<SCRIPT language=Javascript><!--//
+//  This code is based on a script by Marmoe Soemarmo.  
+//  Dan Beeby modified it and wrote the creation interface, JavaScripts, and Perl Scripts.
+//  http://lang.swarthmore.edu/mellon -- dbeeby@haverford.edu.
+//  Content by Alison Murray Levine, University of Virginia, alevine@virginia.edu.
+//  You may borrow and modify these scripts, but please give credit where credit is due.
+	var Question= new Array();
+	var Answer= new Array();
+//---------------------DATA--------------------
+
+Question[1]="Passe-moi un stylo.";Question[2]="Je veux un demi.";Question[3]="Un café!";Question[4]="Nous voulons commander une pizza.";Question[5]="Il veut aller à Paris demain.";Question[6]="Tu peux me dire où est le métro?";Question[7]="Vous pouvez m'aider?";Question[8]="Téléphonez-moi demain ou après-demain.";Question[9]="Où sont les toilettes?";Question[10]="Il part à quelle heure, le prochain train pour Marseille?";
+
+Answer[1]="Tu pourrais me passer un stylo?";Answer[2]="Je voudrais un demi. (J'aimerais un demi, s'il vous plaît.)";Answer[3]="Je voudrais un café. (J'aimerais un café, s'il vous plaît.)";Answer[4]="Nous voudrions commander une pizza.";Answer[5]="Il voudrait aller à Paris demain.";Answer[6]="Tu pourrais me dire où est le métro?";Answer[7]="Vous pourriez m'aider?";Answer[8]="Vous pourriez me téléphoner demain ou après-demain?";Answer[9]="Vous pourriez me dire où sont les toilettes, s'il vous plaît?";Answer[10]="Vous pourriez me dire à quelle heure part le prochain train pour Marseille?";
+
+//-------------------END DATA-------------
+
+var NextQ = 0;
+var QN = 0;
+
+function begin(QN){
+NextQ = NextQ + QN
+	if (Question[NextQ] == null) {
+alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.")
+	}
+	document.feedback.fb.value=""
+	document.Sinput.Content.value=""
+	document.qbox.q.value=Question[NextQ]
+}
+
+function Check(){
+	if (document.Sinput.Content.value == ""){
+        document.feedback.fb.value="Essayez de répondre à la question avant de voir la réponse du professeur."
+        }
+	else{
+	document.feedback.fb.value=Answer[NextQ]
+}
+}
+//--></SCRIPT>

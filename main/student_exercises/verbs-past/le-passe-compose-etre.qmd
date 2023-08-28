@@ -1,0 +1,81 @@
+---
+title: "Le passé composé--être"
+---
+
+<p align=left><font face="Garamond" size="4">Conjuguez le verbe "être" au 
+        passé composé.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.<br>
+        </font></p>
+
+ <form action="" method=post>
+              <font face="Garamond" size="4">J' 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'ai été')" type=button value=C name=Button>
+              médecin.<br>
+              Tu (négatif) 
+              <input size=12 name=item2>
+              <input onClick="dasher(form.item2, 'n\'as pas été')" type=button value=C name=Button>
+              gentil avec les enfants. <br>
+              Les parents de George 
+              <input size=9 
+      name=item3>
+              <input onClick="dasher(form.item3, 'ont été')" type=button value=C name=Button>
+              étonnés par la nouvelle. <br>
+              Nous 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'avons été')" type=button value=C name=Button>
+              bouleversés de savoir que tu avais perdu ton emploi. <br>
+              Le président de l'université 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'a été')" type=button value=C name=Button>
+              merveilleux face à la crise. <br>
+              Vous (négatif) 
+              <input size=15 name=item6>
+              <input onClick="dasher(form.item6, 'n\'avez pas été')" type=button value=C name=Button>
+              surpris par son arrivée? <br>
+              Elle 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'a été')" type=button value=C name=Button>
+              malade pendant cinq mois, mais maintenant ça va mieux. <br>
+              Ils 
+              <input 
+      size=9 name=item8>
+              <input onClick="dasher(form.item8, 'ont été')" type=button value=C name=Button>
+              absents de lundi à vendredi. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='ai été';form.item2.value='n\'as pas été';form.item3.value='ont été';form.item4.value='avons été';form.item5.value='a été';form.item6.value='n\'avez pas été';form.item7.value='a été';form.item8.value='ont été';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

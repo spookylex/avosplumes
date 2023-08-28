@@ -1,0 +1,146 @@
+---
+title: "Pronoms multiples (1)"
+---
+<html>
+
+<head>
+  <title>Vacances</title>
+</head>
+
+<body>
+  <table width="90%" border="0" bgcolor="#FFFFFF" style="margin: 0 auto;" cellpadding="20">
+    <tr>
+      <td align="left" valign="top">
+        <p align="center"><b>Le départ en vacances<br></b><b>(les pronoms)</b></p>
+        <p>
+          <font face="Garamond" size="4">
+            Vous partez en vacances. Votre amie vous pose des questions pour vous aider à être sûr(e) d’avoir tout
+            bien préparé. Répondez aux questions en remplaçant les mots soulignés par les pronoms qui conviennent (le,
+            la, les, lui, leur, y ou en). Faites tous les changements nécessaires.<br>
+            Cliquez "Suite" pour voir la première question.
+          </font>
+        </p>
+        <p>
+          <font face="Garamond" size="4">
+            Répondez aux questions en utilisant des pronoms.<br>
+            Cliquez "Montrer" pour comparer votre réponse à la réponse du professeur.<br>
+            Cliquez "Cacher" pour faire disparaître la réponse du professeur.
+          </font>
+        </p>
+        <p>
+          <font face="Garamond" size="4">Cliquez Suite/Retour pour voir les autres questions.<br></font>
+        </p>
+        <table width="80%" border="0" align="center">
+          <tr>
+            <td width="395">
+              <form name="qbox" action="" method="post">
+                <p>
+                  <font face="Garamond" size="4"><b>Question<br></b>
+                    <textarea name="q" rows="3" wrap="virtual" cols="50"></textarea>
+                  </font>
+                </p>
+                <center>
+                  <div align="left">
+                    <font face="Garamond" size="4">
+                      <input onClick="begin(-1)" type="button" value="<=Retour" name="show">
+                      &nbsp; &nbsp;
+                      <input onClick="begin(1)" type="button" value="Suite=>" name="show">
+                    </font>
+                  </div>
+                </center>
+              </form>
+            </td>
+            <td width="200"></td>
+          </tr>
+        </table>
+        <table width="80%" border="0" align="center">
+          <tr>
+            <td valign="top" width="236">
+              <p>
+                <font face="Garamond" size="4"><b>Votre réponse</b></font>
+              </p>
+              <form name="Sinput" action="" method="post">
+                <p>
+                  <font face="Garamond" size="4">
+                    <textarea name="Content" rows="4" wrap="virtual" cols="35"></textarea>
+                  </font>
+                </p>
+              </form>
+            </td>
+            <td valign="top" width="308">
+              <p>
+                <font face="Garamond" size="4"><b>Réponse du professeur</b></font>
+              </p>
+              <form name="feedback" action="" method="post">
+                <p>
+                  <font face="Garamond" size="4">
+                    <textarea name="fb" rows="4" wrap="virtual" cols="35"></textarea>
+                  </font>
+                </p>
+              </form>
+              <form name="check" action="" method="post">
+                <center>
+                  <div align="left">
+                    <font face="Garamond" size="4">
+                      <input onClick="Check()" type="button" value="Montrer" name="Button">
+                      <input onClick="(document.feedback.fb.value='')" type="button" value="Cacher" name="show">
+                    </font>
+                  </div>
+                </center>
+              </form>
+            </td>
+          </tr>
+        </table>
+        <div align="center"></div>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<SCRIPT language=Javascript><!--//
+//  This code is based on a script by Marmoe Soemarmo.  
+//  Dan Beeby modified it and wrote the creation interface, JavaScripts, and Perl Scripts.
+//  http://lang.swarthmore.edu/mellon -- dbeeby@haverford.edu.
+//  Content by Alison Murray Levine, University of Virginia -- alevine@virginia.edu.
+//  You may borrow and modify these scripts, but please give credit where credit is due.
+	var Question= new Array();
+	var Answer= new Array();
+//---------------------DATA--------------------
+
+Question[1]="Est-ce que tu as pris *ton passeport*?";Question[2]="Est-ce que tu as acheté *de la crème solaire*?";Question[3]="As-tu téléphoné *aux voisins*  avant de partir?";Question[4]="As-tu arrosé *les plantes*?";Question[5]="Est-ce que tu prends un taxi pour aller *à l’aéroport*?";Question[6]="As-tu dit *à ta sœur* *que tu serais parti (e) une semaine*?";Question[7]="Est-ce que tu as pensé à prendre *la clé de la maison*? ";Question[8]="Est-ce que tu sais *que tu dois rentrer avant la fin de la semaine*?";Question[9]="Est-ce que tu as parlé *à ta mère* *de ton départ*?";Question[10]="Est-ce que tu as dit *à ton oncle* *que tu arrivais plus tôt que prévu*?";Question[11]="Est-ce que tu as donné *la clé* *à Marie*?";Question[12]="Est-ce que tu vas *m'*appeler quand tu arriveras?";
+
+Answer[1]="Oui, je l'ai pris. (Non, je ne l'ai pas pris.)";Answer[2]="Oui, j'en ai acheté. (Non, je n'en ai pas acheté.)";Answer[3]="Oui, je leur ai téléphoné. (Non, je ne leur ai pas téléphoné.)";Answer[4]="Oui, je les ai arrosées. (Non, je ne les ai pas arrosées.) [attn: n'oubliez pas l'accord du participe passé!]";Answer[5]="Oui, je prends un taxi pour y aller. (Non, je ne prends pas de taxi pour y aller.)";Answer[6]="Oui, je le lui ai dit. (Non, je ne le lui ai pas dit.)";Answer[7]="Oui, j'ai pensé à la prendre. (Non, je n'ai pas pensé à la prendre.)";Answer[8]="Oui, je le sais. (Non, je ne le sais pas.)";Answer[9]="Oui, je lui en ai parlé. (Non, je ne lui en ai pas parlé.)";Answer[10]="Oui, je le lui ai dit. (Non, je ne le lui ai pas dit.)";Answer[11]="Oui, je la lui ai donnée. (Non, je ne la lui ai pas donnée.)";Answer[12]="Oui, je vais t'appeler quand je t'arriverai. (non, je ne vais pas t'appeler; sois un peu indépendante!)";
+
+//-------------------END DATA-------------
+
+var NextQ = 0;
+var QN = 0;
+
+function begin(QN){
+NextQ = NextQ + QN
+	if (Question[NextQ] == null) {
+alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.")
+	}
+	document.feedback.fb.value=""
+	document.Sinput.Content.value=""
+	document.qbox.q.value=Question[NextQ]
+}
+
+function Check(){
+	if (document.Sinput.Content.value == ""){
+        document.feedback.fb.value="Essayez de répondre à la question avant de voir la réponse du professeur."
+        }
+	else{
+	document.feedback.fb.value=Answer[NextQ]
+}
+}
+//--></SCRIPT>
+
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR>
+
+<title>French Grammar Practice</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>

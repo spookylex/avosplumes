@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "student_exercises/adjectives_adverbs/nationality1.html",
+    "href": "student_exercises/adjectives_adverbs/nationality1.html",
+    "title": "Nationality (1)",
+    "section": "",
+    "text": "Les adjectifs de nationalité\n\n\nÉcrivez la nationalité de la personne. N’oubliez pas: un adjectif est féminin/masculin, singulier/pluriel. Masculin: italien Féminin: italienne Masculin pluriel: italiens Féminin pluriel: italiennes Cliquez “C” –> correction. Correct? –> astérisques.  Incorrect?–> ====. \n\n\n\n\n\n\n\n\n\n\nHergé    Jacques Prévert    Jeanne Moreau et Catherine Deneuve    Penelope Cruz    Tiger Woods    Katherine Hepburn et Diane Keaton    La reine Elizabeth II    Sylvio Berlusconi   Jean-Bertrand Aristide    James Joyce    Les Beatles    Akira Kurosawa    Krystof Kieslowski    George et Barbara Bush    Edith Piaf"
+  },
+  {
+    "objectID": "student_exercises/adjectives_adverbs/nationality2.html",
+    "href": "student_exercises/adjectives_adverbs/nationality2.html",
+    "title": "Nationality (2)",
+    "section": "",
+    "text": "Écrivez la lettre de la description de droite (=right) qui correspond à la personne de gauche (=left). Cliquez “correction”. (les réponses incorrectes disparaissent).\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  1. Pedro Almodovar \n\n\na. ex-président français \n\n\n\n\n  2. Pablo Picasso \n\n\nb. peintre franco-espagnol \n\n\n\n\n  3. Serena et Venus Williams \n\n\nc. écrivain anglais \n\n\n\n\n  4. Nelson Mandela \n\n\nd. ex-président irakien \n\n\n\n\n  5. Jacques Chirac \n\n\ne. cinéastes français \n\n\n\n\n  6. Céline Dion \n\n\nf. cinéaste espagnol \n\n\n\n\n  7. James Joyce \n\n\ng. écrivain irlandais \n\n\n\n\n  8. Charles Dickens \n\n\nh. chanteuse canadienne \n\n\n\n\n  9. Jean-Luc Godard et Luc Besson \n\n\ni. sportives américaines \n\n\n\n\n  10. Saddam Hussein \n\n\nj. ex-président sud-africain \n\n\n\n\n\n\n\n\n\n\n\n\n\n  <center>\n    <form name=e action=\"\" method=post>\n      <center>\n        <input onClick=f() type=button value=Correction name=Button>\n      </center>\n    </form>\n    <form name=incor action=\"\" method=post>\n      <input type=hidden name=wrong>\n    </form>\n\n    <script language=JavaScript>\nvar c = 0 b=new Array(12) b[0]=‘f’; b[1]=‘b’; b[2]=‘i’; b[3]=‘j’; b[4]=‘a’; b[5]=‘h’; b[6]=‘g’; b[7]=‘c’; b[8]=‘e’; b[9]=‘d’; b[10]=’‘; b[11]=’’; function f(){ var x = 0 ISWrong = 0 for (x=0; x<(document.a.elements.length); x++){ if(document.a.elements[x].value!=““){ document.a.elements[x].value = document.a.elements[x].value.toLowerCase() } if ((document.a.elements[x].value == b[x]) || (document.a.elements[x].value == b[x].toLowerCase())){ } else { ISWrong = 1; if(document.a.elements[x].value!=”“){ z=x+1 document.incor.wrong.value = document.incor.wrong.value+document.a.elements[x].value+” ne correspond pas à “+z+”. “; } document.a.elements[x].value = ’’; }\n} if (ISWrong == 1) { Feedback =”Bien, mais il y a encore quelques erreurs.”+” “+ document.incor.wrong.value; document.incor.wrong.value=”“; } else { Feedback =”Bravo! 100%!” } alert(Feedback) }"
+  },
+  {
+    "objectID": "teachers.html",
+    "href": "teachers.html",
+    "title": "A Vos Plumes! for Teachers",
+    "section": "",
+    "text": "What are we trying to do when we teach writing?\nHow do we create good assignments?\nHow can we respond effectively to student writing?\nHow can we make class time lively and worthwhile?\nResources (at left): the long view of teaching. Articles, handouts, take-home student materials.\nClassroom Activities (below): the short view, for today’s class, any method. In-class writing activities, oral activities to practice grammar.\nVideos (at left): for “flipping” your French writing class. Place the videos on your site so students can use them for review and practice with the grammar exercises outside of class. Frees up time in class to work on writing and editing.\nGrammar practice exercises: the homework section. Replaces a grammar workbook. Interactive written homework exercises for your students. Answers, feedback.\nWe abide by Creative Commons licensing principles:\n* nothing on the site may be used for commercial purposes;\n* you free to download and modify work published on the site as long as you give credit and share alike.\nPlease email Alison Levine at the UVA French Department if you like and use my materials. Please also let me know if you find mistakes. Your messages keep me motivated!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "A Vos Plumes!",
+    "section": "",
+    "text": "A Vos Plumes! is for students who want to write better in French and for teachers who want to help them."
+  },
+  {
+    "objectID": "students.html",
+    "href": "students.html",
+    "title": "A Vos Plumes! for Students",
+    "section": "",
+    "text": "How do you write a French essay?\nHow do some professors and teachers grade writing?\nWhere can you get extra grammar practice?\nResources (left): articles, video lessons, and handouts\nGrammar exercises (below): interactive practice exercises with corrections and feedback"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Please note our new URL:http://avosplumes.org.\nIf you want to skip straight to the “meat” of the site, click on For Teachers or For Students. Specifics on what’s to be found in each part of the site can be found by clicking Site Map (left). If you want a brief description of the site’s goals and philosophy, read on!\nWriting in a foreign language conveys a sense of freedom, buoyancy, an experimental spirit. This site is for instructors of French who feel this way and for their students. It is designed to pool our collective wisdom about effective writing and teaching. The materials reflect the best ideas I have gleaned over the past fifteen years from friends and colleagues. As you contribute, I hope the site will improve although not necessarily grow. I will replace and rewrite, but try to keep from accumulating a mass of semi-redundant documents that are hard to navigate. Most of us have little time to read about pedagogy, but want good ideas that are easy to find and implement. I hope you will find some of those here. I hope you will send your students here to practice their grammar and to decipher the mysteries of how we teach and what we expect.\n\n\nAbout me\nI am an associate professor of French at the University of Virginia. My fields are civilization and film. I am not a specialist in teaching writing and have no training in this area. I do teach writing in French in all my courses, at the intermediate/advanced levels, and I regularly teach an intermediate/advanced composition course. I think that one of the most important things we can do for our students is to help them to become better writers.\n\n\nAbout “originality”\nMy thinking about writing has been profoundly shaped by other writing teachers, especially by teachers of English and French composition. I have tried to credit my immediate sources, but those sources may have recycled and adapted others’ ideas. If someone reading this finds uncredited ideas s/he thinks s/he owns, I apologize. Alexandra Duckworth, Greg Colomb, Marva Barnett and Cheryl Krueger deserve particular thanks for their contributions to the site. Barbara Kuczun Nelson inspired me to create the Javascript grammar exercises and helped me get started with coding.\n\n\nAbout you\nI am committed to updating the site with any high-quality materials or ideas that you are willing to share.\n\n\nAbout funding\nThis site is one of the last four projects funded by the University of Virginia’s Teaching + Technology Initiative. The videos were funded by UVA’s Hybrid Challenge Initiative.\n\n\nAbout licensing\nWe abide by Creative Commons licensing principles:\n* nothing on the site may be used for commercial purposes;\n* anyone is free to download and modify work published on the site as long as you give credit and share alike.\n\nA Vos Plumes! website by Alison J. Murray Levine is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License."
+  }
+]

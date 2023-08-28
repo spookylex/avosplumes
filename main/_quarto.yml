@@ -1,0 +1,37 @@
+project: 
+  type: website
+  output-dir: docs
+toc: true
+number-sections: false
+
+# book:
+#   # repo-url: https://github.com/ss4ws/b23
+#   downloads: [pdf, epub]
+#   title: "A Vos Plumes!" 
+#   author: "Alison Levine"
+#   page-navigation: true
+#   chapters:
+#     - index.qmd
+#     - about.qmd
+#     - part: "For Teachers"
+#       chapters:
+#         - teachers.qmd
+#     - part: "For Students"
+#       chapters:
+#         - students.qmd
+
+
+website: 
+  # repo-url: https://github.com/ss4ws/b23
+  title: "À Vos Plumes!"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "À Vos Plumes! *for* Students"
+        contents:
+          - students.qmd
+          - resources.qmd
+      - section: "À Vos Plumes! *for* Teachers"
+        contents:
+          - teachers.qmd

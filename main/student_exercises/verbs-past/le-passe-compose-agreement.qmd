@@ -1,0 +1,193 @@
+---
+title: "Le passé composé--agreement"
+---
+
+<p><font face="Garamond" size="4">Cliquez sur la réponse correcte. Avec 
+        chaque réponse, vous verrez une explication.</font></p>
+     
+
+<form name="QUESTION" action="" method="post">
+   <p> 
+   <table width="100%" border="0">
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">1. J'ai ___ un beau village.</font></p>
+               <font face="Garamond" size="4"> 
+               <input onClick="choice1(this.form)" type="radio" value="Oui. Il n'y a pas d'accord parce que le verbe est conjugué avec *avoir* et il n'y a pas d'objet direct qui précède le verbe." name="one"> vu<br>
+               <input onClick="choice1(this.form)" type="radio" value="Non. Le verbe est conjugué avec *avoir.*" name="one"> vue<br>
+               <input onClick="choice1(this.form)" type="radio" value="Non. Le verbe est conjugué avec *avoir.*" name="one"> vus<br>
+               <input onClick="choice1(this.form)" type="radio" value="Non. Le verbe est conjugué avec *avoir.*" name="one"> vues<br>
+               </font>
+            </td>
+            <td width="50%">
+               <p><font face="Garamond" size="4"> 
+                  <textarea name="feedback1" rows="3" cols="60"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name="QUESTION" action="" method="post">
+   <p> 
+   <table width="100%" border="0">
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">2. Elle a ____ quelques jours 
+                  chez nous.</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input onClick="choice2(this.form)" type="radio" value="Oui. Il n'y a pas d'accord parce que le verbe est conjugué avec *avoir* et l'objet direct, *quelques jours,* est après le verbe." name="one"> passé<br>
+               <input onClick="choice2(this.form)" type="radio" value="Non. Le verbe est conjugué avec *avoir.*" name="one"> passée<br>
+               <input onClick="choice2(this.form)" type="radio" value="Non. Le verbe est conjugué avec *avoir.*" name="one"> passés<br>
+               <input onClick="choice2(this.form)" type="radio" value="Non. Le verbe est conjugué avec *avoir.*" name="one"> passées<br>
+               </font>
+            </td>
+            <td width="50%">
+               <p><font face="Garamond" size="4"> 
+                  <textarea name="feedback2" rows="3" cols="60"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name="QUESTION" action="" method="post">
+   <p> 
+   <table width="100%" border="0">
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">3. Marianne est ___ à six heures.</font></p>
+               <font face="Garamond" size="4"> 
+               <input onClick="choice3(this.form)" type="radio" value="Non. Le verbe est conjugué avec *être*, et ce n'est pas un verbe pronominal." name="one"> sorti<br>
+               <input onClick="choice3(this.form)" type="radio" value="Oui. Le participe passé s'accorde avec le sujet (Marianne) parce que c'est un verbe non-pronominal conjugué avec *être*." name="one"> sortie<br>
+               <input onClick="choice3(this.form)" type="radio" value="Non. Le verbe est conjugué avec *être*, et ce n'est pas un verbe pronominal." name="one"> sortis<br>
+               <input onClick="choice3(this.form)" type="radio" value="Non. Le verbe est conjugué avec *être*, et ce n'est pas un verbe pronominal." name="one"> sorties<br>
+               </font>
+            </td>
+            <td width="50%">
+               <p><font face="Garamond" size="4"> 
+                  <textarea name="feedback3" rows="3" cols="60"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name="QUESTION" action="" method="post">
+   <p> 
+   <table width="100%" border="0">
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">4. Ils sont ___ à la fête.</font></p>
+               <font face="Garamond" size="4"> 
+               <input onClick="choice4(this.form)" type="radio" value="Non. Le verbe est conjugué avec *être*, et ce n'est pas un verbe pronominal." name="one"> venu<br>
+               <input onClick="choice4(this.form)" type="radio" value="Non. Le verbe est conjugué avec *être*, et ce n'est pas un verbe pronominal." name="one"> venue<br>
+               <input onClick="choice4(this.form)" type="radio" value="Oui. Le participe passé s'accorde avec le sujet (ils) parce que c'est un verbe non-pronominal conjugué avec *être*." name="one"> venus<br>
+               <input onClick="choice4(this.form)" type="radio" value="Non. Le verbe est conjugué avec *être*, et ce n'est pas un verbe pronominal." name="one"> venues<br>
+               </font>
+            </td>
+            <td width="50%">
+               <p><font face="Garamond" size="4"> 
+                  <textarea name="feedback4" rows="3" cols="60"></textarea>
+   </table>
+</form>
+
+
+<SCRIPT language=JavaScript><!--
+//  Creation interface, JavaScripts, and Perl Scripts by Dan Beeby.
+//  Based on a Javascript by Barbara Nelson.
+//  http://140.233.69.17/mellon -- dbeeby@haverford.edu.
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu
+function choice1(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback1.value=form.one[i+0].value
+}
+
+function choice2(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback2.value=form.one[i+0].value
+}
+
+function choice3(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback3.value=form.one[i+0].value
+}
+
+function choice4(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback4.value=form.one[i+0].value
+}
+
+function choice5(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback5.value=form.one[i+0].value
+}
+
+function choice6(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback6.value=form.one[i+0].value
+}
+
+function choice7(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback7.value=form.one[i+0].value
+}
+function choice8(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback8.value=form.one[i+0].value
+}
+
+function choice9(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback9.value=form.one[i+0].value
+}
+
+function choice10(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback10.value=form.one[i+0].value
+}
+
+<!--script-->
+//--></SCRIPT>

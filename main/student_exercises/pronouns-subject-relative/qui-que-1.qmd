@@ -1,0 +1,103 @@
+---
+title: "Qui/que (1)"
+---
+<img src="timthumb (2).jpeg" width="300" height="250" /> <!-- Image 1 -->
+
+
+Identifiez les personnes célèbres 
+              en utilisant le pronom relatif *qui* ou *que.*
+<br />Cliquez "C" --&gt; correction.   Correct? --&gt; *astérisques*.  Incorrect?--&gt; ====.<br />
+
+<strong>Rappel:</strong>  on utilise *qui* pour un sujet (qui + verbe)==&gt; ex: la fille <b>qui 
+        </b>aime Marc<br>
+        on utilise *que* pour un objet direct (que + sujet, verbe)==&gt;ex: la 
+        fille <b>que </b>Marc aime<br>
+
+<p align=center><blockquote><a href="pronoms_relatifs_review2.qmd">Revoir tous les pronoms relatifs</a></blockquote></p><br /><br />
+
+ <form action="" method=post>
+              <font face="Garamond" size="4"> Charles de Gaulle, c'était le général 
+              <input size=6 name=item1>
+              <input onClick="dasher(form.item1, 'qui')" type=button value=C name=Button>
+              a dirigé la Résistance française.<br>
+              Noir Désir, c'est un groupe de rock 
+              <input size=6 name=item2>
+              <input onClick="dasher(form.item2, 'qui')" type=button value=C name=Button>
+              a produit l'album <i>66667 Club</i>.<br>
+              MC Solaar, c'est un rapper français 
+              <input size=6 name=item3>
+              <input onClick="dasher(form.item3, 'qui')" type=button value=C name=Button>
+              a un message social.<br>
+              Le maréchal Pétain, c'était le chef du gouvernement français pendant 
+              la deuxième guerre mondiale; c'est le chef 
+              <input size=6 name=item4>
+              <input onClick="dasher(form.item4, 'que')" type=button value=C name=Button>
+              les Français ont exécuté après la guerre.<br>
+              Le capitaine Dreyfus, c'était un officier juif 
+              <input size=6 name=item5>
+              <input onClick="dasher(form.item5, 'que')" type=button value=C name=Button>
+              l'armée a accusé de trahison. Son procès était un événement 
+              <input size=6 
+      name=item6>
+              <input onClick="dasher(form.item6, 'qui')" type=button value=C name=Button>
+              a divisé le pays et 
+              <input size=6 name=item7>
+              <input onClick="dasher(form.item7, 'qui')" type=button value=C name=Button>
+              s'appelle &quot;L'Affaire Dreyfus.&quot;<br>
+              Josephine Baker, c'était une actrice noire américaine 
+              <input size=6 name=item8>
+              <input onClick="dasher(form.item8, 'qui')" type=button value=C name=Button>
+              était très célèbre en France entre les deux guerres.<br>
+              La Tour Eiffel, c'est un monument 
+              <input size=6 name=item9>
+              <input onClick="dasher(form.item9, 'que')" type=button value=C name=Button>
+              la compagnie devait détruire après 20 ans.<br>
+              La fête de la musique, c'est une fête 
+              <input size=6 name=item10>
+              <input onClick="dasher(form.item10, 'que')" type=button value=C name=Button>
+              Jack Lang a inventé, et c'est une fête 
+              <input size=6 name=item11>
+              <input onClick="dasher(form.item11, 'qui')" type=button value=C name=Button>
+              est devenue extrêmement populaire en France.<br>
+              La Sorbonne, c'est une université 
+              <input size=6 name=item12>
+              <input onClick="dasher(form.item12, 'que')" type=button value=C name=Button>
+              les étrangers admirent beaucoup, mais 
+              <input size=6 name=item13>
+              <input onClick="dasher(form.item13, 'qui')" type=button value=C name=Button>
+              est beaucoup moins sélective que les grandes écoles en France.<br>
+              <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='qui';form.item2.value='qui';form.item3.value='qui';form.item4.value='que';form.item5.value='que';form.item6.value='qui';form.item7.value='qui';form.item8.value='qui';form.item9.value='que';form.item10.value='que';form.item11.value='qui';form.item12.value='que';form.item13.value='qui';" type=button value="Réponses" name=Button2>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

@@ -1,0 +1,75 @@
+---
+title: "Giving directions"
+---
+<p align=left><font face="Garamond" size="4">Complétez en utilisant "faire 
+        le tour," "traverser," "à l'angle de," "à droite," "aller tout droit," 
+        ou "jusqu'à." <br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; =.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> J'habite 
+              <input size=19 name=item1>
+              <input onClick="dasher(form.item1, 'à l\'angle de')" type=button value=C name=Button>
+              la rue Monge et la rue Poissonnière. Pour y aller, tu sors de chez 
+              toi, tu tournes 
+              <input size=19 name=item2>
+              <input onClick="dasher(form.item2, 'à droite')" type=button value=C name=Button>
+              , et tu 
+              <input size=19 name=item3>
+              <input onClick="dasher(form.item3, 'vas tout droit')" type=button value=C name=Button>
+              jusqu'à la place Pie. Il y a une grande fontaine au milieu. Quand 
+              tu arrives à la fontaine, tu 
+              <input size=19 name=item4>
+              <input onClick="dasher(form.item4, 'fais le tour')" type=button value=C name=Button>
+              de la fontaine et tu continues tout droit. Après, tu 
+              <input size=19 
+      name=item5>
+              <input onClick="dasher(form.item5, 'traverses')" type=button value=C name=Button>
+              une grande avenue et tu continues tout droit 
+              <input size=19 name=item6>
+              <input onClick="dasher(form.item6, 'jusqu\'à')" type=button value=C name=Button>
+              la deuxième rue à droite. Là, tu tournes 
+              <input size=19 name=item7>
+              <input onClick="dasher(form.item7, 'à droite')" type=button value=C name=Button>
+              et tu 
+              <input size=19 name=item8>
+              <input onClick="dasher(form.item8, 'vas tout droit')" type=button value=C name=Button>
+              pendant 500mètres, à peu près. Tu vas arriver chez moi. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='à l\'angle de';form.item2.value='à droite';form.item3.value='vas tout droit';form.item4.value='fais le tour';form.item5.value='traverses';form.item6.value='jusqu\'à';form.item7.value='à droite';form.item8.value='vas tout droit';" type=button value="Show Answers" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';" type=button value="Clear Answers" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

@@ -1,0 +1,103 @@
+---
+title: "Writing 200-1000 (1)"
+---
+
+<p align=left><font face="Garamond" size="4">Écrivez le chiffre.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> six cent soixante-deux 
+              <input size=7 
+      name=item1>
+              <input onClick="dasher(form.item1, '662')" type=button value=C name=Button>
+              <br>
+              mille quatre cent cinquante 
+              <input size=7 name=item2>
+              <input onClick="dasher(form.item2, '1450')" type=button value=C name=Button>
+              <br>
+              deux cent vingt
+<input size=7 name=item3>
+              <input onClick="dasher(form.item3, '220')" type=button value=C name=Button>
+              <br>
+              deux cent quatre-vingts 
+              <input size=7 name=item4>
+              <input onClick="dasher(form.item4, '280')" type=button value=C name=Button>
+              <br>
+              dix-neuf cent dix-neuf 
+              <input size=7 name=item5>
+              <input onClick="dasher(form.item5, '1919')" type=button value=C name=Button>
+              <br>
+              huit cent treize 
+              <input size=7 name=item6>
+              <input onClick="dasher(form.item6, '813')" type=button value=C name=Button>
+              <br>
+              dix-huit cent soixante-dix-neuf 
+              <input size=7 name=item7>
+              <input onClick="dasher(form.item7, '1879')" type=button value=C name=Button>
+              <br>
+              deux mille trois 
+              <input size=7 name=item8>
+              <input onClick="dasher(form.item8, '2003')" type=button value=C name=Button>
+              <br>
+              neuf cent quatre-vingt-neuf 
+              <input size=7 name=item9>
+              <input onClick="dasher(form.item9, '989')" type=button value=C name=Button>
+              <br>
+              neuf cent quatre-vingt-dix-neuf 
+              <input size=7 name=item10>
+              <input onClick="dasher(form.item10, '999')" type=button value=C name=Button>
+              <br>
+              cinq cent douze 
+              <input size=7 name=item11>
+              <input onClick="dasher(form.item11, '512')" type=button value=C name=Button>
+              <br>
+              cinq cent deux 
+              <input size=7 name=item12>
+              <input onClick="dasher(form.item12, '502')" type=button value=C name=Button>
+              <br>
+              douze cent six 
+              <input size=7 name=item13>
+              <input onClick="dasher(form.item13, '1206')" type=button value=C name=Button>
+              <br>
+              mille cinq cent seize 
+              <input size=7 name=item14>
+              <input onClick="dasher(form.item14, '1516')" type=button value=C name=Button>
+              <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='662';form.item2.value='1450';form.item3.value='220';form.item4.value='280';form.item5.value='1919';form.item6.value='813';form.item7.value='1879';form.item8.value='2003';form.item9.value='989';form.item10.value='999';form.item11.value='512';form.item12.value='502';form.item13.value='1206';form.item14.value='1516';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

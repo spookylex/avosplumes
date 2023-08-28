@@ -1,0 +1,104 @@
+---
+title: "Who/what/where/when"
+---
+
+#### Entretien avec Carla Bruni-Sarkozy<br />
+
+<br /><br />Adapté d’un entretien de *La Tribune*, 4 avril 2009<br />
+Cliquez &quot;Suite&quot; pour voir la  premi&egrave;re réponse de Mme Bruni-Sarkozy. Ecrivez la question que le journaliste a posée. <br>
+Cliquez &quot;Montrer&quot; pour comparer votre question &agrave; la suggestion du professeur.<br>
+Cliquez &quot;Cacher&quot; pour faire dispara&icirc;tre la suggestion du professeur. <br />
+Cliquez &quot;Suite/Retour&quot; pour voir les autres réponses de Mme Bruni-Sarkozy.<br>
+
+<form name=qbox action="" method=post>
+   <p><font face="Garamond" size="4"><b>Réponse de Mme Bruni-Sarkozy:<br>
+      </b> 
+      <textarea name=q rows=3 wrap=virtual cols=50></textarea>
+      <br>
+      </font>
+   </p>
+   <center>
+      <div align=left> <font face="Garamond" size="4"> 
+         <input onClick=begin(-1) type=button value="&lt;=Retour" name=show>
+         &nbsp; &nbsp; 
+         <input onClick=begin(1) type=button value="Suite=&gt;" name=show>
+         <br>
+         </font>
+      </div>
+   </center>
+</form>
+<p></p>
+<p></p>
+</td>
+<td width=200></td>
+</tr>
+</tbody> 
+</table>
+<table width="80%" border=0 align="center">
+<tbody>
+   <tr>
+      <td valign=top width=236>
+         <p><font face="Garamond" size="4"><b>Question du journaliste:</b> </font> 
+         <form name=Sinput action="" method=post>
+            <p> <font face="Garamond" size="4"> 
+               <textarea name=Content rows=4 wrap=virtual cols=35></textarea>
+               </font> 
+         </form>
+         <p></p>
+         <p></p>
+      </td>
+      <td valign=top width=308>
+         <p><font face="Garamond" size="4"><b>Le professeur suggère:</b> </font> 
+         <form name=feedback action="" method=post>
+            <p> <font face="Garamond" size="4"> 
+               <textarea name=fb rows=4 wrap=virtual cols=35></textarea>
+               </font> 
+         </form>
+         <form name=check action="" method=post>
+            <center>
+               <div align=left> <font face="Garamond" size="4"> 
+                  <input onClick=Check() type=button value="Montrer" name=Button>
+                  <input onClick="(document.feedback.fb.value='')" type=button value="Cacher" name=show>
+                  </font>
+               </div>
+            </center>
+         </form>
+
+<SCRIPT language=Javascript><!--//
+//  This code is based on a script by Marmoe Soemarmo.  
+//  Dan Beeby modified it and wrote the creation interface, JavaScripts, and Perl Scripts.
+//  http://lang.swarthmore.edu/mellon -- dbeeby@haverford.edu.
+//  Content by Alison Murray Levine, University of Virginia, alevine@virginia.edu.
+//  You may borrow and modify these scripts, but please give credit where credit is due.
+	var Question= new Array();
+	var Answer= new Array();
+//---------------------DATA--------------------
+
+Question[1]="Je crée une fondation pour la culture et l’éducation parce que la culture et l’éducation sont au cœur de l’exclusion sociale.";Question[2]="Pour moi, les inégalités sociales commencent très tôt, dès l’école primaire.";Question[3]="Oui. Je m’inscris dans la tradition des premières dames qui travaillent dans l’humanitaire.";Question[4]="Concrètement, la fondation va lever des fonds privés pour soutenir et financer les projets des associations.";Question[5]="Oui, nous allons créer des bourses pour favoriser l’entrée des jeunes de milieux défavorisés dans les grandes écoles.";Question[6]="Oui, nous avons le soutien financier de sociétés privées.";Question[7]="Oui, nous pourrions collaborer avec des personnalités comme Luc Besson ou Abdellatif Kechiche.";Question[8]="Oui, absolument, nous avons parlé à Michelle Obama de la fondation.";Question[9]="Je voudrais visiter la banlieue parce que Fadela Amara m’a invitée à l’accompagner. C’est pour moi une occasion de prendre contact et d’observer.";Question[10]="Ma definition personnelle du mot “culture”, c’est une richesse à laquelle tout le monde devrait avoir accès.";Question[11]="Mes premiers souvenirs de la culture sont liés à la lecture, à l’écriture et à la musique.";Question[12]="Le livre qui a changé ma vie, c’est À la recherche du temps perdu. Cette dentelle d’écriture m’a transformée émotionnellement.  J’adore aussi les livres de Virginia Woolf.  Je relis aussi Baudelaire à l’infini, Gérard de Nerval, Rimbaud, Goethe, Leopardi.";Question[13]="Je lis des philosophes, oui, mais je préfère lire des romans ou de la poésie.";Question[14]="Je lis des livres de toutes sortes à mon fils Aurélien.";Question[15]="Les artistes qui m’émeuvent, en peinture, sont les peintres viennois, Schiele, Klimt. J’aime beaucoup Turner, Vermeer, Picasso.";Question[16]="Non, je ne suis pas du tout tentée d’écrire un livre. Je ne rédige jamais en prose. En revanche, j’écris plus que jamais en rimes.";
+
+Answer[1]="Pourquoi créez-vous aujourd’hui une fondation pour la culture et l’éducation ?";Answer[2]="Pour vous, quand est-ce que les inégalités sociales commencent ?";Answer[3]="Est-ce que vous vous inscrivez dans la tradition des premières dames qui travaillent dans l’humanitaire ?";Answer[4]="Concrètement, qu’est-ce que vous allez faire ?";Answer[5]="Allez-vous aussi créer des bourses? ";Answer[6]="Avez-vous le soutien financier de sociétés privées?";Answer[7]="Pourriez-vous collaborer avec des personnalités comme Luc Besson ou Abdellatif Kechiche?";Answer[8]="À Strasbourg, avez-vous parlé à Michelle Obama de la fondation?";Answer[9]="Pourquoi est-ce que vous voulez visiter la banlieue?";Answer[10]="Quelle serait votre définition personnelle du mot “culture” ?";Answer[11]="Quels sont vos premiers souvenirs de la culture?";Answer[12]="Quels livres ont changé votre vie? ";Answer[13]="Lisez-vous aussi des philosophes?";Answer[14]="Quels livres lisez-vous à votre fils Aurélien?";Answer[15]="Quels artistes vous émeuvent? ";Answer[16]="Seriez-vous tentée d’écrire un livre?";
+
+//-------------------END DATA-------------
+
+var NextQ = 0;
+var QN = 0;
+
+function begin(QN){
+NextQ = NextQ + QN
+	if (Question[NextQ] == null) {
+alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.")
+	}
+	document.feedback.fb.value=""
+	document.Sinput.Content.value=""
+	document.qbox.q.value=Question[NextQ]
+}
+
+function Check(){
+	if (document.Sinput.Content.value == ""){
+        document.feedback.fb.value="Essayez de répondre à la question avant de voir la réponse du professeur."
+        }
+	else{
+	document.feedback.fb.value=Answer[NextQ]
+}
+}
+//--></SCRIPT>

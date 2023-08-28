@@ -1,0 +1,90 @@
+---
+title: "Masculine or feminine? (2)"
+---
+
+<p align=left><font face="Garamond" size="4">Masculin ou féminin? Écrivez 
+        "m" ou "f". <br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; =.</font></p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> 1. la ville 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'f')" type=button value=C name=Button>
+              <br>
+              2. le village 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'm')" type=button value=C name=Button>
+              <br>
+              3. les Allemands 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'm')" type=button value=C name=Button>
+              <br>
+              4. les Allemandes 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'f')" type=button value=C name=Button>
+              <br>
+              5. un apéritif 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'm')" type=button value=C name=Button>
+              <br>
+              6. une bouteille 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'f')" type=button value=C name=Button>
+              <br>
+              7. des chaussures bleues 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'f')" type=button value=C name=Button>
+              <br>
+              8.des appartements bleus 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'm')" type=button value=C name=Button>
+              <br>
+              9. des filles intelligentes 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'f')" type=button value=C name=Button>
+              <br>
+              10. des restaurants espagnols 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'm')" type=button value=C name=Button>
+              <br>
+              11. des chefs italiens 
+              <input size=9 name=item11>
+              <input onClick="dasher(form.item11, 'm')" type=button value=C name=Button>
+              <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='f';form.item2.value='m';form.item3.value='m';form.item4.value='f';form.item5.value='m';form.item6.value='f';form.item7.value='f';form.item8.value='m';form.item9.value='f';form.item10.value='m';form.item11.value='m';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

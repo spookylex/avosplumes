@@ -1,0 +1,105 @@
+---
+title: "Le passé composé (2)"
+---
+
+### L'immigration en France<br>
+      
+Cliquez &quot;Suite&quot; pour voir la  premi&egrave;re question.
+      
+Ecrivez une phrase au pass&eacute; compos&eacute;. 
+        <br>
+        Cliquez &quot;Montrer&quot; pour comparer votre r&eacute;ponse &agrave; 
+        la r&eacute;ponse du professeur.<br>
+        Cliquez &quot;Cacher&quot; pour faire dispara&icirc;tre la r&eacute;ponse 
+        du professeur. <br />
+Cliquez Suite/Retour pour voir les autres 
+        questions.<br>
+
+ <form name=qbox action="" method=post>
+              <p><font face="Garamond" size="4"><b>Question<br>
+                </b> 
+                <textarea name=q rows=3 wrap=virtual cols=50></textarea>
+                <br>
+                </font></p>
+              <center>
+                <div align=left> <font face="Garamond" size="4"> 
+                  <input onClick=begin(-1) type=button value="&lt;=Retour" name=show>
+                  &nbsp; &nbsp; 
+                  <input onClick=begin(1) type=button value="Suite=&gt;" name=show>
+                  <br>
+                  </font></div>
+              </center>
+            </form>
+            <p></p>
+            <p></p>
+          </td>
+          <td width=200></td>
+        </tr>
+        </tbody> 
+      </table>
+      <table width="80%" border=0 align="center">
+        <tbody> 
+        <tr> 
+          <td valign=top width=236> 
+            <p><font face="Garamond" size="4"><b>Votre réponse</b> </font> 
+            <form name=Sinput action="" method=post>
+              <p> <font face="Garamond" size="4"> 
+                <textarea name=Content rows=4 wrap=virtual cols=35></textarea>
+                </font> 
+            </form>
+            <p></p>
+            <p></p>
+          </td>
+          <td valign=top width=308> 
+            <p><font face="Garamond" size="4"><b>Réponse du professeur</b> </font> 
+            <form name=feedback action="" method=post>
+              <p> <font face="Garamond" size="4"> 
+                <textarea name=fb rows=4 wrap=virtual cols=35></textarea>
+                </font> 
+            </form>
+            <form name=check action="" method=post>
+              <center>
+                <div align=left> <font face="Garamond" size="4"> 
+                  <input onClick=Check() type=button value="Montrer" name=Button>
+                  <input onClick="(document.feedback.fb.value='')" type=button value="Cacher" name=show>
+                  </font></div>
+              </center>
+            </form>
+<SCRIPT language=Javascript><!--//
+//  This code is based on a script by Marmoe Soemarmo.  
+//  Dan Beeby modified it and wrote the creation interface, JavaScripts, and Perl Scripts.
+//  http://lang.swarthmore.edu/mellon -- dbeeby@haverford.edu.
+//  Content by Alison Murray Levine, University of Virginia, alevine@virginia.edu.
+//  You may borrow and modify these scripts, but please give credit where credit is due.
+	var Question= new Array();
+	var Answer= new Array();
+//---------------------DATA--------------------
+
+Question[1]="21 septembre 1791: déclaration de la République *une et indivisible* par les révolutionnaires";Question[2]="1791-1815: arrivée en France de *libéraux* de toutes origines.";Question[3]="1850: commencement d'une immigration économique en masse, venant de toute l'Europe.";Question[4]="1830-1860: immigration de beaucoup de techniciens et de cadres anglais en France.";Question[5]="1875-1930: baisse de la natalité en France";Question[6]="1914-1918: perte d'un million trois cent mille hommes par la France dans la Grande Guerre";Question[7]="1914-1918: participation de 190 000 troupes africaines à la guerre, dans l'armée française.";Question[8]="Après la Grande Guerre: recrutement de la main-d'oeuvre par les entreprises françaises en Italie, en Tchéchosloviaque, et surtout en Pologne.";Question[9]="années 20: arrivée de la première grande vague de travailleurs nord-africains";Question[10]="1954-1974: immigration massive de *travailleurs immigrés* de l'Afrique du Nord en France.";Question[11]="1974: fermeture des frontières par le gouvernement français.";Question[12]="Après 1974: autorisation du *regroupement familial* par le gouvernement français";
+
+Answer[1]="Le 21 septembre 1791, les révolutionnaires ont déclaré la République *une et indivisible*.";Answer[2]="Entre 1791 et 1815, des *libéraux* de toutes origines sont arrivés en France.";Answer[3]="En 1850, une immigration économique en masse, venant de toute l'Europe, a commencé.";Answer[4]="Entre 1830 et 1860, beaucoup de techniciens et de cadres anglais ont immigré en France.";Answer[5]="Entre 1875 et 1930, la natalité a baissé en France.";Answer[6]="Entre 1914 et 1918, la France a perdu un million trois cent mille hommes dans la Grande Guerre.";Answer[7]="Entre 1914 et 1918, 190 000 troupes africaines ont participé à la guerre, dans l'armée française.";Answer[8]="Après la Grande Guerre, les entreprises françaises ont recruté de la main d'oeuvre en Italie, en Tchécoslovaquie, et surtout en Pologne.";Answer[9]="Pendant les années 20, la première grande vague de travailleurs nord-africains est arrivée.";Answer[10]="Entre 1954 et 1974, des travailleurs immigrés ont immigré massivement de l'Afrique du Nord en France.";Answer[11]="En 1974, le gouvernement français a fermé ses frontières.";Answer[12]="Après 1974, le gouvernement français a autorisé le *regroupement familial.*";
+
+//-------------------END DATA-------------
+
+var NextQ = 0;
+var QN = 0;
+
+function begin(QN){
+NextQ = NextQ + QN
+	if (Question[NextQ] == null) {
+alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.")
+	}
+	document.feedback.fb.value=""
+	document.Sinput.Content.value=""
+	document.qbox.q.value=Question[NextQ]
+}
+
+function Check(){
+	if (document.Sinput.Content.value == ""){
+        document.feedback.fb.value="Essayez de répondre à la question avant de voir la réponse du professeur."
+        }
+	else{
+	document.feedback.fb.value=Answer[NextQ]
+}
+}
+//--></SCRIPT>

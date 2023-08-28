@@ -1,0 +1,101 @@
+---
+title: "Le subjonctif présent (3)"
+---
+Une mère insupportable donne des conseils à sa fille de quatorze ans. <br />
+Cliquez &quot;Suite&quot; pour voir la  premi&egrave;re début de phrase. Terminez la phrase au subjonctif.<br>
+Cliquez &quot;Montrer&quot; pour comparer votre réponse &agrave; la suggestion du professeur.<br>
+Cliquez &quot;Cacher&quot; pour faire dispara&icirc;tre la suggestion du professeur. <br />
+Cliquez &quot;Suite/Retour&quot; pour voir les autres débuts de phrase.<br>
+
+<form name=qbox action="" method=post>
+   <p><font face="Garamond" size="4"><b>Maman dit:<br>
+      </b> 
+      <textarea name=q rows=3 wrap=virtual cols=50></textarea>
+      <br>
+      </font>
+   </p>
+   <center>
+      <div align=left> <font face="Garamond" size="4"> 
+         <input onClick=begin(-1) type=button value="&lt;=Retour" name=show>
+         &nbsp; &nbsp; 
+         <input onClick=begin(1) type=button value="Suite=&gt;" name=show>
+         <br>
+         </font>
+      </div>
+   </center>
+</form>
+<p></p>
+<p></p>
+</td>
+<td width=200></td>
+</tr>
+</tbody> 
+</table>
+<table width="80%" border=0 align="center">
+<tbody>
+   <tr>
+      <td valign=top width=236>
+         <p><font face="Garamond" size="4"><b>Votre phrase:</b> </font> 
+         <form name=Sinput action="" method=post>
+            <p> <font face="Garamond" size="4"> 
+               <textarea name=Content rows=4 wrap=virtual cols=35></textarea>
+               </font> 
+         </form>
+         <p></p>
+         <p></p>
+      </td>
+      <td valign=top width=308>
+         <p><font face="Garamond" size="4"><b>Le professeur suggère:</b> </font> 
+         <form name=feedback action="" method=post>
+            <p> <font face="Garamond" size="4"> 
+               <textarea name=fb rows=4 wrap=virtual cols=35></textarea>
+               </font> 
+         </form>
+         <form name=check action="" method=post>
+            <center>
+               <div align=left> <font face="Garamond" size="4"> 
+                  <input onClick=Check() type=button value="Montrer" name=Button>
+                  <input onClick="(document.feedback.fb.value='')" type=button value="Cacher" name=show>
+                  </font>
+               </div>
+            </center>
+         </form>
+
+<SCRIPT language=Javascript><!--//
+//  This code is based on a script by Marmoe Soemarmo.  
+//  Dan Beeby modified it and wrote the creation interface, JavaScripts, and Perl Scripts.
+//  http://lang.swarthmore.edu/mellon -- dbeeby@haverford.edu.
+//  Content by Alison Murray Levine, University of Virginia, alevine@virginia.edu.
+//  You may borrow and modify these scripts, but please give credit where credit is due.
+	var Question= new Array();
+	var Answer= new Array();
+//---------------------DATA--------------------
+
+Question[1]="Annick, je n’aime pas que tu…";Question[2]="Il vaudrait mieux que tu…";Question[3]="Je n’apprécie pas que tu…";Question[4]="Je préférerais que tu…";Question[5]="Il vaut mieux que tu…";Question[6]="Je crains que tu…";Question[7]="Je ne supporte pas que tu…";Question[8]="Je tiens à ce que tu…";
+
+Answer[1]="Je n’aime pas que tu mettes des jupes trop courtes/que tu sortes tard le soir/etc…";Answer[2]="Il vaudrait mieux que tu travailles plus sérieusement/que tu fasses tes devoirs avant de sortir/etc…";Answer[3]="Je n’apprécie pas que tu te maquilles autant/que tu sois impolie avec ton père et moi/etc…";Answer[4]="Je préférerais que tu sois plus sérieuse/que tu fasses plus de sport/etc…";Answer[5]="Il vaut mieux que tu rentres directement de l’école/que tu n’ailles pas en ville après les cours/etc…";Answer[6]="Je crains que tu n’aies des problèmes en dehors de la maison/que tu ne manques de jugement/etc…";Answer[7]="Je ne supporte pas que tu ne m’obéisse plus/que tu ne m’écoute pas/etc…";Answer[8]="Je tiens à ce que tu réussisses ton année scolaire/que tu sois en sécurité/etc…";
+
+//-------------------END DATA-------------
+
+var NextQ = 0;
+var QN = 0;
+
+function begin(QN){
+NextQ = NextQ + QN
+	if (Question[NextQ] == null) {
+alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.")
+	}
+	document.feedback.fb.value=""
+	document.Sinput.Content.value=""
+	document.qbox.q.value=Question[NextQ]
+}
+
+function Check(){
+	if (document.Sinput.Content.value == ""){
+        document.feedback.fb.value="Essayez de répondre à la question avant de voir la réponse du professeur."
+        }
+	else{
+	document.feedback.fb.value=Answer[NextQ]
+}
+}
+//--></SCRIPT>

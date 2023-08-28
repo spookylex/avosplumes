@@ -1,0 +1,85 @@
+---
+title: "Using 'on' (2)"
+---
+
+<p align=left><font face="Garamond" size="4">"On" ou "il"?<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.<br>
+        N'oubliez pas les différentes significations du pronom "on": "nous," "quelqu'un," 
+        ou "les gens."</font></p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> Mon mari et moi, 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'on')" type=button value=C name=Button>
+              va au Canada. Là-bas, 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'on')" type=button value=C name=Button>
+              parle français ou anglais selon la région. Mon mari travaille au 
+              Québec, alors 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'il')" type=button value=C name=Button>
+              parle français, mais moi, je ne parle qu'anglais. J'ai un frère 
+              au Japon, et 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'il')" type=button value=C name=Button>
+              parle couramment le japonais. 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'Il')" type=button value=C name=Button>
+              me téléphone souvent. 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'On')" type=button value=C name=Button>
+              parle de cinéma, de politique, et de la vie de la famille. Lui et 
+              moi, 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'on')" type=button value=C name=Button>
+              a habité ensemble pendant trois ans à l'université. Puis, 
+              <input size=9 
+      name=item8>
+              <input onClick="dasher(form.item8, 'on')" type=button value=C name=Button>
+              a décidé de se séparer parce qu' 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'il')" type=button value=C name=Button>
+              avait une copine. Maintenant, 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'il')" type=button value=C name=Button>
+              n'est plus avec elle, et avec mon mari, 
+              <input size=9 name=item11>
+              <input onClick="dasher(form.item11, 'on')" type=button value=C name=Button>
+              va voir mon frère au moins une fois par an au Japon. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='on';form.item2.value='on';form.item3.value='il';form.item4.value='il';form.item5.value='Il';form.item6.value='On';form.item7.value='on';form.item8.value='on';form.item9.value='il';form.item10.value='il';form.item11.value='on';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

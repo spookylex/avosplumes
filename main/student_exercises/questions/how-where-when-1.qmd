@@ -1,0 +1,102 @@
+---
+title: "How/where/when...(1)"
+---
+
+<p align=left><font face="Garamond" size="4">Complétez les phrases en utilisant 
+        <strong>où, comment, quand, à qui, qui,</strong> ou <strong>pourquoi.</strong> <br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+<form action="" method=post>
+   <font face="Garamond" size="4"> 1. 
+   <input size=9 name=item1>
+   <input onClick="dasher(form.item1, 'Quand')" type=button value=C name=Button>
+   est-ce que le train arrive?<br>
+   À 17h55.<br>
+   <br>
+   2. 
+   <input size=9 name=item2>
+   <input onClick="dasher(form.item2, 'Pourquoi')" type=button value=C name=Button>
+   est-ce que tu aimes le football?<br>
+   --Parce que les joueurs sont sexy.<br>
+   <br>
+   3. Vous vous appelez 
+   <input size=9 name=item3>
+   <input onClick="dasher(form.item3, 'comment')" type=button value=C name=Button>
+   ?<br>
+   --Michel.<br>
+   <br>
+   4. 
+   <input size=9 name=item4>
+   <input onClick="dasher(form.item4, 'Où')" type=button value=C name=Button>
+   est-ce que vous habitez?<br>
+   --À Mantes-la-Jolie.<br>
+   <br>
+   5. Ton prof de maths, il est 
+   <input size=9 name=item5>
+   <input onClick="dasher(form.item5, 'comment')" type=button value=C name=Button>
+   ?<br>
+   --Grand, aux yeux bleus, et très gentil.<br>
+   <br>
+   6. 
+   <input size=9 name=item6>
+   <input onClick="dasher(form.item6, 'À qui')" type=button value=C name=Button>
+   est-ce que tu parles?<br>
+   --À Mariane.<br>
+   <br>
+   7. 
+   <input size=9 name=item7>
+   <input onClick="dasher(form.item7, 'Quand')" type=button value=C name=Button>
+   est-ce que le bus part?<br>
+   --À six heures. <br>
+   <br>
+   8. C'est 
+   <input size=9 
+      name=item8>
+   <input onClick="dasher(form.item8, 'comment')" type=button value=C name=Button>
+   , Venise?<br>
+   --Très beau et très romantique.<br>
+   <br>
+   9. 
+   <input size=9 
+      name=item9>
+   <input onClick="dasher(form.item9, 'Qui')" type=button value=C name=Button>
+   est le président du club?<br>
+   --C'est Georges. <br>
+   <br>
+   <br>
+   <input onClick="form.item1.value='Quand';form.item2.value='Pourquoi';form.item3.value='comment';form.item4.value='Où';form.item5.value='comment';form.item6.value='À qui';form.item7.value='Quand';form.item8.value='comment';form.item9.value='Qui';" type=button value="Réponses" name=Button>
+   <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';" type=button value="Effacer" name=Button>
+   </font> 
+</form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

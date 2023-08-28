@@ -1,0 +1,92 @@
+---
+title: "L'imparfait--prendre"
+---
+
+ <p align=left><font face="Garamond" size="4">Conjuguez les verbes entre 
+        parenthèses à l'imparfait.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.<br>
+        </font></p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4">Quand j'étais petite, j'(apprendre) 
+              <input 
+      size=13 name=item1>
+              <input onClick="dasher(form.item1, 'apprenais')" type=button value=C name=Button>
+              le français à l'école, mais je ne (comprendre) 
+              <input size=13 name=item2>
+              <input onClick="dasher(form.item2, 'comprenais')" type=button value=C name=Button>
+              pas toujours ce que disait la prof. Je (prendre) 
+              <input size=13 name=item3>
+              <input onClick="dasher(form.item3, 'prenais')" type=button value=C name=Button>
+              des notes si je pouvais, mais j'écrivais mal. La prof (comprendre) 
+              <input 
+      size=13 name=item4>
+              <input onClick="dasher(form.item4, 'comprenait')" type=button value=C name=Button>
+              que je faisais un effort, mais les autres (apprendre) 
+              <input size=13 
+      name=item5>
+              <input onClick="dasher(form.item5, 'apprenaient')" type=button value=C name=Button>
+              toujours plus vite que moi. Elle (prendre) 
+              <input size=13 name=item6>
+              <input onClick="dasher(form.item6, 'prenait')" type=button value=C name=Button>
+              du temps en dehors pour essayer de m'expliquer des choses. ''Quand 
+              tu (apprendre) 
+              <input size=13 name=item7>
+              <input onClick="dasher(form.item7, 'apprenais')" type=button value=C name=Button>
+              l'espagnol l'année dernière, c'était plus facile?'' disait-elle. 
+              <br>
+              ''Non, moi et mes amis, nous ne (comprendre) 
+              <input size=13 name=item8>
+              <input onClick="dasher(form.item8, 'comprenions')" type=button value=C name=Button>
+              rien à l'espagnol non plus,'' disais-je.<br>
+              ''Et toi et tes amis, vous (prendre) 
+              <input size=13 name=item9>
+              <input onClick="dasher(form.item9, 'preniez')" type=button value=C name=Button>
+              le temps de réviser à la maison?'' disait-elle. <br>
+              ''Euh, peut-être que les autres (prendre) 
+              <input size=13 name=item10>
+              <input onClick="dasher(form.item10, 'prenaient')" type=button value=C name=Button>
+              le temps, mais moi pas,'' disais-je. <br>
+              ''Alors, ce serait peut-être une bonne idée,&quot; disait le prof. 
+              Elle (comprendre) 
+              <input size=13 name=item11>
+              <input onClick="dasher(form.item11, 'comprenait')" type=button value=C name=Button>
+              mon angoisse, mais elle voyait tr&egrave;s bien que je ne travaillais 
+              pas assez. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='apprenais';form.item2.value='comprenais';form.item3.value='prenais';form.item4.value='comprenait';form.item5.value='apprenaient';form.item6.value='prenait';form.item7.value='apprenais';form.item8.value='comprenions';form.item9.value='preniez';form.item10.value='prenaient';form.item11.value='comprenait';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

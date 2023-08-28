@@ -1,0 +1,88 @@
+---
+title: "Du/de la (1)"
+---
+
+<p align=left><font face="Garamond" size="4">Complétez en utilisant un article <strong>partitif</strong> (du/de la/des/de l'). <br>
+        Cliquez "C" --&gt; correction. <br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font></p>
+
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> Pour faire un gâteau au chocolat, 
+              il faut 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'du')" type=button value=C name=Button>
+              chocolat, 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'des')" type=button value=C name=Button>
+              oeufs, 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'du')" type=button value=C name=Button>
+              sucre, 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'de l\'')" type=button value=C name=Button>
+              huile, et 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'de la')" type=button value=C name=Button>
+              farine. Mélangez les ingrédients secs d'abord, puis ajoutez les 
+              liquides. Puis, les avis sont différents: mon grand-père met 
+              <input size=9 
+      name=item6>
+              <input onClick="dasher(form.item6, 'de la')" type=button value=C name=Button>
+              cannelle dans son gâteau au chocolat, et ma mère française met 
+              <input 
+      size=9 name=item7>
+              <input onClick="dasher(form.item7, 'de la')" type=button value=C name=Button>
+              noix de muscade. Mais moi, j'ai aussi mon ingrédient secret. Je 
+              mets 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'de l\'')" type=button value=C name=Button>
+              écorce d'orange, juste un petit peu, pour donner 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'du')" type=button value=C name=Button>
+              goût. Certaines recettes vous demandent de mettre 
+              <input size=9 
+      name=item10>
+              <input onClick="dasher(form.item10, 'du')" type=button value=C name=Button>
+              sucre en poudre sur le gâteau, quand il est fini. Et n'oubliez pas 
+              de donner 
+              <input size=9 name=item11>
+              <input onClick="dasher(form.item11, 'du')" type=button value=C name=Button>
+              gâteau aux enfants, avant qu'il ne refroidisse complètement! Ils 
+              en raffolent! <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='du';form.item2.value='des';form.item3.value='du';form.item4.value='de l\'';form.item5.value='de la';form.item6.value='de la';form.item7.value='de la';form.item8.value='de l\'';form.item9.value='du';form.item10.value='du';form.item11.value='du';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

@@ -1,0 +1,229 @@
+---
+title: "Formes négatives"
+---
+
+<p>
+<center>
+   <font face="Garamond" size="4"><strong>Affirmatif ou Négatif?</strong>
+   Cliquez sur la réponse correcte.</font>
+</center>
+</p>
+
+
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">1. Je ne connais pas New York.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice1(this.form)" type="radio" value="Non, c'est négatif." name="one"> affirmatif
+            <br>
+            <input onClick="choice1(this.form)" type="radio" value="Oui!" name=one> négatif
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <input type="text" size="30" name="feedback1" value="">
+            </font></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</form>
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">2. Elle n'aime pas son frère.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, c'est négatif." name="one"> affirmatif
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui!" name="one"> négatif
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">3. Ils viennent souvent à la maison.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui!" name="one"> affirmatif
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, c'est affirmatif." name="one"> négatif
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">4. Tu ne connais rien!</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, *ne...rien* est aussi une forme négative." name="one"> affirmatifralisation
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui! *ne...rien* est une autre forme négative." name="one"> négatif
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">5. Il ne connaît pas Papa.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, c'est négatif" name="one"> affirmatifralisation
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui, bien!" name="one"> négatif
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">6. Elles habitent en Chine.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui, bien!" name="one"> affirmatifralisation
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, c'est affirmatif." name="one"> négatif
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">7. Je ne vois personne.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, *ne...personne* est une autre forme négative." name="one"> affirmatifralisation
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui! *ne...personne* est une autre forme négative." name="one"> négatif
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">8. Tu n'es pas venu chez moi?</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, c'est négatif." name="one"> affirmatifralisation
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui, bien!" name="one"> négatif
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">9. Ils ne comprennent jamais leur prof de français.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, *ne...jamais* est une autre forme négative." name="one"> affirmatifralisation
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui! *ne...jamais* est une autre forme négative." name="one"> négatif
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<script language="JavaScript">
+  function choice1(form) {
+    for (var i = 0; i < form.one.length; i++) {
+      if (form.one[i + 0].checked) {
+        break;
+      }
+    }
+    form.feedback1.value = form.one[i + 0].value;
+  }
+
+  function choice2(form) {
+    for (var i = 0; i < form.one.length; i++) {
+      if (form.one[i + 0].checked) {
+        break;
+      }
+    }
+    form.feedback2.value = form.one[i + 0].value;
+  }
+
+  // Define the remaining choice functions (choice3, choice4, etc.) similarly
+</script>

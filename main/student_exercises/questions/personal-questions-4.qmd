@@ -1,0 +1,98 @@
+---
+title: "Personal questions (4)"
+---
+<p><font face="Garamond" size="4">Un interview.<br><br />
+Cliquez <strong>Suite--></strong> pour voir la première réponse.      <br />  
+Pour chaque réponse, écrivez la question.<br>
+        Cliquez <strong>Suite--></strong> pour voir la prochaine réponse.<br>
+        Cliquez <strong>Montrer</strong> pour comparer votre question à d'autres questions possibles.</font></p>
+
+<form name=qbox action="" method=post>
+                <p><font face="Garamond" size="4"><b>Réponse<br>
+                  </b> 
+                  <textarea name=q rows=4 wrap=virtual cols=50></textarea>
+                  <br>
+                  </font></p>
+                <center>
+                  <div align=left> <font face="Garamond" size="4"> 
+                    <input onClick=begin(-1) type=button value="<--Retour" name=show>
+                    &nbsp; &nbsp; 
+                    <input onClick=begin(1) type=button value="Suite-->" name=show>
+                    <br>
+                    </font></div>
+                </center>
+              </form>
+              <p></p>
+              <p></p>
+            </td>
+            <td width=200></td>
+          </tr>
+          </tbody> 
+        </table>
+        <table width="80%" border=0>
+          <tbody> 
+          <tr> 
+            <td valign=top width=236> 
+              <p><font face="Garamond" size="4"><b>Votre question</b> </font>
+              <form name=Sinput action="" method=post>
+                <p> <font face="Garamond" size="4"> 
+                  <textarea name=Content rows=8 wrap=virtual cols=35></textarea>
+                  </font>
+              </form>
+              <p></p>
+              <p></p>
+            </td>
+            <td valign=top width=308> 
+              <p><font face="Garamond" size="4"><b>Question du professeur</b> </font>
+              <form name=feedback action="" method=post>
+                <p> <font face="Garamond" size="4"> 
+                  <textarea name=fb rows=8 wrap=virtual cols=35></textarea>
+                  </font>
+              </form>
+              <form name=check action="" method=post>
+                <center>
+                  <div align=left> <font face="Garamond" size="4"> 
+                    <input onClick=Check() type=button value="Montrer" name=Button>
+                    <input onClick="(document.feedback.fb.value='')" type=button value="Cacher" name=show>
+                    </font></div>
+                </center>
+              </form>
+
+<SCRIPT language=Javascript><!--//
+//  This code is based on a script by Marmoe Soemarmo.  
+//  Dan Beeby modified it and wrote the creation interface, JavaScripts, and Perl Scripts.
+//  http://lang.swarthmore.edu/mellon -- dbeeby@haverford.edu.
+//  Content by Alison Murray Levine, University of Virginia, alevine@virginia.edu.
+//  You may borrow and modify these scripts, but please give credit where credit is due.
+	var Question= new Array();
+	var Answer= new Array();
+//---------------------DATA--------------------
+
+Question[1]="Sylvie Martin.";Question[2]="J'étudie le français.";Question[3]="Je pars à trois heures.";Question[4]="J'habite au numéro 2, rue Vivaldi.";Question[5]="Je suis cinéaste.";Question[6]="Je travaille à Hollywood.";Question[7]="Oui, j'aime beaucoup cette ville.";Question[8]="Parce que je voulais être riche et célèbre.";Question[9]="Je vais au Mexique.";Question[10]="J'aime écrire des scénarios et danser le rock.";Question[11]="Non, je suis très patiente.";
+
+Answer[1]="Comment vous appelez-vous? /Vous vous appelez comment? /Votre nom?.";Answer[2]="Qu'est-ce que vous étudiez?";Answer[3]="Quand est-ce que vous partez? Vous partez quand?";Answer[4]="Vous habitez où? Où est-ce que vous habitez? Votre domicile?.";Answer[5]="Votre profession? Qu'est-ce que vous faites?";Answer[6]="Où est-ce que vous travaillez? Vous travaillez où?";Answer[7]="Vous aimez la ville de Hollywood? Est-ce que vous aimez la  ville de Hollywood?";Answer[8]="Pourquoi est-ce que vous êtes cinéaste? Pourquoi est-ce que vous faites cette profession?";Answer[9]="Où est-ce que vous allez en vacances? Vous allez où en vacances?";Answer[10]="Qu'est-ce que vous aimez faire?";Answer[11]="Est-ce que vous êtes impatient? Vous êtes impatient?";
+
+//-------------------END DATA-------------
+
+var NextQ = 0;
+var QN = 0;
+
+function begin(QN){
+NextQ = NextQ + QN
+	if (Question[NextQ] == null) {
+alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.")
+	}
+	document.feedback.fb.value=""
+	document.Sinput.Content.value=""
+	document.qbox.q.value=Question[NextQ]
+}
+
+function Check(){
+	if (document.Sinput.Content.value == ""){
+        document.feedback.fb.value="Essayez de répondre à la question avant de voir la réponse du professeur."
+        }
+	else{
+	document.feedback.fb.value=Answer[NextQ]
+}
+}
+//--></SCRIPT>

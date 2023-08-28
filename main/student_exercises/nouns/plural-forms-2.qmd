@@ -1,0 +1,113 @@
+---
+title: "Plural Forms (2)"
+---
+
+ <p align=left><font face="Garamond" size="4">Lisez les textes.<br>
+        <br>
+        Madeleine<br>
+        Elle a 25 ans. Elle est architecte. Elle pratique le yoga et la randonnée. 
+        Elle aime le cinéma et les romans policiers. Elle connaît la Pologne et 
+        la Russie. Ses parents sont médecins. <br>
+        <br>
+        Robert<br>
+        Il a 35 ans et il est dentiste. Fils de médecins, il a une passion: la 
+        bicyclette. Son pays préféré: les Etats-Unis. Il a fait ses études à Barcelone. 
+        Il va souvent en Angleterre. Il aime les westerns et la route.<br>
+        <br>
+        Jean-Pierre<br>
+        Fils de professeurs, il a passé son enfance à Londres. Il habite maintenant 
+        à Barcelone où il étudie l'histoire de l'art. Il a 25 ans et il aime se 
+        promener au bord de la mer. Il passe ses vacances au sud de l'Angleterre 
+        où sa famille a un appartement.<br>
+        <br>
+        Paulette<br>
+        Elle aime faire de la bicyclette et se promener dans la nature. Elle a 
+        travaillé plusieurs années à Londres. Ses parents sont espagnols et elle 
+        va souvent chez eux, à Barcelone. Elle fait un peu de yoga. Elle a suivi 
+        des stages de yoga à Marseille, à Paris, et à Lille.<br>
+        <br>
+        Vrai ou faux?<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+ <form action="" method=post>
+              <font face="Garamond" size="4"> 1. Les deux garçons ont 25 ans. 
+              <input size=9 
+      name=item1>
+              <input onClick="dasher(form.item1, 'faux')" type=button value=C name=Button>
+              <br>
+              2. Paulette et Jean-Pierre ont vécu en Angleterre. 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'vrai')" type=button value=C name=Button>
+              <br>
+              3.Madeleine et Jean-Pierre sont dentistes. 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'faux')" type=button value=C name=Button>
+              <br>
+              4.Ils connaissent tous l'Angleterre. 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'faux')" type=button value=C name=Button>
+              <br>
+              5.Les deux filles font du yoga. 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'vrai')" type=button value=C name=Button>
+              <br>
+              6.Jean-Pierre et Robert sont étudiants. 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'faux')" type=button value=C name=Button>
+              <br>
+              7. Madeleine et Robert ont le même âge. 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'faux')" type=button value=C name=Button>
+              <br>
+              8. Robert, Jean-Pierre et Paulette connaissent tous Barcelone. 
+              <input size=9 
+      name=item8>
+              <input onClick="dasher(form.item8, 'vrai')" type=button value=C name=Button>
+              <br>
+              9. Les parents de Jean-Pierre et de Robert sont médecins. 
+              <input size=9 
+      name=item9>
+              <input onClick="dasher(form.item9, 'faux')" type=button value=C name=Button>
+              <br>
+              10.Madeleine et Paulette aiment le cinéma. 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'faux')" type=button value=C name=Button>
+              <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='faux';form.item2.value='vrai';form.item3.value='faux';form.item4.value='faux';form.item5.value='vrai';form.item6.value='faux';form.item7.value='faux';form.item8.value='vrai';form.item9.value='faux';form.item10.value='faux';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

@@ -1,0 +1,191 @@
+---
+title: "Greeting someone"
+---
+<form name="a" action="" method="post">
+   <center>
+      <table cellpadding="6" width="100%" border="0">
+         <tbody>
+            <tr>
+               <td>
+                  <center>
+                     <font face="Garamond" size="4"><b>Saluer quelqu'un</b> </font> 
+                     <p align="left"><font face="Garamond" size="4">Écrivez la lettre 
+                        de la phrase de droite (=right) qui correspond à la salutation 
+                        de gauche (=left). Cliquez "correction". (les réponses incorrectes 
+                        disparaissent). </font>
+                     </p>
+                     <font face="Garamond" size="4"><br><br></font> 
+                     <table width="90%">
+                        <tbody>
+                           <tr>
+                              <td><font face="Garamond" size="4"> 
+                                 <input maxlength="1" size="1" name="0">
+                                 1. Salut! Ton ami s'appelle comment? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">a. Ça va bien merci, 
+                                 et toi? </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td><font face="Garamond" size="4"> 
+                                 <input maxlength="1" size="1" name="1">
+                                 2. Vous vous appelez comment, Monsieur? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">b. Ce sont des chanteurs 
+                                 espagnols. </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td><font face="Garamond" size="4"> 
+                                 <input maxlength="1" size="1" name="2">
+                                 3. Comment allez-vous? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">c. Je te présente Richard. 
+                                 </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td><font face="Garamond" size="4"> 
+                                 <input maxlength="1" size="1" name="2">
+                                 4. Salut! Ça va? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">d. Non, brésilien, et 
+                                 toi? </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td><font face="Garamond" size="4"> 
+                                 <input maxlength="1" size="1" name="2">
+                                 5. Vous êtes musicien? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">e. Très bien, merci, 
+                                 et vous? </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td><font face="Garamond" size="4"> 
+                                 <input maxlength="1" size="1" name="2">
+                                 6. Tu travailles où? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">f. Non, je suis dentiste, 
+                                 et vous? </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td><font face="Garamond" size="4"> 
+                                 <input maxlength="1" size="1" name="2">
+                                 7. Bonjour, Madame. Vous êtes canadienne? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">g. Je m'appelle Bruno. 
+                                 </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td><font face="Garamond" size="4"> 
+                                 <input maxlength="1" size="1" name="2">
+                                 8. Tu es américain? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">h. Non, je suis mexicaine. 
+                                 </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td><font face="Garamond" size="4"> 
+                                 <input maxlength="1" size="1" name="2">
+                                 9. Cette actrice, c'est qui? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">i. Je suis secrétaire, 
+                                 et toi? </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td><font face="Garamond" size="4"> 
+                                 <input maxlength="1" size="1" name="2">
+                                 10. Ces hommes là-bas, c'est qui? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">j. Non, il est facteur. 
+                                 </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td><font face="Garamond" size="4"> 
+                                 <input maxlength="1" size="1" name="2">
+                                 11. C'est le grand réalisateur espagnol là-bas? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">k. C'est Carole Bouquet. 
+                                 </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td><font face="Garamond" size="4"> 
+                                 <input maxlength="1" size="1" name="2">
+                                 12. Il est étudiant? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">l. Oui, c'est Pedro Almodovar. 
+                                 </font>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </center>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </center>
+</form>
+<center>
+<form name="e" action="" method="post">
+   <center>
+      <font face="Garamond" size="4"> 
+      <input onClick="f()" type="button" value="Correction" name="Button">
+      </font> 
+   </center>
+</form>
+<form name="incor" action="" method="post">
+   <font face="Garamond" size="4"> 
+   <input type="hidden" name="wrong">
+   </font> 
+</form>
+
+<script language="JavaScript">
+var c = 0;
+b = new Array(12);
+b[0] = 'C';
+b[1] = 'G';
+b[2] = 'E';
+b[3] = 'A';
+b[4] = 'F';
+b[5] = 'I';
+b[6] = 'H';
+b[7] = 'D';
+b[8] = 'K';
+b[9] = 'B';
+b[10] = 'L';
+b[11] = 'J';
+function f() {
+   var x = 0;
+   ISWrong = 0;
+   for (x = 0; x < document.a.elements.length; x++) {
+      if (document.a.elements[x].value != "") {
+         document.a.elements[x].value = document.a.elements[x].value.toLowerCase();
+      }
+      if (document.a.elements[x].value == b[x] || document.a.elements[x].value == b[x].toLowerCase()) {
+      } else {
+         ISWrong = 1;
+         if (document.a.elements[x].value != "") {
+            z = x + 1;
+            document.incor.wrong.value = document.incor.wrong.value + document.a.elements[x].value + " ne correspond pas à " + z + ".  ";
+         }
+         document.a.elements[x].value = "";
+      }
+   }
+   if (ISWrong == 1) {
+      Feedback = "Bien, mais il y a quelques erreurs à corriger." + " " + document.incor.wrong.value;
+      document.incor.wrong.value = "";
+   } else {
+      Feedback = "Bien! 100%!";
+   }
+   alert(Feedback);
+}
+</script>

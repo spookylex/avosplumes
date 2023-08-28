@@ -1,0 +1,84 @@
+---
+title: "Around town"
+---
+
+<p align=left><font face="Garamond" size="4">Complétez en utilisant les 
+        lieux de la ville (la mairie, la boulangerie, etc). <br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; =.<br></font></p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4">Je fais toujours mes courses le samedi 
+              matin. Je vais à 
+              <input size=13 name=item1>
+              <input onClick="dasher(form.item1, 'la boulangerie')" type=button value=C name=Button>
+              pour acheter du pain, puis à 
+              <input size=13 name=item2>
+              <input onClick="dasher(form.item2, 'la pâtisserie')" type=button value=C name=Button>
+              pour prendre des gâteaux. Ensuite, je passe au 
+              <input size=18 name=item3>
+              <input onClick="dasher(form.item3, 'bureau de tabac')" type=button value=C name=Button>
+              pour acheter des télécartes et des timbres, parce que 
+              <input size=13 
+      name=item4>
+              <input onClick="dasher(form.item4, 'la poste')" type=button value=C name=Button>
+              est fermée le samedi. Je prends beaucoup de mon alimentation au 
+              <input 
+      size=13 name=item5>
+              <input onClick="dasher(form.item5, 'supermarché')" type=button value=C name=Button>
+              , mais je préfère aller au 
+              <input size=13 name=item6>
+              <input onClick="dasher(form.item6, 'marché')" type=button value=C name=Button>
+              , en plein air, pour acheter les fruits et les légumes. Si ma voiture 
+              a besoin de réparations, je vais au 
+              <input size=13 name=item7>
+              <input onClick="dasher(form.item7, 'garage')" type=button value=C name=Button>
+              . Après les courses, je suis fatigué, et alors je m'arrête au 
+              <input size=13 
+      name=item8>
+              <input onClick="dasher(form.item8, 'café')" type=button value=C name=Button>
+              pour prendre un verre et pour discuter avec des amis. Si j'ai des 
+              courses administratives à faire (papiers, permis, certificats), 
+              j'attends lundi, parce que 
+              <input size=13 name=item9>
+              <input onClick="dasher(form.item9, 'la mairie')" type=button value=C name=Button>
+              est fermée le samedi. En général, 
+              <input size=18 name=item10>
+              <input onClick="dasher(form.item10, 'l\'office de tourisme')" type=button value=C name=Button>
+              est ouvert le week-end, pour aider les touristes. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='la boulangerie';form.item2.value='la pâtisserie';form.item3.value='bureau de tabac';form.item4.value='la poste';form.item5.value='supermarché';form.item6.value='marché';form.item7.value='garage';form.item8.value='café';form.item9.value='la mairie';form.item10.value='l\'office de tourisme';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

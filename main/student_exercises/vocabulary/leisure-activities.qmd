@@ -1,0 +1,99 @@
+---
+title: "Leisure activities"
+---
+
+<p align=left><font face="Garamond" size="4">Complétez en utilisant le vocabulaire 
+        des loisirs.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; =.<br>
+        </font></p>
+
+ <form action="" method=post>
+              <font face="Garamond" size="4">Le Maine est un endroit fantastique 
+              à toutes les saisons. Il y a de grandes 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'forêts')" type=button value=C name=Button>
+              avec beaucoup d'arbres, des 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'lacs')" type=button value=C name=Button>
+              où on peut nager et faire du bateau, et bien sûr, des 
+              <input size=9 
+      name=item3>
+              <input onClick="dasher(form.item3, 'plages')" type=button value=C name=Button>
+              où on peut se bronzer sur le sable. Au bord de la 
+              <input size=9 
+name=item4>
+              <input onClick="dasher(form.item4, 'mer')" type=button value=C name=Button>
+              , on peut voir les bateaux de pêche et faire de la 
+              <input size=15 name=item5>
+              <input onClick="dasher(form.item5, 'planche à voile')" type=button value=C name=Button>
+              --le sport où on est debout sur une planche, avec une voile. Pour 
+              <input size=9 
+      name=item6>
+              <input onClick="dasher(form.item6, 'se loger')" type=button value=C name=Button>
+              , on peut louer une maison ou une chambre d'hôtel. Mais c'est assez 
+              cher; si on aime dormir en plein air, on peut 
+              <input size=15 name=item7>
+              <input onClick="dasher(form.item7, 'faire du camping')" type=button value=C name=Button>
+              . Si vous aimez faire de l' 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'escalade')" type=button value=C name=Button>
+              en montagne, avec les cordes et les pitons, vous pouvez aller vers 
+              l'Ouest de l'état. Il y a de belles 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'rivières')" type=button value=C name=Button>
+              aussi où on peut faire du canoë ou du 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'kayak')" type=button value=C name=Button>
+              . Si vous préférez les deux-roues en montagne, il y a beaucoup de 
+              pistes de 
+              <input size=9 name=item11>
+              <input onClick="dasher(form.item11, 'VTT')" type=button value=C name=Button>
+              . En hiver, bien sûr, il y a le 
+              <input size=9 name=item12>
+              <input onClick="dasher(form.item12, 'ski')" type=button value=C name=Button>
+              alpin ou, si vous n'aimez pas les grandes descentes, vous pouvez 
+              faire du ski 
+              <input size=9 name=item13>
+              <input onClick="dasher(form.item13, 'de fond')" type=button value=C name=Button>
+              . Si vous aimez les véhicules motorisés sur la neige, essayez la 
+              <input 
+      size=15 name=item14>
+              <input onClick="dasher(form.item14, 'moto-neige')" type=button value=C name=Button>
+              ; c'est rapide! <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='forêts';form.item2.value='lacs';form.item3.value='plages';form.item4.value='mer';form.item5.value='planche à voile';form.item6.value='se loger';form.item7.value='faire du camping';form.item8.value='escalade';form.item9.value='rivières';form.item10.value='kayak';form.item11.value='VTT';form.item12.value='ski';form.item13.value='de fond';form.item14.value='moto-neige';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

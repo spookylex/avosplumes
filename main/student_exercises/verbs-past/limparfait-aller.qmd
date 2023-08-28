@@ -1,0 +1,84 @@
+---
+title: "L'imparfait--aller"
+---
+
+<p align=left><font face="Garamond" size="4">Conjuguez le verbe &quot;aller&quot; 
+        à l'imparfait.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font></p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> Promesses non-tenues: l'année dernière...<br>
+              Monsieur et Madame Gymnase 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'allaient')" type=button value=C name=Button>
+              faire de la musculation tous les jours. <br>
+              L'oiseau moqueur 
+              <input size=9 
+      name=item2>
+              <input onClick="dasher(form.item2, 'allait')" type=button value=C name=Button>
+              arrêter de se moquer de tout le monde. <br>
+              Bibi, petit garçon de 6 ans, 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'allait')" type=button value=C name=Button>
+              essayer de ne pas montrer son intelligence trop tôt. <br>
+              Martine et Marteau, les jumeaux acrobates, 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'allaient')" type=button value=C name=Button>
+              essayer de doubler leur distance en trapèze. <br>
+              Mon mari et moi, nous 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'allions')" type=button value=C name=Button>
+              passer au moins un week-end par mois seuls sur la lune. <br>
+              Toi, tu 
+              <input 
+      size=9 name=item6>
+              <input onClick="dasher(form.item6, 'allais')" type=button value=C name=Button>
+              accompagner ton petit frère au zoo.<br>
+              Vous, Monsieur Sévère, vous 
+              <input 
+      size=9 name=item7>
+              <input onClick="dasher(form.item7, 'alliez')" type=button value=C name=Button>
+              essayer de rire (ou au moins de faire un petit sourire intérieur, 
+              pour commencer) au moins une fois par semaine.<br>
+              La petite chèvre 
+              <input 
+      size=9 name=item8>
+              <input onClick="dasher(form.item8, 'allait')" type=button value=C name=Button>
+              trouver enfin l'amour de la vie. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='allaient';form.item2.value='allait';form.item3.value='allait';form.item4.value='allaient';form.item5.value='allions';form.item6.value='allais';form.item7.value='alliez';form.item8.value='allait';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

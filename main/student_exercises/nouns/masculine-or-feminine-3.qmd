@@ -1,0 +1,93 @@
+---
+title: "Masculine or feminine? (3)"
+---
+
+<p align=left><font face="Garamond" size="4">Masculin (m), féminin (f), 
+        ou impossible à savoir (?)?. Ecrivez "m" "f" ou "?".<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; =.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> 1. Je m'appelle Dominique. Je suis 
+              suisse. 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, '?')" type=button value=C name=Button>
+              <br>
+              2. Je suis divorcée et j'ai deux enfants. 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'f')" type=button value=C name=Button>
+              <br>
+              3. Je suis né le 2 novembre 1923. 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'm')" type=button value=C name=Button>
+              <br>
+              4. J'aime la danse. 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, '?')" type=button value=C name=Button>
+              <br>
+              5. Nous sommes italiennes. 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'f')" type=button value=C name=Button>
+              <br>
+              6. J'ai 12 ans et je suis petite pour mon âge. 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'f')" type=button value=C name=Button>
+              <br>
+              7. Je suis mécanicienne. 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'f')" type=button value=C name=Button>
+              <br>
+              8. Nous sommes professeurs. 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, '?')" type=button value=C name=Button>
+              <br>
+              9. Je suis cubaine. Je suis chanteuse. 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'f')" type=button value=C name=Button>
+              <br>
+              10. Je suis célibataire. 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, '?')" type=button value=C name=Button>
+              <br>
+              11. Je ne suis pas marié. 
+              <input size=9 name=item11>
+              <input onClick="dasher(form.item11, 'm')" type=button value=C name=Button>
+              <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='?';form.item2.value='f';form.item3.value='m';form.item4.value='?';form.item5.value='f';form.item6.value='f';form.item7.value='f';form.item8.value='?';form.item9.value='f';form.item10.value='?';form.item11.value='m';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

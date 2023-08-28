@@ -1,0 +1,92 @@
+---
+title: "Writing 1-100 (4)"
+---
+<p><font face="Garamond" size="4"><strong>Combien?</strong>
+
+<br>Écrivez la quantité, en lettres, de choses que Nathalie doit acheter. 
+Modèle: Elle doit acheter _____ yaourts. <br>
+--&gt; Elle doit acheter huit yaourts.<br>
+Correct? --&gt; *astérisques*. <br>
+Incorrect?--&gt; ====.</font></p>
+
+<img src="courses_sm.jpg" width="309" height="457" />
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> Elle doit acheter...<br>
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'six')" type=button value=C name=Button>
+              oeufs, 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'vingt')" type=button value=C name=Button>
+              Cocas, 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'huit')" type=button value=C name=Button>
+              yaourts,
+<input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'dix')" type=button value=C name=Button>
+              biftecks, 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'trois')" type=button value=C name=Button>
+              salades, 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'dix-huit')" type=button value=C name=Button>
+              rouleaux de papier toilette, 
+              <input size=13 name=item7>
+              <input onClick="dasher(form.item7, 'vingt-quatre')" type=button value=C name=Button>
+              huîtres, 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'douze')" type=button value=C name=Button>
+              tartelettes, 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'neuf')" type=button value=C name=Button>
+              , bouteilles d'eau minérale, 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'une')" type=button value=C name=Button>
+              bouteille de vin, 
+              <input size=9 name=item11>
+              <input onClick="dasher(form.item11, 'quatre')" type=button value=C name=Button>
+              glaces différentes, 
+              <input size=9 name=item12>
+              <input onClick="dasher(form.item12, 'dix-neuf')" type=button value=C name=Button>
+              barres de céréales, 
+              <input size=9 name=item13>
+              <input onClick="dasher(form.item13, 'seize')" type=button value=C name=Button>
+              kilos de chocolat, et, pour le r&eacute;gime, 
+              <input size=9 name=item14>
+              <input onClick="dasher(form.item14, 'six')" type=button value=C name=Button>
+              petits melons. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='six';form.item2.value='vingt';form.item3.value='huit';form.item4.value='dix';form.item5.value='trois';form.item6.value='dix-huit';form.item7.value='vingt-quatre';form.item8.value='douze';form.item9.value='neuf';form.item10.value='une';form.item11.value='quatre';form.item12.value='dix-neuf';form.item13.value='seize';form.item14.value='six';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

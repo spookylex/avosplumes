@@ -1,0 +1,105 @@
+---
+title: "Le/la vs. du/de la(1)"
+---
+
+<p align=left><font face="Garamond" size="4">Complétez les phrases en utilisant l'article <strong>défini</strong> (le/la/les/l') ou <strong>partitif</strong> (du/de la/des).<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font></p>
+
+        
+ <form action="" method=post>
+              <font face="Garamond" size="4"> Tu veux 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'du')" type=button value=C name=Button>
+              sucre dans ton café?<br>
+              Il habite dans 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'la')" type=button value=C name=Button>
+              rue Mercier.<br>
+              Ce soir, il y a 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'des')" type=button value=C name=Button>
+              films anciens à la télé.<br>
+              Est-ce que 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'le')" type=button value=C name=Button>
+              vol de Tunis est arrivé?<br>
+              Ils ont 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'des')" type=button value=C name=Button>
+              chiens ou 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'des')" type=button value=C name=Button>
+              chats?<br>
+              Tu connais 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'la')" type=button value=C name=Button>
+              soeur de Jean?<br>
+              Je déteste 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'les')" type=button value=C name=Button>
+              épinards et 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'le')" type=button value=C name=Button>
+              fromage.<br>
+              Aujourd'hui, il y a 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'du')" type=button value=C name=Button>
+              boeuf bourguignon et 
+              <input size=9 name=item11>
+              <input onClick="dasher(form.item11, 'du')" type=button value=C name=Button>
+              filet de sole.<br>
+              <input size=9 name=item12>
+              <input onClick="dasher(form.item12, 'Le')" type=button value=C name=Button>
+              vent est très fort en Provence.<br>
+              Tu as lu 
+              <input size=9 name=item13>
+              <input onClick="dasher(form.item13, 'le')" type=button value=C name=Button>
+              roman <i>La Vie de Pi</i>?<br>
+              Ma mère n'aime pas 
+              <input size=9 name=item14>
+              <input onClick="dasher(form.item14, 'le')" type=button value=C name=Button>
+              soleil.<br>
+              Vous avez 
+              <input size=9 name=item15>
+              <input onClick="dasher(form.item15, 'des')" type=button value=C name=Button>
+              frères ou 
+              <input size=9 name=item16>
+              <input onClick="dasher(form.item16, 'des')" type=button value=C name=Button>
+              soeurs? <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='du';form.item2.value='la';form.item3.value='des';form.item4.value='le';form.item5.value='des';form.item6.value='des';form.item7.value='la';form.item8.value='les';form.item9.value='le';form.item10.value='du';form.item11.value='du';form.item12.value='Le';form.item13.value='le';form.item14.value='le';form.item15.value='des';form.item16.value='des';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';form.item15.value='';form.item16.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

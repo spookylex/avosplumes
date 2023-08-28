@@ -1,0 +1,86 @@
+---
+title: "Telling Time (1)"
+---
+
+<p align=left><font face="Garamond" size="4">Quelle heure est-il? Utilisez 
+        l'heure courante.<br>
+        Cliquez "C" --> correction.<br>
+        Correct? --> *astérisques*. <br>
+        Incorrect?--> ====.</font></p>
+<img src="clocks.gif" width="372" height="280" />
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> 1. Il est 
+              <input type=text name=item1 value="" size=19>
+              <input type=button name=Button value="C" onClick="dasher(form.item1, 'deux heures et quart')">
+              de l'après-midi.<br>
+              2. Il est 
+              <input type=text name=item2 value="" size=19>
+              <input type=button name=Button value="C" onClick="dasher(form.item2, 'neuf heures et demie')">
+              du soir.<br>
+              3. Il est 
+              <input type=text name=item3 value="" size=19>
+              <input type=button name=Button value="C" onClick="dasher(form.item3, 'dix heures vingt-cinq')">
+              du matin.<br>
+              4. Il est 
+              <input type=text name=item4 value="" size=19>
+              <input type=button name=Button value="C" onClick="dasher(form.item4, 'midi')">
+              .<br>
+              5. Il est 
+              <input type=text name=item5 value="" size=19>
+              <input type=button name=Button value="C" onClick="dasher(form.item5, 'minuit dix')">
+              .<br>
+              6. Il est 
+              <input type=text name=item6 value="" size=19>
+              <input type=button name=Button value="C" onClick="dasher(form.item6, 'cinq heures')">
+              moins 
+              <input type=text name=item7 value="" size=9>
+              <input type=button name=Button value="C" onClick="dasher(form.item7, 'le quart')">
+              .<br>
+              7. Il est 
+              <input type=text name=item8 value="" size=19>
+              <input type=button name=Button value="C" onClick="dasher(form.item8, 'une heure dix')">
+              .<br>
+              8. Il est 
+              <input type=text name=item9 value="" size=23>
+              <input type=button name=Button value="C" onClick="dasher(form.item9, 'huit heures moins vingt')">
+              du soir.<br>
+              9. Il est 
+              <input type=text name=item10 value="" size=19>
+              <input type=button name=Button value="C" onClick="dasher(form.item10, 'quatre heures vingt')">
+              du matin. <br>
+              <br>
+              <br>
+              <input type=button name=Button value="Réponses" onClick="form.item1.value='deux heures et quart';form.item2.value='neuf heures et demie';form.item3.value='dix heures vingt-cinq';form.item4.value='midi';form.item5.value='minuit dix';form.item6.value='cinq heures';form.item7.value='le quart';form.item8.value='une heure dix';form.item9.value='huit heures moins vingt';form.item10.value='quatre heures vingt';">
+              <input type=button name=Button value="Effacer" onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';">
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

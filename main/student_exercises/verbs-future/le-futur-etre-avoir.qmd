@@ -1,0 +1,105 @@
+---
+title: "Le futur--être/avoir"
+---
+
+<p align=left><font face="Garamond" size="4">Conjuguez les verbes entre 
+        parenthèses au futur.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> Quand elle (être) 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'sera')" type=button value=C name=Button>
+              grande, elle (avoir) 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'aura')" type=button value=C name=Button>
+              une petite maison.<br>
+              Quand nous (être) 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'serons')" type=button value=C name=Button>
+              américains, nous (avoir) 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'aurons')" type=button value=C name=Button>
+              le droit de voter.<br>
+              Quand tu (être) 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'seras')" type=button value=C name=Button>
+              mariée, tu n'(avoir) 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'auras')" type=button value=C name=Button>
+              plus la possibilité de fréquenter tous tes copains.<br>
+              Quand elles (être) 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'seront')" type=button value=C name=Button>
+              à la retraite, elles (avoir) 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'auront')" type=button value=C name=Button>
+              l'occasion de voyager beaucoup.<br>
+              Quand il (être) 
+              <input size=9 
+      name=item9>
+              <input onClick="dasher(form.item9, 'sera')" type=button value=C name=Button>
+              architecte, il (avoir) 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'aura')" type=button value=C name=Button>
+              beaucoup de travail.<br>
+              Quand vous (être) 
+              <input size=9 name=item11>
+              <input onClick="dasher(form.item11, 'serez')" type=button value=C name=Button>
+              riche, vous (avoir) 
+              <input size=9 name=item12>
+              <input onClick="dasher(form.item12, 'aurez')" type=button value=C name=Button>
+              la possibilité de sauver beaucoup de terres.<br>
+              Quand je (être) 
+              <input 
+      size=9 name=item13>
+              <input onClick="dasher(form.item13, 'serai')" type=button value=C name=Button>
+              en France, j'(avoir) 
+              <input size=9 name=item14>
+              <input onClick="dasher(form.item14, 'aurai')" type=button value=C name=Button>
+              beaucoup d'occasions de parler français.<br>
+              Quand ils (être) 
+              <input size=9 
+      name=item15>
+              <input onClick="dasher(form.item15, 'seront')" type=button value=C name=Button>
+              célèbres, ils (avoir) 
+              <input size=9 name=item16>
+              <input onClick="dasher(form.item16, 'auront')" type=button value=C name=Button>
+              encore moins de temps libre que maintenant.<br>
+              <br>
+              <input onClick="form.item1.value='sera';form.item2.value='aura';form.item3.value='serons';form.item4.value='aurons';form.item5.value='seras';form.item6.value='auras';form.item7.value='seront';form.item8.value='auront';form.item9.value='sera';form.item10.value='aura';form.item11.value='serez';form.item12.value='aurez';form.item13.value='serai';form.item14.value='aurai';form.item15.value='seront';form.item16.value='auront';" type=button value="Montrer les r&eacute;ponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';form.item15.value='';form.item16.value='';" type=button value="Effacer les r&eacute;ponses" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

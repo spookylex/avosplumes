@@ -1,0 +1,112 @@
+---
+title: "Describing people"
+---
+<p align="center"><font face="Garamond" size="4">Complétez en utilisant 
+        le vocabulaire de la description.<br>
+        Cliquez "C" --&gt; correction. Correct? --&gt; *astérisques*. Incorrect?--&gt; 
+        =.<br>
+        </font></p>
+
+<form action="" method=post>
+              <div align="left"><font face="Garamond" size="4">Commençons par 
+                la taille: Astérix est 
+                <input 
+      size=9 name=item1>
+                <input onClick="dasher(form.item1, 'petit')" type=button value=C name=Button>
+                ; Obélix est 
+                <input size=9 name=item2>
+                <input onClick="dasher(form.item2, 'grand')" type=button value=C name=Button>
+                . Obélix est 
+                <input size=9 name=item3>
+                <input onClick="dasher(form.item3, 'gros')" type=button value=C name=Button>
+                aussi parce qu'il mange beaucoup de sangliers, mais Astérix, lui, 
+                est plutôt 
+                <input size=9 name=item4>
+                <input onClick="dasher(form.item4, 'mince')" type=button value=C name=Button>
+                . Astérix a les 
+                <input size=9 name=item5>
+                <input onClick="dasher(form.item5, 'cheveux')" type=button value=C name=Button>
+                blonds et 
+                <input size=9 name=item6>
+                <input onClick="dasher(form.item6, 'courts')" type=button value=C name=Button>
+                et il porte une 
+                <input size=12 name=item7>
+                <input onClick="dasher(form.item7, 'moustache')" type=button value=C name=Button>
+                blonde aussi. Il porte un 
+                <input size=9 name=item8>
+                <input onClick="dasher(form.item8, 'pantalon')" type=button value=C name=Button>
+                rouge et des 
+                <input size=12 name=item9>
+                <input onClick="dasher(form.item9, 'chaussures')" type=button value=C name=Button>
+                brunes. Obélix, lui, 
+                <input size=9 name=item10>
+                <input onClick="dasher(form.item10, 'porte')" type=button value=C name=Button>
+                un pantalon 
+                <input size=9 name=item11>
+                <input onClick="dasher(form.item11, 'bleu')" type=button value=C name=Button>
+                et 
+                <input size=9 name=item12>
+                <input onClick="dasher(form.item12, 'blanc')" type=button value=C name=Button>
+                avec une 
+                <input size=9 name=item13>
+                <input onClick="dasher(form.item13, 'ceinture')" type=button value=C name=Button>
+                verte. Il a les cheveux 
+                <input size=9 name=item14>
+                <input onClick="dasher(form.item14, 'roux')" type=button value=C name=Button>
+                et longs. Panoramix, lui, n'est pas jeune; il est 
+                <input size=9 
+      name=item15>
+                <input onClick="dasher(form.item15, 'vieux')" type=button value=C name=Button>
+                . Il a donc les cheveux 
+                <input size=9 name=item16>
+                <input onClick="dasher(form.item16, 'blancs')" type=button value=C name=Button>
+                . Ses cheveux sont 
+                <input size=9 name=item17>
+                <input onClick="dasher(form.item17, 'longs')" type=button value=C name=Button>
+                et il porte une 
+                <input size=12 name=item18>
+                <input onClick="dasher(form.item18, 'moustache')" type=button value=C name=Button>
+                et une longue 
+                <input size=9 name=item19>
+                <input onClick="dasher(form.item19, 'barbe')" type=button value=C name=Button>
+                blanche. Sa robe est 
+                <input size=9 name=item20>
+                <input onClick="dasher(form.item20, 'blanche')" type=button value=C name=Button>
+                aussi, mais sa cape est 
+                <input size=9 name=item21>
+                <input onClick="dasher(form.item21, 'rouge')" type=button value=C name=Button>
+                . <br>
+                <br>
+                <input onClick="form.item1.value='petit';form.item2.value='grand';form.item3.value='gros';form.item4.value='mince';form.item5.value='cheveux';form.item6.value='courts';form.item7.value='moustache';form.item8.value='pantalon';form.item9.value='chaussures';form.item10.value='porte';form.item11.value='bleu';form.item12.value='blanc';form.item13.value='ceinture';form.item14.value='roux';form.item15.value='vieux';form.item16.value='blancs';form.item17.value='longs';form.item18.value='moustache';form.item19.value='barbe';form.item20.value='blanche';form.item21.value='rouge';" type=button value="R&eacute;ponses" name=Button>
+                <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';form.item15.value='';form.item16.value='';form.item17.value='';form.item18.value='';form.item19.value='';form.item20.value='';form.item21.value='';" type=button value="Effacer" name=Button>
+                </font></div>
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

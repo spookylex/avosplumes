@@ -1,0 +1,90 @@
+---
+title: "Writing 1-100 (3)"
+---
+<p align=left><font face="Garamond" size="4">Écrivez, en lettres, le chiffre 
+        que vous voyez.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====. </font></p>
+
+ <form action="" method=post>
+              <font face="Garamond" size="4"> 23 
+              <input size=19 name=item1>
+              <input onClick="dasher(form.item1, 'vingt-trois')" type=button value=C name=Button>
+              <br>
+              78 
+              <input size=19 name=item2>
+              <input onClick="dasher(form.item2, 'soixante-dix-huit')" type=button value=C name=Button>
+              <br>
+              43 
+              <input size=19 name=item3>
+              <input onClick="dasher(form.item3, 'quarante-trois')" type=button value=C name=Button>
+              <br>
+              6 
+              <input size=19 name=item4>
+              <input onClick="dasher(form.item4, 'six')" type=button value=C name=Button>
+              <br>
+              98 
+              <input size=19 name=item5>
+              <input onClick="dasher(form.item5, 'quatre-vingt-dix-huit')" type=button value=C name=Button>
+              <br>
+              21 
+              <input size=19 name=item6>
+              <input onClick="dasher(form.item6, 'vingt-et-un')" type=button value=C name=Button>
+              <br>
+              18 
+              <input size=19 name=item7>
+              <input onClick="dasher(form.item7, 'dix-huit')" type=button value=C name=Button>
+              <br>
+              67 
+              <input size=19 name=item8>
+              <input onClick="dasher(form.item8, 'soixante-sept')" type=button value=C name=Button>
+              <br>
+              77 
+              <input size=19 name=item9>
+              <input onClick="dasher(form.item9, 'soixante-dix-sept')" type=button value=C name=Button>
+              <br>
+              32 
+              <input size=19 name=item10>
+              <input onClick="dasher(form.item10, 'trente-deux')" type=button value=C name=Button>
+              <br>
+              58 
+              <input size=19 name=item11>
+              <input onClick="dasher(form.item11, 'cinquante-huit')" type=button value=C name=Button>
+              <br>
+              <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='vingt-trois';form.item2.value='soixante-dix-huit';form.item3.value='quarante-trois';form.item4.value='six';form.item5.value='quatre-vingt-dix-huit';form.item6.value='vingt-et-un';form.item7.value='dix-huit';form.item8.value='soixante-sept';form.item9.value='soixante-dix-sept';form.item10.value='trente-deux';form.item11.value='cinquante-huit';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

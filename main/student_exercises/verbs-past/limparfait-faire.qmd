@@ -1,0 +1,91 @@
+---
+title: "L'imparfait--faire"
+---
+
+<p align=left><font face="Garamond" size="4">Conjuguez le verbe "faire" 
+        à l'imparfait.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font></p>
+
+   <form action="" method=post>
+              <font face="Garamond" size="4">Tu te souviens, Jacques, de notre 
+              maison en Provence? J'ai l'impression qu'il 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'faisait')" type=button value=C name=Button>
+              toujours beau. Nous 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'faisions')" type=button value=C name=Button>
+              de longues promenades le soir, et nous (négatif) 
+              <input size=15 name=item3>
+              <input onClick="dasher(form.item3, 'ne faisions pas')" type=button value=C name=Button>
+              toujours la vaisselle. C'était la vie de l'été. Toi, tu 
+              <input size=9 
+      name=item4>
+              <input onClick="dasher(form.item4, 'faisais')" type=button value=C name=Button>
+              du pain tous les matins, et parfois tu 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'faisais')" type=button value=C name=Button>
+              des croissants aussi. Francis, notre voisin, 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'faisait')" type=button value=C name=Button>
+              parfois son propre vin, et avec lui, nous 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'faisions')" type=button value=C name=Button>
+              la fête toute la nuit. Je 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'faisais')" type=button value=C name=Button>
+              à manger tous les jours à midi, et le soir, on (négatif) 
+              <input size=15 
+      name=item9>
+              <input onClick="dasher(form.item9, 'ne faisait pas')" type=button value=C name=Button>
+              grand chose, mais on mangeait ce qu'on avait. Les enfants 
+              <input size=9 
+      name=item10>
+              <input onClick="dasher(form.item10, 'faisaient')" type=button value=C name=Button>
+              du cheval dans la montagne pendant que nous, nous 
+              <input size=9 
+      name=item11>
+              <input onClick="dasher(form.item11, 'faisions')" type=button value=C name=Button>
+              la sieste. Quand ta soeur venait, vous 
+              <input size=9 name=item12>
+              <input onClick="dasher(form.item12, 'faisiez')" type=button value=C name=Button>
+              de l'escalade parce que moi, je (négatif) 
+              <input size=15 name=item13>
+              <input onClick="dasher(form.item13, 'ne faisais pas')" type=button value=C name=Button>
+              de montagne. C'était le bon vieux temps. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='faisait';form.item2.value='faisions';form.item3.value='ne faisions pas';form.item4.value='faisais';form.item5.value='faisais';form.item6.value='faisait';form.item7.value='faisions';form.item8.value='faisais';form.item9.value='ne faisait pas';form.item10.value='faisaient';form.item11.value='faisions';form.item12.value='faisiez';form.item13.value='ne faisais pas';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

@@ -1,0 +1,114 @@
+---
+title: "L'entretien d'embauche (vidéo)"
+---
+
+{{< video levres_interview.mov>}}
+
+<html>
+  <video width="320" height="240" controls>
+    <source src="levres_interview.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+<br>
+</html>
+
+Instructions: In this unit, you will watch a film excerpt from Jacques Audiard's excellent film, Sur mes lèvres, in which Carla interviews Paul, an ex-con, for an office job. First, watch the video without the transcription. Then try to fill in the blanks in the comprehension exercise. If you need to, you can consult the <a href="lentretien-dembauche-transcription.qmd" title="transcription">transcription</a>. Then you can practice asking simple informational questions in these exercises:<br />
+<a href="personal-questions-1.qmd" title="questions 1">Questions 1</a>/<a href="personal-questions-2.qmd" title="Questions 2">Questions 2</a>/<a href="personal-questions-3.qmd" title="Questions 3">Questions 3</a>/<a href="personal-questions-4.qmd" title="Questions 4">Questions 4</a><p>One of many places you may purchase a DVD of this terrific film is <a href="http://www.amazon.com" title="Amazon" target="_blank">Amazon</a>; the English title is "Read My Lips."</p>
+
+ <FORM action="" method=post>
+        
+Ecoutez le dialogue et compl&eacute;tez la transcription. Cliquez C pour la correction. Correct?--*astérisques.* Incorrect?--====<p> 
+
+<br>
+  --Alors...Vous <font face="Garamond" size="4">
+  <INPUT size=9 name=item1>
+  <INPUT onClick="dasher(form.item1, 'savez')" type=button value=C name=Button>
+  </font> taper &agrave; la machine? <br>
+  --Bien s&ucirc;r.<br>
+  --Vous savez vous servir d'un <font face="Garamond" size="4">
+  <INPUT size=9 name=item2>
+  <INPUT onClick="dasher(form.item2, 'ordinateur')" type=button value=C name=Button>
+  </font>? <br>
+  --Ben oui.<br>
+  --Vous savez faire des <font face="Garamond" size="4">
+  <INPUT size=14 name=item3>
+  <INPUT onClick="dasher(form.item3, 'photocopies')" type=button value=C name=Button>
+  </font>? <br>
+  --Pas de <font face="Garamond" size="4">
+  <INPUT size=9 name=item4>
+  <INPUT onClick="dasher(form.item4, 'probl&egrave;me')" type=button value=C name=Button>
+  </font>, j'en ai d&eacute;j&agrave; fait plein.<br>
+  --Est-ce que vous avez d&eacute;j&agrave; <font face="Garamond" size="4">
+  <INPUT size=9 name=item5>
+  <INPUT onClick="dasher(form.item5, 'travaill&eacute;')" type=button value=C name=Button>
+  </font> sur des tableurs? <br>
+  --Des tableurs...<br>
+  --Des tableurs, c'est des feuilles de calcul. <br>
+  --Oui <font face="Garamond" size="4">
+  <INPUT size=10 name=item6>
+  <INPUT onClick="dasher(form.item6, 'bien s&ucirc;r')" type=button value=C name=Button>
+  </font>, des tableurs, plein de fois, et surtout le calcul, je suis...je suis bon, quoi.<br>
+  --Quel <font face="Garamond" size="4">
+  <INPUT size=9 name=item7>
+  <INPUT onClick="dasher(form.item7, 'logiciel')" type=button value=C name=Button>
+  </font>? <br>
+  --Alors l&agrave; c'est dr&ocirc;le, j'ai oubli&eacute;, c'&eacute;tait des logiciels...des trucs... des logiciels...normaux, des logiciels...allemands, peut-&ecirc;tre?<br>
+  --Je vois que vous n'avez pas <font face="Garamond" size="4">
+  <INPUT size=9 name=item8>
+  <INPUT onClick="dasher(form.item8, 'travaill&eacute;')" type=button value=C name=Button>
+  </font> depuis deux ans.<br>
+  --Ben, oui.<br>
+  --<font face="Garamond" size="4">
+  <INPUT size=9 name=item9>
+  <INPUT onClick="dasher(form.item9, 'Pourquoi')" type=button value=C name=Button>
+  </font>?<br>
+  --Pourquoi, parce que j'<font face="Garamond" size="4">
+  <INPUT size=9 name=item10>
+  <INPUT onClick="dasher(form.item10, '&eacute;tais')" type=button value=C name=Button>
+  </font>&agrave; Fleury.<br>
+  --Fleury?<br>
+  --J'&eacute;tais &agrave; la centrale, quoi.<br>
+  --La centrale de quoi?<br>
+  --La centrale des particuliers.<br>
+  --J'&eacute;tais en taule. Vous vous foutez de ma gueule ou quoi l&agrave;?<br>
+  --Ah, vous &eacute;tiez en <font face="Garamond" size="4"> </font><font face="Garamond" size="4">
+  <INPUT size=9 name=item11>
+  <INPUT onClick="dasher(form.item11, 'prison')" type=button value=C name=Button>
+  </font>?<br>
+  --Mais ils ne vous ont rien dit &agrave; l'agence?<br>
+  --Non.<br>
+  --OK, &ccedil;a va aller.<br>
+  --Non mais je...</p>
+<INPUT onClick="form.item1.value='savez';form.item2.value='ordinateur';form.item3.value='photocopies';form.item4.value='probl&egrave;me';form.item5.value='travaill&eacute;';form.item6.value='bien s&ucirc;r';form.item7.value='logiciel';form.item8.value='travaill&eacute;';form.item9.value='Pourquoi';form.item10.value='&eacute;tais';form.item11.value='prison';" type=button value="R&eacute;ponses" name=Button>
+<INPUT onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';" type=button value="Effacer" name=Button>
+             
+</FORM>
+
+<SCRIPT language=JavaScript>
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

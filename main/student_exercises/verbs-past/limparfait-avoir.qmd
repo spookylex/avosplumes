@@ -1,0 +1,83 @@
+---
+title: "L'imparfait--avoir"
+---
+<p align=left><font face="Garamond" size="4">Conjuguez le verbe "avoir" 
+        à l'imparfait.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font></p>
+
+ <form action="" method=post>
+              <font face="Garamond" size="4"> Dans la classe, il y 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'avait')" type=button value=C name=Button>
+              quinze enfants. Marie 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'avait')" type=button value=C name=Button>
+              cinq ans; c'était la plus petite. J' 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'avais')" type=button value=C name=Button>
+              sept ans et demi; j'étais le plus grand. Mon frère 
+              <input size=9 
+      name=item4>
+              <input onClick="dasher(form.item4, 'avait')" type=button value=C name=Button>
+              tout juste six ans. Nous (négatif) 
+              <input size=13 name=item5>
+              <input onClick="dasher(form.item5, 'n\'avions pas')" type=button value=C name=Button>
+              tous des parents gentils, et nous étions un peu méchants les uns 
+              avec les autres. Les garçons 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'avaient')" type=button value=C name=Button>
+              l'habitude de voler les crayons aux filles, et les filles 
+              <input size=9 
+      name=item7>
+              <input onClick="dasher(form.item7, 'avaient')" type=button value=C name=Button>
+              toujours une réponse maligne. Tu te souviens, Benoît, de cette encre 
+              bleue que tu 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'avais')" type=button value=C name=Button>
+              , qui devenait invisible après dix minutes? Le jour où la petite 
+              Marie 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'avait')" type=button value=C name=Button>
+              un superbe chemisier blanc brodé, elle n'y a pas échappé! Vous les 
+              autres garçons, vous 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'aviez')" type=button value=C name=Button>
+              toujours de bonnes idées pour punir les filles, mais elles n'étaient 
+              jamais à court d'idées non plus! <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='avait';form.item2.value='avait';form.item3.value='avais';form.item4.value='avait';form.item5.value='n\'avions pas';form.item6.value='avaient';form.item7.value='avaient';form.item8.value='avais';form.item9.value='avait';form.item10.value='aviez';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

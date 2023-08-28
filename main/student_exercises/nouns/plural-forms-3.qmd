@@ -1,0 +1,91 @@
+---
+title: "Plural Forms (3)"
+---
+<p align=left><font face="Garamond" size="4">Complétez en utilisant la forme 
+        correcte du mot donné. <br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> 1. Ils sont 
+              <input size=11 name=item1>
+              <input onClick="dasher(form.item1, 'italiens')" type=button value=C name=Button>
+              . (italien)<br>
+              2. Elles 
+              <input size=11 name=item2>
+              <input onClick="dasher(form.item2, 'chantent')" type=button value=C name=Button>
+              très bien, tes 
+              <input size=11 name=item3>
+              <input onClick="dasher(form.item3, 'filles')" type=button value=C name=Button>
+              . (chanter, fille)<br>
+              3. Les amis de Marc sont très 
+              <input size=11 
+name=item4>
+              <input onClick="dasher(form.item4, 'gentils')" type=button value=C name=Button>
+              . (gentil)<br>
+              4. Tu as vu les 
+              <input size=11 name=item5>
+              <input onClick="dasher(form.item5, 'garçons')" type=button value=C name=Button>
+              ? (garçon)<br>
+              5. Madeleine et Jean-Pierre n' 
+              <input size=11 name=item6>
+              <input onClick="dasher(form.item6, 'aiment')" type=button value=C name=Button>
+              pas la moto. (aimer)<br>
+              6. Ils ont deux 
+              <input size=11 name=item7>
+              <input onClick="dasher(form.item7, 'petits')" type=button value=C name=Button>
+              fils de six ans. (petit)<br>
+              7. Mes frères sont 
+              <input size=11 name=item8>
+              <input onClick="dasher(form.item8, 'mariés')" type=button value=C name=Button>
+              tous les deux. (marié)<br>
+              8. Toutes mes soeurs sont 
+              <input size=11 
+      name=item9>
+              <input onClick="dasher(form.item9, 'divorcées')" type=button value=C name=Button>
+              . (divorcé)<br>
+              9. Elles sont 
+              <input size=11 name=item10>
+              <input onClick="dasher(form.item10, 'arrivées')" type=button value=C name=Button>
+              . (arrivé)<br>
+              10. J'ai des chaussettes 
+              <input size=11 name=item11>
+              <input onClick="dasher(form.item11, 'bleues')" type=button value=C name=Button>
+              . (bleu) <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='italiens';form.item2.value='chantent';form.item3.value='filles';form.item4.value='gentils';form.item5.value='garçons';form.item6.value='aiment';form.item7.value='petits';form.item8.value='mariés';form.item9.value='divorcées';form.item10.value='arrivées';form.item11.value='bleues';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

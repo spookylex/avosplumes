@@ -1,0 +1,12 @@
+---
+title: "Resources"
+---
+--------------------------
+
+### [Write better](resources/write-better.qmd)
+#### Handouts on French essay writing, explanations of how many instructors grade writing 
+
+### [Build Vocabulary](resources/build-vocabulary.qmd)
+#### Theme-specific vocabulary (beginners); poetry, prose, theater, cinema terms (intermediates)
+
+

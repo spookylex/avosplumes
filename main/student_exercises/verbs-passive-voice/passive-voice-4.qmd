@@ -1,0 +1,102 @@
+---
+title: "Passive voice (4)"
+---
+
+      
+Voici un texte sur un fait divers: le faux policier. <br /><br />
+ 
+Cliquez &quot;Suite&quot; pour voir la première phrase. Indiquez si la phrase est à la voix passive ou à la voix active puis faites la transposition (de la voix active à la voix passive ou de la voix passive à la voix active). Attention au temps du verbe.<br />
+Modèle : Un homme a été arrêté par la police. <br />
+Réponse: Phrase précédente: voix passive. Voix active: La police a arrêté un homme.<br><br />
+Cliquez &quot;Montrer&quot; pour comparer votre réponse &agrave; la suggestion du professeur.<br>
+Cliquez &quot;Cacher&quot; pour faire dispara&icirc;tre la suggestion du professeur. <br />
+Cliquez &quot;Suite/Retour&quot; pour voir les autres phrases à transposer.
+
+<form name=qbox action="" method=post>
+              <p><font face="Garamond" size="4"><b>Phrase à transposer:<br>
+                </b> 
+                <textarea name=q rows=3 wrap=virtual cols=50></textarea>
+                <br>
+                </font></p>
+              <center>
+                <div align=left> <font face="Garamond" size="4"> 
+                  <input onClick=begin(-1) type=button value="&lt;=Retour" name=show>
+                  &nbsp; &nbsp; 
+                  <input onClick=begin(1) type=button value="Suite=&gt;" name=show>
+                  <br>
+                  </font></div>
+              </center>
+            </form>
+            <p></p>
+            <p></p>
+          </td>
+          <td width=200></td>
+        </tr>
+        </tbody> 
+      </table>
+      <table width="80%" border=0 align="center">
+        <tbody> 
+        <tr> 
+          <td valign=top width=236> 
+            <p><font face="Garamond" size="4"><b>Votre transposition:</b> </font> 
+            <form name=Sinput action="" method=post>
+              <p> <font face="Garamond" size="4"> 
+                <textarea name=Content rows=4 wrap=virtual cols=35></textarea>
+                </font> 
+            </form>
+            <p></p>
+            <p></p>
+          </td>
+          <td valign=top width=308> 
+            <p><font face="Garamond" size="4"><b>Le professeur suggère:</b> </font> 
+            <form name=feedback action="" method=post>
+              <p> <font face="Garamond" size="4"> 
+                <textarea name=fb rows=4 wrap=virtual cols=35></textarea>
+                </font> 
+            </form>
+            <form name=check action="" method=post>
+              <center>
+                <div align=left> <font face="Garamond" size="4"> 
+                  <input onClick=Check() type=button value="Montrer" name=Button>
+                  <input onClick="(document.feedback.fb.value='')" type=button value="Cacher" name=show>
+                  </font></div>
+              </center>
+            </form>
+<SCRIPT language=Javascript><!--//
+//  This code is based on a script by Marmoe Soemarmo.  
+//  Dan Beeby modified it and wrote the creation interface, JavaScripts, and Perl Scripts.
+//  http://lang.swarthmore.edu/mellon -- dbeeby@haverford.edu.
+//  Content by Alison Murray Levine, University of Virginia, alevine@virginia.edu.
+//  You may borrow and modify these scripts, but please give credit where credit is due.
+	var Question= new Array();
+	var Answer= new Array();
+//---------------------DATA--------------------
+
+Question[1]="La police a été appelée mercredi pour des cambriolages (burglaries).";Question[2]="Un homme déguisé en policier avait cambriolé plusieurs maisons. ";Question[3]="L'homme a pris l'uniforme d'un vrai policier. ";Question[4]="Des bijoux et de l'argent ont été volés par l'homme.";Question[5]="Il a été mis en prison pour 5 ans. ";
+
+Answer[1]="Phrase précédente: voix passive. Voix active: On a appelé la police mercredi pour des cambriolages.";Answer[2]="Phrase précédente: voix active. Voix passive: Plusieurs maisons avaient été cambriolées.";Answer[3]="Phrase précédente: voix active. Voix passive: pas vraiment possible ici. (Techniquement, on pourrait écrire: L'uniforme d'un vrai policier a été pris par l'homme, mais on ne verrait jamais cette phrase, trop maladroite.)";Answer[4]="Phrase précédente: voix passive. Voix active: L'homme a volé des bijoux et de l'argent. ";Answer[5]="Phrase précédente: voix passive. Voix active: On l'a mis en prison pour 5 ans.";
+
+//-------------------END DATA-------------
+
+var NextQ = 0;
+var QN = 0;
+
+function begin(QN){
+NextQ = NextQ + QN
+	if (Question[NextQ] == null) {
+alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.")
+	}
+	document.feedback.fb.value=""
+	document.Sinput.Content.value=""
+	document.qbox.q.value=Question[NextQ]
+}
+
+function Check(){
+	if (document.Sinput.Content.value == ""){
+        document.feedback.fb.value="Essayez de répondre à la question avant de voir la réponse du professeur."
+        }
+	else{
+	document.feedback.fb.value=Answer[NextQ]
+}
+}
+//--></SCRIPT>

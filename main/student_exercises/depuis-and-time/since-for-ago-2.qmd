@@ -1,0 +1,284 @@
+---
+title: "Since, for, ago... (2)"
+---
+
+<p>
+<center>
+   <b><font face="Garamond" size="4">Un événement terminé ou non</font></b> 
+</center>
+<font face="Garamond" size="4">Cliquez sur la réponse correcte pour voir 
+une explication. (Les réponses incorrectes ont des explications aussi!)<br />Pour R&Eacute;VISER depuis, pendant, en, 
+pour, etc. <a href="duree_review.qmd" target="_self">cliquez ici</a> 
+</font> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">1. ______un an que j'attends une 
+                  lettre de ma sœur !</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input 
+                  onClick=choice1(this.form) type=radio 
+                  value="Non, on ne peut pas utiliser *depuis* au début de la phrase." 
+                  name=one>
+               depuis<br>
+               <input onClick=choice1(this.form) type=radio 
+                  value="Oui, *ça fait...que* est employé avec le présent, au début de la phrase, pour parler d'une action qui continue au présent (je continue à attendre)." 
+                  name=one>
+               ça fait<br>
+               <input onClick=choice1(this.form) type=radio 
+                  value="Oui, *il y a... que* peut être un synonyme de *ça fait...que* au début de la phrase." 
+                  name=one>
+               il y a<br>
+               <input onClick=choice1(this.form) type=radio 
+                  value="Non, *pendant* s'emploie habituellement pour une durée de temps au passé." 
+                  name=one>
+               pendant<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="40" name="feedback1" rows="4"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">2. J'habite dans le Maine _________1996.</font></p>
+               <font face="Garamond" size="4"> 
+               <input 
+                  onClick=choice2(this.form) type=radio 
+                  value="Oui, on utilise *depuis* avec le présent pour parler d'une action qui continue au présent." 
+                  name=one>
+               depuis<br>
+               <input onClick=choice2(this.form) type=radio 
+                  value="Non, on ne peut pas utiliser *ça fait* au milieu de la phrase." 
+                  name=one>
+               ça fait<br>
+               <input onClick=choice2(this.form) type=radio 
+                  value="Non, on ne peut pas utiliser *il y a* (avec le présent) au milieu de la phrase." 
+                  name=one>
+               il y a<br>
+               <input onClick=choice2(this.form) type=radio 
+                  value="Non, on n'emploie pas *pendant* pour une action qui continue au présent." 
+                  name=one>
+               pendant<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="40" name="feedback2" rows="4"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">3. Il a travaillé chez Dupont 
+                  _____________ une période de cinq ans, mais il est prof maintenant.</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input onClick=choice3(this.form) 
+                  type=radio 
+                  value="Non, on emploie *depuis* pour une action qui continue au présent. Dans cet exemple, il ne travaille plus chez Dupont; il a travaillé chez Dupont, mais au présent il est prof." 
+                  name=one>
+               depuis<br>
+               <input onClick=choice3(this.form) type=radio 
+                  value="Non, on emploie *ça fait...que* pour une action qui continue au présent. Dans cet exemple, il ne travaille plus chez Dupont; il a travaillé chez Dupont, mais au présent il est prof." 
+                  name=one>
+               ça fait <br>
+               <input onClick=choice3(this.form) type=radio 
+                  value="Non, on emploie *il y a...que* pour une action qui continue au présent, ou *il y a* avec le passé pour dire *ago*." 
+                  name=one>
+               il y a<br>
+               <input onClick=choice3(this.form) type=radio 
+                  value="Oui, bravo! Pendant signifie *for* quand on l'emploie avec le passé. L'événement est terminé." 
+                  name=one>
+               pendant<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="40" name="feedback3" rows="5"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">4. Je n'ai pas vu ma famille _________ 
+                  deux mois.</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input 
+                  onClick=choice4(this.form) type=radio 
+                  value="Oui, excellent! On utilise *depuis* avec le négatif du passé composé pour parler de quelque chose qui continue à ne pas exister." 
+                  name=one>
+               depuis<br>
+               <input onClick=choice4(this.form) type=radio 
+                  value="Non, on utilise *ça fait* avec *que* et le présent." name=one>
+               ça fait<br>
+               <input onClick=choice4(this.form) type=radio 
+                  value="*Il y a* est possible, mais un peu bizarre ici. *Didn't you see your family two months ago?*" 
+                  name=one>
+               il y a <br>
+               <input onClick=choice4(this.form) type=radio 
+                  value="Non, on n'emploie pas pendant pour une action qui continue au présent." 
+                  name=one>
+               pendant<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="40" name="feedback4" rows="4"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">5. Ils ont visité le Ghana _________treize 
+                  ans.</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input 
+                  onClick=choice5(this.form) type=radio 
+                  value="Non, on emploie *depuis* pour une action qui continue au présent. Dans cet exemple, l'action de *visiter* est terminée." 
+                  name=one>
+               depuis<br>
+               <input onClick=choice5(this.form) type=radio 
+                  value="Non, on emploie ça fait...que pour une action qui continue au présent. Dans cet exemple, l'action de *visiter* est terminée." 
+                  name=one>
+               ça fait<br>
+               <input onClick=choice5(this.form) type=radio 
+                  value="Oui! *Il y a* est employé avec le passé pour indiquer le moment du passé où un événement du passé a eu lieu. (ici, *they visited Ghana 13 yrs ago.*)" 
+                  name=one>
+               il y a<br>
+               <input onClick=choice5(this.form) type=radio 
+                  value="Non, *pendant* fait référence à une durée, et pas à un moment du passé. On ne *visite* pas un pays pendant 13 ans! " 
+                  name=one>
+               pendant<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="40" name="feedback5" rows="4"></textarea>
+   </table>
+</form>
+
+
+<SCRIPT language=JavaScript><!--
+//  Creation interface, JavaScripts, and Perl Scripts by Dan Beeby.
+//  Based on a Javascript by Barbara Nelson.
+//  http://140.233.69.17/mellon -- dbeeby@haverford.edu.
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu
+function choice1(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback1.value=form.one[i+0].value
+}
+
+function choice2(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback2.value=form.one[i+0].value
+}
+
+function choice3(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback3.value=form.one[i+0].value
+}
+
+function choice4(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback4.value=form.one[i+0].value
+}
+
+function choice5(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback5.value=form.one[i+0].value
+}
+
+function choice6(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback6.value=form.one[i+0].value
+}
+
+function choice7(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback7.value=form.one[i+0].value
+}
+function choice8(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback8.value=form.one[i+0].value
+}
+
+function choice9(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback9.value=form.one[i+0].value
+}
+
+function choice10(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i+0].checked) {
+   break
+   }
+  }
+ form.feedback10.value=form.one[i+0].value
+}
+
+<!--script-->
+//--></SCRIPT>

@@ -1,0 +1,74 @@
+---
+title: "Le futur--aller"
+---
+
+<p align=left><font face="Garamond" size="4">Conjuguez les verbes entre 
+        parenthèses au futur.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> Le mois prochain, j'(aller) 
+              <input size=9 
+      name=item1>
+              <input onClick="dasher(form.item1, 'irai')" type=button value=C name=Button>
+              en Italie.<br>
+              L'année prochaine, nous (aller) 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'irons')" type=button value=C name=Button>
+              en France.<br>
+              Dans trois jours, elle (aller) 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'ira')" type=button value=C name=Button>
+              à Pointe-à-Pitre.<br>
+              Dans un an, ils (aller) 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'iront')" type=button value=C name=Button>
+              en Guyane française.<br>
+              S'ils ne trouvent pas ce qu'ils cherchent ici, ils (aller) 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'iront')" type=button value=C name=Button>
+              ailleurs.<br>
+              Si vous n'êtes pas content, vous (aller) 
+              <input size=9 
+      name=item6>
+              <input onClick="dasher(form.item6, 'irez')" type=button value=C name=Button>
+              vraiment à la police?<br>
+              <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='irai';form.item2.value='irons';form.item3.value='ira';form.item4.value='iront';form.item5.value='iront';form.item6.value='irez';" type=button value="Montrer les r&eacute;ponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';" type=button value="Effacer les r&eacute;ponses" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

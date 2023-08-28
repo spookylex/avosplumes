@@ -1,0 +1,82 @@
+---
+title: "Le futur--prendre"
+---
+
+<p align=left><font face="Garamond" size="4">Conjuguez les verbes entre 
+        parenthèses au futur.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+<form action="" method=post>
+   <font face="Garamond" size="4"> Quand tu seras plus grand, tu (comprendre) 
+   <input size=15 name=item1>
+   <input onClick="dasher(form.item1, 'comprendras')" type=button value=C name=Button>
+   .<br>
+   Quand elle sera en Angleterre, elle (apprendre) 
+   <input size=15 name=item2>
+   <input onClick="dasher(form.item2, 'apprendra')" type=button value=C name=Button>
+   à jouer de la guitare.<br>
+   Quand j'irai à l'université, je (prendre) 
+   <input size=15 name=item3>
+   <input onClick="dasher(form.item3, 'prendrai')" type=button value=C name=Button>
+   mon temps pour choisir ma spécialité.<br>
+   Quand nous serons en France, nous (prendre) 
+   <input size=15 name=item4>
+   <input onClick="dasher(form.item4, 'prendrons')" type=button value=C name=Button>
+   le train pour voir le pays. <br>
+   Quand vous serez en Italie, est-ce que vous (apprendre) 
+   <input size=15 name=item5>
+   <input onClick="dasher(form.item5, 'apprendrez')" type=button value=C name=Button>
+   l'italien?<br>
+   Quand ils auront vu le résultat, ils (comprendre) 
+   <input size=15 name=item6>
+   <input onClick="dasher(form.item6, 'comprendront')" type=button value=C name=Button>
+   leur erreur.<br>
+   Quand tu verras, tu (comprendre) 
+   <input size=15 name=item7>
+   <input onClick="dasher(form.item7, 'comprendras')" type=button value=C name=Button>
+   .<br>
+   Elle n'(apprendre) 
+   <input size=15 name=item8>
+   <input onClick="dasher(form.item8, 'apprendra')" type=button value=C name=Button>
+   que si elle pourra le faire elle-même.<br>
+   Martine, je ne te (comprendre) 
+   <input size=15 name=item9>
+   <input onClick="dasher(form.item9, 'comprendrai')" type=button value=C name=Button>
+   jamais! <br>
+   <br>
+   <input onClick="form.item1.value='comprendras';form.item2.value='apprendra';form.item3.value='prendrai';form.item4.value='prendrons';form.item5.value='apprendrez';form.item6.value='comprendront';form.item7.value='comprendras';form.item8.value='apprendra';form.item9.value='comprendrai';" type=button value="Montrer les r&eacute;ponses" name=Button>
+   <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';" type=button value="Effacer les r&eacute;ponses" name=Button>
+   </font> 
+</form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

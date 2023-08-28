@@ -1,0 +1,196 @@
+---
+title: "Polite Requests (3)"
+---
+
+<p> 
+        <center>
+          <font face="Garamond" size="4"><b>Demande polie/demande directe</b> 
+          </font> 
+        </center>
+      <font face="Garamond" size="4">Jacques est étudiant. Il pose des questions 
+        à Marie (son professeur), à Karine (sa petite amie), ou à Monsieur X, 
+        un inconnu (=une personne qu'il ne connaît pas). Selon la question, à 
+        qui est-ce qu'il parle? Est-ce qu'il fait une demande polie ou directe?</font></p>
+
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">1. Pourriez-vous me passer le 
+                  sel, s'il vous plaît?</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input 
+                  onClick=choice1(this.form) type=radio 
+                  value="Oui! Le conditionnel (pourriez-vous) indique la demande polie." 
+                  name=one>
+               Demande polie à Marie<br>
+               <input onClick=choice1(this.form) 
+                  type=radio value="Non, il dit *tu* à Karine." name=one>
+               Demande polie à Karine<br>
+               <input onClick=choice1(this.form) type=radio 
+                  value="Non, on n'utilise pas *vous* dans la demande familière." name=one>
+               Demande directe/familière<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="30" name="feedback1" rows="3"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">2. Tu sais où elle est, Jeanne?</font></p>
+               <font face="Garamond" size="4"> 
+               <input onClick=choice2(this.form) 
+                  type=radio 
+                  value="Non, il n'y a ni conditionnel, ni autres formes de politesse." 
+                  name=one>
+               Demande polie à Monsieur X<br>
+               <input onClick=choice2(this.form) 
+                  type=radio value="Non, il n'y a pas de formes de politesse." 
+                  name=one>
+               Demande polie à Karine<br>
+               <input onClick=choice2(this.form) 
+                  type=radio value="Oui! Il utilise *tu* et il parle à son amie." name=one>
+               Demande directe/familière<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="30" name="feedback2" rows="3"></textarea>
+   </table>
+</form>
+<p></p>
+<p></p>
+<p> 
+<form name=QUESTION action="" method=post>
+   <p> 
+   <table width="100%" border=0>
+      <tbody>
+         <tr>
+            <td width="50%">
+               <p><font face="Garamond" size="4">3. Vous pourriez me dire si Notre 
+                  Dame est près d'ici?</font>
+               </p>
+               <font face="Garamond" size="4"> 
+               <input 
+                  onClick=choice3(this.form) type=radio value="Oui, en général on utilise le conditionnel (*vous pourriez*) pour la demande polie." 
+                  name=one>
+               Demande polie à Monsieur X<br>
+               <input onClick=choice3(this.form) 
+                  type=radio value="Non, il dit *tu* à Karine." name=one>
+               Demande polie à Karine<br>
+               <input onClick=choice3(this.form) type=radio 
+                  value="Non, il utilise *vous* et le conditionnel ici." name=one>
+               Demande directe/familière<br>
+               </font>
+            <td width="50%">
+               <p> <font face="Garamond" size="4"> 
+                  <textarea cols="30" name="feedback3" rows="3"></textarea>
+   </table>
+</form>
+
+<SCRIPT language=JavaScript><!--
+//  Creation interface, JavaScripts, and Perl Scripts by Dan Beeby.
+//  Based on a Javascript by Barbara Nelson.
+//  http://140.233.69.17/mellon -- dbeeby@haverford.edu.
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu
+function choice1(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback1.value=form.one[i].value
+}
+
+function choice2(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback2.value=form.one[i].value
+}
+
+function choice3(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback3.value=form.one[i].value
+}
+
+function choice4(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback4.value=form.one[i].value
+}
+
+function choice5(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback5.value=form.one[i].value
+}
+
+function choice6(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback6.value=form.one[i].value
+}
+
+function choice7(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback7.value=form.one[i].value
+}
+function choice8(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback8.value=form.one[i].value
+}
+
+function choice9(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback9.value=form.one[i].value
+}
+
+function choice10(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback10.value=form.one[i].value
+}
+
+<!--script-->
+//--></SCRIPT>

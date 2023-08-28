@@ -1,0 +1,94 @@
+---
+title: "On/in/beside/between"
+---
+
+ <p align=left><font face="Garamond" size="4">Complétez en utilisant le plan 
+        d'Avignon et "sur," "dans," "à côté de," "entre," "en face de," "derrière," 
+        ou "au-dessus de."<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; =.</font></p><img src="avignonmap_small.jpg" width="800" height="604" />
+
+ <form action="" method=post>
+              <font face="Garamond" size="4"> 1. L'opéra est 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'à côté de')" type=button value=C name=Button>
+              la mairie.<br>
+              2. L'opéra et la mairie sont 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'sur')" type=button value=C name=Button>
+              la place de l'Horloge.<br>
+              3. Le Palais des Papes est 
+              <input size=9 
+      name=item3>
+              <input onClick="dasher(form.item3, 'entre')" type=button value=C name=Button>
+              la rue Pierre et la rue Fantasme.<br>
+              4. Le numéro 17, rue du Désastre est 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'entre')" type=button value=C name=Button>
+              le numéro 15 et le numéro 19.<br>
+              5. Le parking des autocars est 
+              <input 
+      size=9 name=item5>
+              <input onClick="dasher(form.item5, 'en face des')" type=button value=C name=Button>
+              remparts.<br>
+              6. La porte de l'Oulle est 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'à côté du')" type=button value=C name=Button>
+              parking des autocars.<br>
+              7. 21, rue Pierre est 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'en face du')" type=button value=C name=Button>
+              Palais des Papes.<br>
+              8. Le boulevard du 11 novembre est 
+              <input size=9 
+      name=item8>
+              <input onClick="dasher(form.item8, 'derrière')" type=button value=C name=Button>
+              les remparts.<br>
+              9. La bibliothèque est 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'dans')" type=button value=C name=Button>
+              la rue Courte.<br>
+              10 Pourquoi est-ce qu'on dit '' 
+              <input size=9 
+name=item10>
+              <input onClick="dasher(form.item10, 'sur')" type=button value=C name=Button>
+              la place'' mais '' 
+              <input size=9 name=item11>
+              <input onClick="dasher(form.item11, 'dans')" type=button value=C name=Button>
+              la rue''? Je ne sais pas! <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='à côté de';form.item2.value='sur';form.item3.value='entre';form.item4.value='entre';form.item5.value='en face des';form.item6.value='à côté du';form.item7.value='en face du';form.item8.value='derrière';form.item9.value='dans';form.item10.value='sur';form.item11.value='dans';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+ <SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

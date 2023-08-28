@@ -1,0 +1,98 @@
+---
+title: "Un/une (1)"
+---
+
+<p align=left><font face="Garamond" size="4">Complétez en utilisant un article <strong>indéfini</strong> (un/une). <br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font></p>
+
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> Tu as 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'une')" type=button value=C name=Button>
+              voiture? <br>
+              Vous avez 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'une')" type=button value=C name=Button>
+              soeur? <br>
+              Elle a 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'un')" type=button value=C name=Button>
+              frère? <br>
+              Ils ont 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'un')" type=button value=C name=Button>
+              appartement? <br>
+              Elle connaît 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'un')" type=button value=C name=Button>
+              bon hôtel? <br>
+              Tu connais 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'un')" type=button value=C name=Button>
+              bon médecin? <br>
+              Vous connaissez 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'un')" type=button value=C name=Button>
+              bon restaurant près d'ici? <br>
+              Je connais 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'une')" type=button value=C name=Button>
+              excellente crêperie.<br>
+              Vous habitez 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'un')" type=button value=C name=Button>
+              petit village? <br>
+              Non, j'habite 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'une')" type=button value=C name=Button>
+              grande ville. <br>
+              Vous habitez dans 
+              <input size=9 name=item11>
+              <input onClick="dasher(form.item11, 'une')" type=button value=C name=Button>
+              maison ou dans 
+              <input size=9 name=item12>
+              <input onClick="dasher(form.item12, 'un')" type=button value=C name=Button>
+              appartement? <br>
+              J'habite dans 
+              <input size=9 name=item13>
+              <input onClick="dasher(form.item13, 'une')" type=button value=C name=Button>
+              résidence universitaire. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='une';form.item2.value='une';form.item3.value='un';form.item4.value='un';form.item5.value='un';form.item6.value='un';form.item7.value='un';form.item8.value='une';form.item9.value='un';form.item10.value='une';form.item11.value='une';form.item12.value='un';form.item13.value='une';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

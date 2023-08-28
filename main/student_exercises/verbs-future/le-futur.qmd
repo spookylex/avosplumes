@@ -1,0 +1,108 @@
+---
+title: "Le Futur"
+---
+
+<p><font face="Garamond" size="4"><b>10 r&eacute;solutions 
+        pour la nouvelle année<br>
+        (le futur)</b>
+<br />Conjuguez le verbe entre parenthèses 
+        au futur.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font>
+
+  <form action="" method=post>
+              <font face="Garamond" size="4"> 1. Parler plus gentiment à mes parents<br>
+              Je 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'parlerai')" type=button value=C name=Button>
+              plus gentiment à mes parents.<br>
+              <br>
+              2. Perdre 10 kilos<br>
+              Je 
+              <input 
+      size=9 name=item2>
+              <input onClick="dasher(form.item2, 'perdrai')" type=button value=C name=Button>
+              10 kilos.<br>
+              <br>
+              3. Arrêter de fumer.<br>
+              J' 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'arrêterai')" type=button value=C name=Button>
+              de fumer.<br>
+              4. Faire plus de sport.<br>
+              Je 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'ferai')" type=button value=C name=Button>
+              plus de sport.<br>
+              <br>
+              5. Manger plus de fruits et de légumes.<br>
+              Je 
+              <input 
+      size=9 name=item5>
+              <input onClick="dasher(form.item5, 'mangerai')" type=button value=C name=Button>
+              plus de fruits et de légumes.<br>
+              <br>
+              6. Sortir mon chien plus souvent<br>
+              Je 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'sortirai')" type=button value=C name=Button>
+              mon chien plus souvent.<br>
+              7. Appeler ma soeur tous les mois.<br>
+              J' 
+              <input 
+      size=9 name=item7>
+              <input onClick="dasher(form.item7, 'appellerai')" type=button value=C name=Button>
+              ma soeur tous les mois.<br>
+              <br>
+              8. Faire le ménage chez moi une fois par semaine.<br>
+              Je 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'ferai')" type=button value=C name=Button>
+              le ménage chez moi une fois par semaine.<br>
+              <br>
+              9. Jeter tous mes disques de Rod Stewart à la poubelle<br>
+              Je 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'jetterai')" type=button value=C name=Button>
+              tous mes disques de Rod Stewart à la poubelle.<br>
+              <br>
+              10. Ne plus jamais voir un film d'Oliver Stone<br>
+              Je ne 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'verrai')" type=button value=C name=Button>
+              plus jamais de film d'Oliver Stone. <br>
+              <br>
+              <input onClick="form.item1.value='parlerai';form.item2.value='perdrai';form.item3.value='arrêterai';form.item4.value='ferai';form.item5.value='mangerai';form.item6.value='sortirai';form.item7.value='appellerai';form.item8.value='ferai';form.item9.value='jetterai';form.item10.value='verrai';" type=button value="Montrer les r&eacute;ponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';" type=button value="Effacer les r&eacute;ponses" name=Button>
+              </font> 
+            </form>
+
+ <SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

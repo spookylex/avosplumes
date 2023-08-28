@@ -1,0 +1,95 @@
+---
+title: "Le présent--vouloir/pouvoir"
+---
+
+<p align=left><font face="Garamond" size="4">Complétez le paragraphe en 
+        utilisant la forme correcte du verbe "pouvoir" ou "vouloir" au pr&eacute;sent.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.<br>
+        </font></p>
+
+ <form action="" method=post>
+              <font face="Garamond" size="4">Je (pouvoir) 
+              <input size=15 name=item1>
+              <input onClick="dasher(form.item1, 'peux')" type=button value=C name=Button>
+              parler un peu grec, parce que mon père est grec. Il (vouloir) 
+              <input 
+      size=15 name=item2>
+              <input onClick="dasher(form.item2, 'veut')" type=button value=C name=Button>
+              parler grec à la maison, mais les autres enfants ne (pouvoir) 
+              <input 
+      size=15 name=item3>
+              <input onClick="dasher(form.item3, 'peuvent')" type=button value=C name=Button>
+              pas le parler, alors c'est difficile. Ils (pouvoir au négatif) 
+              <input 
+      size=15 name=item4>
+              <input onClick="dasher(form.item4, 'ne peuvent pas')" type=button value=C name=Button>
+              écrire le grec non plus, mais ils (vouloir) 
+              <input size=15 name=item5>
+              <input onClick="dasher(form.item5, 'veulent')" type=button value=C name=Button>
+              l'apprendre. <br>
+              Ma petite soeur me demande parfois,<br>
+              --Tu (pouvoir) 
+              <input size=15 name=item6>
+              <input onClick="dasher(form.item6, 'peux')" type=button value=C name=Button>
+              me montrer l'alphabet en grec, ou tu (vouloir au négatif) 
+              <input size=15 
+      name=item7>
+              <input onClick="dasher(form.item7, 'ne veux pas')" type=button value=C name=Button>
+              aujourd'hui?<br>
+              Et moi je réponds, <br>
+              --Vous (vouloir au négatif) 
+              <input 
+      size=15 name=item8>
+              <input onClick="dasher(form.item8, 'ne voulez pas')" type=button value=C name=Button>
+              apprendre tous ensemble, les enfants?<br>
+              Mais ils répondent: <br>
+              --Nous (vouloir) 
+              <input size=15 name=item9>
+              <input onClick="dasher(form.item9, 'voulons')" type=button value=C name=Button>
+              te voir séparément, c'est plus sympa. Nous (vouloir au négatif) 
+              <input 
+      size=15 name=item10>
+              <input onClick="dasher(form.item10, 'ne voulons pas')" type=button value=C name=Button>
+              travailler ensemble.<br>
+              --Les enfants, si vous (pouvoir au négatif) 
+              <input 
+      size=15 name=item11>
+              <input onClick="dasher(form.item11, 'ne pouvez pas')" type=button value=C name=Button>
+              travailler ensemble, vous aurez des problèmes plus tard.<br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='peux';form.item2.value='veut';form.item3.value='peuvent';form.item4.value='ne peuvent pas';form.item5.value='veulent';form.item6.value='peux';form.item7.value='ne veux pas';form.item8.value='ne voulez pas';form.item9.value='voulons';form.item10.value='ne voulons pas';form.item11.value='ne pouvez pas';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

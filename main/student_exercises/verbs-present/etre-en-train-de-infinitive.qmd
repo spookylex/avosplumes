@@ -1,0 +1,194 @@
+---
+title: "Être en train de + infinitive"
+---
+
+<p align="left"><b><font size="5" face="Garamond">Dimanche &agrave; Paris<br>
+        <font size="4"></font></font></b>
+      <font face="Garamond" size="4">Le dimanche, à Paris, c'est 
+        un jour spécial. Toute la ville change. Personne ne travaille. Paris est 
+        vraiment différent le dimanche: les jardins publics sont pleins, les familles 
+        dînent ensemble, les enfants jouent et les parents ne sont pas stressés. 
+        Certaines personnes vont à l'église, mais la majorité profite du jour 
+        de congé pour se détendre et se reposer. Voici des images de personnes 
+        qui se détendent le dimanche. <br /><br />Qu'est-ce que les personnes 
+        sont en train de faire?<br>
+        Utilisez *être en train de* + infinitif. 
+        <br />Infinitifs possibles: dormir, 
+        faire du vélo, jouer, peindre, promener le chien, faire du rollerblade, 
+        faire des courses, aller au cinéma, composter son billet de train, t&eacute;léphoner, 
+        regarder la télé.<br>
+        <br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font></p>
+<form action="" method=post>
+   <table border="0" cellpadding="10" width="98%" align="center">
+      <tr>
+         <td width="100%">
+            <p align="center"><font face="Garamond" size="4"><img src="luxembourg3.jpg" width="328" height="216" /></font></p>
+            <p align="center"><font face="Garamond" size="4">Murielle 
+               est en train de 
+               <input size=7 
+                  name=item1>
+               <input onClick="dasher(form.item1, 'dormir')" type=button value=C name=Button2>
+               au jardin du Luxembourg.</font>
+            </p>
+            <p align="center"><font face="Garamond" size="4"> 
+               <input onClick="form.item1.value='dormir';form.item2.value='est';form.item3.value='en';form.item4.value='train';form.item5.value='de';form.item6.value='peindre';form.item7.value='en';form.item8.value='train';form.item9.value='de';form.item10.value='jouer';form.item11.value='est en train de téléphoner';form.item12.value='est en train de composter';form.item13.value='sont en train de promener';form.item14.value='est en train de faire';" type=button value="Montrer les r&eacute;ponses" name=Button97>
+               <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';" type=button value="Effacer les r&eacute;ponses" name=Button9>
+               </font>
+            </p>
+         </td>
+      </tr>
+      <tr>
+         <td width="100%">
+            <p align="center"><font face="Garamond" size="4"><img src="artiste.jpg" width="302" height="457" /></font></p>
+            <p align="center"><font face="Garamond" size="4">Robert 
+               <input size=5 name=item2>
+               <input onClick="dasher(form.item2, 'est')" type=button value=C name=Button3>
+               <input size=5 name=item3>
+               <input onClick="dasher(form.item3, 'en')" type=button value=C name=Button3>
+               <input size=8 name=item4>
+               <input onClick="dasher(form.item4, 'train')" type=button value=C name=Button3>
+               <input size=5 name=item5>
+               <input onClick="dasher(form.item5, 'de')" type=button value=C name=Button3>
+               <input size=9 name=item6>
+               <input onClick="dasher(form.item6, 'peindre')" type=button value=C name=Button3>
+               le palais du Luxembourg.</font>
+            </p>
+            <p align="center"><font face="Garamond" size="4">
+               <input onClick="form.item1.value='dormir';form.item2.value='est';form.item3.value='en';form.item4.value='train';form.item5.value='de';form.item6.value='peindre';form.item7.value='en';form.item8.value='train';form.item9.value='de';form.item10.value='jouer';form.item11.value='est en train de téléphoner';form.item12.value='est en train de composter';form.item13.value='sont en train de promener';form.item14.value='est en train de faire';" type=button value="Montrer les r&eacute;ponses" name=Button92>
+               <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';" type=button value="Effacer les r&eacute;ponses" name=Button92>
+               </font>
+            </p>
+         </td>
+      </tr>
+      <tr>
+         <td width="100%">
+            <table width="100%" border="0" cellpadding="10">
+               <tr>
+                  <td>
+                     <div align="center"><font face="Garamond" size="4"><img src="burennekidz2.jpg" width="158" height="432" /></font></div>
+                  </td>
+                  <td>
+                     <div align="center"><font face="Garamond" size="4"><img src="burennekidz1.jpg" width="203" height="314" /></font></div>
+                  </td>
+               </tr>
+            </table>
+            <p align="center"><font face="Garamond" size="4">Les enfants 
+               sont 
+               <input 
+                  size=5 name=item7>
+               <input onClick="dasher(form.item7, 'en')" type=button value=C name=Button4>
+               <input size=8 name=item8>
+               <input onClick="dasher(form.item8, 'train')" type=button value=C name=Button4>
+               <input size=5 name=item9>
+               <input onClick="dasher(form.item9, 'de')" type=button value=C name=Button4>
+               <input size=8 name=item10>
+               <input onClick="dasher(form.item10, 'jouer')" type=button value=C name=Button4>
+               au Palais Royal.</font>
+            </p>
+            <p align="center"><font face="Garamond" size="4">
+               <input onClick="form.item1.value='dormir';form.item2.value='est';form.item3.value='en';form.item4.value='train';form.item5.value='de';form.item6.value='peindre';form.item7.value='en';form.item8.value='train';form.item9.value='de';form.item10.value='jouer';form.item11.value='est en train de téléphoner';form.item12.value='est en train de composter';form.item13.value='sont en train de promener';form.item14.value='est en train de faire';" type=button value="Montrer les r&eacute;ponses" name=Button93>
+               <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';" type=button value="Effacer les r&eacute;ponses" name=Button93>
+               </font>
+            </p>
+         </td>
+      </tr>
+      <tr>
+         <td width="100%">
+            <p align="center"><font face="Garamond" size="4"><img src="cellphone2.jpg" width="274" height="458" /></font></p>
+            <p align="center"><font face="Garamond" size="4">Marie 
+               <input size=28 name=item11>
+               <input onClick="dasher(form.item11, 'est en train de téléphoner')" type=button value=C name=Button5>
+               devant un magasin sur les grands boulevards.</font>
+            </p>
+            <p align="center"><font face="Garamond" size="4">
+               <input onClick="form.item1.value='dormir';form.item2.value='est';form.item3.value='en';form.item4.value='train';form.item5.value='de';form.item6.value='peindre';form.item7.value='en';form.item8.value='train';form.item9.value='de';form.item10.value='jouer';form.item11.value='est en train de téléphoner';form.item12.value='est en train de composter';form.item13.value='sont en train de promener';form.item14.value='est en train de faire';" type=button value="Montrer les r&eacute;ponses" name=Button94>
+               <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';" type=button value="Effacer les r&eacute;ponses" name=Button94>
+               </font>
+            </p>
+         </td>
+      </tr>
+      <tr>
+         <td width="100%">&nbsp;</td>
+      </tr>
+      <tr>
+         <td width="100%">
+            <p align="center"><font face="Garamond" size="4"><img src="composter.jpg" width="291" height="463" /></font></p>
+            <p align="center"><font face="Garamond" size="4">Agnès 
+               <input size=28 
+                  name=item12>
+               <input onClick="dasher(form.item12, 'est en train de composter')" type=button value=C name=Button6>
+               son billet avant de prendre le train.</font>
+            </p>
+            <p align="center"><font face="Garamond" size="4">
+               <input onClick="form.item1.value='dormir';form.item2.value='est';form.item3.value='en';form.item4.value='train';form.item5.value='de';form.item6.value='peindre';form.item7.value='en';form.item8.value='train';form.item9.value='de';form.item10.value='jouer';form.item11.value='est en train de téléphoner';form.item12.value='est en train de composter';form.item13.value='sont en train de promener';form.item14.value='est en train de faire';" type=button value="Montrer les r&eacute;ponses" name=Button95>
+               <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';" type=button value="Effacer les r&eacute;ponses" name=Button95>
+               </font>
+            </p>
+         </td>
+      </tr>
+      <tr>
+         <td width="100%">
+            <p align="center"><font face="Garamond" size="4"><img src="luxembourg1.jpg" width="373" height="318" /></font></p>
+            <p align="center"><font face="Garamond" size="4">Les soeurs 
+               Guillot 
+               <input size=25 
+                  name=item13>
+               <input onClick="dasher(form.item13, 'sont en train de promener')" type=button value=C name=Button7>
+               leurs chiens au jardin du Luxembourg.</font>
+            </p>
+            <p align="center"><font face="Garamond" size="4">
+               <input onClick="form.item1.value='dormir';form.item2.value='est';form.item3.value='en';form.item4.value='train';form.item5.value='de';form.item6.value='peindre';form.item7.value='en';form.item8.value='train';form.item9.value='de';form.item10.value='jouer';form.item11.value='est en train de téléphoner';form.item12.value='est en train de composter';form.item13.value='sont en train de promener';form.item14.value='est en train de faire';" type=button value="Montrer les r&eacute;ponses" name=Button96>
+               <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';" type=button value="Effacer les r&eacute;ponses" name=Button96>
+               </font>
+            </p>
+         </td>
+      </tr>
+      <tr>
+         <td width="100%">
+            <p align="center"><font face="Garamond" size="4"><img src="rollerblader.jpg" width="193" height="281" /></font></p>
+            <p align="center"><font face="Garamond" size="4">Marc 
+               <input size=18 name=item14>
+               <input onClick="dasher(form.item14, 'est en train de faire')" type=button value=C name=Button8>
+               du rollerblade sur les quais de la Seine, devant les bouquinistes.</font>
+            </p>
+         </td>
+      </tr>
+   </table>
+   <p align="center"><font face="Garamond" size="4"> 
+      <input onClick="form.item1.value='dormir';form.item2.value='est';form.item3.value='en';form.item4.value='train';form.item5.value='de';form.item6.value='peindre';form.item7.value='en';form.item8.value='train';form.item9.value='de';form.item10.value='jouer';form.item11.value='est en train de téléphoner';form.item12.value='est en train de composter';form.item13.value='sont en train de promener';form.item14.value='est en train de faire';" type=button value="Montrer les r&eacute;ponses" name=Button>
+      <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';" type=button value="Effacer les r&eacute;ponses" name=Button>
+      </font> 
+   </p>
+</form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

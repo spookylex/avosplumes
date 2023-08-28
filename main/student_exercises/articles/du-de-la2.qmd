@@ -1,0 +1,135 @@
+---
+title: "Du/de la (1)"
+---
+<p align=left><font face="Garamond" size="4">Complétez en utilisant un article <strong>partitif</strong> (du/de la/des/de l'). <br>
+        Cliquez "C" --&gt; correction. <br>
+        Correct? --&gt; *astérisques*.<br>
+        Incorrect?--&gt; ====. </font></p><br /><br /><br />
+        
+### Quand on fait ses courses en ville...
+
+<p><form action="" method=post>
+              <font face="Garamond" size="4"> 1. Chez le charcutier, on achète 
+              <input size=9 
+      name=item1>
+              <input onClick="dasher(form.item1, 'du')" type=button value=C name=Button>
+              jambon, 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'du')" type=button value=C name=Button>
+              saucisson et 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'des')" type=button value=C name=Button>
+              saucisses. <br>
+              2. Au marché, on trouve 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'des')" type=button value=C name=Button>
+              bananes, 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'du')" type=button value=C name=Button>
+              raisin, 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'de l\'')" type=button value=C name=Button>
+              ail et 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'de la')" type=button value=C name=Button>
+              salade. <br>
+              3. Chez l'épicier, on trouve 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'du')" type=button value=C name=Button>
+              beurre, 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'de la')" type=button value=C name=Button>
+              glace, 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'de l\'')" type=button value=C name=Button>
+              huile et 
+              <input size=9 name=item11>
+              <input onClick="dasher(form.item11, 'des')" type=button value=C name=Button>
+              épices. <br>
+              4. Au restaurant, on peut commander 
+              <input size=9 name=item12>
+              <input onClick="dasher(form.item12, 'des')" type=button value=C name=Button>
+              crudités, 
+              <input size=9 name=item13>
+              <input onClick="dasher(form.item13, 'du')" type=button value=C name=Button>
+              coq au vin, ou 
+              <input size=9 name=item14>
+              <input onClick="dasher(form.item14, 'du')" type=button value=C name=Button>
+              boeuf bourguignon.<br>
+              5. A la boulangerie, on trouve 
+              <input size=9 
+      name=item15>
+              <input onClick="dasher(form.item15, 'du')" type=button value=C name=Button>
+              pain.<br>
+              6. Au café, on commande 
+              <input size=9 name=item16>
+              <input onClick="dasher(form.item16, 'des')" type=button value=C name=Button>
+              boissons ( 
+              <input size=9 name=item17>
+              <input onClick="dasher(form.item17, 'de l\'')" type=button value=C name=Button>
+              eau minérale, 
+              <input size=9 name=item18>
+              <input onClick="dasher(form.item18, 'du')" type=button value=C name=Button>
+              café, 
+              <input size=9 name=item19>
+              <input onClick="dasher(form.item19, 'de la')" type=button value=C name=Button>
+              bière, etc.)<br>
+              7. A la boucherie, on peut acheter 
+              <input size=9 
+      name=item20>
+              <input onClick="dasher(form.item20, 'du')" type=button value=C name=Button>
+              boeuf, 
+              <input size=9 name=item21>
+              <input onClick="dasher(form.item21, 'du')" type=button value=C name=Button>
+              porc, 
+              <input size=9 name=item22>
+              <input onClick="dasher(form.item22, 'du')" type=button value=C name=Button>
+              poulet, 
+              <input size=9 name=item23>
+              <input onClick="dasher(form.item23, 'du')" type=button value=C name=Button>
+              canard ou 
+              <input size=9 name=item24>
+              <input onClick="dasher(form.item24, 'de la')" type=button value=C name=Button>
+              dinde.<br>
+              8. Chez le poissonnier, on achète 
+              <input size=9 name=item25>
+              <input onClick="dasher(form.item25, 'du')" type=button value=C name=Button>
+              saumon et 
+              <input size=9 name=item26>
+              <input onClick="dasher(form.item26, 'des')" type=button value=C name=Button>
+              sardines. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='du';form.item2.value='du';form.item3.value='des';form.item4.value='des';form.item5.value='du';form.item6.value='de l\'';form.item7.value='de la';form.item8.value='du';form.item9.value='de la';form.item10.value='de l\'';form.item11.value='des';form.item12.value='des';form.item13.value='du';form.item14.value='du';form.item15.value='du';form.item16.value='des';form.item17.value='de l\'';form.item18.value='du';form.item19.value='de la';form.item20.value='du';form.item21.value='du';form.item22.value='du';form.item23.value='du';form.item24.value='de la';form.item25.value='du';form.item26.value='des';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';form.item15.value='';form.item16.value='';form.item17.value='';form.item18.value='';form.item19.value='';form.item20.value='';form.item21.value='';form.item22.value='';form.item23.value='';form.item24.value='';form.item25.value='';form.item26.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form></p>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, Colby College ajlevine@colby.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

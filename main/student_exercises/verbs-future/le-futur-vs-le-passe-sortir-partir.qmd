@@ -1,0 +1,349 @@
+---
+title: "Le futur vs. le passé--sortir/partir"
+---
+Complétez les phrases en utilisant "hier" ou "demain". 
+
+ <form name=QUESTION action="" method=post>
+        <p> 
+        <table width="100%" border=0>
+          <tbody> 
+          <tr> 
+            <td width="50%"> 
+              <p><font face="Garamond" size="4">1. ____, ils sont partis en vacances?</font></p>
+              <font face="Garamond" size="4"> 
+              <input onClick=choice1(this.form) type=radio 
+      value="Oui, c'est le passé composé." 
+      name=one>
+              Hier<br>
+              <input onClick=choice1(this.form) type=radio 
+      value="Non, c'est le passé composé." 
+      name=one>
+              Demain<br>
+              </font> 
+            <td width="50%"> 
+              <p> <font face="Garamond" size="4"> 
+                <input size=60 name=feedback1>
+                </font></p>
+            </td>
+          </tr>
+          </tbody> 
+        </table>
+      </form>
+
+
+ <form name=QUESTION action="" method=post>
+        <p> 
+        <table width="100%" border=0>
+          <tbody> 
+          <tr> 
+            <td width="50%"> 
+              <p><font face="Garamond" size="4">2. ____, je pars en Grèce pour deux semaines.</font></p>
+              <font face="Garamond" size="4"> 
+              <input onClick=choice1(this.form) type=radio 
+      value="Non, on utilise le présent pour parler du futur." 
+      name=one>
+              Hier<br>
+              <input onClick=choice1(this.form) type=radio 
+      value="Oui! On utilise le présent pour parler du futur." 
+      name=one>
+              Demain<br>
+              </font> 
+            <td width="50%"> 
+              <p> <font face="Garamond" size="4"> 
+                <input size=60 name=feedback1>
+                </font></p>
+            </td>
+          </tr>
+          </tbody> 
+        </table>
+      </form>
+
+
+ <form name=QUESTION action="" method=post>
+        <p> 
+        <table width="100%" border=0>
+          <tbody> 
+          <tr> 
+            <td width="50%"> 
+              <p><font face="Garamond" size="4">3. Vous partez ____ déjà?</font></p>
+              <font face="Garamond" size="4"> 
+              <input onClick=choice1(this.form) type=radio 
+      value="Non, on utilise le présent pour parler du futur." 
+      name=one>
+              Hier<br>
+              <input onClick=choice1(this.form) type=radio 
+      value="Oui! On utilise le présent pour parler du futur." 
+      name=one>
+              Demain<br>
+              </font> 
+            <td width="50%"> 
+              <p> <font face="Garamond" size="4"> 
+                <input size=60 name=feedback1>
+                </font></p>
+            </td>
+          </tr>
+          </tbody> 
+        </table>
+      </form>
+
+
+ <form name=QUESTION action="" method=post>
+        <p> 
+        <table width="100%" border=0>
+          <tbody> 
+          <tr> 
+            <td width="50%"> 
+              <p><font face="Garamond" size="4">4. ____ vous êtes sortis, ou vous êtes restés à la maison?</font></p>
+              <font face="Garamond" size="4"> 
+              <input onClick=choice1(this.form) type=radio 
+      value="Oui! C'est le passé composé." 
+      name=one>
+              Hier<br>
+              <input onClick=choice1(this.form) type=radio 
+      value="Non, c'est le passé composé." 
+      name=one>
+              Demain<br>
+              </font> 
+            <td width="50%"> 
+              <p> <font face="Garamond" size="4"> 
+                <input size=60 name=feedback1>
+                </font></p>
+            </td>
+          </tr>
+          </tbody> 
+        </table>
+      </form>
+
+<form name=QUESTION action="" method=post>
+        <p> 
+        <table width="100%" border=0>
+          <tbody> 
+          <tr> 
+            <td width="50%"> 
+              <p><font face="Garamond" size="4">5. ____, tu sors avec Paul ou tu révises tes cours?</font></p>
+              <font face="Garamond" size="4"> 
+              <input onClick=choice1(this.form) type=radio 
+      value="Non, on utilise le présent pour parler du futur." 
+      name=one>
+              Hier<br>
+              <input onClick=choice1(this.form) type=radio 
+      value="Oui! On utilise le présent pour parler du futur." 
+      name=one>
+              Demain<br>
+              </font> 
+            <td width="50%"> 
+              <p> <font face="Garamond" size="4"> 
+                <input size=60 name=feedback1>
+                </font></p>
+            </td>
+          </tr>
+          </tbody> 
+        </table>
+      </form>
+
+<form name=QUESTION action="" method=post>
+        <p> 
+        <table width="100%" border=0>
+          <tbody> 
+          <tr> 
+            <td width="50%"> 
+              <p><font face="Garamond" size="4">6. ____, nous sortons pour aller au cinéma.</font></p>
+              <font face="Garamond" size="4"> 
+              <input onClick=choice1(this.form) type=radio 
+      value="Non, on utilise le présent pour parler du futur." 
+      name=one>
+              Hier<br>
+              <input onClick=choice1(this.form) type=radio 
+      value="Oui! On utilise le présent pour parler du futur." 
+      name=one>
+              Demain<br>
+              </font> 
+            <td width="50%"> 
+              <p> <font face="Garamond" size="4"> 
+                <input size=60 name=feedback1>
+                </font></p>
+            </td>
+          </tr>
+          </tbody> 
+        </table>
+      </form>
+
+<form name=QUESTION action="" method=post>
+        <p> 
+        <table width="100%" border=0>
+          <tbody> 
+          <tr> 
+            <td width="50%"> 
+              <p><font face="Garamond" size="4">7. On est sorti ____ soir pour danser au bal des pompiers.</font></p>
+              <font face="Garamond" size="4"> 
+              <input onClick=choice1(this.form) type=radio 
+      value="Oui! C'est le passé composé." 
+      name=one>
+              Hier<br>
+              <input onClick=choice1(this.form) type=radio 
+      value="Non, c'est le passé composé." 
+      name=one>
+              Demain<br>
+              </font> 
+            <td width="50%"> 
+              <p> <font face="Garamond" size="4"> 
+                <input size=60 name=feedback1>
+                </font></p>
+            </td>
+          </tr>
+          </tbody> 
+        </table>
+      </form>
+
+<form name=QUESTION action="" method=post>
+        <p> 
+        <table width="100%" border=0>
+          <tbody> 
+          <tr> 
+            <td width="50%"> 
+              <p><font face="Garamond" size="4">8. Sylvie et Martine partent _____ pour les États-Unis.</font></p>
+              <font face="Garamond" size="4"> 
+              <input onClick=choice1(this.form) type=radio 
+      value="Non, on utilise le présent pour parler du futur." 
+      name=one>
+              Hier<br>
+              <input onClick=choice1(this.form) type=radio 
+      value="Oui! On utilise le présent pour parler du futur." 
+      name=one>
+              Demain<br>
+              </font> 
+            <td width="50%"> 
+              <p> <font face="Garamond" size="4"> 
+                <input size=60 name=feedback1>
+                </font></p>
+            </td>
+          </tr>
+          </tbody> 
+        </table>
+      </form>
+
+
+<form name=QUESTION action="" method=post>
+        <p> 
+        <table width="100%" border=0>
+          <tbody> 
+          <tr> 
+            <td width="50%"> 
+              <p><font face="Garamond" size="4">9. ____ c'est le 14 juillet! On sort, bien sûr!</font></p>
+              <font face="Garamond" size="4"> 
+              <input onClick=choice1(this.form) type=radio 
+      value="Non, on utilise le présent pour parler du futur." 
+      name=one>
+              Hier<br>
+              <input onClick=choice1(this.form) type=radio 
+      value="Oui! On utilise le présent pour parler du futur." 
+      name=one>
+              Demain<br>
+              </font> 
+            <td width="50%"> 
+              <p> <font face="Garamond" size="4"> 
+                <input size=60 name=feedback1>
+                </font></p>
+            </td>
+          </tr>
+          </tbody> 
+        </table>
+      </form>
+
+
+<SCRIPT language=JavaScript><!--
+//  Creation interface, JavaScripts, and Perl Scripts by Dan Beeby.
+//  Based on a Javascript by Barbara Nelson.
+//  http://140.233.69.17/mellon -- dbeeby@haverford.edu.
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu
+function choice1(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback1.value=form.one[i].value
+}
+
+function choice2(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback2.value=form.one[i].value
+}
+
+function choice3(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback3.value=form.one[i].value
+}
+
+function choice4(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback4.value=form.one[i].value
+}
+
+function choice5(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback5.value=form.one[i].value
+}
+
+function choice6(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback6.value=form.one[i].value
+}
+
+function choice7(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback7.value=form.one[i].value
+}
+function choice8(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback8.value=form.one[i].value
+}
+
+function choice9(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback9.value=form.one[i].value
+}
+
+function choice10(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback10.value=form.one[i].value
+}
+
+<!--script-->
+//--></SCRIPT>

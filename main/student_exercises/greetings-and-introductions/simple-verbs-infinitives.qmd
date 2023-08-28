@@ -1,0 +1,109 @@
+---
+title: "Introductions--infinitives"
+---
+Écrivez l'infinitif du verbe.\
+Infinitifs possibles: être, s'appeler, avoir, aller, faire, travailler, connaître, habiter\
+Cliquez "C" --> correction.\
+Correct? --> *astérisques*.\
+Incorrect?--> ====.
+
+
+<form action="" method=post>
+   <font face="Garamond" size="4">1. Bonjour, je m'appelle Martine. 
+   <input 
+      size=9 name=item1>
+   <input onClick="dasher(form.item1, 's\'appeler')" type=button value=C name=Button>
+   <br>
+   2. J'habite au 2, rue Leblanc. 
+   <input size=9 name=item2>
+   <input onClick="dasher(form.item2, 'habiter')" type=button value=C name=Button>
+   <br>
+   3. Je vais au gymnase tous les jours. 
+   <input size=9 name=item3>
+   <input onClick="dasher(form.item3, 'aller')" type=button value=C name=Button>
+   <br>
+   4. Je connais beaucoup de monde au gymnase. 
+   <input size=9 name=item4>
+   <input onClick="dasher(form.item4, 'connaître')" type=button value=C name=Button>
+   <br>
+   5. Je travaille chez IBM. 
+   <input size=9 name=item5>
+   <input onClick="dasher(form.item5, 'travailler')" type=button value=C name=Button>
+   <br>
+   6. Je suis informaticienne. 
+   <input size=9 name=item6>
+   <input onClick="dasher(form.item6, 'être')" type=button value=C name=Button>
+   <br>
+   7. Voici mon frère, qui est professeur. 
+   <input size=9 name=item7>
+   <input onClick="dasher(form.item7, 'être')" type=button value=C name=Button>
+   <br>
+   8. Il fait beaucoup de sport aussi. 
+   <input size=9 name=item8>
+   <input onClick="dasher(form.item8, 'faire')" type=button value=C name=Button>
+   <br>
+   9. Nous habitons ensemble. 
+   <input size=9 name=item9>
+   <input onClick="dasher(form.item9, 'habiter')" type=button value=C name=Button>
+   <br>
+   10. Nous connaissons un bon restaurant près d'ici. 
+   <input size=9 name=item10>
+   <input onClick="dasher(form.item10, 'connaître')" type=button value=C name=Button>
+   <br>
+   11. Nous sommes heureux de sortir ensemble. 
+   <input size=9 name=item11>
+   <input onClick="dasher(form.item11, 'être')" type=button value=C name=Button>
+   <br>
+   12. Nous avons beaucoup d'amis en commun. 
+   <input size=9 name=item12>
+   <input onClick="dasher(form.item12, 'avoir')" type=button value=C name=Button>
+   <br>
+   13. Nos amis sont pour la plupart sportifs aussi. 
+   <input size=9 
+      name=item13>
+   <input onClick="dasher(form.item13, 'être')" type=button value=C name=Button>
+   <br>
+   14. En général, ils ont de l'argent aussi. 
+   <input size=9 name=item14>
+   <input onClick="dasher(form.item14, 'avoir')" type=button value=C name=Button>
+   <br>
+   15. Ils vont au gymnase souvent. 
+   <input size=9 name=item15>
+   <input onClick="dasher(form.item15, 'aller')" type=button value=C name=Button>
+   <br>
+   <br>
+   <br>
+   <br>
+   <input onClick="form.item1.value='s\'appeler';form.item2.value='habiter';form.item3.value='aller';form.item4.value='connaître';form.item5.value='travailler';form.item6.value='être';form.item7.value='être';form.item8.value='faire';form.item9.value='habiter';form.item10.value='connaître';form.item11.value='être';form.item12.value='avoir';form.item13.value='être';form.item14.value='avoir';form.item15.value='aller';" type=button value="Réponses" name=Button>
+   <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';form.item15.value='';" type=button value="Effacer" name=Button>
+   </font> 
+</form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

@@ -1,0 +1,80 @@
+---
+title: "Le présent--aller"
+---
+<p align=left><font face="Garamond" size="4">Conjuguez le verbe "aller" 
+        au présent.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+ <form action="" method=post>
+              <font face="Garamond" size="4"> Projets de stages absurdes.<br>
+              Robert 
+              <input 
+      size=9 name=item1>
+              <input onClick="dasher(form.item1, 'va')" type=button value=C name=Button>
+              à Mexico pour apprendre à se moucher à la façon traditionnelle. 
+              Monsieur et Madame Mangetout 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'vont')" type=button value=C name=Button>
+              en Chine pour apprendre à s'élargir le ventre. Ginette Calvaire 
+              et moi, nous (négatif) 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'n\'allons pas')" type=button value=C name=Button>
+              à Casa, mais à Jérusalem, pour apprendre à travailler le bois. Monsieur 
+              Malheur 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'va')" type=button value=C name=Button>
+              dans la vallée de la Loire pour pleurer avec les saules pleureurs. 
+              Toi, tu 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'vas')" type=button value=C name=Button>
+              en Afrique pour apprendre aux girafes à utiliser des périscopes. 
+              Les filles Flippies 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'vont')" type=button value=C name=Button>
+              à Tahiti pour apprendre à faire pipi en disant youpie. Je (négatif) 
+              <input 
+      size=9 name=item7>
+              <input onClick="dasher(form.item7, 'ne vais pas')" type=button value=C name=Button>
+              au Caire pour voir le désert et pour plaire à mon père, mais au 
+              désert avec ma mère, qui 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'va')" type=button value=C name=Button>
+              étudier le berbère. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='va';form.item2.value='vont';form.item3.value='n\'allons pas';form.item4.value='va';form.item5.value='vas';form.item6.value='vont';form.item7.value='ne vais pas';form.item8.value='va';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

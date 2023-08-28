@@ -1,0 +1,89 @@
+---
+title: "Le présent--avoir"
+---
+
+ <p align=left><font face="Garamond" size="4">Conjuguez le verbe "avoir" 
+        au présent.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4">Madame la directrice, c'est une catastrophe! 
+              Tous les enfants 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'ont')" type=button value=C name=Button>
+              des problèmes. Marie 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'a')" type=button value=C name=Button>
+              mal au ventre parce qu'elle 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'a')" type=button value=C name=Button>
+              mangé des billes (=marbles). Son frère, Cyril, 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'a')" type=button value=C name=Button>
+              la variole. Géraldine (négatif) 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'n\'a pas')" type=button value=C name=Button>
+              de casse-croûte aujourd'hui. Les deux jumelles, Sara et Paulette, 
+              <input 
+      size=9 name=item6>
+              <input onClick="dasher(form.item6, 'ont')" type=button value=C name=Button>
+              la rougeole. Les autres institutrices 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'ont')" type=button value=C name=Button>
+              très peu de patience avec toutes ces maladies. Mademoiselle Sophie 
+              <input 
+      size=9 name=item8>
+              <input onClick="dasher(form.item8, 'a')" type=button value=C name=Button>
+              déjà mal à la tête à cause de tout cela. Nous 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'avons')" type=button value=C name=Button>
+              toutes nos propres problèmes, et je sais que vous aussi, vous 
+              <input 
+      size=9 name=item10>
+              <input onClick="dasher(form.item10, 'avez')" type=button value=C name=Button>
+              les vôtres. Quand j'ai dit à la petite Océane, 'Qu'est-ce que tu 
+              <input 
+      size=9 name=item11>
+              <input onClick="dasher(form.item11, 'as')" type=button value=C name=Button>
+              ?' elle n'a pas répondu. Je crois qu'elle 
+              <input size=9 name=item12>
+              <input onClick="dasher(form.item12, 'a')" type=button value=C name=Button>
+              une maladie sympathique, de voir tous les autres malades.'' <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='ont';form.item2.value='a';form.item3.value='a';form.item4.value='a';form.item5.value='n\'a pas';form.item6.value='ont';form.item7.value='ont';form.item8.value='a';form.item9.value='avons';form.item10.value='avez';form.item11.value='as';form.item12.value='a';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

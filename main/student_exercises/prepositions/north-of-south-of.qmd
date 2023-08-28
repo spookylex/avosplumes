@@ -1,0 +1,87 @@
+---
+title: "North of.../south of..."
+---
+
+<p align=left><font face="Garamond" size="4">Complétez en utilisant "au 
+        nord du/de la/des/de l'" ou "au sud du/de la/des/de l'."<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; =.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4"> 1. Le Maine est 
+              <input size=15 name=item1>
+              <input onClick="dasher(form.item1, 'au nord des')" type=button value=C name=Button>
+              Etats-Unis.<br>
+              2. La France est 
+              <input size=15 name=item2>
+              <input onClick="dasher(form.item2, 'au nord de l\'')" type=button value=C name=Button>
+              Espagne.<br>
+              3. La Tunisie est 
+              <input size=15 name=item3>
+              <input onClick="dasher(form.item3, 'au nord de l\'')" type=button value=C name=Button>
+              Afrique.<br>
+              4. Le Mexique est 
+              <input size=15 name=item4>
+              <input onClick="dasher(form.item4, 'au sud des')" type=button value=C name=Button>
+              États-Unis.<br>
+              5. L'Israël est 
+              <input size=15 name=item5>
+              <input onClick="dasher(form.item5, 'au sud du')" type=button value=C name=Button>
+              Liban.<br>
+              6.L'Italie est 
+              <input size=15 name=item6>
+              <input onClick="dasher(form.item6, 'au sud de la')" type=button value=C name=Button>
+              Suisse.<br>
+              7. Le Texas est 
+              <input size=15 name=item7>
+              <input onClick="dasher(form.item7, 'au sud des')" type=button value=C name=Button>
+              États-Unis.<br>
+              8. La Provence est 
+              <input size=15 name=item8>
+              <input onClick="dasher(form.item8, 'au sud de la')" type=button value=C name=Button>
+              France.<br>
+              9. La Virginie est 
+              <input size=15 name=item9>
+              <input onClick="dasher(form.item9, 'au nord de la')" type=button value=C name=Button>
+              Caroline du Nord.<br>
+              10. Le Népal est 
+              <input size=15 name=item10>
+              <input onClick="dasher(form.item10, 'au nord de l\'')" type=button value=C name=Button>
+              Inde. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='au nord des';form.item2.value='au nord de l\'';form.item3.value='au nord de l\'';form.item4.value='au sud des';form.item5.value='au sud du';form.item6.value='au sud de la';form.item7.value='au sud des';form.item8.value='au sud de la';form.item9.value='au nord de la';form.item10.value='au nord de l\'';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

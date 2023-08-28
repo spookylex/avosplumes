@@ -1,0 +1,87 @@
+---
+title: "Le futur--sortir/partir"
+---
+
+<p align=left><font face="Garamond" size="4">Conjuguez les verbes entre 
+        parenthèses au futur.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+<form action="" method=post>
+   <font face="Garamond" size="4"> Demain soir, je (sortir) 
+   <input size=9 
+      name=item1>
+   <input onClick="dasher(form.item1, 'sortirai')" type=button value=C name=Button>
+   avec mes amis.<br>
+   La semaine prochaine, nous (partir) 
+   <input size=9 
+      name=item2>
+   <input onClick="dasher(form.item2, 'partirons')" type=button value=C name=Button>
+   en vacances.<br>
+   Dans trois jours, elle (sortir) 
+   <input size=9 name=item3>
+   <input onClick="dasher(form.item3, 'sortira')" type=button value=C name=Button>
+   sa nouvelle collection.<br>
+   L'année prochaine, nous (partir) 
+   <input size=9 
+      name=item4>
+   <input onClick="dasher(form.item4, 'partirons')" type=button value=C name=Button>
+   pour l'Italie.<br>
+   Est-ce que vous (sortir) 
+   <input size=9 name=item5>
+   <input onClick="dasher(form.item5, 'sortirez')" type=button value=C name=Button>
+   ce week-end?<br>
+   S'ils arrivent à joindre leurs amis, ils (sortir) 
+   <input 
+      size=9 name=item6>
+   <input onClick="dasher(form.item6, 'sortiront')" type=button value=C name=Button>
+   avec eux.<br>
+   Si j'entends quelque chose que je trouve insupportable, je (sortir) 
+   <input size=9 name=item7>
+   <input onClick="dasher(form.item7, 'sortirai')" type=button value=C name=Button>
+   .<br>
+   Tu penses que tu (sortir) 
+   <input size=9 name=item8>
+   <input onClick="dasher(form.item8, 'sortiras')" type=button value=C name=Button>
+   si tu n'aimes pas le film?<br>
+   Si elle n'arrive pas à trouver son bonheur dans cette maison, elle 
+   (partir) 
+   <input size=9 name=item9>
+   <input onClick="dasher(form.item9, 'partira')" type=button value=C name=Button>
+   .<br>
+   <br>
+   <input onClick="form.item1.value='sortirai';form.item2.value='partirons';form.item3.value='sortira';form.item4.value='partirons';form.item5.value='sortirez';form.item6.value='sortiront';form.item7.value='sortirai';form.item8.value='sortiras';form.item9.value='partira';" type=button value="Montrer les r&eacute;ponses" name=Button>
+   <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';" type=button value="Effacer les r&eacute;ponses" name=Button>
+   </font> 
+</form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

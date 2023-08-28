@@ -1,0 +1,86 @@
+---
+title: "Le présent--prendre"
+---
+
+<p align=left><font face="Garamond" size="4">Conjuguez les verbes entre 
+        parenthèses au présent.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.<br>
+        </font></p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4">Je ne (comprendre) 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'comprends')" type=button value=C name=Button>
+              pas le français. J'(apprendre) 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'apprends')" type=button value=C name=Button>
+              un mot, puis mon prof m'(apprendre) 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'apprend')" type=button value=C name=Button>
+              qu'il y a cinq autre mots avec le même sens! Elle (prendre) 
+              <input size=9 
+      name=item4>
+              <input onClick="dasher(form.item4, 'prend')" type=button value=C name=Button>
+              son temps pour tout expliquer, mais parfois nous ne (comprendre) 
+              <input 
+      size=12 name=item5>
+              <input onClick="dasher(form.item5, 'comprenons')" type=button value=C name=Button>
+              toujours pas. Parfois, les autres étudiants (prendre) 
+              <input size=9 
+      name=item6>
+              <input onClick="dasher(form.item6, 'prennent')" type=button value=C name=Button>
+              le temps de préparer les devoirs, mais souvent ils n'(apprendre) 
+              <input 
+      size=9 name=item7>
+              <input onClick="dasher(form.item7, 'apprennent')" type=button value=C name=Button>
+              que le quart ou la moitié de leur vocabulaire. La prof ne (comprendre) 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'comprend')" type=button value=C name=Button>
+              pas leur attitude. **Vous (comprendre) 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'comprenez')" type=button value=C name=Button>
+              en classe, mais vous n'(apprendre) 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'apprenez')" type=button value=C name=Button>
+              rien à la maison,** se plaint-elle. Nous (prendre) 
+              <input size=9 
+      name=item11>
+              <input onClick="dasher(form.item11, 'prenons')" type=button value=C name=Button>
+              rarement la peine de l'écouter. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='comprends';form.item2.value='apprends';form.item3.value='apprend';form.item4.value='prend';form.item5.value='comprenons';form.item6.value='prennent';form.item7.value='apprennent';form.item8.value='comprend';form.item9.value='comprenez';form.item10.value='apprenez';form.item11.value='prenons';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

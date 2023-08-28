@@ -1,0 +1,88 @@
+---
+title: "In, on"
+---
+<p align=left><font face="Garamond" size="4">Complétez en utilisant "le," 
+        "en," "au," ou "--" (rien). <br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; =.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+<form action="" method=post>
+   <font face="Garamond" size="4"> 1. Je suis née 
+   <input size=9 name=item1>
+   <input onClick="dasher(form.item1, 'le')" type=button value=C name=Button>
+   12 février 1968. <br>
+   2. Il y a beaucoup de soleil 
+   <input size=9 
+      name=item2>
+   <input onClick="dasher(form.item2, 'en')" type=button value=C name=Button>
+   été.<br>
+   3. 
+   <input size=9 name=item3>
+   <input onClick="dasher(form.item3, 'Au')" type=button value=C name=Button>
+   printemps, dans le Maine, il fait encore froid.<br>
+   4. Je suis arrivé 
+   <input size=9 name=item4>
+   <input onClick="dasher(form.item4, '--')" type=button value=C name=Button>
+   lundi.<br>
+   5. Je suis né 
+   <input size=9 name=item5>
+   <input onClick="dasher(form.item5, 'en')" type=button value=C name=Button>
+   février.<br>
+   6. Des terroristes ont attaqué le World Trade Center 
+   <input 
+      size=9 name=item6>
+   <input onClick="dasher(form.item6, 'le')" type=button value=C name=Button>
+   11 septembre.<br>
+   7. Nous partons 
+   <input size=9 name=item7>
+   <input onClick="dasher(form.item7, '--')" type=button value=C name=Button>
+   vendredi.<br>
+   8. 
+   <input size=9 name=item8>
+   <input onClick="dasher(form.item8, 'Le')" type=button value=C name=Button>
+   4 juillet, les Américains ne travaillent pas.<br>
+   9. Les Français ne travaillent pas 
+   <input size=9 name=item9>
+   <input onClick="dasher(form.item9, 'le')" type=button value=C name=Button>
+   14 juillet.<br>
+   10. Je travaille à Sugarloaf 
+   <input size=9 name=item10>
+   <input onClick="dasher(form.item10, 'en')" type=button value=C name=Button>
+   hiver. <br>
+   <br>
+   <br>
+   <input onClick="form.item1.value='le';form.item2.value='en';form.item3.value='Au';form.item4.value='--';form.item5.value='en';form.item6.value='le';form.item7.value='--';form.item8.value='Le';form.item9.value='le';form.item10.value='en';" type=button value="Réponses" name=Button>
+   <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';" type=button value="Effacer" name=Button>
+   </font> 
+</form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

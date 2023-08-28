@@ -1,0 +1,36 @@
+---
+title: "About"
+---
+
+![](http://avosplumes.org/scripts/timthumb/timthumb.php?src=http://avosplumes.org/uploads/images/pages/cup_blue.jpg&w=240&h=180&zc=1&q=100)
+
+#### Please note our new URL:[http://avosplumes.org](http://avosplumes.org/).
+
+If you want to skip straight to the "meat" of the site, click on [For Teachers](http://avosplumes.org/teachers/ "For Teachers") or [For Students](http://avosplumes.org/students/ "For Students"). Specifics on what's to be found in each part of the site can be found by clicking [Site Map](http://avosplumes.org/about/site-map/ "Site Map") (left). If you want a brief description of the site's goals and philosophy, read on!
+
+Writing in a foreign language conveys a sense of freedom, buoyancy, an experimental spirit. This site is for instructors of French who feel this way and for their students. It is designed to pool our collective wisdom about effective writing and teaching. The materials reflect the best ideas I have gleaned over the past fifteen years from friends and colleagues. As you contribute, I hope the site will improve although not necessarily grow. I will replace and rewrite, but try to keep from accumulating a mass of semi-redundant documents that are hard to navigate. Most of us have little time to read about pedagogy, but want good ideas that are easy to find and implement. I hope you will find some of those here. I hope you will send your students here to practice their grammar and to decipher the mysteries of how we teach and what we expect.
+
+### About me
+
+I am an associate professor of French at the University of Virginia. My fields are civilization and film. I am not a specialist in teaching writing and have no training in this area. I do teach writing in French in all my courses, at the intermediate/advanced levels, and I regularly teach an intermediate/advanced composition course. I think that one of the most important things we can do for our students is to help them to become better writers.
+
+### About "originality"
+
+My thinking about writing has been profoundly shaped by other writing teachers, especially by teachers of English and French composition. I have tried to credit my immediate sources, but those sources may have recycled and adapted others' ideas. If someone reading this finds uncredited ideas s/he thinks s/he owns, I apologize. Alexandra Duckworth, Greg Colomb, Marva Barnett and Cheryl Krueger deserve particular thanks for their contributions to the site. Barbara Kuczun Nelson inspired me to create the Javascript grammar exercises and helped me get started with coding.
+
+### About you
+
+I am committed to updating the site with any high-quality materials or ideas that you are willing to share.
+
+### About funding
+
+This site is one of the last four projects funded by the University of Virginia's Teaching + Technology Initiative. The videos were funded by UVA's Hybrid Challenge Initiative.
+
+### About licensing
+
+We abide by **Creative Commons** licensing principles:\
+* nothing on the site may be used for commercial purposes;\
+* anyone is free to download and modify work published on the site as long as you give credit and share alike.
+
+[![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/3.0/us/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/us/)\
+A Vos Plumes! website by [Alison J. Murray Levine](http://128.143.20.215/) is licensed under a [Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License](http://creativecommons.org/licenses/by-nc-sa/3.0/us/).

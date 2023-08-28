@@ -1,0 +1,85 @@
+---
+title: "Le passé composé--faire"
+---
+
+<p align=left><font face="Garamond" size="4">Conjuguez le verbe "faire" 
+        au passé composé.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font></p>
+
+ <form action="" method=post>
+              <font face="Garamond" size="4">Tu sais Caroline, l'été dernier, 
+              nous avons passé deux semaines dans le Maine. Il 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'a fait')" type=button value=C name=Button>
+              un temps merveilleux tous les jours. Nous 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'avons fait')" type=button value=C name=Button>
+              de la randonnée, du canoë-kayak, et de la nataion. Jean 
+              <input size=9 
+      name=item3>
+              <input onClick="dasher(form.item3, 'a fait')" type=button value=C name=Button>
+              de l'escalade aussi, et moi j' 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'ai fait')" type=button value=C name=Button>
+              du yoga pendant ce temps-là. Un jour seulement, il (négatif) 
+              <input size=13 
+      name=item5>
+              <input onClick="dasher(form.item5, 'n\'a pas fait')" type=button value=C name=Button>
+              beau, et nous 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'avons fait')" type=button value=C name=Button>
+              de l'aquarelle. Et toi, qu'est-ce que tu 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'as fait')" type=button value=C name=Button>
+              l'été dernier? Toi et Claude, vous 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'avez fait')" type=button value=C name=Button>
+              de la voile, comme d'habitude? Ah non, vous (négatif) 
+              <input size=13 
+      name=item9>
+              <input onClick="dasher(form.item9, 'n\'avez pas fait')" type=button value=C name=Button>
+              de bateau à cause de sa jambe, oui, j'ai oublié. Alors, vous 
+              <input size=9 
+      name=item10>
+              <input onClick="dasher(form.item10, 'avez fait')" type=button value=C name=Button>
+              quoi? Super! Il (négatif) 
+              <input size=13 name=item11>
+              <input onClick="dasher(form.item11, 'n\'a pas fait')" type=button value=C name=Button>
+              beau? Quel dommage! <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='a fait';form.item2.value='avons fait';form.item3.value='a fait';form.item4.value='ai fait';form.item5.value='n\'a pas fait';form.item6.value='avons fait';form.item7.value='as fait';form.item8.value='avez fait';form.item9.value='n\'avez pas fait';form.item10.value='avez fait';form.item11.value='n\'a pas fait';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

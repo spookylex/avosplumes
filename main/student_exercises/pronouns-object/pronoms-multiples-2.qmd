@@ -1,0 +1,168 @@
+---
+title: "Pronoms multiples (2)"
+---
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <title>French Grammar Practice</title>
+  <style>
+    table {
+      width: 90%;
+      margin: 0 auto;
+    }
+  </style>
+  <script language="Javascript">
+    // ... (your JavaScript code) ...
+  </script>
+</head>
+
+<body>
+  <p>&nbsp;</p>
+  <table>
+    <tr>
+      <td align="left" valign="top">
+        <p>
+          <font face="Garamond" size="4">Cliquez "Suite" pour voir la premi&egrave;re question.</font>
+        </p>
+        <p>
+          <font face="Garamond" size="4">Répondez aux questions en utilisant un ou plusieurs pronoms. Faites tous les
+            changements nécessaires.<br>
+            Cliquez "Montrer" pour comparer votre r&eacute;ponse &agrave; la r&eacute;ponse du professeur.<br>
+            Cliquez "Cacher" pour faire dispara&icirc;tre la r&eacute;ponse du professeur.
+          </font>
+        </p>
+
+        <p>
+          <font face="Garamond" size="4">Cliquez Suite/Retour pour voir les autres questions.<br></font>
+        </p>
+        <table width="80%" border="0" align="center">
+          <tbody>
+            <tr>
+              <td width="395">
+                <p>
+                  <form name="qbox" action="" method="post">
+                    <p>
+                      <font face="Garamond" size="4"><b>Question<br></b>
+                        <textarea name="q" rows="3" wrap="virtual" cols="50"></textarea>
+                      </font>
+                    </p>
+                    <center>
+                      <div align="left">
+                        <font face="Garamond" size="4">
+                          <input onClick="begin(-1)" type="button" value="&lt;=Retour" name="show">&nbsp; &nbsp;
+                          <input onClick="begin(1)" type="button" value="Suite=&gt;" name="show">
+                          <br>
+                        </font>
+                      </div>
+                    </center>
+                  </form>
+                  <p></p>
+                  <p></p>
+                </td>
+                <td width="200"></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table width="80%" border="0" align="center">
+            <tbody>
+              <tr>
+                <td valign="top" width="236">
+                  <p>
+                    <font face="Garamond" size="4"><b>Votre réponse</b></font>
+                  </p>
+                  <form name="Sinput" action="" method="post">
+                    <p>
+                      <font face="Garamond" size="4">
+                        <textarea name="Content" rows="4" wrap="virtual" cols="35"></textarea>
+                      </font>
+                    </p>
+                  </form>
+                  <!-- Input button -->
+                  <input type="button" value="Input Button" onclick="yourInputButtonClickFunction()" />
+                </td>
+                <td valign="top" width="308">
+                  <p>
+                    <font face="Garamond" size="4"><b>Réponse du professeur</b></font>
+                  </p>
+                  <form name="feedback" action="" method="post">
+                    <p>
+                      <font face="Garamond" size="4">
+                        <textarea name="fb" rows="4" wrap="virtual" cols="35"></textarea>
+                      </font>
+                    </p>
+                  </form>
+                  <form name="check" action="" method="post">
+                    <center>
+                      <div align="left">
+                        <font face="Garamond" size="4">
+                          <!-- Show button -->
+                          <input type="button" value="Montrer" onclick="yourShowButtonClickFunction()" />
+                          <!-- Hide button -->
+                          <input type="button" value="Cacher" onclick="yourHideButtonClickFunction()" />
+                        </font>
+                      </div>
+                    </center>
+                  </form>
+                  <p></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div align="center"></div>
+          <p>&nbsp;</p>
+        </td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+  </body>
+
+  </html>
+
+  <HEAD>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<SCRIPT language=Javascript><!--//
+//  This code is based on a script by Marmoe Soemarmo.  
+//  Dan Beeby modified it and wrote the creation interface, JavaScripts, and Perl Scripts.
+//  http://lang.swarthmore.edu/mellon -- dbeeby@haverford.edu.
+//  Content by Alison Murray Levine, Colby College -- ajlevine@colby.edu.
+//  You may borrow and modify these scripts, but please give credit where credit is due.
+	var Question= new Array();
+	var Answer= new Array();
+//---------------------DATA--------------------
+
+Question[1]="Tu as perdu *tes boucles d’oreille* (f.)? (non)";Question[2]="Est-ce qu’il est *sympathique*? (oui)";Question[3]="Tu as écrit *à tes grands-parents*? (oui)";Question[4]="Tu as dit *à Catherine* *où nous étions*? (oui)";Question[5]="Elle a prêté *sa voiture* *à Sonia*? (non)";Question[6]="Est-ce que tu retournes toujours *en France*? (oui)";Question[7]="Est-ce que vous avez trouvé *de la roquette*? (non)";Question[8]="Est-ce que vous avez *des cousins*? (oui, trois)";Question[9]="Est-ce que vous tenez *à lui parler personnellement*? (non)";Question[10]="Est-ce que tu as acheté *un tapis* *à ce marchand*? (oui)";Question[11]="Est-ce que tu as donné *un cadeau* *à Sophia*? (oui)";Question[12]="Est-ce que tu as demandé *un service* *à cet agent* (oui)?";
+
+Answer[1]="Non, je ne les ai pas perdues.";Answer[2]="Oui, il l'est. [n'oubliez pas: le pronom neutre *le* peut remplacer toute une idée, ou bien, comme dans ce cas, un adjectif.]";Answer[3]="Oui, je leur ai écrit.";Answer[4]="Oui, je le lui ai dit.";Answer[5]="Non, elle ne la lui a pas prêtée. [n'oubliez pas l'accord du participe passé, car le verbe est conjugué avec *avoir* et il y a un objet direct qui précède.]";Answer[6]="Oui, j'y retourne toujours.";Answer[7]="Non, nous n'en avons pas trouvé.";Answer[8]="Oui, nous en avons trois.";Answer[9]="Non, je n'y tiens pas.";Answer[10]="Oui, je lui en ai acheté un.";Answer[11]="Oui, je lui en ai donné un.";Answer[12]="Oui, je lui en ai demandé un. (Non, je ne lui en ai pas demandé.)";
+
+//-------------------END DATA-------------
+
+var NextQ = 0;
+var QN = 0;
+
+function begin(QN){
+NextQ = NextQ + QN
+	if (Question[NextQ] == null) {
+alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.")
+	}
+	document.feedback.fb.value=""
+	document.Sinput.Content.value=""
+	document.qbox.q.value=Question[NextQ]
+}
+
+function Check(){
+	if (document.Sinput.Content.value == ""){
+        document.feedback.fb.value="Essayez de répondre à la question avant de voir la réponse du professeur."
+        }
+	else{
+	document.feedback.fb.value=Answer[NextQ]
+}
+}
+//--></SCRIPT>
+
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR>
+
+<title>French Grammar Practice</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>

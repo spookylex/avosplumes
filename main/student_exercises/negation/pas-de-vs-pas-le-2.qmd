@@ -1,0 +1,108 @@
+---
+title: "Pas de vs. pas le (2)"
+---
+
+Complétez les phrases en utilisant "pas de" (article indéfini; quantité limitée et imprécise) ou "pas le/la/les" (article défini: généralisation ou chose spécifique).\
+Cliquez "C" --> correction.\
+Correct? --> *astérisques*.\
+Incorrect?--> =.
+
+<form action="" method=post>
+   <font face="Garamond" size="4"> Je ne connais 
+   <input size=9 name=item1>
+   <input onClick="dasher(form.item1, 'pas la')" type=button value=C name=Button>
+   Bretagne.<br>
+   Il n'y a 
+   <input size=9 name=item2>
+   <input onClick="dasher(form.item2, 'pas de')" type=button value=C name=Button>
+   bon restaurant dans ce quartier.<br>
+   Je n'aime 
+   <input size=9 name=item3>
+   <input onClick="dasher(form.item3, 'pas les')" type=button value=C name=Button>
+   croissants.<br>
+   Je ne veux 
+   <input size=9 name=item4>
+   <input onClick="dasher(form.item4, 'pas de')" type=button value=C name=Button>
+   glace ce soir.<br>
+   Les enfants ne regardent 
+   <input size=9 name=item5>
+   <input onClick="dasher(form.item5, 'pas la')" type=button value=C name=Button>
+   télévision?<br>
+   Mon père ne lit 
+   <input size=9 name=item6>
+   <input onClick="dasher(form.item6, 'pas de')" type=button value=C name=Button>
+   romans de fiction.<br>
+   Ma mère n'aime 
+   <input size=9 name=item7>
+   <input onClick="dasher(form.item7, 'pas les')" type=button value=C name=Button>
+   romans policiers.<br>
+   Je ne prends 
+   <input size=9 name=item8>
+   <input onClick="dasher(form.item8, 'pas le')" type=button value=C name=Button>
+   bus de 17h. <br>
+   Elle ne trouve 
+   <input size=9 name=item9>
+   <input onClick="dasher(form.item9, 'pas la')" type=button value=C name=Button>
+   clé (f.) de son appartement.<br>
+   Non, merci, je ne mange 
+   <input size=9 
+      name=item10>
+   <input onClick="dasher(form.item10, 'pas de')" type=button value=C name=Button>
+   viande.<br>
+   Le président ne voyait 
+   <input size=9 name=item11>
+   <input onClick="dasher(form.item11, 'pas de')" type=button value=C name=Button>
+   raison pour arrêter le projet.<br>
+   Il n'y a 
+   <input size=9 name=item12>
+   <input onClick="dasher(form.item12, 'pas de')" type=button value=C name=Button>
+   problèmes dans cette maison.<br>
+   Ma grand-mère n'aime 
+   <input size=9 
+      name=item13>
+   <input onClick="dasher(form.item13, 'pas le')" type=button value=C name=Button>
+   bruit.<br>
+   Il est difficile de vivre dans le Maine si on n'aime 
+   <input 
+      size=9 name=item14>
+   <input onClick="dasher(form.item14, 'pas la')" type=button value=C name=Button>
+   neige.<br>
+   Je ne connais 
+   <input size=9 name=item15>
+   <input onClick="dasher(form.item15, 'pas de')" type=button value=C name=Button>
+   Chinois ici. <br>
+   <br>
+   <br>
+   <input onClick="form.item1.value='pas la';form.item2.value='pas de';form.item3.value='pas les';form.item4.value='pas de';form.item5.value='pas la';form.item6.value='pas de';form.item7.value='pas les';form.item8.value='pas le';form.item9.value='pas la';form.item10.value='pas de';form.item11.value='pas de';form.item12.value='pas de';form.item13.value='pas le';form.item14.value='pas la';form.item15.value='pas de';" type=button value="Réponses" name=Button>
+   <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';form.item12.value='';form.item13.value='';form.item14.value='';form.item15.value='';" type=button value="Effacer" name=Button>
+   </font> 
+</form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

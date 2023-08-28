@@ -1,0 +1,259 @@
+---
+title: "Possessives (2)"
+---
+
+<p><font face="Garamond" size="5"><b>Choisissez la réponse correcte.</b></font></p>
+
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">1. Mon ___ a cinq ans.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice1(this.form)" type="radio" value="Non, c'est pluriel." name="one"> grand-père
+            <br>
+            <input onClick="choice1(this.form)" type="radio" value="Non, c'est pluriel." name="one"> fille
+            <br>
+            <input onClick="choice1(this.form)" type="radio" value="Oui!" name="one"> fils
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <input type="text" size="30" name="feedback1" value="">
+            </font></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</form>
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">2. Ma ___ s'appelle Sylvie.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, Sylvie n'est pas un nom de ville." name="one"> ville
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *village* est masculin." name="one"> village
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui!" name="one"> soeur
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">3. Elle téléphone à son ___.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui! *amie* commence par une voyelle (a), alors on utilise *son* pour la prononciation." name="one"> amie
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *mère* est féminin et ne commence pas par une voyelle." name="one"> mère
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, on ne peut pas téléphoner à un livre." name="one"> livre
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">4. Notre ___ est en France.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, *notre* est singulier." name="one"> appartements
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui! C'est singulier." name="one"> maison
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, le *x* indique que *tableaux* est pluriel et *notre* est singulier." name="one"> tableaux
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">5. Il a vendu sa ____.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, *épicerie*=f., mais commence par une voyelle (é), on dit alors *son épicerie* pour la prononciation." name="one"> épicerie
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *garage*=m." name="one"> garage
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui!" name="one"> maison
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">6. Leur ___ part en vacances.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, *leur*=singulier et *parents*=pl." name="one"> parents
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui! *famille* = singulier." name="one"> famille
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *leur*=singulier et *cousins*=pl." name="one"> cousins
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">7. Vos ___ sont gentilles.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, *fils*= sing. ou pl., mais *gentilles* =f." name="one"> fils
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *enfants*=m. et *gentilles*=f." name="one"> enfants
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui! c'est féminin pluriel, comme *gentilles.*" name="one"> amies
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">8. Mes ___ sont mécaniciens.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, impossible!" name="one"> vélos
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui!" name="one"> fils
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *soeurs* =f. et *mécaniciens* =m." name="one"> soeurs
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">9. Le frère de Claude habite dans mon ___.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, *mon*=m. et *maison*=f." name="one"> maison
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui!" name="one"> village
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *mon*=m. et *ville*=f." name="one"> ville
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">10. Tu connais ma ___?</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, *ma*=f.s. et *vacances*=f.pl." name="one"> vacances
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, *adresse* commence par une voyelle (a), et on dit *mon adresse* pour la prononciation." name="one"> adresse
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui!" name="one">  grand-mère
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+
+<script language="JavaScript">
+  function choice1(form) {
+    for (var i = 0; i < form.one.length; i++) {
+      if (form.one[i + 0].checked) {
+        break;
+      }
+    }
+    form.feedback1.value = form.one[i + 0].value;
+  }
+
+  function choice2(form) {
+    for (var i = 0; i < form.one.length; i++) {
+      if (form.one[i + 0].checked) {
+        break;
+      }
+    }
+    form.feedback2.value = form.one[i + 0].value;
+  }
+
+  // Define the remaining choice functions (choice3, choice4, etc.) similarly
+</script>

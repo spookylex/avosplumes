@@ -1,0 +1,88 @@
+---
+title: "L'imparfait--dire/écrire"
+---
+
+<p align=left><font face="Garamond" size="4">Conjuguez les verbes entre 
+        parenthèses à l'imparfait.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.</font><font face="Garamond" size="4"><br>
+        </font> </p>
+
+  <form action="" method=post>
+              <font face="Garamond" size="4">Quand Marc était jeune, il (conduire) 
+              <input 
+      size=9 name=item1>
+              <input onClick="dasher(form.item1, 'conduisait')" type=button value=C name=Button>
+              toujours une vieille Citroën 2CV. Il cultivait un personnage d'artiste; 
+              il (écrire) 
+              <input size=9 name=item2>
+              <input onClick="dasher(form.item2, 'écrivait')" type=button value=C name=Button>
+              des nouvelles et il (dire) 
+              <input size=9 name=item3>
+              <input onClick="dasher(form.item3, 'disait')" type=button value=C name=Button>
+              toujours que les choses matérielles n'avaient pas d'importance. 
+              C'était notre meilleur ami. Nous (dire) 
+              <input size=9 name=item4>
+              <input onClick="dasher(form.item4, 'disions')" type=button value=C name=Button>
+              tous que nous allions rester ensemble pour la vie. <br>
+              Moi, dans la nuit, j'(écrire) 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'écrivais')" type=button value=C name=Button>
+              aussi, mais je ne (dire) 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'disais')" type=button value=C name=Button>
+              rien à personne. Je (conduire au négatif) 
+              <input size=15 name=item7>
+              <input onClick="dasher(form.item7, 'ne conduisais pas')" type=button value=C name=Button>
+              encore, mais je rêvais d'avoir une ''deuch'' comme Marc. Les autres 
+              jeunes du groupe, ils (dire) 
+              <input size=9 name=item8>
+              <input onClick="dasher(form.item8, 'disaient')" type=button value=C name=Button>
+              que Marc était fou, mais ils l'adoraient quand même, et quand il 
+              est parti à la guerre, ils lui (écrire) 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'écrivaient')" type=button value=C name=Button>
+              tous les jours. Personne ne (conduire) 
+              <input size=9 name=item10>
+              <input onClick="dasher(form.item10, 'conduisait')" type=button value=C name=Button>
+              sa ''deuch'' en son absence. Tout le monde (dire) 
+              <input size=9 
+      name=item11>
+              <input onClick="dasher(form.item11, 'disait')" type=button value=C name=Button>
+              que la vie du village s'était arrêtée quand il est mort. <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='conduisait';form.item2.value='écrivait';form.item3.value='disait';form.item4.value='disions';form.item5.value='écrivais';form.item6.value='disais';form.item7.value='ne conduisais pas';form.item8.value='disaient';form.item9.value='écrivaient';form.item10.value='conduisait';form.item11.value='disait';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';form.item10.value='';form.item11.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

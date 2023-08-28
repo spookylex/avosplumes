@@ -1,0 +1,135 @@
+---
+title: "Personal questions (1)"
+---
+
+<form name=a action="" method=post>
+   <center>
+      <table cellpadding=6 width="100%" border=0>
+         <tbody>
+            <tr>
+               <td>
+                  <center>
+                     <font face="Garamond" size="4"><b>Poser des questions</b> </font> 
+                     <p align=left><font face="Garamond" size="4">Écrivez la lettre 
+                        de la réponse, à droite (=right), qui correspond à la question, 
+                        à gauche (=left). Cliquez "correction". (les réponses incorrectes 
+                        disparaissent).</font>
+                     </p>
+                     <font face="Garamond" size="4"><br>
+                     <br>
+                     </font> 
+                     <table width="90%">
+                        <tbody>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=0>
+                                 1. Votre nom? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">a. J'aime chanter et 
+                                 aller à l'opéra. </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=1>
+                                 2. Qu'est-ce que vous faites? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">b. 53, rue de Vaugirard. 
+                                 </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=2>
+                                 3. Votre situation de famille? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">c. Pierre Polichinelle. 
+                                 </font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=2>
+                                 4. Qu'est-ce que vous aimez faire? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">d. En 1962. </font></td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=2>
+                                 5. Vous êtes né en quelle année? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">e. Je suis avocat. </font></td>
+                           </tr>
+                           <tr>
+                              <td> <font face="Garamond" size="4"> 
+                                 <input maxlength=1 size=1 name=2>
+                                 6. Vous habitez où? </font>
+                              </td>
+                              <td><font face="Garamond" size="4">f. Je suis divorcé. </font></td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </center>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </center>
+</form>
+<center>
+<form name=e action="" method=post>
+   <center>
+      <font face="Garamond" size="4"> 
+      <input onClick=f() type=button value=Correction name=Button>
+      </font> 
+   </center>
+</form>
+<form name=incor action="" method=post>
+   <font face="Garamond" size="4"> 
+   <input type=hidden name=wrong>
+   </font> 
+</form>
+
+ <script language=JavaScript>
+var c = 0
+b=new Array(12)
+b[0]='c';
+b[1]='e';
+b[2]='f';
+b[3]='a';
+b[4]='d';
+b[5]='b';
+b[6]='';
+b[7]='';
+b[8]='';
+b[9]='';
+b[10]='';
+b[11]='';
+function f(){
+var x = 0
+ISWrong = 0
+for (x=0; x<(document.a.elements.length); x++){
+   if(document.a.elements[x].value!=""){
+   document.a.elements[x].value = document.a.elements[x].value.toLowerCase()
+   }
+	if ((document.a.elements[x].value == b[x]) || (document.a.elements[x].value == b[x].toLowerCase())){
+		}
+	else {
+		ISWrong = 1;
+   if(document.a.elements[x].value!=""){
+   z=x+1
+  document.incor.wrong.value = document.incor.wrong.value+document.a.elements[x].value+" ne correspond pas à "+z+".  ";
+  	}
+		document.a.elements[x].value = '';
+		}	
+	}
+if (ISWrong == 1) {
+	Feedback = "Bien, mais il y a encore quelques erreurs."+" "+ document.incor.wrong.value;
+ document.incor.wrong.value="";
+	}
+else {
+	Feedback = "Bien! 100%!"
+	}
+alert(Feedback)
+}</script>

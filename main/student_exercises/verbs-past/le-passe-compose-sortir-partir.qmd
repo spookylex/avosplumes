@@ -1,0 +1,84 @@
+---
+title: "Le passé composé--sortir/partir"
+---
+
+ <p align=left><font face="Garamond" size="4">Conjuguez les verbes entre 
+        parenthèses au passé composé.<br>
+        Cliquez "C" --&gt; correction.<br>
+        Correct? --&gt; *astérisques*. <br>
+        Incorrect?--&gt; ====.<br>
+        </font></p>
+
+<form action="" method=post>
+              <font face="Garamond" size="4">Tout le monde a pris des vacances. 
+              Ginette et Marc (partir) 
+              <input size=9 name=item1>
+              <input onClick="dasher(form.item1, 'sont partis')" type=button value=C name=Button>
+              en Espagne.<br>
+              Richard (partir au négatif) 
+              <input size=15 name=item2>
+              <input onClick="dasher(form.item2, 'n\'est pas parti')" type=button value=C name=Button>
+              en Inde finalement, mais en Chine, et sa soeur Marie (partir) 
+              <input 
+      size=9 name=item3>
+              <input onClick="dasher(form.item3, 'est partie')" type=button value=C name=Button>
+              en Italie.<br>
+              Les femmes des avocats (partir au négatif) 
+              <input size=18 
+      name=item4>
+              <input onClick="dasher(form.item4, 'ne sont pas parties')" type=button value=C name=Button>
+              en Angleterre, finalement, mais au Maroc. <br>
+              Madeleine est restée à Paris, et elle (sortir) 
+              <input size=9 name=item5>
+              <input onClick="dasher(form.item5, 'est sortie')" type=button value=C name=Button>
+              tous les soirs pour danser. <br>
+              Moi, je m'appelle William, et je (sortir) 
+              <input size=9 name=item6>
+              <input onClick="dasher(form.item6, 'suis sorti')" type=button value=C name=Button>
+              un peu avec elle, mais après, je (partir) 
+              <input size=9 name=item7>
+              <input onClick="dasher(form.item7, 'suis parti')" type=button value=C name=Button>
+              avec d'autres amis à la mer. <br>
+              Et toi, Giselle, tu (partir au négatif) 
+              <input size=15 name=item8>
+              <input onClick="dasher(form.item8, 'n\'es pas partie')" type=button value=C name=Button>
+              ?<br>
+              Toi et Robert, peut-être que vous (sortir) 
+              <input size=9 name=item9>
+              <input onClick="dasher(form.item9, 'êtes sortis')" type=button value=C name=Button>
+              souvent au cinéma, parce que vous adorez ça? <br>
+              <br>
+              <br>
+              <input onClick="form.item1.value='sont partis';form.item2.value='n\'est pas parti';form.item3.value='est partie';form.item4.value='ne sont pas parties';form.item5.value='est sortie';form.item6.value='suis sorti';form.item7.value='suis parti';form.item8.value='n\'es pas partie';form.item9.value='êtes sortis';" type=button value="Réponses" name=Button>
+              <input onClick="form.item1.value='';form.item2.value='';form.item3.value='';form.item4.value='';form.item5.value='';form.item6.value='';form.item7.value='';form.item8.value='';form.item9.value='';" type=button value="Effacer" name=Button>
+              </font> 
+            </form>
+
+<SCRIPT Language="JavaScript">
+//  This code is based on George Mitrevski's original CLOZE code.  
+//  Dennie Hoopingarner modified it to provide more detailed feedback about the user's responses, 
+//  in a manner similar to the Dasher program.
+//  You are welcome to use and modify this code, but please give credit where credit is due. 
+//  Dennie Hoopingarner, Michigan State University  hooping4@msu.edu
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu, 
+function dasher(Student, Correct) {
+var studentAnswer = Student.value;
+var correctAnswer = Correct;
+result = ""
+for (var c = 0; c< correctAnswer.length; c ++) {
+	var CorrectX = correctAnswer.charAt(c);
+	var StudentX = studentAnswer.charAt(c);
+	if (CorrectX == StudentX) {
+	result = result + CorrectX;
+	}
+	else {
+	result = result +  "=";
+	}
+}
+Student.value = result;
+    if (studentAnswer == correctAnswer){
+    Student.value = "*" + studentAnswer + "*";
+    }
+}
+
+<!-- done hiding --></SCRIPT>

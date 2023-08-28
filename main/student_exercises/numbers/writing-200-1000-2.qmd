@@ -1,0 +1,249 @@
+---
+title: "Writing 200-1000 (2)"
+---
+<p>  <font face="Garamond" size="4"><b>Votre budget</b> <br />Avez-vous assez d'argent?</font></p>
+
+<form name=QUESTION action="" method=post>
+        <p> 
+        <table width="100%" border=0>
+          <tbody> 
+          <tr> 
+            <td width="50%"> 
+              <p><font face="Garamond" size="4">1. Vous avez trois cent soixante 
+                euros. Pouvez-vous acheter un foulard &agrave; trois cent cinquante-deux 
+                et une bague &agrave; douze euros?</font></p>
+              <font face="Garamond" size="4"> 
+              <input onClick=choice1(this.form) type=radio 
+      value="Incorrect; le total est 364E." name=one>
+              Oui<br>
+              <input 
+      onClick=choice1(this.form) type=radio value="Correct! Le total est 364E." 
+      name=one>
+              Non<br>
+              </font>
+            <td width="50%"> 
+              <p> <font face="Garamond" size="4"> 
+                <input size=30 name=feedback1>
+                </font></p>
+            </td>
+          </tr>
+          </tbody> 
+        </table>
+      </form>
+      <p></p>
+      <p></p>
+      <p> 
+      <form name=QUESTION action="" method=post>
+        <p> 
+        <table width="100%" border=0>
+          <tbody> 
+          <tr> 
+            <td width="50%"> 
+              <p><font face="Garamond" size="4">2. Vous avez mille neuf cent cinquante 
+                euros. Pouvez-vous acheter un tableau &agrave; dix-huit cent soixante-seize 
+                et un mouchoir &agrave; vingt-quatre?</font></p>
+              <font face="Garamond" size="4"> 
+              <input onClick=choice2(this.form) type=radio 
+      value="Correct! Le total est 1900E." name=one>
+              Oui<br>
+              <input 
+      onClick=choice2(this.form) type=radio 
+      value="Incorrect; le total est 1900E." name=one>
+              Non<br>
+              </font>
+            <td width="50%"> 
+              <p> <font face="Garamond" size="4"> 
+                <input size=30 name=feedback2>
+                </font></p>
+            </td>
+          </tr>
+          </tbody> 
+        </table>
+      </form>
+      <p></p>
+      <p></p>
+      <p> 
+      <form name=QUESTION action="" method=post>
+        <p> 
+        <table width="100%" border=0>
+          <tbody> 
+          <tr> 
+            <td width="50%"> 
+              <p><font face="Garamond" size="4">3. Vous avez mille huit cents 
+                euros. Pouvez-vous acheter une robe à mille deux cent cinquante-trois 
+                avec les chaussures &agrave; cinq cent soixante?</font></p>
+              <font face="Garamond" size="4"> 
+              <input onClick=choice3(this.form) type=radio 
+      value="Incorrect; le total est 1813E." name=one>
+              Oui<br>
+              <input 
+      onClick=choice3(this.form) type=radio value="Correct! Le total est 1813E." 
+      name=one>
+              Non<br>
+              </font>
+            <td width="50%"> 
+              <p> <font face="Garamond" size="4"> 
+                <input size=30 name=feedback3>
+                </font></p>
+            </td>
+          </tr>
+          </tbody> 
+        </table>
+      </form>
+      <p></p>
+      <p></p>
+      <p> 
+      <form name=QUESTION action="" method=post>
+        <p> 
+        <table width="100%" border=0>
+          <tbody> 
+          <tr> 
+            <td width="50%"> 
+              <p><font face="Garamond" size="4">4. Vous avez quatre-vingts euros. 
+                Pouvez-vous acheter une affiche à trente-deux et un livre &agrave; 
+                cinquante-quatre?</font></p>
+              <font face="Garamond" size="4"> 
+              <input onClick=choice4(this.form) type=radio 
+      value="Incorrect; le total est 86E." name=one>
+              Oui<br>
+              <input 
+      onClick=choice4(this.form) type=radio value="Correct! Le total est 86E." 
+      name=one>
+              Non<br>
+              </font>
+            <td width="50%"> 
+              <p> <font face="Garamond" size="4"> 
+                <input size=30 name=feedback4>
+                </font></p>
+            </td>
+          </tr>
+          </tbody> 
+        </table>
+      </form>
+      <p></p>
+      <p></p>
+      <p> 
+      <form name=QUESTION action="" method=post>
+        <p> 
+        <table width="100%" border=0>
+          <tbody> 
+          <tr> 
+            <td width="50%"> 
+              <p><font face="Garamond" size="4">5. Vous avez quatre-vingt-dix 
+                euros. Pouvez-vous acheter un chapeau à dix-sept, et aussi une 
+                Tour Eiffel en bronze, &agrave; soixante-treize?</font></p>
+              <font face="Garamond" size="4"> 
+              <input onClick=choice5(this.form) type=radio 
+      value="Correct! Le total est 90E." name=one>
+              Oui<br>
+              <input 
+      onClick=choice5(this.form) type=radio value="Incorrect! Le total est 90E." 
+      name=one>
+              Non<br>
+              </font>
+            <td width="50%"> 
+              <p> <font face="Garamond" size="4"> 
+                <input size=30 name=feedback5>
+                </font></p>
+            </td>
+          </tr>
+          </tbody> 
+        </table>
+      </form>
+
+<SCRIPT language=JavaScript><!--
+//  Creation interface, JavaScripts, and Perl Scripts by Dan Beeby.
+//  Based on a Javascript by Barbara Nelson.
+//  http://140.233.69.17/mellon -- dbeeby@haverford.edu.
+//  Content by: Alison Murray Levine, University of Virginia, alevine@virginia.edu
+function choice1(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback1.value=form.one[i].value
+}
+
+function choice2(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback2.value=form.one[i].value
+}
+
+function choice3(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback3.value=form.one[i].value
+}
+
+function choice4(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback4.value=form.one[i].value
+}
+
+function choice5(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback5.value=form.one[i].value
+}
+
+function choice6(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback6.value=form.one[i].value
+}
+
+function choice7(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback7.value=form.one[i].value
+}
+function choice8(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback8.value=form.one[i].value
+}
+
+function choice9(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback9.value=form.one[i].value
+}
+
+function choice10(form) {
+ for (var i=0;i<form.one.length;i ++) {
+  if(form.one[i].checked) {
+   break
+   }
+  }
+ form.feedback10.value=form.one[i].value
+}
+
+<!--script-->
+//--></SCRIPT>

@@ -1,0 +1,137 @@
+---
+title: "Should, would, could"
+---
+<body>
+   <table width="90%" border="0" bgcolor="#FFFFFF" align="center" cellpadding="20">
+      <tr>
+         <td align="left" valign="top">
+            <font face="Garamond" size="4">Cliquez &quot;Suite&quot; pour voir la 
+            premi&egrave;re phrase.</font>
+            <p><font face="Garamond" size="4">Traduisez les phrases. Souvent, vous allez utiliser une forme du conditionnel.  
+               <br>
+               Cliquez &quot;Montrer&quot; pour comparer votre r&eacute;ponse &agrave; 
+               la r&eacute;ponse du professeur.<br>
+               Cliquez &quot;Cacher&quot; pour faire dispara&icirc;tre la r&eacute;ponse 
+               du professeur. </font>
+            </p>
+            <p><font face="Garamond" size="4">Cliquez Suite/Retour pour voir les autres 
+               phrases.<br>
+               </font>
+            </p>
+            <table width="80%" border=0 align="center">
+               <tbody>
+                  <tr>
+                     <td width=395>
+                        <p> 
+                        <form name=qbox action="" method=post>
+                           <p><font face="Garamond" size="4"><b>Question<br>
+                              </b> 
+                              <textarea name=q rows=3 wrap=virtual cols=50></textarea>
+                              <br>
+                              </font>
+                           </p>
+                           <center>
+                              <div align=left> <font face="Garamond" size="4"> 
+                                 <input onClick=begin(-1) type=button value="&lt;=Retour" name=show>
+                                 &nbsp; &nbsp; 
+                                 <input onClick=begin(1) type=button value="Suite=&gt;" name=show>
+                                 <br>
+                                 </font>
+                              </div>
+                           </center>
+                        </form>
+                        <p></p>
+                        <p></p>
+                     </td>
+                     <td width=200></td>
+                  </tr>
+               </tbody>
+            </table>
+            <table width="80%" border=0 align="center">
+               <tbody>
+                  <tr>
+                     <td valign=top width=236>
+                        <p><font face="Garamond" size="4"><b>Votre réponse</b> </font> 
+                        <form name=Sinput action="" method=post>
+                           <p> <font face="Garamond" size="4"> 
+                              <textarea name=Content rows=4 wrap=virtual cols=35></textarea>
+                              </font> 
+                        </form>
+                        <p></p>
+                        <p></p>
+                     </td>
+                     <td valign=top width=308>
+                        <p><font face="Garamond" size="4"><b>Réponse du professeur</b> </font> 
+                        <form name=feedback action="" method=post>
+                           <p> <font face="Garamond" size="4"> 
+                              <textarea name=fb rows=4 wrap=virtual cols=35></textarea>
+                              </font> 
+                        </form>
+                        <form name=check action="" method=post>
+                           <center>
+                              <div align=left> <font face="Garamond" size="4"> 
+                                 <input onClick=Check() type=button value="Montrer" name=Button>
+                                 <input onClick="(document.feedback.fb.value='')" type=button value="Cacher" name=show>
+                                 </font>
+                              </div>
+                           </center>
+                        </form>
+                        <p></p>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            <div align="center"></div>
+            <p>&nbsp;</p>
+         </td>
+      </tr>
+   </table>
+   <p>&nbsp;</p>
+</body>
+
+<HEAD>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<SCRIPT language=Javascript><!--//
+//  This code is based on a script by Marmoe Soemarmo.  
+//  Dan Beeby modified it and wrote the creation interface, JavaScripts, and Perl Scripts.
+//  http://lang.swarthmore.edu/mellon -- dbeeby@haverford.edu.
+//  Content by Alison Murray Levine, University of Virginia -- alevine@virginia.edu.
+//  You may borrow and modify these scripts, but please give credit where credit is due.
+	var Question= new Array();
+	var Answer= new Array();
+//---------------------DATA--------------------
+
+Question[1]="He's speaking with a customer right now but he should be available in ten minutes.";Question[2]="You should get out more ; I think it would do you good [faire du bien].";Question[3]="I couldn't walk for two days after the opération.";Question[4]="My brother would have liked to live in Rome but my sister-in-law couldn't leave her job.";Question[5]="I think Boeing would be very interested in your design.";Question[6]="What would you do if you found out your husband was sleeping with another woman ?";Question[7]="He could at least apologize !";Question[8]="They couldn't respond to our invitation because they couldn't get in touch with us.";Question[9]="I would be happy to come to the meeting, but unfortunately I teach on Tuesdays.";Question[10]="When I was younger I would always help him out [donner un coup de main], but now I'm more careful.";
+
+Answer[1]="Il est en ligne avec un client en ce moment, mais il devrait être disponible dans dix minutes.";Answer[2]="Tu devrais sortir plus souvent ; je crois que ça te ferait du bien.";Answer[3]="Je n'ai pas pu marcher pendant deux jours après l'opération.";Answer[4]="Mon frère aurait aimé vivre à Rome mais ma belle-sœur n'a pas pu quitter son poste.";Answer[5]="Je crois que votre dessein intéresserait beaucoup Boeing.";Answer[6]="Qu'est-ce que tu ferais si tu apprenais que ton mari couchait avec une autre femme ?";Answer[7]="Il pourrait au moins s'excuser !";Answer[8]="Ils n'ont pas pu répondre à notre invitation parce qu'ils n'ont pas réussi à nous joindre.";Answer[9]="J'assisterais bien volontiers à la réunion, mais malheureusement j'ai cours le mardi.";Answer[10]="Quand j'étais plus jeune, je lui donnais toujours un coup de main, mais maintenant je fais plus attention.";
+
+//-------------------END DATA-------------
+
+var NextQ = 0;
+var QN = 0;
+
+function begin(QN){
+NextQ = NextQ + QN
+	if (Question[NextQ] == null) {
+alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.")
+	}
+	document.feedback.fb.value=""
+	document.Sinput.Content.value=""
+	document.qbox.q.value=Question[NextQ]
+}
+
+function Check(){
+	if (document.Sinput.Content.value == ""){
+        document.feedback.fb.value="Essayez de répondre à la question avant de voir la réponse du professeur."
+        }
+	else{
+	document.feedback.fb.value=Answer[NextQ]
+}
+}
+//--></SCRIPT>
+
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR>
+
+<title>French Grammar Practice</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
