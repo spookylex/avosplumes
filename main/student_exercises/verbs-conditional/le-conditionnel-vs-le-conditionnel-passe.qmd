@@ -13,20 +13,16 @@ title: "Le conditionnel vs. le conditionnel passé (1)"
 
 <div id="MainDiv" class="StdDiv">
 
-<!-- These top buttons hidden; reveal if required -->
-<!--
-<button id="CheckButton1" class="FuncButton" onmouseover="FuncBtnOver(this)" onfocus="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onblur="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckAnswers()">&nbsp;Correction&nbsp;</button>
 
+<button id="CheckButton1" class="FuncButton" onmouseover="FuncBtnOver(this)" onfocus="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onblur="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckAnswers()">&nbsp;Correction&nbsp;</button>
 
 <button class="FuncButton" onmouseover="FuncBtnOver(this)" onfocus="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onblur="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowHint()">&nbsp;Une lettre...&nbsp;</button>
 
-
- -->
  
 <div id="ClozeDiv">
 <form id="Cloze" method="post" action="" onsubmit="return false;">
 <div class="ClozeBody">
- J'aimerais vs. J'aurais aim&#x00e9;<br /><br />&#x00c9;coutez la chanson &#x00ab; <a href="http://www.youtube.com/watch?v=aPAdmysuMmA" title="J'aurais voulu" target="blank">J'aurais voulu</a>, de Fran&#x00e7;oise Hardy. <br /><br />
+ J'aimerais vs. J'aurais aim&#x00e9;<br /><br />&#x00c9;coutez la chanson &#x00ab; <a href="https://youtu.be/eWxzMdfDEKM?si=LNBIM06_Is2PPFpH" title="J'aurais voulu" target="blank"> J'aurais voulu</a>  &#x00bb; de Fran&#x00e7;oise Hardy. <br /><br />
 
 Daniel Balavoine exprime un autre type de regret dans sa chanson &#x00ab; J'aurais voulu &#x00ea;tre un artiste &#x00bb; : &#x00ab;. Nicole Croisille, C&#x00e9;line Dion et d'autres ont interpr&#x00e9;t&#x00e9; cette chanson.<br /
 

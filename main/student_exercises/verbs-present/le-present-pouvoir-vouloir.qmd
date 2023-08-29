@@ -1,65 +1,65 @@
 ---
 title: "Le présent--pouvoir/vouloir"
 ---
-<p><font face="Garamond" size="4">Cliquez <strong>Suite--></strong> pour voir la première phrase.<br />
-Complétez la phrase en utilisant 
-        un infinitif, puis cliquez sur "Montrer" pour voir une réponse de votre 
-        professeur.<br />Cliquez <strong>Suite</strong> ou <strong>Retour</strong> pour voir les autres questions.</font></p>
-<p> 
+<head>
+  <style>
+    body {
+      font-family: Garamond, serif;
+    }
+  </style>
+</head>
 
-<form name=qbox action="" method=post>
-   <p><font face="Garamond" size="4"><b>Question<br>
-      </b> 
-      <textarea name=q rows=4 wrap=virtual cols=50></textarea>
+Cliquez Suite--> pour voir la première phrase.\
+Complétez la phrase en utilisant un infinitif, puis cliquez sur "Montrer" pour voir une réponse de votre professeur.\
+Cliquez Suite ou Retour pour voir les autres questions.
+
+  <form name="qbox" action="" method="post">
+    <p>
+      <b>Question</b><br />
+      <textarea name="q" rows="2" wrap="virtual" cols="50"></textarea>
+    </p>
+    <center>
       <br>
-      </font>
-   </p>
-   <center>
-      <div align=left><font face="Garamond" size="4"> 
-         <input onClick=begin(-1) type=button value="<--Retour" name=show>
-         &nbsp; &nbsp; 
-         <input onClick=begin(1) type=button value="Suite-->" name=show>
-         <br>
-         </font>
-      </div>
-   </center>
-</form>
-<p></p>
-<p></p>
-</td>
-<td width=200></td>
-</tr>
-</tbody> 
-</table>
-<table width="80%" border=0>
-<tbody>
-   <tr>
-      <td valign=top width=236>
-         <p><font face="Garamond" size="4"><b>Votre réponse</b> </font> 
-         <form name=Sinput action="" method=post>
-            <p><font face="Garamond" size="4"> 
-               <textarea name=Content rows=8 wrap=virtual cols=35></textarea>
-               </font> 
-         </form>
-         <p></p>
-         <p></p>
-      </td>
-      <td valign=top width=308>
-         <p><font face="Garamond" size="4"><b>Réponse du professeur</b> </font> 
-         <form name=feedback action="" method=post>
-            <p><font face="Garamond" size="4"> 
-               <textarea name=fb rows=8 wrap=virtual cols=35></textarea>
-               </font> 
-         </form>
-         <form name=check action="" method=post>
+      <button onClick="begin(-1)" type="button">&lt;=Retour</button>
+      &nbsp; &nbsp;
+      <button onClick="begin(1)" type="button">Suite=&gt;</button>
+      <br />
+
+    </center>
+  </form>
+
+  <table width="80%" border="0" align="center">
+    <tbody>
+      <tr>
+        <td valign="top" width="236">
+          <p>
+            <b>Votre réponse</b>
+          </p>
+          <form name="Sinput" action="" method="post">
+            <p>
+              <textarea name="Content" rows="3" wrap="virtual" cols="35"></textarea>
+            </p>
+          </form>
+        </td>
+        <td valign="top" width="308">
+          <p>
+            <b>Réponse du professeur</b>
+          </p>
+          <form name="feedback" action="" method="post">
+            <p>
+              <textarea name="fb" rows="3" wrap="virtual" cols="35"></textarea>
+            </p>
+          </form>
+          <form name="Check" action="" method="post">
             <center>
-               <div align=left><font face="Garamond" size="4"> 
-                  <input onClick=Check() type=button value="Montrer" name=Button>
-                  <input onClick="(document.feedback.fb.value='')" type=button value="Cacher" name=show>
-                  </font>
-               </div>
+              <button onClick="checkAnswer()" type="button">Montrer</button>
+              <button onClick="hideAnswer()" type="button">Cacher</button>
             </center>
-         </form>
+          </form>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
 <SCRIPT language=Javascript><!--//
 //  This code is based on a script by Marmoe Soemarmo.  
@@ -76,25 +76,29 @@ Answer[1]="Un INFINITIF est nécessaire après *pouvoir.*  Exemple: Nous pouvons
 
 //-------------------END DATA-------------
 
-var NextQ = 0;
-var QN = 0;
+  var NextQ = 0;
+  var QN = 0;
 
-function begin(QN){
-NextQ = NextQ + QN
-	if (Question[NextQ] == null) {
-alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.")
-	}
-	document.feedback.fb.value=""
-	document.Sinput.Content.value=""
-	document.qbox.q.value=Question[NextQ]
-}
+  function begin(QN) {
+    NextQ = NextQ + QN;
+    if (Question[NextQ] == null) {
+      alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.");
+    }
+    document.feedback.fb.value = "";
+    document.Sinput.Content.value = "";
+    document.qbox.q.value = Question[NextQ];
+  }
 
-function Check(){
-	if (document.Sinput.Content.value == ""){
-        document.feedback.fb.value="Essayez de répondre à la question avant de voir la réponse du professeur."
-        }
-	else{
-	document.feedback.fb.value=Answer[NextQ]
-}
-}
-//--></SCRIPT>
+  function checkAnswer() {
+    if (document.Sinput.Content.value === "") {
+      document.feedback.fb.value = "Essayez de répondre à la question avant de voir la réponse du professeur.";
+    } else {
+      document.feedback.fb.value = Answer[NextQ];
+    }
+  }
+
+  function hideAnswer() {
+    document.feedback.fb.value = "";
+  }
+  //-->
+</script>

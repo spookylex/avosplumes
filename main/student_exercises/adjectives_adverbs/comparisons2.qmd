@@ -4,7 +4,6 @@ title: "Comparisons (2)"
 
 <html>
 <head>
-  <title>Comparisons (2)</title>
   <style>
     body {
       font-family: Garamond, serif;
@@ -33,12 +32,12 @@ title: "Comparisons (2)"
       <textarea name="q" rows="2" wrap="virtual" cols="50"></textarea>
     </p>
     <center>
-      <div align="left">
-        <button onClick="begin(-1)" type="button">&lt;=Retour</button>
-        &nbsp; &nbsp;
-        <button onClick="begin(1)" type="button">Suite=&gt;</button>
-        <br />
-      </div>
+      <br>
+      <button onClick="begin(-1)" type="button">&lt;=Retour</button>
+      &nbsp; &nbsp;
+      <button onClick="begin(1)" type="button">Suite=&gt;</button>
+      <br />
+
     </center>
   </form>
 
@@ -66,10 +65,8 @@ title: "Comparisons (2)"
           </form>
           <form name="check" action="" method="post">
             <center>
-              <div align="left">
-                <button onClick="checkAnswer()" type="button">Montrer</button>
-                <button onClick="hideAnswer()" type="button">Cacher</button>
-              </div>
+              <button onClick="checkAnswer()" type="button">Montrer</button>
+              <button onClick="hideAnswer()" type="button">Cacher</button>
             </center>
           </form>
         </td>

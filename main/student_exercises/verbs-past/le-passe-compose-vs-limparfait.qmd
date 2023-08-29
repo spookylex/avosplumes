@@ -1,328 +1,574 @@
 ---
 title: "Le passé composé vs. l'imparfait"
 ---
-### Horace prend sa revanche<br>
-#### (une com&eacute;die tragique)<br />
+### Horace prend sa revanche<br> (une com&eacute;die tragique)<br />
 <img src="horace1.jpg" width="315" height="210" /><br />
 Cette  histoire a &eacute;t&eacute; &eacute;crite et illustr&eacute;e par Erin Sipia, une &eacute;tudiante de mon cours de fran&ccedil;ais &agrave; Moore College of Art and Design, Philadelphie. Elle est reproduite ici 
 avec son aimable autorisation.
+<hr>
 
-<FORM name=QUESTION action="" method=post>
-   <P> 
-   <table width="800" border="0" align="center">
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
       <tr>
-         <td width="150">&nbsp;</td>
-         <td width="500">
-            <div align="center">
-               <p><font face="Garamond" size="4"><b>Passé composé ou imparfait?</b> 
-                  </font>
-               </p>
-               <p><font face="Garamond" size="4">Cliquez sur la réponse correcte. Avec 
-                  chaque réponse, vous verrez une explication. </font>
-               </p>
-            </div>
-         </td>
-         <td width="150">&nbsp; </td>
-      </tr>
-      <tr>
-         <td width="150">
-            <div align="center"><font face="Garamond" size="4"><img src="horace2.jpg" width="128" height="162" /></font></div>
-         </td>
-         <td width="500"><font face="Garamond" size="4">ll y a longtemps, dans un 
-            endroit lointain, un gar&ccedil;on qui [<input onClick=choice1(this.form) 
-               type=radio 
-               value="Oui: imparfait. C'est une description de la situation." 
-               name=one>s'appelait<input onClick=choice1(this.form) type=radio 
-               value="Non, c'est l'imparfait. Ce n'est pas un événement de l'histoire." name=one>s'est appel&eacute;] Horace [<input onClick=choice1(this.form) 
-               type=radio 
-               value="Oui, imparfait. C'est une description de la situation d'Horace." 
-               name=one>habitait<input onClick=choice1(this.form) type=radio 
-               value="Non, ce n'est pas un événement qui avance l'histoire." name=one>a habit&eacute;] avec son p&egrave;re et sa m&egrave;re dans 
-            une petite chaumi&egrave;re. Sa m&egrave;re [ 
-            <input onClick=choice1(this.form) 
-               type=radio 
-               value="Oui, l'imparfait. C'est une description de la situation (dans ce cas, une émotion)." 
-               name=one>
-            l'aimait 
-            <input onClick=choice1(this.form) type=radio 
-               value="Non, ce n'est pas le passé composé. C'est  une description d'une émotion." name=one>
-            l'a aim&eacute;] beaucoup mais son p&egrave;re [ 
-            <input onClick=choice1(this.form) 
-               type=radio 
-               value="Oui, imparfait. C'est une description de la situation (dans ce cas, une émotion)." 
-               name=one>
-            le d&eacute;testait 
-            <input onClick=choice1(this.form) type=radio 
-               value="Non, le passé composé est incorrecte parce que c'est une description d'une émotion." name=one>
-            l'a d&eacute;test&eacute;] comme la peste. Il [ 
-            <input onClick=choice1(this.form) 
-               type=radio 
-               value="Oui, imparfait. C'est une description de la situation (dans ce cas, une action habituelle)." 
-               name=one>
-            for&ccedil;ait 
-            <input onClick=choice1(this.form) type=radio 
-               value="Non, le passé composé est incorrecte parce que c'est une action habituelle (used to)." name=one>
-            a forc&eacute;] Horace &agrave; manger par terre avec les 
-            chiens. Horace [ 
-            <input onClick=choice1(this.form) 
-               type=radio 
-               value="Oui, imparfait. C'est une description de sa situation physique." 
-               name=one>
-            &eacute;tait 
-            <input onClick=choice1(this.form) type=radio 
-               value="Non, le passé composé est incorrecte parce que c'est une description de la situation." name=one>
-            a &eacute;t&eacute;] tr&egrave;s maigre.</font>
-         </td>
-         <td width="150"> <font face="Garamond" size="4"> 
-            <textarea cols="25" name="feedback1" rows="4"></textarea>
-            </font>
-         </td>
-      </tr>
-      <tr>
-         <td width="150"></td>
-         <td width="500"><font face="Garamond" size="4">Un jour, sa m&egrave;re [ 
-            <input onClick=choice2(this.form) 
-               type=radio 
-               value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." 
-               name=one>
-            partait 
-            <input onClick=choice2(this.form) type=radio 
-               value="Oui, passé composé. C'est un événement de l'histoire." name=one>
-            est partie] parce que sa soeur [ 
-            <input onClick=choice2(this.form) 
-               type=radio 
-               value="Oui: imparfait. C'est une description de la situation." 
-               name=one>
-            &eacute;tait 
-            <input onClick=choice2(this.form) type=radio 
-               value="Non, le passé composé est incorrecte parce que ce n'est pas un événement de l'histoire." name=one>
-            a &eacute;t&eacute;] malade. Le p&egrave;re d'Horace [ 
-            <input onClick=choice2(this.form) 
-               type=radio 
-               value="Oui: imparfait. C'est une description de la situation." 
-               name=one>
-            &eacute;tait 
-            <input onClick=choice2(this.form) type=radio 
-               value="Non, le passé composé est incorrecte parce que ce n'est pas un événement de l'histoire." name=one>
-            a &eacute;t&eacute;] tr&egrave;s heureux. Il [ 
-            <input onClick=choice2(this.form) 
-               type=radio 
-               value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." 
-               name=one>
-            invitait 
-            <input onClick=choice2(this.form) type=radio 
-               value="Oui, passé composé. C'est un événement de l'histoire." name=one>
-            a invit&eacute;] sa ma&icirc;tresse &agrave; la chaumi&egrave;re! 
-            Il [ 
-            <input onClick=choice2(this.form) 
-               type=radio 
-               value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." 
-               name=one>
-            disait 
-            <input onClick=choice2(this.form) type=radio 
-               value="Oui, passé composé. C'est un événement de l'histoire." name=one>
-            a dit]&agrave; Horace de dormir avec les vaches pendant une 
-            semaine. Horace [ 
-            <input onClick=choice2(this.form) 
-               type=radio 
-               value="Oui: imparfait. C'est une description de la situation." 
-               name=one>
-            &eacute;tait 
-            <input onClick=choice2(this.form) type=radio 
-               value="Non, le passé composé est incorrecte parce que ce n'est pas un événement de l'histoire." name=one>
-            a &eacute;t&eacute;] tr&egrave;s triste. Puis, un mauvais 
-            projet [ 
-            <input onClick=choice2(this.form) 
-               type=radio 
-               value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." 
-               name=one>
-            commen&ccedil;ait 
-            <input onClick=choice2(this.form) type=radio 
-               value="Oui, passé composé. C'est un événement de l'histoire." name=one>
-            a commenc&eacute;] &agrave; se d&eacute;velopper dans sa 
-            t&ecirc;te.</font>
-         </td>
-         <td width="150"> <font face="Garamond" size="4"> 
-            <textarea cols="25" name="feedback2" rows="4"></textarea>
-            </font>
-         </td>
-      </tr>
-      <tr>
-         <td width="150"><font face="Garamond" size="4"><img src="horace3.jpg" width="138" height="194" /></font></td>
-         <td width="500">
-            <div align="center">
-               <p align="left"><font face="Garamond" size="4">Cette nuit, Horace [ 
-                  <input onClick=choice3(this.form) 
-                     type=radio 
-                     value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." 
-                     name=one>
-                  se glissait 
-                  <input onClick=choice3(this.form) type=radio 
-                     value="Oui, passé composé. C'est un événement de l'histoire." name=one>
-                  s'est gliss&eacute;] dans la chambre de son p&egrave;re. 
-                  Son p&egrave;re et sa ma&icirc;tresse [ 
-                  <input onClick=choice3(this.form) 
-                     type=radio 
-                     value="Oui: imparfait. C'est une description de la situation (were sleeping)." 
-                     name=one>
-                  dormaient 
-                  <input onClick=choice3(this.form) type=radio 
-                     value="Non, le passé composé est incorrecte parce que c'est une description de la situation, pas un événement." name=one>
-                  ont dormi] profond&eacute;ment, parce qu'ils [ 
-                  <input onClick=choice3(this.form) 
-                     type=radio 
-                     value="Oui: imparfait. C'est une description de la situation." 
-                     name=one>
-                  &eacute;taient 
-                  <input onClick=choice3(this.form) type=radio 
-                     value="Non, le passé composé est incorrecte parce que ce n'est pas un événement de l'histoire." name=one>
-                  ont &eacute;t&eacute;] ivres. Horace [ 
-                  <input onClick=choice3(this.form) 
-                     type=radio 
-                     value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." 
-                     name=one>
-                  s'approchait 
-                  <input onClick=choice3(this.form) type=radio 
-                     value="Oui, passé composé. C'est un événement de l'histoire." name=one>
-                  s'est approch&eacute;] furtivement du lit et puis il [ 
-                  <input onClick=choice3(this.form) 
-                     type=radio 
-                     value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." 
-                     name=one>
-                  &eacute;tranglait 
-                  <input onClick=choice3(this.form) type=radio 
-                     value="Oui, passé composé. C'est un événement de l'histoire." name=one>
-                  a &eacute;trangl&eacute;] son p&egrave;re et sa ma&icirc;tresse. 
-                  Ils [ 
-                  <input onClick=choice3(this.form) 
-                     type=radio 
-                     value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." 
-                     name=one>
-                  mouraient 
-                  <input onClick=choice3(this.form) type=radio 
-                     value="Oui, passé composé. C'est un événement de l'histoire." name=one>
-                  sont morts] rapidement, parce qu'ils [ 
-                  <input onClick=choice3(this.form) 
-                     type=radio 
-                     value="Oui: imparfait. C'est une description de la situation." 
-                     name=one>
-                  &eacute;taient 
-                  <input onClick=choice3(this.form) type=radio 
-                     value="Non, le passé composé est incorrecte parce que ce n'est pas un événement de l'histoire." name=one>
-                  ont &eacute;t&eacute;] ivres et gros. Ensuite, Horace 
-                  [ 
-                  <input onClick=choice3(this.form) 
-                     type=radio 
-                     value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." 
-                     name=one>
-                  tra&icirc;nait 
-                  <input onClick=choice3(this.form) type=radio 
-                     value="Oui, passé composé. C'est un événement de l'histoire." name=one>
-                  a tra&icirc;n&eacute;] les corps dans la cuisine.Le lendemain 
-                  matin, la m&egrave;re d'Horace [ 
-                  <input onClick=choice3(this.form) 
-                     type=radio 
-                     value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." 
-                     name=one>
-                  arrivait 
-                  <input onClick=choice3(this.form) type=radio 
-                     value="Oui, passé composé. C'est un événement de l'histoire." name=one>
-                  est arriv&eacute;e] &agrave; la chaumi&egrave;re. Quelle 
-                  surprise! Horace [ 
-                  <input onClick=choice3(this.form) 
-                     type=radio 
-                     value="Oui: imparfait. C'est une description de la situation (was eating)." 
-                     name=one>
-                  mangeait 
-                  <input onClick=choice3(this.form) type=radio 
-                     value="Non, le passé composé est incorrecte parce que c'est une description de la situation, pas un événement." name=one>
-                  a mang&eacute;] de la soupe dans la cuisine. Elle [ 
-                  <input onClick=choice3(this.form) 
-                     type=radio 
-                     value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." 
-                     name=one>
-                  demandait 
-                  <input onClick=choice3(this.form) type=radio 
-                     value="Oui, passé composé. C'est un événement de l'histoire." name=one>
-                  a demand&eacute;] &agrave; son fils, --Pourquoi est-ce 
-                  que tu manges dans la cuisine? Ton p&egrave;re va te tuer! Horace 
-                  [ 
-                  <input onClick=choice3(this.form) 
-                     type=radio 
-                     value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." 
-                     name=one>
-                  souriait 
-                  <input onClick=choice3(this.form) type=radio 
-                     value="Oui, passé composé. C'est un événement de l'histoire." name=one>
-                  a souri] et il [ 
-                  <input onClick=choice3(this.form) 
-                     type=radio 
-                     value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." 
-                     name=one>
-                  disait 
-                  <input onClick=choice3(this.form) type=radio 
-                     value="Oui, passé composé. C'est un événement de l'histoire." name=one>
-                  a dit], --Peut-&ecirc;tre, mais est-ce qu'il pr&eacute;pare 
-                  la soupe comme moi?</font>
-               </p>
-            </div>
-         </td>
-         <td width="150">
-            <p> <font face="Garamond" size="4"> 
-               <textarea cols="25" name="feedback3" rows="4"></textarea>
-               </font>
-            </p>
-            <p align="center"><font face="Garamond" size="4"><img src="horace4.jpg" width="167" height="137" />
-               </font>
-            </p>
-         </td>
-      </tr>
-      <tr>
-         <td width="150"></td>
-         <td width="500">
-            <div align="center"><font face="Garamond" size="4"><img src="horace5.jpg" width="381" height="198" /></font></div>
-         </td>
-         <td width="150"> </td>
-      </tr>
-      <tr>
-         <td width="150"></td>
-         <td width="500">
-            <div align="left"></div>
-         </td>
-         <td width="150"> </td>
-      </tr>
-   </table>
-   <P>
-   <P align="center">
-</FORM>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Il y a longtemps, dans un endroit lointain, un garçon qui ______ Horace.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice1(this.form)" type="radio" value="Oui: imparfait. C'est une description de la situation." name="one"> s'appelait
+            <br>
+            <input onClick="choice1(this.form)" type="radio" value="Non, c'est l'imparfait. Ce n'est pas un événement de l'histoire." name=one> s'est appelé
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback1" rows="2"></textarea> 
+  </table>
+  <img src="horace2.jpg" width="150" height="200" /><br />
+</form>
 
-<SCRIPT language="JavaScript">
-<!--
-function choice1(form) {
-  for (var i = 0; i < form.choice1.length; i++) {
-    if (form.choice1[i].checked) {
-      form.feedback1.value = form.choice1[i].value;
-      break;
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Horace ______ avec son père et sa mère dans une petite chaumière.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui, imparfait. C'est une description de la situation d'Horace." name="one"> habitait
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, ce n'est pas un événement qui avance l'histoire." name="one"> a habité
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Sa mère ______ beaucoup mais...</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui, l'imparfait. C'est une description de la situation (dans ce cas, une émotion)." name="one"> l'aimait
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, ce n'est pas le passé composé. C'est  une description d'une émotion." name="one"> l'a aimé
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">... son père ______ comme la peste.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui, imparfait. C'est une description de la situation (dans ce cas, une émotion).." name="one"> le détestait
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, le passé composé est incorrecte parce que c'est une description d'une émotion." name="one"> l'a détesté
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Il ______ Horace à manger par terre avec les chiens.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui, imparfait. C'est une description de la situation (dans ce cas, une action habituelle)." name="one"> forçait
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, le passé composé est incorrecte parce que c'est une action habituelle (used to)." name="one"> a forcé
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Horace ______ très maigre.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui, imparfait. C'est une description de sa situation physique." name="one"> était
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, le passé composé est incorrecte parce que c'est une description de la situation." name="one"> a été
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Un jour, sa mère ______ parce que...</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." name="one"> partait
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui, passé composé. C'est un événement de l'histoire." name="one"> est partie
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+
+<p></p>
+<p></p>
+
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">... sa soeur ______ malade.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui: imparfait. C'est une description de la situation." name="one"> était
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, le passé composé est incorrecte parce que ce n'est pas un événement de l'histoire." name="one"> a été
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Le père d'Horace ______ très heureux.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui: imparfait. C'est une description de la situation." name="one"> était
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, le passé composé est incorrecte parce que ce n'est pas un événement de l'histoire." name="one"> est partie
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Il ______ sa maîtresse à la chaumière!</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." name="one"> invitait
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui, passé composé. C'est un événement de l'histoire." name="one"> a invité
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Il ______ à Horace de dormir avec les vaches pendant une semaine.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." name="one"> disait
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui, passé composé. C'est un événement de l'histoire." name="one"> a dit
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+  <img src="horace3.jpg" width="150" height="200" /><br />
+</form>
+
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Horace ______ très triste.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui: imparfait. C'est une description de la situation." name="one"> était
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, le passé composé est incorrecte parce que ce n'est pas un événement de l'histoire." name="one"> a été
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Puis, un mauvais projet ______ à se développer dans sa tête.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." name="one"> commençait
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui, passé composé. C'est un événement de l'histoire." name="one"> a commencé
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Cette nuit, Horace ______ dans la chambre de son père.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." name="one"> se glissait
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui, passé composé. C'est un événement de l'histoire." name="one"> s'est glissé
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Son père et sa maîtresse ______ profondément, ...</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui: imparfait. C'est une description de la situation (were sleeping)." name="one"> dormaient
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, le passé composé est incorrecte parce que c'est une description de la situation, pas un événement." name="one"> ont dormi
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">... parce qu'ils ______ ivres.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui: imparfait. C'est une description de la situation." name="one"> étaient
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, le passé composé est incorrecte parce que ce n'est pas un événement de l'histoire." name="one"> ont été
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Horace ______ furtivement du lit et ...</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." name="one"> s'approchait
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui, passé composé. C'est un événement de l'histoire." name="one"> s'est approché
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">... puis il ______ son père et sa maîtresse.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." name="one"> étranglait
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui, passé composé. C'est un événement de l'histoire." name="one"> a étranglé
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Ils ______ rapidement, ...</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." name="one"> mouraient
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui, passé composé. C'est un événement de l'histoire." name="one"> sont morts
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">... parce qu'ils ______ ivres et gros.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui: imparfait. C'est une description de la situation." name="one"> étaient
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, le passé composé est incorrecte parce que ce n'est pas un événement de l'histoire." name="one"> ont été
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Ensuite, Horace ______ les corps dans la cuisine.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." name="one"> traînait
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui, passé composé. C'est un événement de l'histoire." name="one"> a traîné
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+  <img src="horace4.jpg" width="250" height="200" /><br />
+
+</form>
+
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Le lendemain matin, la mère d'Horace ______ à la chaumière.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." name="one"> arrivait
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui, passé composé. C'est un événement de l'histoire." name="one"> est arrivée
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Quelle surprise! Horace ______ de la soupe dans la cuisine.</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Oui: imparfait. C'est une description de la situation (was eating)." name="one"> mangeait
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Non, le passé composé est incorrecte parce que c'est une description de la situation, pas un événement." name="one"> a mangé
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Elle ______ à son fils, --Pourquoi est-ce que tu manges dans la cuisine?</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." name="one"> demandait
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui, passé composé. C'est un événement de l'histoire." name="one"> a demandé
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">Ton père va te tuer! Horace ______ et...</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." name="one"> souriait
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui, passé composé. C'est un événement de l'histoire." name="one"> a souri
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+</form>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<form name="QUESTION" action="" method="post">
+  <table width="100%" border="0">
+    <tbody>
+      <tr>
+        <td width="50%">
+          <p><font face="Garamond" size="4">... il ______, --Peut-être, mais est-ce qu'il prépare la soupe comme moi?</font></p>
+          <font face="Garamond" size="4">
+            <input onClick="choice2(this.form)" type="radio" value="Non, l'imparfait est incorrecte parce que c'est une action qui avance l'histoire." name="one"> disait
+            <br>
+            <input onClick="choice2(this.form)" type="radio" value="Oui, passé composé. C'est un événement de l'histoire." name="one"> a dit
+          </font>
+        </td>
+        <td width="50%">
+          <p><font face="Garamond" size="4">
+              <textarea cols="30" name="feedback2" rows="2"></textarea> 
+  </table>
+  <img src="horace5.jpg" width="350" height="200" /><br />
+
+</form>
+
+<p></p>
+<p></p>
+
+<script language="JavaScript">
+  function choice1(form) {
+    for (var i = 0; i < form.one.length; i++) {
+      if (form.one[i + 0].checked) {
+        break;
+      }
     }
+    form.feedback1.value = form.one[i + 0].value;
   }
-}
 
-function choice2(form) {
-  for (var i = 0; i < form.choice2.length; i++) {
-    if (form.choice2[i].checked) {
-      form.feedback2.value = form.choice2[i].value;
-      break;
+  function choice2(form) {
+    for (var i = 0; i < form.one.length; i++) {
+      if (form.one[i + 0].checked) {
+        break;
+      }
     }
+    form.feedback2.value = form.one[i + 0].value;
   }
-}
 
-function choice3(form) {
-  for (var i = 0; i < form.choice3.length; i++) {
-    if (form.choice3[i].checked) {
-      form.feedback3.value = form.choice3[i].value;
-      break;
-    }
-  }
-}
-// -->
-</SCRIPT>
+  // Define the remaining choice functions (choice3, choice4, etc.) similarly
+</script>

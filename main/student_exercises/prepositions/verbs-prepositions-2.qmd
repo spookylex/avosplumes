@@ -4,7 +4,7 @@ title: "Verbs + prepositions (2)"
 
 ### Un Noël provençal.
 <body onload="StartUp()" id="TheBody">
-    <img src="4traverse.jpg" width="195" height="250" /> <!-- Image 1 -->
+    <img src="4traverse.jpg" width="195" height="250" /> <!-- Image 1 --> <br>
     <img src="bottles2.jpg" width="375" height="250" /> <!-- Image 2 -->
     <img src="champs.jpg" width="374" height="250" /> <!-- Image 3 -->
     <br /><br />
@@ -12,11 +12,10 @@ title: "Verbs + prepositions (2)"
 </body>
 
 <div id="InstructionsDiv" class="StdDiv">
-    <div id="Instructions">
+
         Complétez le texte suivant. 
         Cliquez ensuite sur "correction". 
         Vous pouvez cliquer sur "?" ou "une lettre" pour d'autres explications/indices.
-    </div>
 </div>
 
 

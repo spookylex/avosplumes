@@ -167,64 +167,63 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+
+<style>
+    body {
+      font-family: Garamond, serif;
+    }
+  </style>
+
 <section id="entretien-avec-carla-bruni-sarkozy" class="level4">
 <h4 class="anchored" data-anchor-id="entretien-avec-carla-bruni-sarkozy">Entretien avec Carla Bruni-Sarkozy<br></h4>
-<p><br><br>Adapté d’un entretien de <em>La Tribune</em>, 4 avril 2009<br> Cliquez "Suite" pour voir la première réponse de Mme Bruni-Sarkozy. Ecrivez la question que le journaliste a posée. <br> Cliquez "Montrer" pour comparer votre question à la suggestion du professeur.<br> Cliquez "Cacher" pour faire disparaître la suggestion du professeur. <br> Cliquez "Suite/Retour" pour voir les autres réponses de Mme Bruni-Sarkozy.<br></p>
+<p>Adapté d’un entretien de <em>La Tribune</em>, 4 avril 2009<br> Cliquez "Suite" pour voir la première réponse de Mme Bruni-Sarkozy. Ecrivez la question que le journaliste a posée. <br> Cliquez "Montrer" pour comparer votre question à la suggestion du professeur.<br> Cliquez "Cacher" pour faire disparaître la suggestion du professeur. <br> Cliquez "Suite/Retour" pour voir les autres réponses de Mme Bruni-Sarkozy.<br></p>
 <form name="qbox" action="" method="post">
 <p>
-<font face="Garamond" size="4"><b>Réponse de Mme Bruni-Sarkozy:<br> </b>
-<textarea name="q" rows="3" wrap="virtual" cols="50"></textarea>
-</font></p><pre><font face="Garamond" size="4"><code>  &lt;br&gt;
-  &lt;/font&gt;</code></font></pre><font face="Garamond" size="4">
-<p></p>
+<b>Question</b><br>
+<textarea name="q" rows="2" wrap="virtual" cols="50"></textarea>
+</p>
 <center>
-<div data-align="left">
-<font face="Garamond" size="4"> <input onclick="begin(-1)" type="button" value="<=Retour" name="show"> &nbsp; &nbsp; <input onclick="begin(1)" type="button" value="Suite=>" name="show"> <br> </font>
-</div>
+<p><br> <button onclick="begin(-1)" type="button">&lt;=Retour</button> &nbsp; &nbsp; <button onclick="begin(1)" type="button">Suite=&gt;</button> <br></p>
 </center>
-
-<p>
-</p>
-<p>
-</p>
-
-
-
-
-
-
+</form>
 
 <table width="80%" border="0" align="center">
 <tbody>
 <tr>
 <td valign="top" width="236">
 <p>
-<font face="Garamond" size="4"><b>Question du journaliste:</b> </font>
-</p><form name="Sinput" action="" method="post">
+<b>Votre réponse</b>
+</p>
+<form name="Sinput" action="" method="post">
 <p>
-<font face="Garamond" size="4">
-<textarea name="Content" rows="4" wrap="virtual" cols="35"></textarea>
-</font></p><pre><font face="Garamond" size="4"><code>           &lt;/font&gt; 
-     &lt;/form&gt;
-     &lt;p&gt;&lt;/p&gt;
-     &lt;p&gt;&lt;/p&gt;
-  &lt;/td&gt;
-  &lt;td valign=top width=308&gt;
-     &lt;p&gt;&lt;font face="Garamond" size="4"&gt;&lt;b&gt;Le professeur suggère:&lt;/b&gt; &lt;/font&gt; 
-     &lt;form name=feedback action="" method=post&gt;
-        &lt;p&gt; &lt;font face="Garamond" size="4"&gt; 
-           &lt;textarea name=fb rows=4 wrap=virtual cols=35&gt;&lt;/textarea&gt;
-           &lt;/font&gt; 
-     &lt;/form&gt;
-     &lt;form name=check action="" method=post&gt;
-        &lt;center&gt;
-           &lt;div align=left&gt; &lt;font face="Garamond" size="4"&gt; 
-              &lt;input onClick=Check() type=button value="Montrer" name=Button&gt;
-              &lt;input onClick="(document.feedback.fb.value='')" type=button value="Cacher" name=show&gt;
-              &lt;/font&gt;
-           &lt;/div&gt;
-        &lt;/center&gt;
-     &lt;/form&gt;</code></font></pre><font face="Garamond" size="4">
+<textarea name="Content" rows="3" wrap="virtual" cols="35"></textarea>
+</p>
+</form>
+</td>
+<td valign="top" width="308">
+<p>
+<b>Réponse du professeur</b>
+</p>
+<form name="feedback" action="" method="post">
+<p>
+<textarea name="fb" rows="3" wrap="virtual" cols="35"></textarea>
+</p>
+</form>
+<form name="Check" action="" method="post">
+<center>
+<button onclick="checkAnswer()" type="button">
+Montrer
+</button>
+<button onclick="hideAnswer()" type="button">
+Cacher
+</button>
+</center>
+</form>
+</td>
+</tr>
+</tbody>
+
+</table>
 <script language="Javascript"><!--//
 //  This code is based on a script by Marmoe Soemarmo.  
 //  Dan Beeby modified it and wrote the creation interface, JavaScripts, and Perl Scripts.
@@ -241,33 +240,38 @@ Answer[1]="Pourquoi créez-vous aujourd’hui une fondation pour la culture et l
 
 //-------------------END DATA-------------
 
-var NextQ = 0;
-var QN = 0;
 
-function begin(QN){
-NextQ = NextQ + QN
+  var NextQ = 0;
+  var QN = 0;
+
+  function begin(QN) {
+    NextQ = NextQ + QN;
     if (Question[NextQ] == null) {
-alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.")
+      alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.");
     }
-    document.feedback.fb.value=""
-    document.Sinput.Content.value=""
-    document.qbox.q.value=Question[NextQ]
-}
+    document.feedback.fb.value = "";
+    document.Sinput.Content.value = "";
+    document.qbox.q.value = Question[NextQ];
+  }
 
-function Check(){
-    if (document.Sinput.Content.value == ""){
-        document.feedback.fb.value="Essayez de répondre à la question avant de voir la réponse du professeur."
-        }
-    else{
-    document.feedback.fb.value=Answer[NextQ]
-}
-}
-//--></script>
+  function checkAnswer() {
+    if (document.Sinput.Content.value === "") {
+      document.feedback.fb.value = "Essayez de répondre à la question avant de voir la réponse du professeur.";
+    } else {
+      document.feedback.fb.value = Answer[NextQ];
+    }
+  }
+
+  function hideAnswer() {
+    document.feedback.fb.value = "";
+  }
+  //-->
+</script>
 
 
+</section>
 
-
- <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -501,8 +505,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
- <!-- /content -->
+</div> <!-- /content -->
 
 
 
-</font></form></td></tr></tbody></table></font></form></section></main></div></body></html>
+</body></html>

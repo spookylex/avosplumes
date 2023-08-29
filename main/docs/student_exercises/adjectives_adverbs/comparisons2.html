@@ -169,9 +169,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<title>
-Comparisons (2)
-</title>
 <style>
     body {
       font-family: Garamond, serif;
@@ -193,14 +190,9 @@ Comparez les personnes en utilisant les éléments donnés.<br> Modèle: Valéri
 <textarea name="q" rows="2" wrap="virtual" cols="50"></textarea>
 </p>
 <center>
-<div align="left">
-<pre><code>    &lt;button onClick="begin(-1)" type="button"&gt;&amp;lt;=Retour&lt;/button&gt;
-    &amp;nbsp; &amp;nbsp;
-    &lt;button onClick="begin(1)" type="button"&gt;Suite=&amp;gt;&lt;/button&gt;
-    &lt;br /&gt;
-  &lt;/div&gt;
-&lt;/center&gt;</code></pre>
-
+<p><br> <button onclick="begin(-1)" type="button">&lt;=Retour</button> &nbsp; &nbsp; <button onclick="begin(1)" type="button">Suite=&gt;</button> <br></p>
+</center>
+</form>
 
 <table width="80%" border="0" align="center">
 <tbody>
@@ -226,17 +218,19 @@ Comparez les personnes en utilisant les éléments donnés.<br> Modèle: Valéri
 </form>
 <form name="check" action="" method="post">
 <center>
-<div align="left">
-<pre><code>            &lt;button onClick="checkAnswer()" type="button"&gt;Montrer&lt;/button&gt;
-            &lt;button onClick="hideAnswer()" type="button"&gt;Cacher&lt;/button&gt;
-          &lt;/div&gt;
-        &lt;/center&gt;
-      &lt;/form&gt;
-    &lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/tbody&gt;</code></pre>
+<button onclick="checkAnswer()" type="button">
+Montrer
+</button>
+<button onclick="hideAnswer()" type="button">
+Cacher
+</button>
+</center>
+</form>
+</td>
+</tr>
+</tbody>
 
-</div></center></form></td></tr></tbody></table>
+</table>
 <script>
     var Question = [];
     var Answer = [];
@@ -288,7 +282,7 @@ Comparez les personnes en utilisant les éléments donnés.<br> Modèle: Valéri
 
 
 
-</div></center></form></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

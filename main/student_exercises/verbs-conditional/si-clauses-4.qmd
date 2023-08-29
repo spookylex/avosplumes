@@ -2,7 +2,7 @@
 title: "Si clauses (4)"
 ---
 Si vous voulez, écoutez la chanson *Si tu n’étais plus là*, de Sheryfa Luna.
-<a href="http://www.bestparoles.net/clips/clip-11872-sheryfa-luna-si-tu-n’27etais-plus-la.html" title="Ecouter la chanson" target="blank">Ecouter la chanson</a><br /><br />
+<a href="https://youtu.be/_iN5KbUxz9k?si=wCe2xaNsJJnTHmpV" title="Ecouter la chanson" target="blank">Ecouter la chanson</a><br /><br />
 
 Complétez les phrases suivantes, qui prolongent la réflexion de Luna.<br />
 <body onload="StartUp()" id="TheBody" >

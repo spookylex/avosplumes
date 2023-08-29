@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>À Vos Plumes! - Possessives (4) - broken</title>
+<title>À Vos Plumes! - Possessives (4)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -63,7 +63,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar docked">
+<body onload="StartUp()" id="TheBody" class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -145,20 +145,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#lappartenance" id="toc-lappartenance" class="nav-link active" data-scroll-target="#lappartenance">L’appartenance</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Possessives (4) - broken</h1>
+<h1 class="title">Possessives (4)</h1>
 </div>
 
 
@@ -173,24 +167,30 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+
+<style>
+    body {
+      font-family: Garamond, serif;
+    }
+  </style>
+
 <p>Rappel: En dehors de l’adjectif possessif, on peut exprimer l’appartenance [=possession] de plusieurs manières:<br> –par l’expression <strong>être à</strong> + un pronom disjoint –&gt; La voiture est à moi. [=The car is mine]<br> –par un pronom indirect et le verbe <strong>appartenir</strong>–&gt; Le parapluie lui appartient. [=the umbrella belongs to him/it’s his.]<br> –par <strong>c’est</strong> + un pronom possessif (le mien/la mienne, le nôtre/la nôtre, etc. –&gt; C’est le nôtre. [=it’s ours.]<br></p>
-<section id="lappartenance" class="level3">
-<h3 class="anchored" data-anchor-id="lappartenance">L’appartenance</h3>
+
+<!-- BeginTopNavButtons -->
+<!-- EndTopNavButtons -->
+<br>
 <div id="InstructionsDiv" class="StdDiv">
-<p>
-Complétez le texte suivant. Cliquez ensuite sur “correction”. Vous pouvez cliquer sur “?” ou “une lettre” pour d’autres explications/indices.
-</p>
+<div id="Instructions">
+Complétez le texte suivant. <br>Cliquez ensuite sur “correction”. <br>Vous pouvez cliquer sur “?” ou “une lettre” pour d’autres explications/indices.
+</div>
 </div>
 <div id="MainDiv" class="StdDiv">
-<!-- These top buttons hidden; reveal if required -->
-<!--
-<button id="CheckButton1" class="FuncButton" onmouseover="FuncBtnOver(this)" onfocus="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onblur="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckAnswers()">&nbsp;Correction&nbsp;</button>
-
-
-<button class="FuncButton" onmouseover="FuncBtnOver(this)" onfocus="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onblur="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowHint()">&nbsp;Une lettre...&nbsp;</button>
-
-
- -->
+<button id="CheckButton1" class="FuncButton" onmouseover="FuncBtnOver(this)" onfocus="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onblur="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckAnswers()">
+&nbsp;Correction&nbsp;
+</button>
+<button class="FuncButton" onmouseover="FuncBtnOver(this)" onfocus="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onblur="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowHint()">
+&nbsp;Une lettre…&nbsp;
+</button>
 <div id="ClozeDiv">
 <form id="Cloze" method="post" action="" onsubmit="return false;">
 <div class="ClozeBody">
@@ -1796,7 +1796,6 @@ function TypeChars(Chars){
 
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

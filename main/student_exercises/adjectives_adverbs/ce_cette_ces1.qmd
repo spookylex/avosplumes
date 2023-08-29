@@ -15,8 +15,7 @@ title: "Ce/cette/ces (1)"
               <input onClick="dasher(form.item1, 'Cet')" type=button value=C name=Button>
               hiver, je vais faire du ski.<br>
               Je ne connais pas 
-              <input size=9 
-name=item2>
+              <input size=9 name=item2>
               <input onClick="dasher(form.item2, 'cette')" type=button value=C name=Button>
               personne.<br>
               Je voudrais travailler 
@@ -72,7 +71,7 @@ name=item2>
 function dasher(Student, Correct) {
 var studentAnswer = Student.value;
 var correctAnswer = Correct;
-result = ""
+var result = ""
 for (var c = 0; c< correctAnswer.length; c ++) {
 	var CorrectX = correctAnswer.charAt(c);
 	var StudentX = studentAnswer.charAt(c);

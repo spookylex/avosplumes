@@ -2,22 +2,18 @@
 title: "L'entretien d'embauche (vidéo)"
 ---
 
-{{< video levres_interview.mov>}}
+{{< video interview.mp4 >}}
 
-<html>
-  <video width="320" height="240" controls>
-    <source src="levres_interview.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-<br>
-</html>
 
-Instructions: In this unit, you will watch a film excerpt from Jacques Audiard's excellent film, Sur mes lèvres, in which Carla interviews Paul, an ex-con, for an office job. First, watch the video without the transcription. Then try to fill in the blanks in the comprehension exercise. If you need to, you can consult the <a href="lentretien-dembauche-transcription.qmd" title="transcription">transcription</a>. Then you can practice asking simple informational questions in these exercises:<br />
-<a href="personal-questions-1.qmd" title="questions 1">Questions 1</a>/<a href="personal-questions-2.qmd" title="Questions 2">Questions 2</a>/<a href="personal-questions-3.qmd" title="Questions 3">Questions 3</a>/<a href="personal-questions-4.qmd" title="Questions 4">Questions 4</a><p>One of many places you may purchase a DVD of this terrific film is <a href="http://www.amazon.com" title="Amazon" target="_blank">Amazon</a>; the English title is "Read My Lips."</p>
+Instructions: In this unit, you will watch a film excerpt from Jacques Audiard's excellent film, Sur mes lèvres, in which Carla interviews Paul, an ex-con, for an office job. First, watch the video without the transcription. Then try to fill in the blanks in the comprehension exercise. If you need to, you can consult the <a href="lentretien-dembauche-transcription.qmd" title="transcription">transcription</a>.<br><br> Then you can practice asking simple informational questions in these exercises:<br />
+<a href="personal-questions-1.qmd" title="questions 1">Questions 1</a>/<a href="personal-questions-2.qmd" title="Questions 2">Questions 2</a>/<a href="personal-questions-3.qmd" title="Questions 3">Questions 3</a>/<a href="personal-questions-4.qmd" title="Questions 4">Questions 4</a><p>One of many places you may purchase a DVD of this terrific film is <a href="https://www.amazon.com/Read-My-Lips-Olivier-Gourmet/dp/B00009OOFG?crid=C75WHV2ON6QX&keywords=Read+My+Lips+french+dvd&qid=1693264945&sprefix=read+my+lips+french+dvd,aps,86&sr=8-1" title="Amazon" target="_blank">Amazon</a>; the English title is "Read My Lips."</p>
 
  <FORM action="" method=post>
         
-Ecoutez le dialogue et compl&eacute;tez la transcription. Cliquez C pour la correction. Correct?--*astérisques.* Incorrect?--====<p> 
+Ecoutez le dialogue et compl&eacute;tez la transcription. \
+Cliquez C pour la correction. \
+Correct?--*astérisques.* \
+Incorrect?--====<p> 
 
 <br>
   --Alors...Vous <font face="Garamond" size="4">

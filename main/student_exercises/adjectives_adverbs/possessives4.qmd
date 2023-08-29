@@ -1,37 +1,40 @@
 ---
-title: "Possessives (4) - broken"
+title: "Possessives (4)"
 ---
-
+<head>
+  <style>
+    body {
+      font-family: Garamond, serif;
+    }
+  </style>
+</head>
 Rappel: En dehors de l'adjectif possessif, on peut exprimer l'appartenance [=possession] de plusieurs manières:<br />
 --par l'expression <strong>être à</strong> + un pronom disjoint --> La voiture est à moi. [=The car is mine]<br />
 --par un pronom indirect et le verbe <strong>appartenir</strong>--> Le parapluie lui appartient. [=the umbrella belongs to him/it's his.]<br />
 --par <strong>c'est</strong> + un pronom possessif (le mien/la mienne, le nôtre/la nôtre, etc. --> C'est le nôtre. [=it's ours.]<br />
 
-### L'appartenance
+
+<body onload="StartUp()" id="TheBody" >
+
+<!-- BeginTopNavButtons -->
 
 
+
+<!-- EndTopNavButtons -->
+
+<br>
 <div id="InstructionsDiv" class="StdDiv">
-<p>
-Complétez le texte suivant.
-Cliquez ensuite sur "correction".
-Vous pouvez cliquer sur "?" ou "une lettre" pour d'autres explications/indices.</p>
+  <div id="Instructions">Compl&#x00e9;tez le texte suivant. <br>Cliquez ensuite sur "correction". <br>Vous pouvez cliquer sur "?" ou "une lettre" pour d'autres explications/indices.</div>
 </div>
-
-
-
 
 
 <div id="MainDiv" class="StdDiv">
 
-<!-- These top buttons hidden; reveal if required -->
-<!--
-<button id="CheckButton1" class="FuncButton" onmouseover="FuncBtnOver(this)" onfocus="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onblur="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckAnswers()">&nbsp;Correction&nbsp;</button>
 
+<button id="CheckButton1" class="FuncButton" onmouseover="FuncBtnOver(this)" onfocus="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onblur="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckAnswers()">&nbsp;Correction&nbsp;</button>
 
 <button class="FuncButton" onmouseover="FuncBtnOver(this)" onfocus="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onblur="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowHint()">&nbsp;Une lettre...&nbsp;</button>
 
-
- -->
  
 <div id="ClozeDiv">
 <form id="Cloze" method="post" action="" onsubmit="return false;">
@@ -77,7 +80,6 @@ R&#x00e9;pondez aux questions en utilisant les trois mani&#x00e8;res d'exprimer 
 <!-- EndSubmissionForm -->
 
 </body>
-
 <!-- Made with executable version Java Hot Potatoes Beta 6.1.0.2 -->
 
 <!-- The following insertion allows you to add your own code directly to this head tag from the configuration screen -->

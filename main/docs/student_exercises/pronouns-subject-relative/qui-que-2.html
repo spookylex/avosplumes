@@ -167,60 +167,66 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>
-<font face="Garamond" size="4">Cliquez "Suite" pour voir la première question.<br> Combinez les phrases en utilisant "qui" ou "que."<br> Modèle:<br> Voici Jacques Cousteau. C’était un grand océanographe.<br> ==&gt; Voici Jacques Cousteau, qui était un grand océanographe. <br>Cliquez Suite/Retour pour voir les questions.<br> Cliquez "Montrer" pour comparer votre réponse à la réponse du professeur.<br> Cliquez "Cacher" pour faire disparaître la réponse du professeur.</font> <br><br> <a href="../../student_exercises/pronouns-subject-relative/pronoms_relatifs_review2.html">Revoir tous les pronoms relatifs</a>
 
-</p>
+<style>
+    body {
+      font-family: Garamond, serif;
+    }
+  </style>
+
+<p>
+<font face="Garamond" size="4">Cliquez "Suite" pour voir la première question.<br> Combinez les phrases en utilisant "qui" ou "que."<br> Modèle:<br> Voici Jacques Cousteau. C’était un grand océanographe.<br> ==&gt; Voici Jacques Cousteau, qui était un grand océanographe. <br>Cliquez Suite/Retour pour voir les questions.<br> Cliquez "Montrer" pour comparer votre réponse à la réponse du professeur.<br> Cliquez "Cacher" pour faire disparaître la réponse du professeur.</font> <br><br>
+</p><blockquote class="blockquote">
+<a href="../../student_exercises/pronouns-subject-relative/pronoms_relatifs_review2.html">Revoir tous les pronoms relatifs</a>
+</blockquote>
+<p></p>
 <form name="qbox" action="" method="post">
 <p>
-<font face="Garamond" size="4"><b>Question<br> </b>
-<textarea name="q" rows="4" wrap="virtual" cols="50"></textarea>
-</font></p><pre><font face="Garamond" size="4"><code>              &lt;br&gt;
-              &lt;/font&gt;&lt;/p&gt;
-            &lt;center&gt;
-              &lt;div align=left&gt; &lt;font face="Garamond" size="4"&gt; 
-                &lt;input onClick=begin(-1) type=button value="&amp;lt;=Retour" name=show&gt;
-                &amp;nbsp; &amp;nbsp; 
-                &lt;input onClick=begin(1) type=button value="Suite=&amp;gt;" name=show&gt;
-                &lt;br&gt;
-                &lt;/font&gt;&lt;/div&gt;
-            &lt;/center&gt;
-          &lt;/form&gt;
-          &lt;p&gt;&lt;/p&gt;
-          &lt;p&gt;&lt;/p&gt;
-        &lt;/td&gt;
-        &lt;td width=200&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;/tbody&gt; 
-    &lt;/table&gt;
-    &lt;table width="80%" border=0&gt;
-      &lt;tbody&gt; 
-      &lt;tr&gt; 
-        &lt;td valign=top width=236&gt; 
-          &lt;p&gt;&lt;font face="Garamond" size="4"&gt;&lt;b&gt;Votre réponse&lt;/b&gt; &lt;/font&gt; 
-          &lt;form name=Sinput action="" method=post&gt;
-            &lt;p&gt; &lt;font face="Garamond" size="4"&gt; 
-              &lt;textarea name=Content rows=8 wrap=virtual cols=35&gt;&lt;/textarea&gt;
-              &lt;/font&gt; 
-          &lt;/form&gt;
-          &lt;p&gt;&lt;/p&gt;
-          &lt;p&gt;&lt;/p&gt;
-        &lt;/td&gt;
-        &lt;td valign=top width=308&gt; 
-          &lt;p&gt;&lt;font face="Garamond" size="4"&gt;&lt;b&gt;Réponse du professeur&lt;/b&gt; &lt;/font&gt; 
-          &lt;form name=feedback action="" method=post&gt;
-            &lt;p&gt; &lt;font face="Garamond" size="4"&gt; 
-              &lt;textarea name=fb rows=8 wrap=virtual cols=35&gt;&lt;/textarea&gt;
-              &lt;/font&gt; 
-          &lt;/form&gt;
-          &lt;form name=check action="" method=post&gt;
-            &lt;center&gt;
-              &lt;div align=left&gt; &lt;font face="Garamond" size="4"&gt; 
-                &lt;input onClick=Check() type=button value="Montrer" name=Button&gt;
-                &lt;input onClick="(document.feedback.fb.value='')" type=button value="Cacher" name=show&gt;
-                &lt;/font&gt;&lt;/div&gt;
-            &lt;/center&gt;
-          &lt;/form&gt;</code></font></pre><font face="Garamond" size="4">
+<b>Question</b><br>
+<textarea name="q" rows="2" wrap="virtual" cols="50"></textarea>
+</p>
+<center>
+<p><br> <button onclick="begin(-1)" type="button">&lt;=Retour</button> &nbsp; &nbsp; <button onclick="begin(1)" type="button">Suite=&gt;</button> <br></p>
+</center>
+</form>
+
+<table width="80%" border="0" align="center">
+<tbody>
+<tr>
+<td valign="top" width="236">
+<p>
+<b>Votre réponse</b>
+</p>
+<form name="Sinput" action="" method="post">
+<p>
+<textarea name="Content" rows="3" wrap="virtual" cols="35"></textarea>
+</p>
+</form>
+</td>
+<td valign="top" width="308">
+<p>
+<b>Réponse du professeur</b>
+</p>
+<form name="feedback" action="" method="post">
+<p>
+<textarea name="fb" rows="3" wrap="virtual" cols="35"></textarea>
+</p>
+</form>
+<form name="Check" action="" method="post">
+<center>
+<button onclick="checkAnswer()" type="button">
+Montrer
+</button>
+<button onclick="hideAnswer()" type="button">
+Cacher
+</button>
+</center>
+</form>
+</td>
+</tr>
+</tbody>
+
+</table>
 <script language="Javascript"><!--//
 //  This code is based on a script by Marmoe Soemarmo.  
 //  Dan Beeby modified it and wrote the creation interface, JavaScripts, and Perl Scripts.
@@ -237,32 +243,36 @@ Answer[1]="Voici Gérard Dépardieu, qui est un acteur français.";Answer[2]="Tu
 
 //-------------------END DATA-------------
 
-var NextQ = 0;
-var QN = 0;
+  var NextQ = 0;
+  var QN = 0;
 
-function begin(QN){
-NextQ = NextQ + QN
+  function begin(QN) {
+    NextQ = NextQ + QN;
     if (Question[NextQ] == null) {
-alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.")
+      alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.");
     }
-    document.feedback.fb.value=""
-    document.Sinput.Content.value=""
-    document.qbox.q.value=Question[NextQ]
-}
+    document.feedback.fb.value = "";
+    document.Sinput.Content.value = "";
+    document.qbox.q.value = Question[NextQ];
+  }
 
-function Check(){
-    if (document.Sinput.Content.value == ""){
-        document.feedback.fb.value="Essayez de répondre à la question avant de voir la réponse du professeur."
-        }
-    else{
-    document.feedback.fb.value=Answer[NextQ]
-}
-}
-//--></script>
+  function checkAnswer() {
+    if (document.Sinput.Content.value === "") {
+      document.feedback.fb.value = "Essayez de répondre à la question avant de voir la réponse du professeur.";
+    } else {
+      document.feedback.fb.value = Answer[NextQ];
+    }
+  }
+
+  function hideAnswer() {
+    document.feedback.fb.value = "";
+  }
+  //-->
+</script>
 
 
 
-</font></form></main><font face="Garamond" size="4"> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -496,8 +506,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</font></div><font face="Garamond" size="4"> <!-- /content -->
+</div> <!-- /content -->
 
 
 
-</font></body></html>
+</body></html>

@@ -1,106 +1,82 @@
 ---
 title: "L'imparfait (2)"
 ---
+<head>
+  <style>
+    body {
+      font-family: Garamond, serif;
+    }
+  </style>
+</head>
 
-N'oubliez pas; l'imparfait s'emploie pour exprimer<br />
---une description, un état d'esprit, de santé, la météo [HOW THINGS WERE]<br />
---une habitude [SOMETHING THAT USED TO HAPPEN]<br />
---une action en cours de déroulement [SOMETHING THAT WAS HAPPENING]<br />
---une hypothèse irréelle [IF SOMETHING DID HAPPEN]  <br />
+N'oubliez pas; l'imparfait s'emploie pour exprimer\
+--une description, un état d'esprit, de santé, la météo [HOW THINGS WERE]\
+--une habitude [SOMETHING THAT USED TO HAPPEN]\
+--une action en cours de déroulement [SOMETHING THAT WAS HAPPENING]\
+--une hypothèse irréelle [IF SOMETHING DID HAPPEN]\
 --une suggestion [WHY DON'T WE DO SOMETHING]
 
-<body>
-<table width="100%" border="0" bgcolor="#FFFFFF" align="center" cellpadding="20">
-  <tr> 
-    <td align="left" valign="top"> 
-     
-      <p><font face="Garamond" size="4">Cliquez &quot;Suite&quot; pour voir la 
-        premi&egrave;re question.</font></p>
-      <p><font face="Garamond" size="4">Complétez les phrases en utilisant l'imparfait. 
-        <br> Modèle: Si nous…. [hypothèse irréelle] --> Si nous étions plus riches, nous achèterions un bateau.<br>
+|
 
-        Cliquez &quot;Montrer&quot; pour comparer votre r&eacute;ponse &agrave; 
-        la r&eacute;ponse du professeur. Toutes les réponses seront différentes; ce qui est important ici, c'est de comprendre l'esprit de la phrase et de l'emploi de l'imparfait.<br>
-        Cliquez &quot;Cacher&quot; pour faire dispara&icirc;tre la r&eacute;ponse 
-        du professeur. </font></p>
+Cliquez "Suite" pour voir la première question.
 
-      <p><font face="Garamond" size="4">Cliquez Suite/Retour pour voir les autres 
-        questions.<br>
-        </font></p>
-      <table width="80%" border=0 align="center">
-        <tbody> 
-        <tr> 
-          <td width=395> 
-            <p> 
-            <form name=qbox action="" method=post>
-              <p><font face="Garamond" size="4"><b>Question<br>
-                </b> 
-                <textarea name=q rows=3 wrap=virtual cols=50></textarea>
+Complétez les phrases en utilisant l'imparfait.\
+Modèle: Si nous.... [hypothèse irréelle] --> Si nous étions plus riches, nous achèterions un bateau.\
+Cliquez "Montrer" pour comparer votre réponse à la réponse du professeur. Toutes les réponses seront différentes; ce qui est important ici, c'est de comprendre l'esprit de la phrase et de l'emploi de l'imparfait.\
+Cliquez "Cacher" pour faire disparaître la réponse du professeur.
 
-                <br>
-                </font></p>
-              <center>
-                <div align=left> <font face="Garamond" size="4"> 
-                  <input onClick=begin(-1) type=button value="&lt;=Retour" name=show>
-                  &nbsp; &nbsp; 
-                  <input onClick=begin(1) type=button value="Suite=&gt;" name=show>
-                  <br>
-                  </font></div>
+Cliquez Suite/Retour pour voir les autres questions.
 
-              </center>
-            </form>
-            <p></p>
-            <p></p>
-          </td>
-          <td width=200></td>
-        </tr>
-        </tbody> 
-      </table>
 
-      <table width="80%" border=0 align="center">
-        <tbody> 
-        <tr> 
-          <td valign=top width=236> 
-            <p><font face="Garamond" size="4"><b>Votre réponse</b> </font> 
-            <form name=Sinput action="" method=post>
-              <p> <font face="Garamond" size="4"> 
-                <textarea name=Content rows=4 wrap=virtual cols=35></textarea>
-                </font> 
-            </form>
+  <form name="qbox" action="" method="post">
+    <p>
+      <b>Question</b><br />
+      <textarea name="q" rows="2" wrap="virtual" cols="50"></textarea>
+    </p>
+    <center>
+      <br>
+      <button onClick="begin(-1)" type="button">&lt;=Retour</button>
+      &nbsp; &nbsp;
+      <button onClick="begin(1)" type="button">Suite=&gt;</button>
+      <br />
 
-            <p></p>
-            <p></p>
-          </td>
-          <td valign=top width=308> 
-            <p><font face="Garamond" size="4"><b>Réponse du professeur</b> </font> 
-            <form name=feedback action="" method=post>
-              <p> <font face="Garamond" size="4"> 
-                <textarea name=fb rows=4 wrap=virtual cols=35></textarea>
+    </center>
+  </form>
 
-                </font> 
-            </form>
-            <form name=check action="" method=post>
-              <center>
-                <div align=left> <font face="Garamond" size="4"> 
-                  <input onClick=Check() type=button value="Montrer" name=Button>
-                  <input onClick="(document.feedback.fb.value='')" type=button value="Cacher" name=show>
-                  </font></div>
-              </center>
+  <table width="80%" border="0" align="center">
+    <tbody>
+      <tr>
+        <td valign="top" width="236">
+          <p>
+            <b>Votre réponse</b>
+          </p>
+          <form name="Sinput" action="" method="post">
+            <p>
+              <textarea name="Content" rows="3" wrap="virtual" cols="35"></textarea>
+            </p>
+          </form>
+        </td>
+        <td valign="top" width="308">
+          <p>
+            <b>Réponse du professeur</b>
+          </p>
+          <form name="feedback" action="" method="post">
+            <p>
+              <textarea name="fb" rows="3" wrap="virtual" cols="35"></textarea>
+            </p>
+          </form>
+          <form name="Check" action="" method="post">
+            <center>
+              <button onClick="checkAnswer()" type="button">Montrer</button>
+              <button onClick="hideAnswer()" type="button">Cacher</button>
+            </center>
+          </form>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
-            </form>
-            <p></p>
-          </td>
-        </tr>
-        </tbody> 
-      </table>
-      <div align="center"></div>
-      <p>&nbsp;</p>
-      </td>
 
-  </tr>
-</table>
-<p>&nbsp;</p>
-</body>
 <HEAD>
 <META http-equiv=Content-Type content="text/html; charset=windows-1252">
 <SCRIPT language=Javascript><!--//
@@ -119,28 +95,34 @@ Answer[1]="Quand j'étais au lycée, nous nous écrivions de petits mots en clas
 
 //-------------------END DATA-------------
 
-var NextQ = 0;
-var QN = 0;
 
-function begin(QN){
-NextQ = NextQ + QN
-	if (Question[NextQ] == null) {
-alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.")
-	}
-	document.feedback.fb.value=""
-	document.Sinput.Content.value=""
-	document.qbox.q.value=Question[NextQ]
-}
+  var NextQ = 0;
+  var QN = 0;
 
-function Check(){
-	if (document.Sinput.Content.value == ""){
-        document.feedback.fb.value="Essayez de répondre à la question avant de voir la réponse du professeur."
-        }
-	else{
-	document.feedback.fb.value=Answer[NextQ]
-}
-}
-//--></SCRIPT>
+  function begin(QN) {
+    NextQ = NextQ + QN;
+    if (Question[NextQ] == null) {
+      alert("Il n’y a plus de questions. Cliquez sur suite/retour pour revoir les questions.");
+    }
+    document.feedback.fb.value = "";
+    document.Sinput.Content.value = "";
+    document.qbox.q.value = Question[NextQ];
+  }
+
+  function checkAnswer() {
+    if (document.Sinput.Content.value === "") {
+      document.feedback.fb.value = "Essayez de répondre à la question avant de voir la réponse du professeur.";
+    } else {
+      document.feedback.fb.value = Answer[NextQ];
+    }
+  }
+
+  function hideAnswer() {
+    document.feedback.fb.value = "";
+  }
+  //-->
+</script>
+
 
 <META content="MSHTML 6.00.2800.1400" name=GENERATOR>
 
