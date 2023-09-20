@@ -1,0 +1,76 @@
+---
+title: French Article Usage
+toc: false
+---
+
+# <span style="color: #007ACC;">WHEN to OMIT the Article?</span>
+
+**Examples:**
+- J’ai beaucoup d’amis.
+- Est-ce que tu as assez d’argent?
+- J’ai bu une bouteille de vin.
+- Il y a une douzaine d’œufs dans une boîte.
+
+**BUT:**
+- La majorité des étudiants boivent.
+- Bien des profs de UVA sont fatigants.
+
+## <span style="color: #007ACC;">OMIT Partitive/Indefinite ARTICLE AFTER…</span>
+- Quantity words (beaucoup de, assez de, trop de, un kilo de, un sac de, etc…)
+  - Exceptions: bien des, la plupart des, la majorité des
+
+**Examples:**
+- Alison n’a pas d’amis.
+- Donc, elle n’a plus d’amis.
+- Elle n’achète jamais de nouveaux vêtements!
+
+**BUT:**
+- Elle n’est pas un mauvais professeur.
+- Ses étudiants ne sont pas des idiots non plus.
+
+## <span style="color: #007ACC;">OMIT Partitive/Indefinite ARTICLE AFTER…</span>
+- Quantity words
+  - Exceptions: bien des, la plupart des, la majorité des
+- Negatives (Ne…pas, ne…plus, ne…jamais, etc)
+  - Exception: être au négatif
+
+**Examples:**
+- Alison a besoin de vacances.
+- Sa voiture est remplie d’ordures.
+- Sa maison est couverte de poils de chien.
+- Elle est entourée de travail.
+
+## <span style="color: #007ACC;">OMIT Partitive/Indefinite ARTICLE AFTER…</span>
+- Quantity words
+  - Exceptions: bien des, la plupart des, la majorité des
+- Negatives (Ne…pas, ne…plus, ne…jamais, etc)
+  - Exception: être au négatif
+- Avoir besoin de, avoir envie de, manquer de, plein de, rempli de, couvert de (with unspecified quantities)
+
+**Examples:**
+- Les étudiants de français travaillent avec ardeur.
+- Ils parlent français sans problème.
+- Ils regardent le professeur avec attention.
+- Ils parlent sans accent!
+
+## <span style="color: #007ACC;">OMIT Partitive/Indefinite ARTICLE AFTER…</span>
+- Quantity words
+  - Exceptions: bien des, la plupart des, la majorité des
+- Ne…pas, ne…plus, ne…jamais, etc
+  - Exception: être au négatif
+- Avoir besoin de, avoir envie de, manquer de, plein de, remplir de, couvrir de (unless it’s a specific one)
+- Avec, sans, en, par, comme (w/abstract nouns)
+
+**Examples:**
+- Gordon Wood est
+- premier ministre de l’Angleterre.
+- Il est anglais.
+- Il est chrétien.
+- Il est travailliste.
+
+**BUT:**
+- Wood est un excellent diplomate.
+- C’est un bon premier ministre aussi.
+
+## <span style="color: #007ACC;">OMIT Definite ARTICLE AFTER…</span>
+- Parler/en + language

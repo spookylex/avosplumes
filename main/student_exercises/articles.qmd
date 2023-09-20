@@ -1,0 +1,97 @@
+
+##### Disclaimer: these are brief notes taken from the power points I use with my students in class. There shouldn't be too many errors, but cleaning up the formatting/ presentation for the web is not a priority right now. I've posted them for now because users of the grammar exercises have asked for them. not intended to replace a good grammar book! --ajml
+---
+title: French Articles
+---
+
+# L’article défini (le, la, l’, les)
+
+**Used for:**
+
+1. SPECIFIC THINGS (means THE)
+
+   - Le chat est bleu.
+   - La neige est jaune.
+   - Je jette le stylo.
+
+**Also used for:**
+
+2. GENERALITIES (ALL THE… IN THE WORLD)
+
+   - Je déteste le fromage.
+   - Don Juan désire les femmes.
+   - Le café est un stimulant.
+
+**Other uses:**
+
+- Le matin > IN THE MORNING
+- Le lundi > EVERY Monday
+- Le Président > TITLES (unless you are addressing them directly)
+- La petite Marie > NAMES W/ADJ.
+- Le 12 février > DATES
+- La liberté > ABSTRACT CONCEPTS
+- Ça coûte 2€ le kilo > WEIGHTS and MEASURES
+
+# L’article indéfini (un, une, des, de, d’)
+
+**Used for:**
+
+1. MEANS A, AN (A WHOLE THING)
+
+   - Je veux une pomme.
+   - Donne-moi une tarte.
+
+**Also used for:**
+
+2. MEANS SEVERAL OR ANY (WITH COUNTABLE NOUNS)
+
+   - J’ai des amis en France.
+   - J’achète des stylos.
+   - As-tu des chiens?
+
+**Also used for:**
+
+3. USED IN PLURAL WHEN YOU ARE NOT GENERALIZING (In English, « some » could be included but we often leave out the article)
+
+   - Je mange des pommes.
+   - J’achète des robes.
+
+**Also used for:**
+
+4. CHANGES TO DE OR D’ AFTER NEGATIVE OR QUANTITY
+
+   - Je n’ai pas d’amis.
+   - Je n’ai pas acheté de stylos.
+   - J’ai beaucoup d’amis.
+
+# L’article partitif (de la, du, de l’, de, d’)
+
+**Used for:**
+
+1. MEANS PART OF A WHOLE
+
+2. MEANS SOME OR ANY (WITH NON-COUNTABLE NOUNS)
+
+   - Veux-tu de la tarte?
+   - Pour faire un gâteau, il faut du beurre.
+   - Est-ce que tu as de l’argent?
+
+**Also used for:**
+
+3. CHANGES TO DE OR D’ AFTER NEGATIVE OR QUANTITY
+
+   - Je ne veux pas de tarte.
+   - Pour faire un gâteau, il ne faut pas de vinaigre.
+   - Je n’ai pas d’argent.
+
+
+
+### Recap: les articles
+
+|                         |   MS   |  FS|MS/FS (before vowel)     |  MPL/FPL | After Neg. Or Quantity |
+|-------------------------|--------|---------|--------------------|----------|------------------------|
+| **Definite**            | le     | la      | l’                 | les      | No chg.                |
+| **Indefinite**          | un     | une     | Un, une            | des      | de                     |
+| **Partitive**           | du     | De la   | De l'              | des      | De, d'                 |
+|                         |        |         |                    |          |                        |
+

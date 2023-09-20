@@ -1,0 +1,127 @@
+---
+title: French Future and Conditional Tenses
+---
+
+## Formation of Future Tense
+
+- **Futur = Root + Endings**
+
+### Roots:
+
+- Verbs ending in -er: regarder-
+- Verbs ending in -ir: finir-
+- Verbs ending in -re: attendr-
+
+### Endings:
+
+- -ai
+- -as
+- -a
+- -ons
+- -ez
+- -ont
+
+## Frequently Used Irregular Verbs in Future Tense
+
+- **aller:**
+  - j’irai
+- **avoir:**
+  - j’aurai
+- **être:**
+  - je serai
+- **faire:**
+  - je ferai
+- **vouloir:**
+  - je voudrai
+- **pouvoir:**
+  - je pourrai
+- **venir:**
+  - je viendrai
+- **voir:**
+  - je verrai
+- **envoyer:**
+  - j’enverrai
+- **comprendre:**
+  - je comprendrai
+- ...
+
+# Conditional Tense: Formation
+
+- **Root of Future + Endings of Imperfect**
+
+### Roots of Future:
+
+#### Regular Verbs:
+
+- Regarder: je regarder-
+- Finir: je finir-
+- Répondre: je répondr-
+
+#### Irregular Verbs:
+
+- aller: j’ir-
+- avoir: j’aur-
+- être: je ser-
+- faire: je fer-
+- ...
+
+### Endings of Imperfect:
+
+- -ais
+- -ais
+- -ait
+- -ions
+- -iez
+- -aient
+
+# Conditional Tense: Usage
+
+## Sentences with "si" (if)
+
+- **Present:**
+  - S’il pleut, je prends ma voiture.
+- **Future:**
+  - S’il pleut, je prendrai mon parapluie.
+- **Imperative:**
+  - S’il pleut, mets ton imperméable.
+
+## Practice: Complete the sentences. If you could...
+
+- Pouvais te rendre invisible...
+- Étudiais 8h par jour...
+- Gagnais 1 million de $$ au loto...
+- Étais dans un accident de voiture...
+- Savais jouer au poker professionnellement...
+- Pouvais parler à Georges Bush...
+- Pouvais visiter n’importe quel pays pendant 3 jours...
+- Rencontrais Dave Matthews dans un pub...
+- Pouvais être président pour un jour...
+- Avais 4 mains...
+- Devais organiser une soirée dansante thématique...
+- Pouvais rencontrer la personne célèbre de ton choix...
+
+## Conditional Tense: Politeness
+
+- **In dependent clauses:** In the past, to replace the future
+  - Il dit qu’il viendra. ® Il a dit qu’il viendrait.
+  - Il pense que je le quitterai. ® Il pensait que je le quitterais.
+
+- **For politeness:**
+  - Pourriez-vous m’aider, s’il vous plaît?
+  - J’aimerais un café noir, s’il vous plaît.
+  - Auriez-vous un stylo à me prêter?
+  - Sauriez-vous me dire où se trouve le Louvre?
+
+## Conditional Tense: Giving Advice or Making Reproaches
+
+- **Advice:**
+  - Problem: J’ai mal à la tête.
+  - Advice: tu devrais prendre une aspirine.
+  - Problem: J’ai oublié mon porte-monnaie.
+  - Advice: Il faudrait… Tu pourrais… Tu ferais mieux de…
+
+- **Reproach:**
+  - Problem: Je meurs de faim.
+  - Reproach: Tu aurais dû manger avant de venir.
+  - Problem: Je suis très fatigué.
+  - Reproach: Il aurait fallu… Tu aurais pu… Tu aurais mieux fait de…

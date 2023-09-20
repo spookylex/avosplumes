@@ -1,17 +1,29 @@
 ---
-title: "Student Exercises"
+title: "A Vos Plumes! for Students -- Student Exercises"
+
+format:
+  html: 
+    grid:
+      sidebar-width: 300px
+      body-width: 1500px
+      margin-width: 100px
 ---
 --------------------------
 <head>
   <style>
     body {
       font-family: Garamond, serif;
+      font-size: 18px
     }
+    
   </style>
 </head>
 
-![](http://avosplumes.org/scripts/timthumb/timthumb.php?src=http://avosplumes.org/uploads/images/pages/plume_c.jpg&w=180&h=150&zc=1&q=100)
 
+::: {.grid}
+<img src="feather.jpeg" width="220" height="170" />
+
+::: {.g-col-8}
 How do you write a French essay?\
 How do some professors and teachers grade writing?\
 Where can you get extra grammar practice?
@@ -20,8 +32,18 @@ Where can you get extra grammar practice?
 
 **Grammar exercises** (below): interactive practice exercises with corrections and feedback
 
-### Adjectives/Adverbs
+:::
 
+
+::: 
+
+
+
+::: {.grid}
+
+::: {.g-col-4}
+
+### Adjectives/Adverbs <img src="curl.png" width="65" height="40" />
 - [Nationality (1)](student_exercises/adjectives_adverbs/nationality1.qmd)
 - [Nationality (2)](student_exercises/adjectives_adverbs/nationality2.qmd)
 - [Comparisons (2)](student_exercises/adjectives_adverbs/comparisons2.qmd)
@@ -35,8 +57,11 @@ Where can you get extra grammar practice?
 - [Ce/cette/ces (2)](student_exercises/adjectives_adverbs/ce_cette_ces2.qmd)
 - [Mieux, meilleur...](student_exercises/adjectives_adverbs/mieux-meilleur.qmd)
 
+:::
 
-### Articles
+::: {.g-col-4}
+
+### Articles <img src="curl.png" width="65" height="40" />
 - [Le/La/Les (1)](student_exercises/articles/le-la-les1.qmd)
 - [Le/La/Les (2)](student_exercises/articles/le-la-les2.qmd)
 - [Le/La/Les (3)](student_exercises/articles/le-la-les3.qmd)
@@ -57,8 +82,10 @@ Where can you get extra grammar practice?
 - [Pas de vs. pas le (1)](student_exercises/articles/pas-de-vs-pas-le-1.qmd)
 - [Pas de vs. pas le (2)](student_exercises/articles/pas-de-vs-pas-le-2.qmd)
 
+:::
 
-### Depuis and Time
+::: {.g-col-4}
+### Depuis & Time <img src="curl.png" width="65" height="40" />
 - [Telling Time (1)](student_exercises/depuis-and-time/telling-time-1.qmd)
 - [Telling Time (2)](student_exercises/depuis-and-time/telling-time-2.qmd)
 - [Telling Time (3)](student_exercises/depuis-and-time/telling-time-3.qmd)
@@ -75,15 +102,26 @@ Where can you get extra grammar practice?
 - [L'an/l'année, le jour/la journée...](student_exercises/depuis-and-time/lan-lannee-le-jour-la-journee.qmd)
 
 
-### Greetings and Introductions
+:::
+
+::: 
+
+
+::: {.grid}
+
+::: {.g-col-4}
+### Greetings/Introductions <img src="curl.png" width="65" height="40" />
 - [Introductions--infinitives](student_exercises/greetings-and-introductions/simple-verbs-infinitives.qmd)
 - [Le présent—introductions](student_exercises/greetings-and-introductions/le-present-introductions.qmd)
 - [Greeting someone](student_exercises/greetings-and-introductions/greeting-someone.qmd)
 - [Introducing Someone](student_exercises/greetings-and-introductions/introducing-someone.qmd)
 - [Approaching Someone](student_exercises/greetings-and-introductions/approaching-someone.qmd)
 
+:::
 
-### Negation
+::: {.g-col-4}
+
+### Negation <img src="curl.png" width="65" height="40" />
 - [Formes négatives](student_exercises/negation/formes-negatives.qmd)
 - [Ne...pas/ne...plus](student_exercises/negation/ne-pas-ne-plus.qmd)
 - [Ne...pas](student_exercises/negation/ne-pas.qmd)
@@ -94,7 +132,10 @@ Where can you get extra grammar practice?
 - [Ne/plus, ne/rien, ne/jamais...(2)](student_exercises/negation/ne-plus-ne-rien-ne-jamais-2.qmd)
 - [Ne/plus, ne/rien, ne/jamais...(3)](student_exercises/negation/ne-plus-ne-rien-ne-jamais-3.qmd)
 
-### Nouns -- M/F, plural
+:::
+
+::: {.g-col-4}
+### Nouns -- M/F, plural <img src="curl.png" width="65" height="40" />
 - [Plural Forms (1)](student_exercises/nouns/plural-forms-1.qmd)
 - [Plural Forms (2)](student_exercises/nouns/plural-forms-2.qmd)
 - [Plural Forms (3)](student_exercises/nouns/plural-forms-3.qmd)
@@ -103,7 +144,15 @@ Where can you get extra grammar practice?
 - [Masculine or feminine? (3)](student_exercises/nouns/masculine-or-feminine-3.qmd)
 - [Masculine or feminine? (4)](student_exercises/nouns/masculine-or-feminine-4.qmd)
 
-### Numbers
+:::
+
+:::
+
+
+::: {.grid}
+
+::: {.g-col-4}
+### Numbers <img src="curl.png" width="65" height="40" />
 - [Writing 1-100 (1)](student_exercises/numbers/writing-1-100-1.qmd)
 - [Writing 1-100 (2)](student_exercises/numbers/writing-1-100-2.qmd)
 - [Writing 1-100 (3)](student_exercises/numbers/writing-1-100-3.qmd)
@@ -113,7 +162,10 @@ Where can you get extra grammar practice?
 - [Writing Dates](student_exercises/numbers/writing-dates.qmd)
 - [Writing ordinals (premier, deuxième, etc)](student_exercises/numbers/writing-ordinals-premier-deuxieme-etc.qmd)
 
-### Prepositions
+:::
+
+::: {.g-col-4}
+### Prepositions <img src="curl.png" width="65" height="40" />
 - [Giving Directions](student_exercises/prepositions/giving-directions.qmd)
 - [On/in/beside/between](student_exercises/prepositions/on-in-beside-between.qmd)
 - [In/at/to a place](student_exercises/prepositions/in-at-to-a-place.qmd)
@@ -128,7 +180,10 @@ Where can you get extra grammar practice?
 - [Verbs + Prepositions (1)](student_exercises/prepositions/verbs-prepositions-1.qmd)
 - [Verbs + Prepositions (2)](student_exercises/prepositions/verbs-prepositions-2.qmd)
 
-### Pronouns -- Object
+:::
+
+::: {.g-col-4}
+### Pronouns -- Object <img src="curl.png" width="65" height="40" />
 - [Le/La/Les (1)](student_exercises/pronouns-object/le-la-les-1.qmd)
 - [Le/La/Les (2)](student_exercises/pronouns-object/le-la-les-2.qmd)
 - [Lui/leur](student_exercises/pronouns-object/lui-leur.qmd)
@@ -142,7 +197,14 @@ Where can you get extra grammar practice?
 - [Pronoms multiples (1)](student_exercises/pronouns-object/pronoms-multiples-1.qmd)
 - [Pronoms multiples (2)](student_exercises/pronouns-object/pronoms-multiples-2.qmd)
 
-### Pronouns -- Subject, Relative
+:::
+
+:::
+
+::: {.grid}
+
+::: {.g-col-4}
+### Pronouns -- Subject, Relative <img src="curl.png" width="65" height="40" />
 - [Qui/Que (1)](student_exercises/pronouns-subject-relative/qui-que-1.qmd)
 - [Qui/Que (2)](student_exercises/pronouns-subject-relative/qui-que-2.qmd)
 - [Qui/Que (3)](student_exercises/pronouns-subject-relative/qui-que-3.qmd)
@@ -155,7 +217,10 @@ Where can you get extra grammar practice?
 - [Using "on" (1)](student_exercises/pronouns-subject-relative/using-on-1.qmd)
 - [Using "on" (2)](student_exercises/pronouns-subject-relative/using-on-2.qmd)
 
-### Questions
+:::
+
+::: {.g-col-4}
+### Questions <img src="curl.png" width="65" height="40" />
 - [Personal Questions (1)](student_exercises/questions/personal-questions-1.qmd)
 - [Personal Questions (2)](student_exercises/questions/personal-questions-2.qmd)
 - [Personal Questions (3)](student_exercises/questions/personal-questions-3.qmd)
@@ -176,7 +241,10 @@ Where can you get extra grammar practice?
 - [L'entretien d'embauche (vidéo)](student_exercises/questions/lentretien-dembauche-video.qmd)
 - [L'entretien d'embauche (transcription)](student_exercises/questions/lentretien-dembauche-transcription.qmd)
 
-### Verbs -- Conditional
+:::
+
+::: {.g-col-4}
+### Verbs -- Conditional <img src="curl.png" width="65" height="40" />
 - [Le Conditionnel](student_exercises/verbs-conditional/le-conditionnel.qmd)
 - [Le Conditionnel Passé](student_exercises/verbs-conditional/le-conditionnel-passe.qmd)
 - [Le conditionnel vs. le conditionnel passé (1)](student_exercises/verbs-conditional/le-conditionnel-vs-le-conditionnel-passe.qmd)
@@ -192,7 +260,14 @@ Where can you get extra grammar practice?
 - [Si Clauses (5)](student_exercises/verbs-conditional/si-clauses-5.qmd)
 - [Imparfait, futur, conditionnel](student_exercises/verbs-conditional/imparfait-futur-conditionnel.qmd)
 
-### Verbs -- Future
+:::
+
+:::
+
+::: {.grid}
+
+::: {.g-col-4}
+### Verbs -- Future <img src="curl.png" width="65" height="40" />
 - [Le futur--dire/écrire](student_exercises/verbs-future/le-futur-dire-ecrire.qmd)
 - [Le futur--être/avoir](student_exercises/verbs-future/le-futur-etre-avoir.qmd)
 - [Le futur--faire](student_exercises/verbs-future/le-futur-faire.qmd)
@@ -215,13 +290,19 @@ Where can you get extra grammar practice?
 - [Subjonctif, indicatif, infinitif, participe présent (1)](student_exercises/verbs-future/subjonctif-indicatif-infinitif-participe-present-1.qmd)
 - [Subjonctif, indicatif, infinitif, participe présent (2)](student_exercises/verbs-future/subjonctif-indicatif-infinitif-participe-present-2.qmd)
 
-### Verbs -- Passive Voice
+:::
+
+::: {.g-col-4}
+### Verbs -- Passive Voice <img src="curl.png" width="65" height="40" />
 - [Passive Voice (1)](student_exercises/verbs-passive-voice/passive-voice-1.qmd)
 - [Passive Voice (2)](student_exercises/verbs-passive-voice/passive-voice-2.qmd)
 - [Passive Voice (3)](student_exercises/verbs-passive-voice/passive-voice-3.qmd)
 - [Passive Voice (4)](student_exercises/verbs-passive-voice/passive-voice-4.qmd)
 
-### Verbs - Past
+:::
+
+::: {.g-col-4}
+### Verbs - Past <img src="curl.png" width="65" height="40" />
 - [C'était/il y avait/il faisait](student_exercises/verbs-past/cetait-il-y-avait-il-faisait.qmd)
 - [L'imparfait--dire/écrire](student_exercises/verbs-past/limparfait-dire-ecrire.qmd)
 - [Le passé composé--dire/écrire](student_exercises/verbs-past/le-passe-compose-dire-ecrire.qmd)
@@ -257,7 +338,14 @@ Where can you get extra grammar practice?
 - [L'accord du passé composé (tous les verbes)](student_exercises/verbs-past/laccord-du-passe-compose-tous-les-verbes.qmd)
 - [Imparfait, futur, conditionnel](student_exercises/verbs-conditional/imparfait-futur-conditionnel.qmd)
 
-### Verbs - Present
+:::
+
+:::
+
+::: {.grid}
+
+::: {.g-col-4}
+### Verbs - Present <img src="curl.png" width="65" height="40" />
 - [Le présent--dire/écrire](student_exercises/verbs-present/le-present-dire-ecrire.qmd)
 - [Le présent--être](student_exercises/verbs-present/le-present-etre.qmd)
 - [Le présent--faire](student_exercises/verbs-present/le-present-faire.qmd)
@@ -278,7 +366,10 @@ Where can you get extra grammar practice?
 - [Si Clauses (4)](student_exercises/verbs-conditional/si-clauses-4.qmd)
 - [Si Clauses (5)](student_exercises/verbs-conditional/si-clauses-5.qmd)
 
-### Verbs - Subjunctive
+:::
+
+::: {.g-col-4}
+### Verbs - Subjunctive <img src="curl.png" width="65" height="40" />
 - [Le subjonctif présent (1)](student_exercises/verbs-subjunctive/le-subjonctif-present-1.qmd)
 - [Le subjonctif présent (2)](student_exercises/verbs-subjunctive/le-subjonctif-present-2.qmd)
 - [Le subjonctif présent (3)](student_exercises/verbs-subjunctive/le-subjonctif-present-3.qmd)
@@ -291,7 +382,10 @@ Where can you get extra grammar practice?
 - [Subjonctif, indicatif, infinitif, participe présent (1)](student_exercises/verbs-future/subjonctif-indicatif-infinitif-participe-present-1.qmd)
 - [Subjonctif, indicatif, infinitif, participe présent (2)](student_exercises/verbs-future/subjonctif-indicatif-infinitif-participe-present-2.qmd)
 
-### Vocabulary
+:::
+
+::: {.g-col-4}
+### Vocabulary <img src="curl.png" width="65" height="40" />
 - [Describing people](student_exercises/vocabulary/describing-people.qmd)
 - [Rooms of the house](student_exercises/vocabulary/rooms-of-the-house.qmd)
 - [Days of the week](student_exercises/vocabulary/days-of-the-week.qmd)
@@ -299,3 +393,6 @@ Where can you get extra grammar practice?
 - [Describing objects](student_exercises/vocabulary/describing-objects.qmd)
 - [Around town](student_exercises/vocabulary/around-town.qmd)
 
+:::
+
+:::
