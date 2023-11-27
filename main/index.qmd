@@ -1,6 +1,37 @@
 ---
-title: "A Vos Plumes!"
+title: "À Vos Plumes!"
+toc: true
 ---
 
-A Vos Plumes! is for students who want to write better in French and for teachers who want to help them.
+<style>
+  /* Image styling */
+  img {
+      width: 350px;
+      height: 250px;
+      float: left; /* Align image to the left */
+      margin-right: 20px;
+      border-radius: 8px; /* Rounded corners for the image */
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+  }
+</style>
 
+## Welcome
+
+  <img src="homepage.jpg" />
+
+Enhance your French writing skills with À Vos Plumes! We provide resources for students aiming to improve their writing in French and offer valuable tools for teachers dedicated to guiding them on their linguistic journey.
+
+## Featured Exercises
+
+<!-- Add your featured exercises with links -->
+- [Exercise 1](students.qmd#exercise-1): Lorem ipsum dolor sit amet...
+- [Exercise 2](students.qmd#exercise-2): Consectetur adipiscing elit...
+- [Exercise 3](students.qmd#exercise-3): Sed do eiusmod tempor incididunt...
+
+## Contact Us
+
+[Email us](mailto:info@avosplumes.com)
+
+---
+
+&copy; 2023 À Vos Plumes!. All rights reserved.

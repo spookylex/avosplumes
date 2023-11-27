@@ -1,7 +1,6 @@
 ---
-title: "Resources"
+title: "Teacher Resources"
 ---
---------------------------
 
 ![](http://avosplumes.org/scripts/timthumb/timthumb.php?src=http://avosplumes.org/uploads/images/pages/plume.jpg&w=180&h=150&zc=1&q=100)
 

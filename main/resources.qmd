@@ -1,13 +1,13 @@
 ---
-title: "Resources"
+title: "Student Resources"
 toc: false
 ---
 --------------------------
 
 ### [Write better](resources/write-better.qmd) <img src="curl.png" width="65" height="40" />
-#### Handouts on French essay writing, explanations of how many instructors grade writing 
+ Handouts on French essay writing, explanations of how many instructors grade writing 
 
 ### [Build Vocabulary](resources/build-vocabulary.qmd) <img src="curl.png" width="65" height="40" />
-#### Theme-specific vocabulary (beginners); poetry, prose, theater, cinema terms (intermediates)
+ Theme-specific vocabulary (beginners); poetry, prose, theater, cinema terms (intermediates)
 
 

@@ -4,24 +4,21 @@ project:
 toc: true
 number-sections: false
 
-
 format:
   html:
-    theme: cosmo
+    theme: default
     css: styles.css
 
 website: 
   # repo-url: https://github.com/ss4ws/b23
   title: "À Vos Plumes!"
   sidebar:
+    background: "#fff"
+    foreground: "#333"
     style: "docked"
     search: true
     contents:
-      - section: "À Vos Plumes! *for* Students"
-        contents:
-          - students.qmd
-          - resources.qmd
-          - understand-grammar.qmd
-      - section: "À Vos Plumes! *for* Teachers"
-        contents:
-          - teachers.qmd
+      - students.qmd
+      - resources.qmd
+      - teachers.qmd
+      - understand-grammar.qmd

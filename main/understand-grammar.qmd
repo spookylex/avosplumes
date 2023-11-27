@@ -1,85 +1,101 @@
 ---
-title: "Grammar Videos" 
+title: "Grammar Videos"
 ---
 
-Students have found my grammar lessons useful, so I made them into videos, thanks to a grant from the President's Office at UVA. These materials complement, but are not intended to replace a good reference grammar book, such as Denise Rochat's *Contrastes.*  
-<p></p><p></p>
+Students have found my grammar lessons useful, so I made them into videos, thanks to a grant from the President's Office at UVA. These materials complement, but are not intended to replace a good reference grammar book, such as Denise Rochat's *Contrastes.*
 
 ### Les articles
-<p><iframe id="kmsembed-1_lzo8bpes" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_lzo8bpes/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
-</p>
-<p><a href="student_exercises/articles.qmd" target="_blank">Articles (definite, indefinite, partitive)</a></p>
-<p><a href="student_exercises/articles_omit.qmd" target="_blank">When to omit the article</a></p>
+
+<iframe id="kmsembed-1_lzo8bpes" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_lzo8bpes/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
+
+[Articles (definite, indefinite, partitive)](student_exercises/articles.qmd)
+
+[When to omit the article](student_exercises/articles_omit.qmd)
 
 ### Le présent
-<p><iframe id="kmsembed-1_y3pf5lam" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_y3pf5lam/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
-</p>
-<p><a href="resources/FrenchVerbs_handout.doc">French Verbs: the basics.doc</a></p>
-<p><a href="resources/Verbs+Preps_handout.doc">Verbs + Prepositions</a>: <strong>This one has no video, but it is arguably the most useful handout you will ever find anywhere!! Keep this next to you as you write!!</strong></p>
+
+<iframe id="kmsembed-1_y3pf5lam" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_y3pf5lam/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
+
+[French Verbs: the basics.doc](resources/FrenchVerbs_handout.doc)
+
+[Verbs + Prepositions: This one has no video, but it is arguably the most useful handout you will ever find anywhere!! Keep this next to you as you write!!](resources/Verbs+Preps_handout.doc)
 
 ### Le passé composé et l'imparfait
-<p><iframe id="kmsembed-1_o9hbbcl6" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_o9hbbcl6/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
-</p>
-<p><a href="student_exercises/pcimpf.qmd" target="_blank">Passé composé vs. imparfait</a></p>
-<p><a href="resources/Accord_du_PC.doc">Past Participle Agreement [for passé composé]</a></p>
+
+<iframe id="kmsembed-1_o9hbbcl6" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_o9hbbcl6/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
+
+[Passé composé vs. imparfait](student_exercises/pcimpf.qmd)
+
+[Past Participle Agreement [for passé composé]](resources/Accord_du_PC.doc)
 
 ### Les pronoms
-</strong><p><iframe id="kmsembed-1_xjj8bt73" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_xjj8bt73/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
-</p>
+
+<iframe id="kmsembed-1_xjj8bt73" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_xjj8bt73/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
 
 ### L'appartenance
-<p><iframe id="kmsembed-1_5p100hgm" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_5p100hgm/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
-</object></p>
 
-### L'imparfait 
-<p><iframe id="kmsembed-1_bns5xo8k" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_bns5xo8k/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe></p>
+<iframe id="kmsembed-1_5p100hgm" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_5p100hgm/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
 
-### Le futur et le conditionnel 
-<p><iframe id="kmsembed-1_bbbbzbtf" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_bbbbzbtf/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe></p>
-<p><a href="student_exercises/futur_cond.qmd" target="_blank">Future, conditional</a></p>
+### L'imparfait
+
+<iframe id="kmsembed-1_bns5xo8k" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_bns5xo8k/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
+
+### Le futur et le conditionnel
+
+<iframe id="kmsembed-1_bbbbzbtf" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_bbbbzbtf/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
+
+[Future, conditional](student_exercises/futur_cond.qmd)
 
 ### Se situer dans le temps (since, for, ago)
-<p><iframe id="kmsembed-1_p2b486jc" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_p2b486jc/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe></p>
-<p><a href="student_exercises/duree_review.qmd" title="Since/for/ago/in + time" target="_blank">Since/for/ago/in + time</a></p>
+
+<iframe id="kmsembed-1_p2b486jc" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_p2b486jc/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
+
+[Since/for/ago/in + time](student_exercises/duree_review.qmd)
 
 ### Se situer dans l'espace (in, to, from)
-<p><iframe id="kmsembed-1_wapybv0x" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_wapybv0x/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe></p>
+
+<iframe id="kmsembed-1_wapybv0x" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_wapybv0x/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
 
 ### La négation
-<p><iframe id="kmsembed-1_amwzrlx2" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_amwzrlx2/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe><p/>
+
+<iframe id="kmsembed-1_amwzrlx2" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_amwzrlx2/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
 
 ### Le passé composé
-<p><iframe id="kmsembed-1_o9hbbcl6" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_o9hbbcl6/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe></p>
+
+<iframe id="kmsembed-1_o9hbbcl6" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_o9hbbcl6/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
 
 ### Les temps du passé
-<p><iframe id="kmsembed-1_byjhosad" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_byjhosad/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
 
-</p>
-<p><a href="student_exercises/plus_que_parfait.qmd" target="_blank">The pluperfect (plus-que-parfait)</a></p>
+<iframe id="kmsembed-1_byjhosad" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_byjhosad/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
+
+[The pluperfect (plus-que-parfait)](student_exercises/plus_que_parfait.qmd)
 
 ### Les pronoms relatifs
-<p><iframe id="kmsembed-1_u2o20pbg" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_u2o20pbg/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
-</p>
-<p><iframe id="kmsembed-1_stn1fe70" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_stn1fe70/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
-</p>
-<p><a href="student_exercises/pronoms_relatifs_review2.qmd" title="Relative pronouns" target="_blank">Relative pronouns</a></p>
 
+<iframe id="kmsembed-1_u2o20pbg" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_u2o20pbg/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
+
+<iframe id="kmsembed-1_stn1fe70" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_stn1fe70/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
+
+[Relative pronouns](student_exercises/pronoms_relatifs_review2.qmd)
 
 ### L'infinitif/Le participe présent
-<p><iframe id="kmsembed-1_3mej9uug" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_3mej9uug/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
-</p>
+
+<iframe id="kmsembed-1_3mej9uug" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_3mej9uug/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
 
 ### L'interrogation
-<p><iframe id="kmsembed-1_ibbuq4ea" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_ibbuq4ea/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
 
-</p>
+<iframe id="kmsembed-1_ibbuq4ea" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_ibbuq4ea/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
 
 ### La voix passive
-<p><iframe id="kmsembed-1_qwd7czpr" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_qwd7czpr/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe></p>
-<p><a href="resources/Passive_handout.doc">Passive voice</a></p>
 
-### Le subjonctif 
-<p><iframe id="kmsembed-1_97caqyic" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_97caqyic/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
-</p>
-<p><a href="resources/Subjunctive_handout.doc">When to use subjunctive</a></p>
-<p><a href="resources/Adjective_placement.doc">Adjective placement</a></p>
+<iframe id="kmsembed-1_qwd7czpr" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_qwd7czpr/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
+
+[Passive voice](resources/Passive_handout.doc)
+
+### Le subjonctif
+
+<iframe id="kmsembed-1_97caqyic" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_97caqyic/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
+
+[When to use subjunctive](resources/Subjunctive_handout.doc)
+
+[Adjective placement](resources/Adjective_placement.doc)
