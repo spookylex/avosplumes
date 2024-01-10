@@ -18,7 +18,9 @@ website:
     style: "docked"
     search: true
     contents:
+      - understand-grammar.qmd
       - students.qmd
       - resources.qmd
-      - teachers.qmd
-      - understand-grammar.qmd
+      # - teachers.qmd
+      - about.qmd
+  

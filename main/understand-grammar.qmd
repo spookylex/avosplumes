@@ -12,6 +12,20 @@ Students have found my grammar lessons useful, so I made them into videos, thank
 
 [When to omit the article](student_exercises/articles_omit.qmd)
 
+#### Practice Exercises
+- [Le/la vs. du/de la](student_exercises/articles/le-la-vs-du-dela.qmd)
+- [Un/une vs. du/de la](student_exercises/articles/un-une-vs-du-dela.qmd)
+- [Le/la vs un/une vs. du/de la (1)](student_exercises/articles/le-la-vs-un-une-vs-du-de-la1.qmd)
+- [Le/la vs un/une vs. du/de la (2)](student_exercises/articles/le-la-vs-un-une-vs-du-de-la2.qmd)
+- [Le/la vs un/une vs. du/de la (3)](student_exercises/articles/le-la-vs-un-une-vs-du-de-la3.qmd)
+- [Le/la vs un/une vs. du/de la (4)](student_exercises/articles/le-la-vs-un-une-vs-du-de-la4.qmd)
+- [Le/la vs un/une vs. du/de la (5)](student_exercises/articles/le-la-vs-un-une-vs-du-de-la5.qmd)
+- [Le/la vs un/une vs. du/de la (6)](student_exercises/articles/le-la-vs-un-une-vs-du-de-la6.qmd)
+- [Le/la vs un/une vs. du/de la (7)](student_exercises/articles/le-la-vs-un-une-vs-du-de-la7.qmd)
+- [Pas de vs. pas le (1)](student_exercises/articles/pas-de-vs-pas-le-1.qmd)
+- [Pas de vs. pas le (2)](student_exercises/articles/pas-de-vs-pas-le-2.qmd)
+
+
 ### Le présent
 
 <iframe id="kmsembed-1_y3pf5lam" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_y3pf5lam/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
@@ -20,25 +34,79 @@ Students have found my grammar lessons useful, so I made them into videos, thank
 
 [Verbs + Prepositions: This one has no video, but it is arguably the most useful handout you will ever find anywhere!! Keep this next to you as you write!!](resources/Verbs+Preps_handout.doc)
 
+#### Practice Exercises
+- [Le présent--vouloir/pouvoir](student_exercises/verbs-present/le-present-vouloir-pouvoir.qmd)
+- [Le présent--avoir](student_exercises/verbs-present/le-present-avoir.qmd)
+- [Le présent--aller](student_exercises/verbs-present/le-present-aller.qmd)
+- [Le présent--verbes irréguliers](student_exercises/verbs-present/le-present-verbes-irreguliers.qmd)
+- [Être en train de + infinitive](student_exercises/verbs-present/etre-en-train-de-infinitive.qmd)
+
+
 ### Le passé composé et l'imparfait
 
 <iframe id="kmsembed-1_o9hbbcl6" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_o9hbbcl6/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
+<iframe id="kmsembed-1_bns5xo8k" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_bns5xo8k/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
+
 
 [Passé composé vs. imparfait](student_exercises/pcimpf.qmd)
 
 [Past Participle Agreement [for passé composé]](resources/Accord_du_PC.doc)
 
+#### Practice Exercises
+
+- [Le passé composé](student_exercises/verbs-past/le-passe-compose.qmd)
+- [Le passé composé (2)](student_exercises/verbs-past/le-passe-compose-2.qmd)
+- [L'imparfait--prendre](student_exercises/verbs-past/limparfait-prendre.qmd)
+- [L'imparfait--sortir/partir](student_exercises/verbs-past/limparfait-sortir-partir.qmd)
+- [L'imparfait (2)](student_exercises/verbs-past/limparfait-2.qmd)
+- [L'imparfait (3)](student_exercises/verbs-past/limparfait-3.qmd)
+- [Le passé composé vs. l'imparfait](student_exercises/verbs-past/le-passe-compose-vs-limparfait.qmd)
+- [Le passé composé vs. l'imparfait (2)](student_exercises/verbs-past/le-passe-compose-vs-limparfait-2.qmd)
+- [Le passé composé vs. l'imparfait (4)](student_exercises/verbs-past/le-passe-compose-vs-limparfait-4.qmd)
+- [Le passé composé vs. l'imparfait (5)](student_exercises/verbs-past/le-passe-compose-vs-limparfait-accords-5.qmd)
+- [L'accord du passé composé](student_exercises/verbs-past/laccord-du-passe-compose.qmd)
+- [L'accord du passé composé (verbes schizophrènes)](student_exercises/verbs-past/laccord-du-passe-compose-verbes-schizophrenes.qmd)
+- [L'accord du passé composé (tous les verbes)](student_exercises/verbs-past/laccord-du-passe-compose-tous-les-verbes.qmd)
+
+
+
+### Les temps du passé révision et le plus-que-parfait
+
+<iframe id="kmsembed-1_byjhosad" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_byjhosad/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
+
+[The pluperfect (plus-que-parfait)](student_exercises/plus_que_parfait.qmd)
+
+#### Practice Exercises
+- [Le passé composé vs. l'imparfait vs. le plus-que-parfait](student_exercises/verbs-past/le-passe-compose-vs-limparfait-vs-le-plus-que-parfait.qmd)
+- [Le passé composé vs. l'imparfait vs. le plus-que-parfait (2)](student_exercises/verbs-past/le-passe-compose-vs-limparfait-vs-le-plus-que-parfait-2.qmd)
+
+
 ### Les pronoms
 
 <iframe id="kmsembed-1_xjj8bt73" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_xjj8bt73/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
+
+#### Practice Exercises
+- [Le/La/Les (2)](student_exercises/pronouns-object/le-la-les-2.qmd)
+- [Le/la/les vs. lui/leur](student_exercises/pronouns-object/le-la-les-lui-leur.qmd)
+- [Y/en (1)](student_exercises/pronouns-object/y-en-1.qmd)
+- [Y/en (2)](student_exercises/pronouns-object/y-en-2.qmd)
+- [Lui/leur vs. y vs. en](student_exercises/pronouns-object/lui-leur-vs-y-vs-en.qmd)
+- [Le/la/les vs. lui/leur vs. y vs.en (1)](student_exercises/pronouns-object/le-la-les-vs-lui-leur-vs-y-vs-en-1.qmd)
+- [Le/la/les vs. lui/leur vs. y vs.en (2)](student_exercises/pronouns-object/le-la-les-vs-lui-leur-vs-y-vs-en-2.qmd)
+- [Le/la/les vs. lui/leur vs. y vs.en (3)](student_exercises/pronouns-object/le-la-les-vs-lui-leur-vs-y-vs-en-3.qmd)
+- [Pronoms multiples (1)](student_exercises/pronouns-object/pronoms-multiples-1.qmd)
+- [Pronoms multiples (2)](student_exercises/pronouns-object/pronoms-multiples-2.qmd)
 
 ### L'appartenance
 
 <iframe id="kmsembed-1_5p100hgm" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_5p100hgm/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
 
-### L'imparfait
+#### Practice Exercises
+- [Possessives (1)](student_exercises/adjectives_adverbs/possessives1.qmd)
+- [Possessives (2)](student_exercises/adjectives_adverbs/possessives2.qmd)
+- [Possessives (3)](student_exercises/adjectives_adverbs/possessives3.qmd)
+- [Possessives (4)](student_exercises/adjectives_adverbs/possessives4.qmd)
 
-<iframe id="kmsembed-1_bns5xo8k" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_bns5xo8k/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
 
 ### Le futur et le conditionnel
 
@@ -46,29 +114,71 @@ Students have found my grammar lessons useful, so I made them into videos, thank
 
 [Future, conditional](student_exercises/futur_cond.qmd)
 
+#### Practice Exercises
+- [Le futur--dire/écrire](student_exercises/verbs-future/le-futur-dire-ecrire.qmd)
+- [Le futur--être/avoir](student_exercises/verbs-future/le-futur-etre-avoir.qmd)
+- [Le futur--faire](student_exercises/verbs-future/le-futur-faire.qmd)
+- [Le futur vs. le passé--prendre](student_exercises/verbs-future/le-futur-vs-le-passe-prendre.qmd)
+- [Le futur--prendre](student_exercises/verbs-future/le-futur-prendre.qmd)
+- [Le futur--sortir/partir](student_exercises/verbs-future/le-futur-sortir-partir.qmd)
+- [Le futur vs. le passé sortir/partir](student_exercises/verbs-future/le-futur-vs-le-passe-sortir-partir.qmd)
+- [Le futur vs. le passé--aller](student_exercises/verbs-future/le-futur-vs-le-passe-aller.qmd)
+- [Le futur--aller](student_exercises/verbs-future/le-futur-aller.qmd)
+- [Le futur](student_exercises/verbs-future/le-futur.qmd)
+- [Le futur (2)](student_exercises/verbs-future/le-futur-2.qmd)
+- [Le futur simple/proche vs. futur antérieur](student_exercises/verbs-future/le-futur-simple-proche-vs-futur-anterieur.qmd)
+- [Le futur simple/proche vs. futur antérieur (2)](student_exercises/verbs-future/le-futur-simple-proche-vs-futur-anterieur-2.qmd)
+- [Le Conditionnel](student_exercises/verbs-conditional/le-conditionnel.qmd)
+- [Le Conditionnel Passé](student_exercises/verbs-conditional/le-conditionnel-passe.qmd)
+- [Le conditionnel vs. le conditionnel passé (1)](student_exercises/verbs-conditional/le-conditionnel-vs-le-conditionnel-passe.qmd)
+- [Le conditionnel vs. le conditionnel passé (2)](student_exercises/verbs-conditional/le-conditionnel-vs-le-conditionnel-passe-2.qmd)
+- [Should, would, could](student_exercises/verbs-conditional/should-would-could.qmd)
+- [Polite Requests (1)](student_exercises/verbs-conditional/polite-requests-1.qmd)
+- [Polite Requests (2)](student_exercises/verbs-conditional/polite-requests-2.qmd)
+- [Polite Requests (3)](student_exercises/verbs-conditional/polite-requests-3.qmd)
+- [Si Clauses (1)](student_exercises/verbs-conditional/si-clauses-1.qmd)
+- [Si Clauses (2)](student_exercises/verbs-conditional/si-clauses-2.qmd)
+- [Si Clauses (3)](student_exercises/verbs-conditional/si-clauses-3.qmd)
+- [Si Clauses (4)](student_exercises/verbs-conditional/si-clauses-4.qmd)
+- [Si Clauses (5)](student_exercises/verbs-conditional/si-clauses-5.qmd)
+- [Imparfait, futur, conditionnel](student_exercises/verbs-conditional/imparfait-futur-conditionnel.qmd)
+
+
 ### Se situer dans le temps (since, for, ago)
 
 <iframe id="kmsembed-1_p2b486jc" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_p2b486jc/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
 
 [Since/for/ago/in + time](student_exercises/duree_review.qmd)
 
+#### Practice Exercises
+- [Since, for, ago...](student_exercises/depuis-and-time/since-for-ago.qmd)
+- [Since, for, ago... (2)](student_exercises/depuis-and-time/since-for-ago-2.qmd)
+- [Since, for, ago... (3)](student_exercises/depuis-and-time/since-for-ago-3.qmd)
+
 ### Se situer dans l'espace (in, to, from)
 
 <iframe id="kmsembed-1_wapybv0x" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_wapybv0x/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
+
+#### Practice Exercises
+- [In/at/to a place](student_exercises/prepositions/in-at-to-a-place.qmd)
+- [From a place](student_exercises/prepositions/from-a-place.qmd)
+- [In/at/to/from a place](student_exercises/prepositions/in-at-to-from-a-place.qmd)
+- [North of.../south of...](student_exercises/prepositions/north-of-south-of.qmd)
+- [In](student_exercises/depuis-and-time/in.qmd)
+- [In, on](student_exercises/depuis-and-time/in-on.qmd)
 
 ### La négation
 
 <iframe id="kmsembed-1_amwzrlx2" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_amwzrlx2/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
 
-### Le passé composé
+#### Practice Exercises
+- [Pas de vs. pas le (1)](student_exercises/negation/pas-de-vs-pas-le-1.qmd)
+- [Pas de vs. pas le (2)](student_exercises/negation/pas-de-vs-pas-le-2.qmd)
+- [Ne/pas, ne/ni/ni + articles](student_exercises/negation/ne-pas-ne-ni-ni-articles.qmd)
+- [Ne/plus, ne/rien, ne/jamais...(1)](student_exercises/negation/ne-plus-ne-rien-ne-jamais-1.qmd)
+- [Ne/plus, ne/rien, ne/jamais...(2)](student_exercises/negation/ne-plus-ne-rien-ne-jamais-2.qmd)
+- [Ne/plus, ne/rien, ne/jamais...(3)](student_exercises/negation/ne-plus-ne-rien-ne-jamais-3.qmd)
 
-<iframe id="kmsembed-1_o9hbbcl6" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_o9hbbcl6/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
-
-### Les temps du passé
-
-<iframe id="kmsembed-1_byjhosad" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_byjhosad/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
-
-[The pluperfect (plus-que-parfait)](student_exercises/plus_que_parfait.qmd)
 
 ### Les pronoms relatifs
 
@@ -78,19 +188,55 @@ Students have found my grammar lessons useful, so I made them into videos, thank
 
 [Relative pronouns](student_exercises/pronoms_relatifs_review2.qmd)
 
+#### Practice Exercises
+- [Qui/Que (1)](student_exercises/pronouns-subject-relative/qui-que-1.qmd)
+- [Qui/Que (2)](student_exercises/pronouns-subject-relative/qui-que-2.qmd)
+- [Qui/Que (3)](student_exercises/pronouns-subject-relative/qui-que-3.qmd)
+- [Que vs. Dont (1)](student_exercises/pronouns-subject-relative/que-vs-dont-1.qmd)
+- [Que vs. Dont (2)](student_exercises/pronouns-subject-relative/que-vs-dont-2.qmd)
+- [Que vs. Où](student_exercises/pronouns-subject-relative/que-vs-ou.qmd)
+- [Tous les pronoms relatifs (1)](student_exercises/pronouns-subject-relative/tous-les-pronoms-relatifs-1.qmd)
+- [Tous les pronoms relatifs (2)](student_exercises/pronouns-subject-relative/tous-les-pronoms-relatifs-2.qmd)
+- [Tous les pronoms relatifs (3)](student_exercises/pronouns-subject-relative/tous-les-pronoms-relatifs-3.qmd)
+
+
 ### L'infinitif/Le participe présent
 
 <iframe id="kmsembed-1_3mej9uug" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_3mej9uug/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
 
+#### Practice Exercises
+- [Subjonctif, indicatif, infinitif, participe présent (1)](student_exercises/verbs-future/subjonctif-indicatif-infinitif-participe-present-1.qmd)
+- [Subjonctif, indicatif, infinitif, participe présent (2)](student_exercises/verbs-future/subjonctif-indicatif-infinitif-participe-present-2.qmd)
+
 ### L'interrogation
 
 <iframe id="kmsembed-1_ibbuq4ea" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_ibbuq4ea/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
+
+#### Practice Exercises
+- [Yes/No](student_exercises/questions/yes-no.qmd)
+- [How/where/when...(1)](student_exercises/questions/how-where-when-1.qmd)
+- [How/where/when...(2)](student_exercises/questions/how-where-when-2.qmd)
+- [How/where/when...(3)](student_exercises/questions/how-where-when-3.qmd)
+- [How/where/when...(4)](student_exercises/questions/how-where-when-4.qmd)
+- [Who/what (1)](student_exercises/questions/le-combat-des-chefs.qmd)
+- [Who/what (2)](student_exercises/questions/who-what-2.qmd)
+- [Who/what (3)](student_exercises/questions/who-what-3.qmd)
+- [Who/what (4)](student_exercises/questions/who-what-4.qmd)
+- [Who/what/where/when](student_exercises/questions/who-what-where-when.qmd)
+- [Which, which one (1)](student_exercises/questions/which-which-one-1.qmd)
+- [Which, which one (2)](student_exercises/questions/which-which-one-2.qmd)
 
 ### La voix passive
 
 <iframe id="kmsembed-1_qwd7czpr" width="400" height="285" src="https://343772.kaf.kaltura.com/embed/secure/iframe/entryId/1_qwd7czpr/uiConfId/42921001/pbc/95540921" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura %1"></iframe>
 
 [Passive voice](resources/Passive_handout.doc)
+
+#### Practice Exercises
+- [Passive Voice (1)](student_exercises/verbs-passive-voice/passive-voice-1.qmd)
+- [Passive Voice (2)](student_exercises/verbs-passive-voice/passive-voice-2.qmd)
+- [Passive Voice (3)](student_exercises/verbs-passive-voice/passive-voice-3.qmd)
+- [Passive Voice (4)](student_exercises/verbs-passive-voice/passive-voice-4.qmd)
 
 ### Le subjonctif
 
@@ -99,3 +245,13 @@ Students have found my grammar lessons useful, so I made them into videos, thank
 [When to use subjunctive](resources/Subjunctive_handout.doc)
 
 [Adjective placement](resources/Adjective_placement.doc)
+
+#### Practice Exercises
+- [Le subjonctif présent (1)](student_exercises/verbs-subjunctive/le-subjonctif-present-1.qmd)
+- [Le subjonctif présent (2)](student_exercises/verbs-subjunctive/le-subjonctif-present-2.qmd)
+- [Le subjonctif présent (3)](student_exercises/verbs-subjunctive/le-subjonctif-present-3.qmd)
+- [Le subjonctif présent vs. passé (1)](student_exercises/verbs-subjunctive/le-subjonctif-present-vs-passe-1.qmd)
+- [Le subjonctif présent vs. passé, conjonctions (2)](student_exercises/verbs-subjunctive/le-subjonctif-present-vs-passe-conjonctions-2.qmd)
+- [Le subjonctif vs. l'indicatif (1)](student_exercises/verbs-subjunctive/le-subjonctif-vs-lindicatif-1.qmd)
+- [Le subjonctif vs. l'indicatif (2)](student_exercises/verbs-subjunctive/le-subjonctif-vs-lindicatif-2.qmd)
+- [Le subjonctif vs. l'indicatif (3)](student_exercises/verbs-subjunctive/le-subjonctif-vs-lindicatif-3.qmd)

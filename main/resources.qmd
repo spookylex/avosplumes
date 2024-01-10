@@ -1,13 +1,72 @@
 ---
-title: "Student Resources"
+title: "Resources"
 toc: false
 ---
 --------------------------
 
-### [Write better](resources/write-better.qmd) <img src="curl.png" width="65" height="40" />
- Handouts on French essay writing, explanations of how many instructors grade writing 
+# [Write better](resources/write-better.qmd) <img src="curl.png" width="65" height="40" />
+ Handouts on French essay writing, explanations of how many instructors grade writing
 
-### [Build Vocabulary](resources/build-vocabulary.qmd) <img src="curl.png" width="65" height="40" />
+<img src="resources/timthumb.jpeg" width="387" height="259"/>
+
+These pages explain how to write certain kinds of essays in French, as well as how some ways that professors grade writing assignments.
+
+###  [Writing college French essays](resources/essay_writing_argumentative.doc), by Alison Levine.
+
+How to write an essay for an upper-level French literature, culture, or film class.
+
+###  [Writing college response/reaction papers](resources/essay_writing_response.doc), by Cheryl Krueger.
+
+How to write a response paper or reaction paper at the advanced undergraduate or graduate level.
+
+###  [Writing business letters in French](resources/LettresProfessionnelles.pdf), by Alison Levine.
+
+How to lay out and formulate job application letters, requests for information, and other professional correspondence.
+
+###  [How professors grade upper-level French essays](resources/essay_grading_advanced.doc), by Alison Levine.
+
+Descriptions of what makes an A paper, a B paper, etc. for the argumentative essay in French at UVA.
+
+###  [How professors grade intermediate French essays](resources/essay_grading_intermediate.doc), by Alison Levine.
+
+Descriptions of an A, B, paper, etc. for the intermediate level at UVA.
+
+###  [How to improve your grammar](resources/Carnet_de_corrections.doc), by Alison Levine.
+
+In this *carnet de corrections*, you can keep track of the grammar errors you make and how to correct them, as your professor goes over your work through the semester. A useful tool to help you avoid repeating errors.
+
+###  [*Erreurs à éviter*](resources/ERREURS_A_EVITER_2.doc), by Mary McKinley.
+
+A short list of common errors at the intermediate level. We are working on a more advanced list.
+
+# [Build Vocabulary](resources/build-vocabulary.qmd) <img src="curl.png" width="65" height="40" />
  Theme-specific vocabulary (beginners); poetry, prose, theater, cinema terms (intermediates)
+
+<img src="resources/timthumb_1.jpeg" width="387" height="259"/>
+
+Are you taking an upper-level French course on poetry, cinema, prose, or theater? Here are some vocabulary lists to help with your papers.
+
+### [Lexique de la poésie](resources/poesie.doc), adapted by Jennifer Tsien from multiple sources
+
+### [Lexique de la prose](resources/prose.doc), adapted by Jennifer Tsien from multiple sources
+
+### [Lexique du théâtre](resources/theatre.doc), adapted by Jennifer Tsien from multiple sources
+
+### [Lexique du cinéma](resources/cinema.doc), by Alison Levine
+
+### Just working on basic vocabulary? Here are some themes that often appear in beginning French courses. 
+
+[Describing people](/student_exercises/vocabulary/describing-people.qmd)
+
+[Rooms of the house](/student_exercises/vocabulary/rooms-of-the-house.qmd)
+
+[Days of the week](/student_exercises/vocabulary/days-of-the-week.qmd)
+
+[Leisure activities](/student_exercises/vocabulary/leisure-activities.qmd)
+
+[Describing objects](/student_exercises/vocabulary/describing-objects.qmd)
+
+[Around town](/student_exercises/vocabulary/around-town.qmd)
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Student Exercises"
+title: "Practice Exercises"
 toc: true
 
 format:
@@ -262,8 +262,7 @@ Where can you get extra grammar practice?
 - [Who/what/where/when](student_exercises/questions/who-what-where-when.qmd)
 - [Which, which one (1)](student_exercises/questions/which-which-one-1.qmd)
 - [Which, which one (2)](student_exercises/questions/which-which-one-2.qmd)
-- [L'entretien d'embauche (vidéo)](student_exercises/questions/lentretien-dembauche-video.qmd)
-- [L'entretien d'embauche (transcription)](student_exercises/questions/lentretien-dembauche-transcription.qmd)
+
 </details>
 
 :::
