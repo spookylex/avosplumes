@@ -1,0 +1,56 @@
+---
+title: "The History of À Vos Plumes!"
+toc: true
+---
+
+<style>
+  /* Image styling */
+  img {
+      height: 450px;
+      width: 750px;
+      float: left; /* Align image to the left */
+      margin-right: 20px;
+      border-radius: 8px; /* Rounded corners for the image */
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+  }
+</style>
+
+
+### The beginning
+
+The first version looked more a plain web page, with a list of topics, links to videos and then the practice exercises that students can do after watching the video on each topic.
+
+The links led to either a video, or to another page, which looked something like this. It’s an HTML envelope, with some Javascript in the middle that makes the boxes and callouts work. I wrote this code myself. But I had a lot of help.
+
+Then I built a Web interface that looked like this. Why did I build the web interface? I wanted it to look pretty, professional. I wanted it to be used outside UVA. The collection was getting so big that I wanted some easy navigation. This was beyond my ability to design so
+
+- For-profit company (Cat4): interface design and "skeleton" 
+- CMS: Expression Engine
+- Me: Entered exercise code/content for 237 exercises
+- Grammar videos : I created lectures, hired videographer
+
+<img src="history_images/for_students.png"/>
+
+<img src="history_images/for_teachers.png"/>
+
+<img src="history_images/site_map.png"/>
+
+<img src="history_images/activity_example.png"/>
+
+
+
+### The re-design
+
+We have kept all the same activities, grammar videos, and resources that were provided on the old site. The initial version of our website, built with Express Engine CMS, encountered issues with various features breaking or ceasing to function over time. To resolve these issues, we migrated the original website files to the [Quarto platform](https://quarto.org/), an open-source publishing system designed for user-friendly accessibility.
+
+Quarto's strength lies in its ability to effortlessly convert plain text (markdown) files into diverse formats—be it a website, book, PDF, PPT presentation, or standalone files like Word Documents or HTML pages. This is especially helpful as it does not require (much) coding knowledge and will be easy to maintain in the future. 
+
+We also decided to host our site through GitHub using GitHub Pages. Quarto automatically ["enables you to publish content based on source code managed within a GitHub repository."](https://quarto.org/docs/publishing/github-pages.html)
+
+Quarto is a powerful resource for Open Educational Resouces (OER) projects in particular, and I think many professors could benefit from knowing about this platform. 
+
+When it comes to the design of this site, we wanted to keep all the wonderful qualities of the original ÀVP but make it more modern. Quarto automatically formats the layout and design of our site, but we added HTML/CSS to make ours unique. 
+
+You can visit our [GitHub repo](https://github.com/spookylex/avosplumes) and take a look at the behind the scenes of À Vos Plumes!. 
+
+

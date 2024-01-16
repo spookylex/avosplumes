@@ -1,0 +1,46 @@
+---
+title: "Site Map"
+toc: true
+---
+
+<style>
+  /* Image styling */
+  img {
+      width: 350px;
+      height: 250px;
+      float: left; /* Align image to the left */
+      margin-right: 20px;
+      border-radius: 8px; /* Rounded corners for the image */
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+  }
+</style>
+
+### [For Teachers](http://avosplumes.org/teachers/ "For Teachers")
+<img src="sitemap.jpeg" />
+
+**Resources**\
+Articles on writing pedagogy for instructors to read and writing handouts for students. This section contains documents that take more of a long view of teaching, reflecting on why and how we do what we do.
+
+1\. **Basic principles: **the thinking behind the materials.\
+2\. **Assigning and responding: **grading rubrics for you and writing handouts for your students\
+3\. **Grammar videos: **Video grammar lessons and handouts.\
+4\. **Grammar exercises index: **An index of all the grammar practice exercises, organized so you can copy the URLs into your own web page.\
+5\. **Vocabulary: **Field-specific vocabulary sheets for you or your students\
+6\. **Contribute: **Contribute your own materials, send us a message
+
+**Classroom Activities**\
+In-class grammar and writing activities for teachers and students. This section is organized by grammar point for quick access to activities ready to use in the next ten minutes.
+
+### [For Students](http://avosplumes.org/students/ "For Students")
+
+**Resources**\
+Handouts on how to write better in French, how teachers grade, etc.
+
+1.  **Write Better:**Find handouts that explain how to write certain kinds of essays, explanations of how teachers grade writing.
+
+2.  **Build Vocabulary: **Work on theme-specific vocabulary (beginners) or field-specific vocabulary (poetry, prose, theater, cinema).
+
+3.  **Grammar Videos:**Browse a collection of video grammar lessons, and some handouts as well, not intended to replace a good grammar book.
+
+**Grammar/Writing Exercises**\
+Practice your grammar at home. Exercises organized by language level and by grammar point. These exercises are designed to work with any method or textbook you happen to be using.
