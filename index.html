@@ -170,6 +170,17 @@ ul.task-list li input[type="checkbox"] {
       border-radius: 8px; /* Rounded corners for the image */
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
   }
+
+  /* Media query for smaller screens (adjust max-width as needed) */
+  @media only screen and (max-width: 768px) {
+    img {
+      width: 100%; /* Make the image fill the width of the container */
+      height: auto; /* Maintain aspect ratio */
+      float: none; /* Remove float for center alignment */
+      margin-right: 0; /* Remove right margin */
+      box-shadow: none; /* Remove box shadow for simplicity */
+    }
+  }
 </style>
 <section id="welcome-new-site-same-content" class="level2">
 <h2 class="anchored" data-anchor-id="welcome-new-site-same-content">Welcome! New site, same content</h2>

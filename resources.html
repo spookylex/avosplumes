@@ -149,10 +149,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <hr>
+<style>
+
+  /* Media query for smaller screens (adjust max-width as needed) */
+  @media only screen and (max-width: 768px) {
+    img.responsive-image {
+      width: 100%; /* Make the image fill the width of the container */
+      height: auto; /* Maintain aspect ratio */
+      float: none; /* Remove float for center alignment */
+      margin-right: 0; /* Remove right margin */
+      box-shadow: none; /* Remove box shadow for simplicity */
+    }
+  }
+</style>
 <section id="write-better" class="level1">
 <h1><a href="resources/write-better.qmd">Write better</a> <img src="curl.png" width="65" height="40"></h1>
 <p>Handouts on French essay writing, explanations of how many instructors grade writing</p>
-<p><img src="resources/timthumb.jpeg" width="387" height="259"></p>
+<p><img src="resources/timthumb.jpeg" class="responsive-image" width="387" height="259"></p>
 <p>These pages explain how to write certain kinds of essays in French, as well as how some ways that professors grade writing assignments.</p>
 <section id="writing-college-french-essays-by-alison-levine." class="level3">
 <h3 class="anchored" data-anchor-id="writing-college-french-essays-by-alison-levine."><a href="resources/essay_writing_argumentative.doc">Writing college French essays</a>, by Alison Levine.</h3>
@@ -184,7 +197,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 <section id="build-vocabulary" class="level1">
-<h1><a href="resources/build-vocabulary.qmd">Build Vocabulary</a> <img src="curl.png" width="65" height="40"></h1>
+<h1><a href="resources/build-vocabulary.qmd">Build Vocabulary</a> <img src="curl.png" class="responsive-image" width="65" height="40"></h1>
 <p>Theme-specific vocabulary (beginners); poetry, prose, theater, cinema terms (intermediates)</p>
 <p><img src="resources/timthumb_1.jpeg" width="387" height="259"></p>
 <p>Are you taking an upper-level French course on poetry, cinema, prose, or theater? Here are some vocabulary lists to help with your papers.</p>
