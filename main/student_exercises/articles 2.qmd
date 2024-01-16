@@ -3,6 +3,46 @@
 ---
 title: French Articles
 ---
+<style>
+  /* Default table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  /* Container for scrolling on smaller screens */
+  .table-container {
+    overflow-x: auto;
+  }
+
+  /* Media query for smaller screens (adjust max-width as needed) */
+  @media only screen and (max-width: 768px) {
+    .table-container {
+      overflow-x: auto; /* Enable horizontal scrolling for small screens */
+    }
+  }
+</style>
+
+<!-- Wrap the table with a container div -->
+<div class="table-container">
+  <table>
+    <!-- Table content -->
+  </table>
+</div>
 
 # L’article défini (le, la, l’, les)
 

@@ -10,12 +10,31 @@ format:
       margin-width: 00px
 ---
 
+<style>
+  /* Image styling */
+  img {
+      height: 250px;
+      width: 250px;
+      float: left; /* Align image to the left */
+      margin-right: 20px;
+      border-radius: 8px; /* Rounded corners for the image */
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+  }
+
+  /* Media query for smaller screens (adjust max-width as needed) */
+  @media only screen and (max-width: 768px) {
+    img {
+      width: 100%; /* Make the image fill the width of the container */
+      height: auto; /* Maintain aspect ratio */
+      float: none; /* Remove float for center alignment */
+      margin-right: 0; /* Remove right margin */
+      box-shadow: none; /* Remove box shadow for simplicity */
+    }
+  }
+</style>
 
 # Introduction
-::: {.grid}
 <img src="feather.jpeg" width="320" height="280" />
-
-::: {.g-col-8}
 
 How do you write a French essay?\
 How do some professors and teachers grade writing?\
@@ -26,11 +45,6 @@ Where can you get extra grammar practice?
 **Grammar exercises** (below): interactive practice exercises with corrections and feedback
 <br><br>
 
-
-:::
-
-
-::: 
 
 # Grammar Exercises
 

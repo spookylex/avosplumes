@@ -4,10 +4,24 @@ toc: false
 ---
 --------------------------
 
+<style>
+
+  /* Media query for smaller screens (adjust max-width as needed) */
+  @media only screen and (max-width: 768px) {
+    img.responsive-image {
+      width: 100%; /* Make the image fill the width of the container */
+      height: auto; /* Maintain aspect ratio */
+      float: none; /* Remove float for center alignment */
+      margin-right: 0; /* Remove right margin */
+      box-shadow: none; /* Remove box shadow for simplicity */
+    }
+  }
+</style>
+
 # [Write better](resources/write-better.qmd) <img src="curl.png" width="65" height="40" />
  Handouts on French essay writing, explanations of how many instructors grade writing
 
-<img src="resources/timthumb.jpeg" width="387" height="259"/>
+<img src="resources/timthumb.jpeg" class="responsive-image" width="387" height="259"/>
 
 These pages explain how to write certain kinds of essays in French, as well as how some ways that professors grade writing assignments.
 
@@ -39,7 +53,7 @@ In this *carnet de corrections*, you can keep track of the grammar errors you m
 
 A short list of common errors at the intermediate level. We are working on a more advanced list.
 
-# [Build Vocabulary](resources/build-vocabulary.qmd) <img src="curl.png" width="65" height="40" />
+# [Build Vocabulary](resources/build-vocabulary.qmd) <img src="curl.png" class="responsive-image" width="65" height="40" />
  Theme-specific vocabulary (beginners); poetry, prose, theater, cinema terms (intermediates)
 
 <img src="resources/timthumb_1.jpeg" width="387" height="259"/>
